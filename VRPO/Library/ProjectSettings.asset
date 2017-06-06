@@ -500,7 +500,17 @@ PlayerSettings:
   webGLUseWasm: 0
   webGLCompressionFormat: 1
   scriptingDefineSymbols:
+<<<<<<< HEAD
     1: VRTK_SDK_STEAMVR
+=======
+    1: CROSS_PLATFORM_INPUT
+    4: CROSS_PLATFORM_INPUT;MOBILE_INPUT
+    7: CROSS_PLATFORM_INPUT;MOBILE_INPUT
+    14: MOBILE_INPUT
+    17: MOBILE_INPUT
+    20: MOBILE_INPUT
+    22: MOBILE_INPUT
+>>>>>>> 96018ed88ea2ba6dec77c16811f9198ae8decbdc
   platformArchitecture: {}
   scriptingBackend: {}
   incrementalIl2cppBuild: {}
