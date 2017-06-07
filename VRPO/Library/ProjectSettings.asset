@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 11
-  productGUID: 194046d5f1533954292f0ff55312d840
+  productGUID: 5eaa858d873de94448d13b6bbf1edead
   AndroidProfiler: 0
   defaultScreenOrientation: 4
   targetDevice: 2
@@ -500,9 +500,6 @@ PlayerSettings:
   webGLUseWasm: 0
   webGLCompressionFormat: 1
   scriptingDefineSymbols:
-<<<<<<< HEAD
-    1: VRTK_SDK_STEAMVR
-=======
     1: CROSS_PLATFORM_INPUT
     4: CROSS_PLATFORM_INPUT;MOBILE_INPUT
     7: CROSS_PLATFORM_INPUT;MOBILE_INPUT
@@ -510,13 +507,11 @@ PlayerSettings:
     17: MOBILE_INPUT
     20: MOBILE_INPUT
     22: MOBILE_INPUT
->>>>>>> 96018ed88ea2ba6dec77c16811f9198ae8decbdc
   platformArchitecture: {}
   scriptingBackend: {}
   incrementalIl2cppBuild: {}
   additionalIl2CppArgs: 
-  apiCompatibilityLevelPerPlatform:
-    Standalone: 2
+  apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
   metroPackageName: VRPO
