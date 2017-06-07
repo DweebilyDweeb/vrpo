@@ -67,6 +67,8 @@ public class Cannon : MonoBehaviour
         GameObject projectile = Instantiate(cannonBall);
         projectile.transform.position = transform.position;
         projectile.transform.rotation = transform.rotation;
+
+        Instantiate(Resources.Load<GameObject>("Prefabs/Cannon/CannonSmoke"), transform.Find("SmokeLocation").transform.position, new Quaternion(0,0,0,0));
         #endregion
 
         // Add velocity to cannonball
