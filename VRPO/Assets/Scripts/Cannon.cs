@@ -25,32 +25,36 @@ public class Cannon : MonoBehaviour
     {
         #region Rotate cannon to aim at target
         direction = target.transform.position - transform.position;
-        Quaternion targetRotation = Quaternion.LookRotation(direction.normalized);
-
-        #region Account for min/max rotation
-        float clamped_X = HelperFunctions.ClampAngle(targetRotation.eulerAngles.x, -45, 20);
-        float clamped_Y = HelperFunctions.ClampAngle(targetRotation.eulerAngles.y, -30, 30);
-
-        Quaternion adjustedRotation = new Quaternion(0,0,0,0);
-        adjustedRotation.eulerAngles = new Vector3(clamped_X, clamped_Y, targetRotation.eulerAngles.z);
-
-        if (adjustedRotation.eulerAngles == targetRotation.eulerAngles)
-            inRange = true;
-        else
-            inRange = false;
-        #endregion
-
-        transform.rotation = Quaternion.Slerp(transform.rotation, adjustedRotation, Time.deltaTime * rotation_speed);
-        #endregion
-
-        if (atk_timer > 0)
-            atk_timer -= Time.deltaTime;
-        else
+        transform.LookAt(target.transform.position);
+        #region Limit rotation
+        if (transform.localEulerAngles.y > 180 && transform.localEulerAngles.y < 330)
         {
-            if(inRange)
-                FireCannonball();
-            atk_timer = 2.0f;
+            transform.localEulerAngles = new Vector3(transform.localEulerAngles.x, 330, transform.localEulerAngles.z);
+            inRange = false;
         }
+        else if (transform.localEulerAngles.y < 180 && transform.localEulerAngles.y > 30)
+        {
+            transform.localEulerAngles = new Vector3(transform.localEulerAngles.x, 30, transform.localEulerAngles.z);
+            inRange = false;
+        }
+        else
+            inRange = true;
+
+        if (transform.localEulerAngles.x > 20)
+            transform.localEulerAngles = new Vector3(20, transform.localEulerAngles.y, transform.localEulerAngles.z);
+        else if (transform.localEulerAngles.x < -45)
+            transform.localEulerAngles = new Vector3(-45, transform.localEulerAngles.y, transform.localEulerAngles.z);
+        #endregion
+        #endregion
+
+            if (atk_timer > 0)
+                atk_timer -= Time.deltaTime;
+            else
+            {
+                if (inRange)
+                    FireCannonball();
+                atk_timer = 2.0f;
+            }
 	}
 
     void FireCannonball()
