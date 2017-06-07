@@ -6,8 +6,8 @@ public class Player : MonoBehaviour {
     private int HP;
 
     public int GetHP() { return HP; }
-    public void SetHP(int newHP) { HP = newHP; }
-    public void AddHP(int value) { HP += value; Debug.Log("Player HP = " + HP); }
+    public void SetHP(int newHP) { HP = newHP; if (HP <= 0) { GameController.gameOver = true; } }
+    public void AddHP(int value) { HP += value; if (HP <= 0) { GameController.gameOver = true; } Debug.Log("Player HP = " + HP); }
 	// Use this for initialization
 	void Start () {
         HP = 3;
