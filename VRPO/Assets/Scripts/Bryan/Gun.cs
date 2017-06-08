@@ -19,36 +19,60 @@ public class Gun : MonoBehaviour
 	void Update () 
     {
         controller.Update();
-        //if (controller.device.GetPressDown(controller.triggerButton))
+        #region Charge and fire
+        //try
         //{
-        //    if (gunChargeTimer > 0)
-        //        gunChargeTimer -= Time.deltaTime;
+        //    if (controller.device.GetPressDown(controller.triggerButton))
+        //    {
+        //        if (gunChargeTimer > 0)
+        //            gunChargeTimer -= Time.deltaTime;
+        //        else
+        //            gunCharged = true;
+        //    }
         //    else
-        //        gunCharged = true;
+        //    {
+        //        if (gunChargeTimer < 2 && !gunCharged)
+        //            gunChargeTimer += Time.deltaTime;
+        //    }
+        //    if (controller.device.GetPressUp(controller.triggerButton) && gunCharged)
+        //    {
+        //        Fire();
+        //        gunChargeTimer = 2.0f;
+        //        gunCharged = false;
+        //    }
         //}
-        //else
-        //{
-        //    if (gunChargeTimer < 2 && !gunCharged)
-        //        gunChargeTimer += Time.deltaTime;
-        //}
-        //if(controller.device.GetPressUp(controller.triggerButton) && gunCharged)
-        //{
-        //    Fire();
-        //    gunChargeTimer = 2.0f;
-        //    gunCharged = false;
-        //}
+        //catch (Exception e) { Debug.LogError(e); }
+        #endregion
+
+        #region Hold Down Track Pad and Fire
         try
         {
-            if (controller.device.GetPressDown(controller.triggerButton))
+            if (controller.device.GetPressDown(controller.touchPad))
+                gunCharged = true;
+            else
+                gunCharged = false;
+
+            if(controller.device.GetPressDown(controller.triggerButton) && gunCharged)
+            {
                 Fire();
+                gunCharged = false;
+            }
         }
-        catch(Exception e) { Debug.LogError(e); }
-	}
+        catch (Exception e) { Debug.LogError(e); }
+        #endregion
+
+        //#region Fire at will
+        //try
+        //{
+        //    if (controller.device.GetPressDown(controller.triggerButton))
+        //        Fire();
+        //}
+        //catch(Exception e) { Debug.LogError(e); }
+        //#endregion
+    }
 
     private void Fire()
     {
-        Debug.Log("Fired");
-        //int layerMask = 1 << 8;
         Ray raycast = new Ray(transform.position, transform.forward);
         RaycastHit _hit;
         if (Physics.Raycast(raycast, out _hit))
