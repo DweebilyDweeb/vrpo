@@ -60,7 +60,7 @@ public class Cannon : MonoBehaviour
     void FireCannonball()
     {
         float distance = new Vector3(target.transform.position.x - transform.position.x, 0, target.transform.position.z - transform.position.z).magnitude;
-        Debug.Log("Distance: " + distance);
+        //Debug.Log("Distance: " + distance);
         float height = target.transform.position.y - transform.position.y;
 
         #region Spawn projectile
@@ -74,7 +74,7 @@ public class Cannon : MonoBehaviour
         // Add velocity to cannonball
         projectile.GetComponent<Rigidbody>().velocity = projectile.transform.forward * velocity;
         projectile.GetComponent<Rigidbody>().AddForce(0, 45, 0); // Aim it upwards a little to compensate for gravity
-        Debug.Log("Cannonball velocity before bulletspread: " + projectile.GetComponent<Rigidbody>().velocity);
+        //Debug.Log("Cannonball velocity before bulletspread: " + projectile.GetComponent<Rigidbody>().velocity);
 
         // Add bullet spread to cannonball
         //projectile.GetComponent<Rigidbody>().velocity += new Vector3(Random.Range(-5.0f, 5.0f), Random.Range(-5.0f, 5.0f), Random.Range(-5.0f, 5.0f));
