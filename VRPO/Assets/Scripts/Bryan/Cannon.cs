@@ -37,6 +37,11 @@ public class Cannon : MonoBehaviour
             transform.localEulerAngles = new Vector3(transform.localEulerAngles.x, 30, transform.localEulerAngles.z);
             inRange = false;
         }
+        else if(transform.localEulerAngles.y == 180)
+        {
+            transform.localEulerAngles = new Vector3(0, 0, 0);
+            inRange = false;
+        }
         else
             inRange = true;
 
