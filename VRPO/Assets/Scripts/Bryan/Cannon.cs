@@ -50,14 +50,10 @@ public class Cannon : MonoBehaviour
             if (atk_timer > 0)
                 atk_timer -= Time.deltaTime;
             else
-        {
-            atk_timer = 2.0f;
-            if (inRange)
-                {
-                Debug.Log("Firing Cannon");
+            {
+                atk_timer = 2.0f;
+                if (inRange)
                     FireCannonball();
-                }
-                Debug.Log("Cannon firing finished");
             }
 	}
 
@@ -72,7 +68,7 @@ public class Cannon : MonoBehaviour
         projectile.transform.position = transform.position;
         projectile.transform.rotation = transform.rotation;
 
-        Instantiate(Resources.Load<GameObject>("Prefabs/Cannon/CannonSmoke"), transform.Find("SmokeLocation").transform.position, new Quaternion(0,0,0,0));
+        Instantiate(Resources.Load<GameObject>("Prefabs/Cannon/CannonSmoke"), transform.Find("SmokeLocation").transform.position, new Quaternion(0,0,0,0), transform.Find("SmokeLocation").transform);
         #endregion
 
         // Add velocity to cannonball
