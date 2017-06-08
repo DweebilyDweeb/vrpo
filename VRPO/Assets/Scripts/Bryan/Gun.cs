@@ -19,6 +19,13 @@ public class Gun : MonoBehaviour
 	void Update () 
     {
         controller.Update();
+        #region Laser Pointer
+        if(!gunCharged)
+            gameObject.GetComponent<SteamVR_LaserPointer>().holder.SetActive(false);
+        else
+            gameObject.GetComponent<SteamVR_LaserPointer>().holder.SetActive(true);
+        #endregion
+
         #region Charge and fire
         //try
         //{
@@ -47,7 +54,7 @@ public class Gun : MonoBehaviour
         #region Hold Down Track Pad and Fire
         try
         {
-            if (controller.device.GetPressDown(controller.touchPad))
+            if (controller.device.GetPress(controller.touchPad))
                 gunCharged = true;
             else
                 gunCharged = false;
