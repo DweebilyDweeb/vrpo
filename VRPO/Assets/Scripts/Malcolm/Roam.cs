@@ -9,6 +9,7 @@ public class Roam : MonoBehaviour {
     private float fishSpeed;
     private int rotateDirection;
 	// Use this for initialization
+
 	void Start ()
     {
         fishSpeed = 9;
