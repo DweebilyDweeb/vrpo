@@ -20,7 +20,7 @@ public class ViveController_Manager : MonoBehaviour
         controller = new ViveController();
         controller.trackedObject = gameObject.GetComponent<SteamVR_TrackedObject>();
 
-        Mode = PlayerPrefs.GetString(gameObject.name + "_Mode", "Mode");
+        Mode = PlayerPrefs.GetString(gameObject.name + "_Mode", "Gun");
     }
 
     // Update is called once per frame
@@ -102,10 +102,6 @@ public class ViveController_Manager : MonoBehaviour
                         #endregion
                 }
                 #endregion
-                break;
-            case "MenuController":
-                if (!laserActive)
-                    laserActive = true;
                 break;
         }
     }
