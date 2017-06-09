@@ -79,7 +79,7 @@ public class ViveController_Manager : MonoBehaviour
                             else
                                 laserActive = false;
 
-                            if (controller.device.GetPressDown(controller.triggerButton) && gunCharged)
+                            if (controller.device.GetPressDown(controller.triggerButton) && laserActive)
                             {
                                 RaycastInteraction();
                                 gunCharged = false;
