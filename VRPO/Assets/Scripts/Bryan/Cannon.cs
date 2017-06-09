@@ -59,23 +59,26 @@ public class Cannon : MonoBehaviour
             {
                 atk_timer = 2.0f;
                 if (inRange)
-                    FireCannonball();
+                    StartCoroutine(FireCannonball());
             }
 	}
 
-    void FireCannonball()
+    IEnumerator FireCannonball()
     {
         float distance = new Vector3(target.transform.position.x - transform.position.x, 0, target.transform.position.z - transform.position.z).magnitude;
         Debug.Log("Distance: " + distance);
         float height = target.transform.position.y - transform.position.y;
 
         #region Spawn projectile
+        Quaternion particleRotate = new Quaternion();
+        particleRotate.eulerAngles = new Vector3(transform.Find("Cannon").eulerAngles.x - 90, transform.Find("Cannon").eulerAngles.y, 0);
+        Instantiate(Resources.Load<GameObject>("Prefabs/Cannon/CannonSmoke2"), transform.Find("SmokeLocation").transform.position, particleRotate, transform.Find("SmokeLocation").transform);
+        audio.Play();
+        yield return new WaitForSeconds(0.25f);
+
         GameObject projectile = Instantiate(cannonBall);
         projectile.transform.position = transform.position;
         projectile.transform.rotation = transform.rotation;
-
-        Instantiate(Resources.Load<GameObject>("Prefabs/Cannon/CannonSmoke"), transform.Find("SmokeLocation").transform.position, new Quaternion(0,0,0,0), transform.Find("SmokeLocation").transform);
-		audio.Play();
 		#endregion
 
         // Add velocity to cannonball
