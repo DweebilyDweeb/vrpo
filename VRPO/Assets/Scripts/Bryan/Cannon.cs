@@ -9,7 +9,7 @@ public class Cannon : MonoBehaviour
     private float velocity, rotation_speed;
     private float atk_timer = 2.0f;
     private bool inRange;
-
+	private AudioSource audio;
 	// Use this for initialization
 	void Start () 
     {
@@ -18,6 +18,7 @@ public class Cannon : MonoBehaviour
         rotation_speed = 1.0f;
         velocity = 50;
         inRange = false;
+		audio = GetComponent<AudioSource>();
 	}
 	
 	// Update is called once per frame
@@ -72,13 +73,13 @@ public class Cannon : MonoBehaviour
         Quaternion particleRotate = new Quaternion();
         particleRotate.eulerAngles = new Vector3(transform.Find("Cannon").eulerAngles.x - 90, transform.Find("Cannon").eulerAngles.y, 0);
         Instantiate(Resources.Load<GameObject>("Prefabs/Cannon/CannonSmoke2"), transform.Find("SmokeLocation").transform.position, particleRotate, transform.Find("SmokeLocation").transform);
-
+        audio.Play();
         yield return new WaitForSeconds(0.25f);
 
         GameObject projectile = Instantiate(cannonBall);
         projectile.transform.position = transform.position;
         projectile.transform.rotation = transform.rotation;
-        #endregion
+		#endregion
 
         // Add velocity to cannonball
         projectile.GetComponent<Rigidbody>().velocity = projectile.transform.forward * velocity;
