@@ -9,7 +9,7 @@ public class Gun : MonoBehaviour
     private float gunChargeTimer = 2.0f;
     private bool gunCharged = false;
 	// Use this for initialization
-	void Start () 
+	void Start() 
     {
         controller = new ViveController();
         controller.trackedObject = gameObject.GetComponent<SteamVR_TrackedObject>();
