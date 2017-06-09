@@ -46,7 +46,7 @@ public class Roam : MonoBehaviour {
             fishSpeed = 9;
         }
 
-        if (col.gameObject.name == "Ship")
+        if (col.gameObject.name == "PirateShip")
         {
             isTouchingShips = true;
         }
@@ -65,7 +65,7 @@ public class Roam : MonoBehaviour {
             fishSpeed = 12;
         }
 
-        if (col.gameObject.name == "Ship")
+		if (col.gameObject.name == "PirateShip")
         {
             isTouchingShips = false;
         }
