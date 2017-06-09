@@ -11,11 +11,7 @@ public class ViveController
 
     public SteamVR_TrackedObject trackedObject;
     public SteamVR_Controller.Device device;
-	// Use this for initialization
-	public void Init () {
-        //trackedObject = GetComponent<SteamVR_TrackedObject>();
-	}
-	
+		
 	// Update is called once per frame
 	public void Update () {
         device = SteamVR_Controller.Input((int)trackedObject.index);
