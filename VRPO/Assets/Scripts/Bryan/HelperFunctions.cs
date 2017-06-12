@@ -35,4 +35,12 @@ public class HelperFunctions
         else if (angle > max) return max;
         else return angle;
     }
+
+    public static bool CheckWithinRange(float min, float max, float value)
+    {
+        if (value >= min && value <= max)
+            return true;
+        else
+            return false;
+    }
 }
