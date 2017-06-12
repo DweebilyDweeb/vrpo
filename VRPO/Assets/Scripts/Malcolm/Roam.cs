@@ -84,7 +84,7 @@ public class Roam : MonoBehaviour {
         }
         if (isOutOfBounds == true)
         {
-            transform.Rotate(Vector3.up * Time.deltaTime * 60, Space.Self);
+            transform.Rotate(Vector3.up * Time.deltaTime * 10, Space.Self);
         }
         if (isTouchingShips == true)
         {
