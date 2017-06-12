@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class Cannon : MonoBehaviour 
 {
-    private GameObject target, cannonBall;
+    public GameObject partToRotate, cannonBarrel, cannonBall, smokeParticles, smokeLocation;
+
+    private GameObject target;
     private Vector3 direction;
     private float velocity, rotation_speed;
     private float atk_timer = 2.0f;
@@ -14,10 +16,9 @@ public class Cannon : MonoBehaviour
 	void Start () 
     {
         target = GameObject.FindGameObjectWithTag("Player");
-        cannonBall = Resources.Load<GameObject>("Prefabs/Cannon/Cannonball");
         rotation_speed = 1.0f;
         velocity = 50;
-        inRange = false;
+        inRange = true;
 		audio = GetComponent<AudioSource>();
 	}
 	
@@ -26,41 +27,42 @@ public class Cannon : MonoBehaviour
     {
         #region Rotate cannon to aim at target
         direction = target.transform.position - transform.position;
-        transform.LookAt(target.transform.position);
+        Quaternion lookRotation = Quaternion.LookRotation(direction);
+        Vector3 rotation = Quaternion.Lerp(partToRotate.transform.rotation, lookRotation, Time.deltaTime * rotation_speed).eulerAngles;
         #region Limit rotation
-        if (transform.localEulerAngles.y > 180 && transform.localEulerAngles.y < 330)
+        if (Quaternion.Euler(rotation.x, rotation.y, 0f).eulerAngles.y > 180 && Quaternion.Euler(rotation.x, rotation.y, 0f).eulerAngles.y < 345)
         {
-            transform.localEulerAngles = new Vector3(transform.localEulerAngles.x, 330, transform.localEulerAngles.z);
-            inRange = false;
+            partToRotate.transform.rotation = Quaternion.Euler(rotation.x, 345, 0f);
+            inRange = HelperFunctions.CheckWithinRange(335, 355, lookRotation.eulerAngles.y);//Quaternion.Euler(rotation.x, rotation.y, 0f).eulerAngles.y);
         }
-        else if (transform.localEulerAngles.y < 180 && transform.localEulerAngles.y > 30)
+        else if (Quaternion.Euler(rotation.x, rotation.y, 0f).eulerAngles.y < 180 && Quaternion.Euler(rotation.x, rotation.y, 0f).eulerAngles.y > 15)
         {
-            transform.localEulerAngles = new Vector3(transform.localEulerAngles.x, 30, transform.localEulerAngles.z);
-            inRange = false;
+            partToRotate.transform.rotation = Quaternion.Euler(rotation.x, 15, 0f);
+            inRange = HelperFunctions.CheckWithinRange(0, 25, Quaternion.Euler(rotation.x, rotation.y, 0f).eulerAngles.y);
         }
-        else if(transform.localEulerAngles.y == 180)
+        else if (partToRotate.transform.localEulerAngles.y == 180)
         {
-            transform.localEulerAngles = new Vector3(0, 0, 0);
+            partToRotate.transform.localEulerAngles = new Vector3(0, 0, 0);
             inRange = false;
         }
         else
+        {
             inRange = true;
-
-        if (transform.localEulerAngles.x > 20)
-            transform.localEulerAngles = new Vector3(20, transform.localEulerAngles.y, transform.localEulerAngles.z);
-        else if (transform.localEulerAngles.x < -45)
-            transform.localEulerAngles = new Vector3(-45, transform.localEulerAngles.y, transform.localEulerAngles.z);
+            partToRotate.transform.rotation = Quaternion.Euler(rotation.x, rotation.y, 0f);
+        }
         #endregion
         #endregion
 
-            if (atk_timer > 0)
-                atk_timer -= Time.deltaTime;
-            else
+        if (atk_timer > 0)
+            atk_timer -= Time.deltaTime;
+        else
+        {
+            atk_timer = 2.0f;
+            if (inRange)
             {
-                atk_timer = 2.0f;
-                if (inRange)
-                    StartCoroutine(FireCannonball());
+                StartCoroutine(FireCannonball());
             }
+        }
 	}
 
     IEnumerator FireCannonball()
@@ -71,14 +73,14 @@ public class Cannon : MonoBehaviour
 
         #region Spawn projectile
         Quaternion particleRotate = new Quaternion();
-        particleRotate.eulerAngles = new Vector3(transform.Find("Cannon").eulerAngles.x - 90, transform.Find("Cannon").eulerAngles.y, 0);
-        Instantiate(Resources.Load<GameObject>("Prefabs/Cannon/CannonSmoke2"), transform.Find("SmokeLocation").transform.position, particleRotate, transform.Find("SmokeLocation").transform);
+        particleRotate.eulerAngles = new Vector3(cannonBarrel.transform.eulerAngles.x, cannonBarrel.transform.eulerAngles.y, 0);
+        Instantiate(smokeParticles, smokeLocation.transform.position, particleRotate, smokeLocation.transform);
         audio.Play();
         yield return new WaitForSeconds(0.25f);
 
         GameObject projectile = Instantiate(cannonBall);
-        projectile.transform.position = transform.position;
-        projectile.transform.rotation = transform.rotation;
+        projectile.transform.position = partToRotate.transform.position;
+        projectile.transform.eulerAngles = partToRotate.transform.eulerAngles;
 		#endregion
 
         // Add velocity to cannonball
