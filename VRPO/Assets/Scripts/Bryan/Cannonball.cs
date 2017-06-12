@@ -15,6 +15,9 @@ public class Cannonball : MonoBehaviour {
             lifetime -= Time.deltaTime;
         else
             Destroy(gameObject);
+
+        if (lifetime < 24)
+            GetComponent<Rigidbody>().useGravity = true;
 	}
 
     private void OnCollisionEnter(Collision collision)
@@ -32,6 +35,9 @@ public class Cannonball : MonoBehaviour {
             case "Water":
                 // Spawn particle effects
                 Destroy(gameObject, 5.0f);
+                break;
+            case "Cannonball":
+                GetComponent<Rigidbody>().useGravity = true;
                 break;
         }
 

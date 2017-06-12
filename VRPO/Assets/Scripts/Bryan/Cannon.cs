@@ -31,16 +31,19 @@ public class Cannon : MonoBehaviour
         Vector3 rotation = Quaternion.Lerp(partToRotate.transform.rotation, lookRotation, Time.deltaTime * rotation_speed).eulerAngles;
         partToRotate.transform.rotation = Quaternion.Euler(rotation.x, rotation.y, 0f);
         #region Limit rotation
-        //if (Quaternion.Euler(rotation.x, rotation.y, 0f).eulerAngles.y > 270 && Quaternion.Euler(rotation.x, rotation.y, 0f).eulerAngles.y < 345)
-        //{
-        //    partToRotate.transform.rotation = Quaternion.Euler(rotation.x, 345 + (transform.localEulerAngles.y * 2), 0f);
-        //    inRange = HelperFunctions.CheckWithinRange(335, 355, lookRotation.eulerAngles.y);//Quaternion.Euler(rotation.x, rotation.y, 0f).eulerAngles.y);
-        //}
-        //else if (Quaternion.Euler(rotation.x, rotation.y, 0f).eulerAngles.y < 180 && Quaternion.Euler(rotation.x, rotation.y, 0f).eulerAngles.y > 15)
-        //{
-        //    partToRotate.transform.rotation = Quaternion.Euler(rotation.x, 15 + (transform.localEulerAngles.y * 2), 0f);
-        //    inRange = HelperFunctions.CheckWithinRange(0, 25, Quaternion.Euler(rotation.x, rotation.y, 0f).eulerAngles.y);
-        //}
+        // x-rotation
+        if (partToRotate.transform.localEulerAngles.x < 180 && partToRotate.transform.localEulerAngles.x > 10)
+        {
+            partToRotate.transform.localEulerAngles = new Vector3(10, partToRotate.transform.localEulerAngles.y, 0);
+            inRange = false;
+        }
+        else if (partToRotate.transform.localEulerAngles.x > 180 && partToRotate.transform.localEulerAngles.x < 350)
+        {
+            partToRotate.transform.localEulerAngles = new Vector3(350, partToRotate.transform.localEulerAngles.y, 0);
+            inRange = false;
+        }
+
+        // y-rotation
         if(partToRotate.transform.localEulerAngles.y < 180 && partToRotate.transform.localEulerAngles.y > 10)
         {
             partToRotate.transform.localEulerAngles = new Vector3(partToRotate.transform.localEulerAngles.x, 10, 0);
@@ -86,7 +89,7 @@ public class Cannon : MonoBehaviour
         particleRotate.eulerAngles = new Vector3(cannonBarrel.transform.eulerAngles.x, cannonBarrel.transform.eulerAngles.y, 0);
         Instantiate(smokeParticles, smokeLocation.transform.position, particleRotate, smokeLocation.transform);
         audio.Play();
-        yield return new WaitForSeconds(0.25f);
+        yield return new WaitForSeconds(0.1f);
 
         GameObject projectile = Instantiate(cannonBall);
         projectile.transform.position = partToRotate.transform.position;
@@ -94,12 +97,30 @@ public class Cannon : MonoBehaviour
 		#endregion
 
         // Add velocity to cannonball
-        projectile.GetComponent<Rigidbody>().velocity = projectile.transform.forward * velocity;
-        projectile.GetComponent<Rigidbody>().AddForce(0, 45, 0); // Aim it upwards a little to compensate for gravity
-        Debug.Log("Cannonball velocity before bulletspread: " + projectile.GetComponent<Rigidbody>().velocity);
+        #region Old Method
+        //projectile.GetComponent<Rigidbody>().velocity = projectile.transform.forward * velocity;
+        //projectile.GetComponent<Rigidbody>().AddForce(0, 45, 0); // Aim it upwards a little to compensate for gravity
+        #endregion
 
-        // Add bullet spread to cannonball
-        //projectile.GetComponent<Rigidbody>().velocity += new Vector3(Random.Range(-5.0f, 5.0f), Random.Range(-5.0f, 5.0f), Random.Range(-5.0f, 5.0f));
-        //Debug.Log("Cannonball velocity after bulletspread: " + projectile.GetComponent<Rigidbody>().velocity);
+        if (distance > 400)
+        {
+            direction = HelperFunctions.MultiplyVector3(direction, new Vector3(0.125f, 0.125f, 0.125f));
+            //Debug.Log("distance > 200, adjusted to : " + direction);
+        }
+        else if (distance > 200)
+        {
+            direction = HelperFunctions.MultiplyVector3(direction, new Vector3(0.25f, 0.25f, 0.25f));
+            //Debug.Log("distance > 200, adjusted to : " + direction);
+        }
+        else if (distance > 100)
+        {
+            direction = direction / 2;
+            //Debug.Log("distance > 100, adjusted to : " + direction);
+        }
+
+        projectile.GetComponent<Rigidbody>().velocity = direction;
+
+        // Add bullet spread to cannonball for some randomness
+        projectile.GetComponent<Rigidbody>().velocity += new Vector3(Random.Range(-0.25f, 0.25f), Random.Range(-0.25f, 0.25f), Random.Range(-0.25f, 0.25f));
     }
 }
