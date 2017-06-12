@@ -16,7 +16,7 @@ public class Cannon : MonoBehaviour
 	void Start () 
     {
         target = GameObject.FindGameObjectWithTag("Player");
-        rotation_speed = 1.0f;
+        rotation_speed = 2.0f;
         velocity = 50;
         inRange = true;
 		audio = GetComponent<AudioSource>();
@@ -44,20 +44,12 @@ public class Cannon : MonoBehaviour
         if(partToRotate.transform.localEulerAngles.y < 180 && partToRotate.transform.localEulerAngles.y > 10)
         {
             partToRotate.transform.localEulerAngles = new Vector3(partToRotate.transform.localEulerAngles.x, 10, 0);
-
-            if (lookRotation.eulerAngles.y < 45)
-                inRange = HelperFunctions.CheckWithinRange(-10, 15, lookRotation.eulerAngles.y);
-            else if (lookRotation.eulerAngles.y < 135)
-                inRange = HelperFunctions.CheckWithinRange(75, 105, lookRotation.eulerAngles.y);
+            inRange = false;
         }
         else if (partToRotate.transform.localEulerAngles.y > 180 && partToRotate.transform.localEulerAngles.y < 350)
         {
             partToRotate.transform.localEulerAngles = new Vector3(partToRotate.transform.localEulerAngles.x, 350, 0);
-
-            if (lookRotation.eulerAngles.y < 45)
-                inRange = HelperFunctions.CheckWithinRange(-10, 15, lookRotation.eulerAngles.y);
-            else if (lookRotation.eulerAngles.y < 135)
-                inRange = HelperFunctions.CheckWithinRange(75, 105, lookRotation.eulerAngles.y);
+            inRange = false;
         }
         else if (partToRotate.transform.localEulerAngles.y == 180)
         {
