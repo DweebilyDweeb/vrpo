@@ -29,16 +29,35 @@ public class Cannon : MonoBehaviour
         direction = target.transform.position - transform.position;
         Quaternion lookRotation = Quaternion.LookRotation(direction);
         Vector3 rotation = Quaternion.Lerp(partToRotate.transform.rotation, lookRotation, Time.deltaTime * rotation_speed).eulerAngles;
+        partToRotate.transform.rotation = Quaternion.Euler(rotation.x, rotation.y, 0f);
         #region Limit rotation
-        if (Quaternion.Euler(rotation.x, rotation.y, 0f).eulerAngles.y > 180 && Quaternion.Euler(rotation.x, rotation.y, 0f).eulerAngles.y < 345)
+        //if (Quaternion.Euler(rotation.x, rotation.y, 0f).eulerAngles.y > 270 && Quaternion.Euler(rotation.x, rotation.y, 0f).eulerAngles.y < 345)
+        //{
+        //    partToRotate.transform.rotation = Quaternion.Euler(rotation.x, 345 + (transform.localEulerAngles.y * 2), 0f);
+        //    inRange = HelperFunctions.CheckWithinRange(335, 355, lookRotation.eulerAngles.y);//Quaternion.Euler(rotation.x, rotation.y, 0f).eulerAngles.y);
+        //}
+        //else if (Quaternion.Euler(rotation.x, rotation.y, 0f).eulerAngles.y < 180 && Quaternion.Euler(rotation.x, rotation.y, 0f).eulerAngles.y > 15)
+        //{
+        //    partToRotate.transform.rotation = Quaternion.Euler(rotation.x, 15 + (transform.localEulerAngles.y * 2), 0f);
+        //    inRange = HelperFunctions.CheckWithinRange(0, 25, Quaternion.Euler(rotation.x, rotation.y, 0f).eulerAngles.y);
+        //}
+        if(partToRotate.transform.localEulerAngles.y < 180 && partToRotate.transform.localEulerAngles.y > 10)
         {
-            partToRotate.transform.rotation = Quaternion.Euler(rotation.x, 345, 0f);
-            inRange = HelperFunctions.CheckWithinRange(335, 355, lookRotation.eulerAngles.y);//Quaternion.Euler(rotation.x, rotation.y, 0f).eulerAngles.y);
+            partToRotate.transform.localEulerAngles = new Vector3(partToRotate.transform.localEulerAngles.x, 10, 0);
+
+            if (lookRotation.eulerAngles.y < 45)
+                inRange = HelperFunctions.CheckWithinRange(-10, 15, lookRotation.eulerAngles.y);
+            else if (lookRotation.eulerAngles.y < 135)
+                inRange = HelperFunctions.CheckWithinRange(75, 105, lookRotation.eulerAngles.y);
         }
-        else if (Quaternion.Euler(rotation.x, rotation.y, 0f).eulerAngles.y < 180 && Quaternion.Euler(rotation.x, rotation.y, 0f).eulerAngles.y > 15)
+        else if (partToRotate.transform.localEulerAngles.y > 180 && partToRotate.transform.localEulerAngles.y < 350)
         {
-            partToRotate.transform.rotation = Quaternion.Euler(rotation.x, 15, 0f);
-            inRange = HelperFunctions.CheckWithinRange(0, 25, Quaternion.Euler(rotation.x, rotation.y, 0f).eulerAngles.y);
+            partToRotate.transform.localEulerAngles = new Vector3(partToRotate.transform.localEulerAngles.x, 350, 0);
+
+            if (lookRotation.eulerAngles.y < 45)
+                inRange = HelperFunctions.CheckWithinRange(-10, 15, lookRotation.eulerAngles.y);
+            else if (lookRotation.eulerAngles.y < 135)
+                inRange = HelperFunctions.CheckWithinRange(75, 105, lookRotation.eulerAngles.y);
         }
         else if (partToRotate.transform.localEulerAngles.y == 180)
         {
@@ -48,7 +67,6 @@ public class Cannon : MonoBehaviour
         else
         {
             inRange = true;
-            partToRotate.transform.rotation = Quaternion.Euler(rotation.x, rotation.y, 0f);
         }
         #endregion
         #endregion
