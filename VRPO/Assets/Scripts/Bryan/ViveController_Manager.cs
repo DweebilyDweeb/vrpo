@@ -16,6 +16,7 @@ public class ViveController_Manager : MonoBehaviour
     private bool gunCharged = false;
 
     private AudioSource audio;
+    private Animator anim;
 
     // Use this for initialization
     void Start()
@@ -26,6 +27,7 @@ public class ViveController_Manager : MonoBehaviour
         laserActive = false;
         Mode = PlayerPrefs.GetString(gameObject.name + "_Mode", "Gun");
         audio = GetComponent<AudioSource>();
+        anim = flintlock.GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -138,6 +140,7 @@ public class ViveController_Manager : MonoBehaviour
     private void FireGun()
     {
         audio.Play();
+        anim.SetTrigger("Fire");
         RaycastInteraction();
         GameObject flintlockSmoke = Instantiate(Resources.Load<GameObject>("Prefabs/Cannon/CannonSmoke2"), flintlock.transform.Find("SmokeLocation").transform.position, flintlock.transform.Find("SmokeLocation").transform.rotation, flintlock.transform.Find("SmokeLocation"));
         flintlockSmoke.transform.localEulerAngles += new Vector3(90, 0, 0);
