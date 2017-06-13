@@ -6,13 +6,16 @@ using UnityEngine;
 public class ViveController_Manager : MonoBehaviour 
 {
     private ViveController controller;
+    public GameObject flintlock;
+
     private bool laserActive = true;
 
     private string Mode;
 
     private float gunChargeTimer = 2.0f;
     private bool gunCharged = false;
-    
+
+    private AudioSource audio;
 
     // Use this for initialization
     void Start()
@@ -20,26 +23,28 @@ public class ViveController_Manager : MonoBehaviour
         controller = new ViveController();
         controller.trackedObject = gameObject.GetComponent<SteamVR_TrackedObject>();
 
+        laserActive = false;
         Mode = PlayerPrefs.GetString(gameObject.name + "_Mode", "Gun");
+        audio = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
     void Update()
     {
         controller.Update();
-        
+
         #region Laser Pointer
         if (!laserActive)
             gameObject.GetComponent<SteamVR_LaserPointer>().holder.SetActive(false);
         else
             gameObject.GetComponent<SteamVR_LaserPointer>().holder.SetActive(true);
         #endregion
-        
-        switch(Mode)
+
+        switch (Mode)
         {
             case "Gun":
                 #region Gun
-                switch (PlayerPrefs.GetInt("FiringMode", 1))
+                switch (1)//PlayerPrefs.GetInt("FiringMode", 1))
                 {
                     case 0:
                         #region Charge and fire
@@ -62,7 +67,7 @@ public class ViveController_Manager : MonoBehaviour
                             }
                             if (controller.device.GetPressDown(controller.triggerButton) && gunCharged)
                             {
-                                RaycastInteraction();
+                                FireGun();
                                 gunChargeTimer = 2.0f;
                                 gunCharged = false;
                             }
@@ -74,14 +79,20 @@ public class ViveController_Manager : MonoBehaviour
                         #region Hold Down Track Pad and Fire
                         try
                         {
-                            if (controller.device.GetPress(controller.touchPad))
-                                laserActive = true;
-                            else
-                                laserActive = false;
+                            if (controller.device.GetPressDown(controller.touchPad))
+                            {
+                                if(!laserActive)
+                                    laserActive = true;
+                            }
+                            else if (controller.device.GetPressUp(controller.touchPad))
+                            {
+                                if (laserActive)
+                                    laserActive = false;
+                            }
 
                             if (controller.device.GetPressDown(controller.triggerButton) && laserActive)
                             {
-                                RaycastInteraction();
+                                FireGun();
                                 gunCharged = false;
                             }
                         }
@@ -95,7 +106,9 @@ public class ViveController_Manager : MonoBehaviour
                         try
                         {
                             if (controller.device.GetPressDown(controller.triggerButton))
-                                RaycastInteraction();
+                            {
+                                FireGun();
+                            }
                         }
                         catch (Exception e) { Debug.LogError(e); }
                         break;
@@ -120,5 +133,13 @@ public class ViveController_Manager : MonoBehaviour
                     break;
             }
         }
+    }
+
+    private void FireGun()
+    {
+        audio.Play();
+        RaycastInteraction();
+        GameObject flintlockSmoke = Instantiate(Resources.Load<GameObject>("Prefabs/Cannon/CannonSmoke2"), flintlock.transform.Find("SmokeLocation").transform.position, flintlock.transform.Find("SmokeLocation").transform.rotation, flintlock.transform.Find("SmokeLocation"));
+        flintlockSmoke.transform.localEulerAngles += new Vector3(90, 0, 0);
     }
 }
