@@ -142,7 +142,7 @@ public class ViveController_Manager : MonoBehaviour
         audio.Play();
         anim.SetTrigger("Fire");
         RaycastInteraction();
-        //GameObject flintlockSmoke = Instantiate(Resources.Load<GameObject>("Prefabs/Cannon/CannonSmoke2"), flintlock.transform.Find("SmokeLocation").transform.position, flintlock.transform.Find("SmokeLocation").transform.rotation, flintlock.transform.Find("SmokeLocation"));
+        //GameObject flintlockSmoke = Instantiate(Resources.Load<GameObject>("Prefabs/Cannon/FlintSmoke"), flintlock.transform.Find("SmokeLocation").transform.position, flintlock.transform.Find("SmokeLocation").transform.rotation, flintlock.transform.Find("SmokeLocation"));
         //flintlockSmoke.transform.localEulerAngles += new Vector3(90, 0, 0);
     }
 }
