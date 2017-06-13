@@ -20,6 +20,12 @@ public class Cannonball : MonoBehaviour {
             GetComponent<Rigidbody>().useGravity = true;
 	}
 
+    public void KillCannonball()
+    {
+        Instantiate(Resources.Load<GameObject>("Prefabs/Cannon/CannonSmoke2"), gameObject.transform.position, new Quaternion(0, 0, 0, 0));
+        Destroy(gameObject);
+    }
+
     private void OnCollisionEnter(Collision collision)
     {
         switch(collision.gameObject.tag)
@@ -37,6 +43,7 @@ public class Cannonball : MonoBehaviour {
                 Destroy(gameObject, 5.0f);
                 break;
             case "Cannonball":
+                Instantiate(Resources.Load<GameObject>("Prefabs/Cannon/CannonSmoke2"), gameObject.transform.position, new Quaternion(0, 0, 0, 0));
                 GetComponent<Rigidbody>().useGravity = true;
                 break;
         }
