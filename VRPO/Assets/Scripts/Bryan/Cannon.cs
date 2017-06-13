@@ -81,7 +81,7 @@ public class Cannon : MonoBehaviour
     IEnumerator FireCannonball()
     {
         float distance = new Vector3(target.transform.position.x - transform.position.x, 0, target.transform.position.z - transform.position.z).magnitude;
-        Debug.Log("Distance: " + distance);
+        //Debug.Log("Distance: " + distance);
         float height = target.transform.position.y - transform.position.y;
 
         #region Spawn projectile
@@ -121,6 +121,6 @@ public class Cannon : MonoBehaviour
         projectile.GetComponent<Rigidbody>().velocity = direction;
 
         // Add bullet spread to cannonball for some randomness
-        projectile.GetComponent<Rigidbody>().velocity += new Vector3(Random.Range(-0.25f, 0.25f), Random.Range(-0.25f, 0.25f), Random.Range(-0.25f, 0.25f));
+        projectile.GetComponent<Rigidbody>().velocity += new Vector3(Random.Range(-0.5f, 0.5f), Random.Range(-0.5f, -0.25f), Random.Range(-0.5f, 0.5f));
     }
 }
