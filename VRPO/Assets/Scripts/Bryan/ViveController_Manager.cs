@@ -134,6 +134,11 @@ public class ViveController_Manager : MonoBehaviour
                 case "Cannonball":
                     collide.gameObject.GetComponent<Cannonball>().KillCannonball();
                     break;
+                case "Bird":
+                    GameObject.FindGameObjectWithTag("Player").GetComponent<Player>().AddHP(3);
+                    Destroy(collide.gameObject);
+                    Instantiate(Resources.Load<GameObject>("Prefabs/Animals/Seagull"));
+                    break;
             }
         }
     }
