@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4752687124391902}
   - component: {fileID: 198842148553547358}
   - component: {fileID: 199992064938903396}
+  - component: {fileID: 114721468346140098}
   m_Layer: 0
   m_Name: MuzzleFlash
   m_TagString: Untagged
@@ -41,6 +42,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114721468346140098
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1934961612950234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16a72f992bc99a447b7750cf75e1a0c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lifetime: 2
 --- !u!198 &198842148553547358
 ParticleSystem:
   m_ObjectHideFlags: 1
@@ -50,7 +63,7 @@ ParticleSystem:
   serializedVersion: 5
   lengthInSec: 2
   simulationSpeed: 1
-  looping: 1
+  looping: 0
   prewarm: 0
   playOnAwake: 1
   autoRandomSeed: 1

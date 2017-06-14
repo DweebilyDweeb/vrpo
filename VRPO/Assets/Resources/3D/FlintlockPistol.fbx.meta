@@ -28,7 +28,8 @@ ModelImporter:
     400018: FlintlockPistol_Bone_Trigger
     400020: FlintlockPistol_Bone_Trigger_end
     4300000: FlintlockPistol
-    7400000: FlintlockPistol_Armature|FlintlockPistol_ArmatureAction
+    7400000: FlintlockPistol_Armature
+    7400002: FlintlockPistol_Armature|FlintlockPistol_ArmatureAction (1)
     9500000: //RootNode
     13700000: //RootNode
   materials:
@@ -55,7 +56,7 @@ ModelImporter:
     extraExposedTransformPaths: []
     clipAnimations:
     - serializedVersion: 16
-      name: FlintlockPistol_Armature|FlintlockPistol_ArmatureAction
+      name: FlintlockPistol_Armature
       takeName: FlintlockPistol_Armature|FlintlockPistol_ArmatureAction
       firstFrame: 0
       lastFrame: 60
@@ -77,14 +78,7 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events:
-      - time: 0.24948025
-        functionName: FireGun()
-        data: 
-        objectReferenceParameter: {instanceID: 0}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
+      events: []
       transformMask:
       - path: 
         weight: 1
