@@ -27,7 +27,8 @@ public class ViveController_Manager : MonoBehaviour
         laserActive = false;
         Mode = PlayerPrefs.GetString(gameObject.name + "_Mode", "Gun");
         audio = GetComponent<AudioSource>();
-        anim = flintlock.GetComponent<Animator>();
+        if(Mode == "Gun")
+            anim = flintlock.GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -69,7 +70,7 @@ public class ViveController_Manager : MonoBehaviour
                             }
                             if (controller.device.GetPressDown(controller.triggerButton) && gunCharged)
                             {
-                                FireGun();
+                                anim.SetTrigger("Fire");
                                 gunChargeTimer = 2.0f;
                                 gunCharged = false;
                             }
@@ -94,7 +95,7 @@ public class ViveController_Manager : MonoBehaviour
 
                             if (controller.device.GetPressDown(controller.triggerButton) && laserActive)
                             {
-                                FireGun();
+                                anim.SetTrigger("Fire");
                                 gunCharged = false;
                             }
                         }
@@ -109,7 +110,7 @@ public class ViveController_Manager : MonoBehaviour
                         {
                             if (controller.device.GetPressDown(controller.triggerButton))
                             {
-                                FireGun();
+                                anim.SetTrigger("Fire");
                             }
                         }
                         catch (Exception e) { Debug.LogError(e); }
@@ -137,12 +138,13 @@ public class ViveController_Manager : MonoBehaviour
         }
     }
 
-    private void FireGun()
+    public void FireGun()
     {
         audio.Play();
-        anim.SetTrigger("Fire");
+        //anim.SetTrigger("Fire");
         RaycastInteraction();
-        //GameObject flintlockSmoke = Instantiate(Resources.Load<GameObject>("Prefabs/Cannon/FlintSmoke"), flintlock.transform.Find("SmokeLocation").transform.position, flintlock.transform.Find("SmokeLocation").transform.rotation, flintlock.transform.Find("SmokeLocation"));
+        //GameObject flintlockSmoke = Instantiate(Resources.Load<GameObject>("Prefabs/Particle Effects/FlintSmoke"), flintlock.transform.Find("SmokeLocation").transform.position, flintlock.transform.Find//("SmokeLocation").transform.rotation, flintlock.transform.Find("SmokeLocation"));
         //flintlockSmoke.transform.localEulerAngles += new Vector3(90, 0, 0);
+        GameObject flintlockSmoke = Instantiate(Resources.Load<GameObject>("Prefabs/Particle Effects/MuzzleFlash"), flintlock.transform.Find("MuzzleFlashLocation").transform.position, new Quaternion(0,0,0,0), flintlock.transform.Find("MuzzleFlashLocation"));
     }
 }
