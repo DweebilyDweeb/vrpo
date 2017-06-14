@@ -26,10 +26,10 @@ using System.Collections.Generic;
             boatRB = gameObject.GetComponent<Rigidbody>();
 
             //Init the script that will modify the boat mesh
-            modifyBoatMesh = new ModifyBoatMesh(gameObject);
+            //modifyBoatMesh = new ModifyBoatMesh(gameObject);
 
             //Meshes that are below and above the water
-            underWaterMesh = underWaterObj.GetComponent<MeshFilter>().mesh;
+            //underWaterMesh = underWaterObj.GetComponent<MeshFilter>().mesh;
         }
 
         void Update()
