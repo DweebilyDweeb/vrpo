@@ -148,8 +148,8 @@ public class ViveController_Manager : MonoBehaviour
         audio.Play();
         //anim.SetTrigger("Fire");
         RaycastInteraction();
-        //GameObject flintlockSmoke = Instantiate(Resources.Load<GameObject>("Prefabs/Particle Effects/FlintSmoke"), flintlock.transform.Find("SmokeLocation").transform.position, flintlock.transform.Find//("SmokeLocation").transform.rotation, flintlock.transform.Find("SmokeLocation"));
-        //flintlockSmoke.transform.localEulerAngles += new Vector3(90, 0, 0);
-        GameObject flintlockSmoke = Instantiate(Resources.Load<GameObject>("Prefabs/Particle Effects/MuzzleFlash"), flintlock.transform.Find("MuzzleFlashLocation").transform.position, new Quaternion(0,0,0,0), flintlock.transform.Find("MuzzleFlashLocation"));
+        GameObject flintlockSmoke = Instantiate(Resources.Load<GameObject>("Prefabs/Particle Effects/FlintlockSmoke"), flintlock.transform.Find("SmokeLocation").transform.position, flintlock.transform.Find("SmokeLocation").transform.rotation, flintlock.transform.Find("SmokeLocation"));
+        
+        GameObject muzzleFlash = Instantiate(Resources.Load<GameObject>("Prefabs/Particle Effects/MuzzleFlash"), flintlock.transform.Find("MuzzleFlashLocation").transform.position, new Quaternion(0,0,0,0), flintlock.transform.Find("MuzzleFlashLocation"));
     }
 }
