@@ -6,7 +6,7 @@ using UnityEngine;
 public class ViveController_Manager : MonoBehaviour 
 {
     private ViveController controller;
-    public GameObject flintlock;
+    public GameObject flintlock, cutlass;
 
     private bool laserActive = true;
 
@@ -27,8 +27,8 @@ public class ViveController_Manager : MonoBehaviour
         laserActive = false;
         Mode = PlayerPrefs.GetString(gameObject.name + "_Mode", "Gun");
         audio = GetComponent<AudioSource>();
-        if(Mode == "Gun")
-            anim = flintlock.GetComponent<Animator>();
+
+        InitMode();
     }
 
     // Update is called once per frame
@@ -42,6 +42,9 @@ public class ViveController_Manager : MonoBehaviour
         else
             gameObject.GetComponent<SteamVR_LaserPointer>().holder.SetActive(true);
         #endregion
+
+        if(controller.device.GetPressDown(controller.menuButton))
+            InitMode();
 
         switch (Mode)
         {
@@ -118,6 +121,31 @@ public class ViveController_Manager : MonoBehaviour
                         #endregion
                 }
                 #endregion
+                break;
+            case "Sword":
+                #region Sword
+
+                #endregion
+                break;
+        }
+    }
+
+    private void InitMode()
+    {
+        switch (Mode)
+        {
+            case "Gun":
+                Mode = "Sword";
+                anim = flintlock.GetComponent<Animator>();
+                cutlass.SetActive(false);
+                flintlock.SetActive(true);
+                break;
+            case "Sword":
+                Mode = "Gun";
+                anim = cutlass.GetComponent<Animator>();
+                flintlock.SetActive(false);
+                cutlass.SetActive(true);
+                laserActive = false;
                 break;
         }
     }
