@@ -122,11 +122,6 @@ public class ViveController_Manager : MonoBehaviour
                 }
                 #endregion
                 break;
-            case "Sword":
-                #region Sword
-
-                #endregion
-                break;
         }
     }
 
@@ -135,13 +130,13 @@ public class ViveController_Manager : MonoBehaviour
         switch (Mode)
         {
             case "Gun":
-                Mode = "Sword";
+                Mode = "Gun";
                 anim = flintlock.GetComponent<Animator>();
                 cutlass.SetActive(false);
                 flintlock.SetActive(true);
                 break;
             case "Sword":
-                Mode = "Gun";
+                Mode = "Sword";
                 anim = cutlass.GetComponent<Animator>();
                 flintlock.SetActive(false);
                 cutlass.SetActive(true);
