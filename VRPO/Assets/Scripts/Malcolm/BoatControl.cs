@@ -8,6 +8,7 @@ public class BoatControl : MonoBehaviour {
     private KeyCode accelerate, decelerate;
     private KeyCode slowTime, normalTime;
     private float boatSpeed;
+    private bool slowMo;
 	// Use this for initialization
 	void Start ()
     {
@@ -18,6 +19,7 @@ public class BoatControl : MonoBehaviour {
         slowTime = KeyCode.T;
         normalTime = KeyCode.Y;
         boatSpeed = 10.0f;
+        slowMo = false;
 	}
 	
 	// Update is called once per frame
@@ -62,11 +64,21 @@ public class BoatControl : MonoBehaviour {
     {
         if (Input.GetKey(slowTime))
         {
-            Time.timeScale = 0.1f;
+            slowMo = true;
         }
         if (Input.GetKey(normalTime))
         {
+            slowMo = false;
+        }
+
+        if (slowMo == true)
+        {
+            Time.timeScale = 0.1f;
+        }
+        if (slowMo == false)
+        {
             Time.timeScale = 1.0f;
         }
+
     }
 }
