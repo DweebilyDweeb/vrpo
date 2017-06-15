@@ -28,7 +28,7 @@ public class ViveController_Manager : MonoBehaviour
         Mode = PlayerPrefs.GetString(gameObject.name + "_Mode", "Gun");
         audio = GetComponent<AudioSource>();
 
-        InitMode();
+        LoadMode(Mode);
     }
 
     // Update is called once per frame
@@ -130,17 +130,30 @@ public class ViveController_Manager : MonoBehaviour
         switch (Mode)
         {
             case "Gun": // In gun mode, switch to sword
+                LoadMode("Sword");
+                break;
+            case "Sword": // In sword mode, switch to gun
+                LoadMode("Gun");
+                break;
+        }
+    }
+
+    private void LoadMode(string mode)
+    {
+        switch(mode)
+        {
+            case "Gun": // In gun mode, switch to sword
+                Mode = "Gun";
+                anim = flintlock.GetComponent<Animator>();
+                cutlass.SetActive(false);
+                flintlock.SetActive(true);
+                break;
+            case "Sword":
                 Mode = "Sword";
                 anim = cutlass.GetComponent<Animator>();
                 flintlock.SetActive(false);
                 cutlass.SetActive(true);
                 laserActive = false;
-                break;
-            case "Sword": // In sword mode, switch to gun
-                Mode = "Gun";
-                anim = flintlock.GetComponent<Animator>();
-                cutlass.SetActive(false);
-                flintlock.SetActive(true);
                 break;
         }
     }

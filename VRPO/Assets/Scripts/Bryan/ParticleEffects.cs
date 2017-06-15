@@ -16,4 +16,9 @@ public class ParticleEffects : MonoBehaviour {
         else
             Destroy(gameObject);
 	}
+
+    private void OnDisable()
+    {
+        Destroy(gameObject);
+    }
 }
