@@ -6,6 +6,7 @@ public class BoatControl : MonoBehaviour {
 
     private KeyCode left, right;
     private KeyCode accelerate, decelerate;
+    private KeyCode slowTime, normalTime;
     private float boatSpeed;
 	// Use this for initialization
 	void Start ()
@@ -14,6 +15,8 @@ public class BoatControl : MonoBehaviour {
         right = KeyCode.D;
         accelerate = KeyCode.W;
         decelerate = KeyCode.S;
+        slowTime = KeyCode.T;
+        normalTime = KeyCode.Y;
         boatSpeed = 10.0f;
 	}
 	
@@ -23,6 +26,7 @@ public class BoatControl : MonoBehaviour {
         BoatSteering();
         BoatMoving();
         BoatSpeedControl();
+        TimeSlow();
 	}
 
     private void BoatSteering()
@@ -51,6 +55,18 @@ public class BoatControl : MonoBehaviour {
         if (Input.GetKey(decelerate))
         {
             boatSpeed -= (Time.deltaTime * 10);
+        }
+    }
+    
+    private void TimeSlow()
+    {
+        if (Input.GetKey(slowTime))
+        {
+            Time.timeScale = 0.1f;
+        }
+        if (Input.GetKey(normalTime))
+        {
+            Time.timeScale = 1.0f;
         }
     }
 }
