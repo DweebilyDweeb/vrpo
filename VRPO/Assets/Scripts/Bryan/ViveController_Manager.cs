@@ -129,18 +129,18 @@ public class ViveController_Manager : MonoBehaviour
     {
         switch (Mode)
         {
-            case "Gun":
-                Mode = "Gun";
-                anim = flintlock.GetComponent<Animator>();
-                cutlass.SetActive(false);
-                flintlock.SetActive(true);
-                break;
-            case "Sword":
+            case "Gun": // In gun mode, switch to sword
                 Mode = "Sword";
                 anim = cutlass.GetComponent<Animator>();
                 flintlock.SetActive(false);
                 cutlass.SetActive(true);
                 laserActive = false;
+                break;
+            case "Sword": // In sword mode, switch to gun
+                Mode = "Gun";
+                anim = flintlock.GetComponent<Animator>();
+                cutlass.SetActive(false);
+                flintlock.SetActive(true);
                 break;
         }
     }
