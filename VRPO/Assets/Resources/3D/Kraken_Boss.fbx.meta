@@ -69,8 +69,8 @@ ModelImporter:
     400060: Tentacle_24_end
     4300000: Sphere.001
     4300002: Sphere
-    7400000: Armature|Tentacle_Attack_Horizontal
-    7400002: Armature|Tentacle_Attack_Vertical
+    7400000: Kraken_Tentacle_Attack_Horizontal
+    7400002: Kraken_Tentacle_Attack_Vertical
     9500000: //RootNode
     13700000: Sphere
     13700002: Sphere.001
@@ -96,7 +96,187 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Kraken_Tentacle_Attack_Horizontal
+      takeName: Armature|Tentacle_Attack_Horizontal
+      firstFrame: 0
+      lastFrame: 400
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Head
+        weight: 1
+      - path: Armature/Head/Head_end
+        weight: 1
+      - path: Armature/Tentacle_01
+        weight: 1
+      - path: Armature/Tentacle_01/Tentacle_02
+        weight: 1
+      - path: Armature/Tentacle_01/Tentacle_02/Tentacle_03
+        weight: 1
+      - path: Armature/Tentacle_01/Tentacle_02/Tentacle_03/Tentacle_04
+        weight: 1
+      - path: Armature/Tentacle_01/Tentacle_02/Tentacle_03/Tentacle_04/Tentacle_05
+        weight: 1
+      - path: Armature/Tentacle_01/Tentacle_02/Tentacle_03/Tentacle_04/Tentacle_05/Tentacle_06
+        weight: 1
+      - path: Armature/Tentacle_01/Tentacle_02/Tentacle_03/Tentacle_04/Tentacle_05/Tentacle_06/Tentacle_07
+        weight: 1
+      - path: Armature/Tentacle_01/Tentacle_02/Tentacle_03/Tentacle_04/Tentacle_05/Tentacle_06/Tentacle_07/Tentacle_08
+        weight: 1
+      - path: Armature/Tentacle_01/Tentacle_02/Tentacle_03/Tentacle_04/Tentacle_05/Tentacle_06/Tentacle_07/Tentacle_08/Tentacle_09
+        weight: 1
+      - path: Armature/Tentacle_01/Tentacle_02/Tentacle_03/Tentacle_04/Tentacle_05/Tentacle_06/Tentacle_07/Tentacle_08/Tentacle_09/Tentacle_10
+        weight: 1
+      - path: Armature/Tentacle_01/Tentacle_02/Tentacle_03/Tentacle_04/Tentacle_05/Tentacle_06/Tentacle_07/Tentacle_08/Tentacle_09/Tentacle_10/Tentacle_11
+        weight: 1
+      - path: Armature/Tentacle_01/Tentacle_02/Tentacle_03/Tentacle_04/Tentacle_05/Tentacle_06/Tentacle_07/Tentacle_08/Tentacle_09/Tentacle_10/Tentacle_11/Tentacle_12
+        weight: 1
+      - path: Armature/Tentacle_01/Tentacle_02/Tentacle_03/Tentacle_04/Tentacle_05/Tentacle_06/Tentacle_07/Tentacle_08/Tentacle_09/Tentacle_10/Tentacle_11/Tentacle_12/Tentacle_13
+        weight: 1
+      - path: Armature/Tentacle_01/Tentacle_02/Tentacle_03/Tentacle_04/Tentacle_05/Tentacle_06/Tentacle_07/Tentacle_08/Tentacle_09/Tentacle_10/Tentacle_11/Tentacle_12/Tentacle_13/Tentacle_14
+        weight: 1
+      - path: Armature/Tentacle_01/Tentacle_02/Tentacle_03/Tentacle_04/Tentacle_05/Tentacle_06/Tentacle_07/Tentacle_08/Tentacle_09/Tentacle_10/Tentacle_11/Tentacle_12/Tentacle_13/Tentacle_14/Tentacle_15
+        weight: 1
+      - path: Armature/Tentacle_01/Tentacle_02/Tentacle_03/Tentacle_04/Tentacle_05/Tentacle_06/Tentacle_07/Tentacle_08/Tentacle_09/Tentacle_10/Tentacle_11/Tentacle_12/Tentacle_13/Tentacle_14/Tentacle_15/Tentacle_16
+        weight: 1
+      - path: Armature/Tentacle_01/Tentacle_02/Tentacle_03/Tentacle_04/Tentacle_05/Tentacle_06/Tentacle_07/Tentacle_08/Tentacle_09/Tentacle_10/Tentacle_11/Tentacle_12/Tentacle_13/Tentacle_14/Tentacle_15/Tentacle_16/Tentacle_17
+        weight: 1
+      - path: Armature/Tentacle_01/Tentacle_02/Tentacle_03/Tentacle_04/Tentacle_05/Tentacle_06/Tentacle_07/Tentacle_08/Tentacle_09/Tentacle_10/Tentacle_11/Tentacle_12/Tentacle_13/Tentacle_14/Tentacle_15/Tentacle_16/Tentacle_17/Tentacle_18
+        weight: 1
+      - path: Armature/Tentacle_01/Tentacle_02/Tentacle_03/Tentacle_04/Tentacle_05/Tentacle_06/Tentacle_07/Tentacle_08/Tentacle_09/Tentacle_10/Tentacle_11/Tentacle_12/Tentacle_13/Tentacle_14/Tentacle_15/Tentacle_16/Tentacle_17/Tentacle_18/Tentacle_19
+        weight: 1
+      - path: Armature/Tentacle_01/Tentacle_02/Tentacle_03/Tentacle_04/Tentacle_05/Tentacle_06/Tentacle_07/Tentacle_08/Tentacle_09/Tentacle_10/Tentacle_11/Tentacle_12/Tentacle_13/Tentacle_14/Tentacle_15/Tentacle_16/Tentacle_17/Tentacle_18/Tentacle_19/Tentacle_20
+        weight: 1
+      - path: Armature/Tentacle_01/Tentacle_02/Tentacle_03/Tentacle_04/Tentacle_05/Tentacle_06/Tentacle_07/Tentacle_08/Tentacle_09/Tentacle_10/Tentacle_11/Tentacle_12/Tentacle_13/Tentacle_14/Tentacle_15/Tentacle_16/Tentacle_17/Tentacle_18/Tentacle_19/Tentacle_20/Tentacle_21
+        weight: 1
+      - path: Armature/Tentacle_01/Tentacle_02/Tentacle_03/Tentacle_04/Tentacle_05/Tentacle_06/Tentacle_07/Tentacle_08/Tentacle_09/Tentacle_10/Tentacle_11/Tentacle_12/Tentacle_13/Tentacle_14/Tentacle_15/Tentacle_16/Tentacle_17/Tentacle_18/Tentacle_19/Tentacle_20/Tentacle_21/Tentacle_22
+        weight: 1
+      - path: Armature/Tentacle_01/Tentacle_02/Tentacle_03/Tentacle_04/Tentacle_05/Tentacle_06/Tentacle_07/Tentacle_08/Tentacle_09/Tentacle_10/Tentacle_11/Tentacle_12/Tentacle_13/Tentacle_14/Tentacle_15/Tentacle_16/Tentacle_17/Tentacle_18/Tentacle_19/Tentacle_20/Tentacle_21/Tentacle_22/Tentacle_23
+        weight: 1
+      - path: Armature/Tentacle_01/Tentacle_02/Tentacle_03/Tentacle_04/Tentacle_05/Tentacle_06/Tentacle_07/Tentacle_08/Tentacle_09/Tentacle_10/Tentacle_11/Tentacle_12/Tentacle_13/Tentacle_14/Tentacle_15/Tentacle_16/Tentacle_17/Tentacle_18/Tentacle_19/Tentacle_20/Tentacle_21/Tentacle_22/Tentacle_23/Tentacle_24
+        weight: 1
+      - path: Armature/Tentacle_01/Tentacle_02/Tentacle_03/Tentacle_04/Tentacle_05/Tentacle_06/Tentacle_07/Tentacle_08/Tentacle_09/Tentacle_10/Tentacle_11/Tentacle_12/Tentacle_13/Tentacle_14/Tentacle_15/Tentacle_16/Tentacle_17/Tentacle_18/Tentacle_19/Tentacle_20/Tentacle_21/Tentacle_22/Tentacle_23/Tentacle_24/Tentacle_24_end
+        weight: 1
+      - path: Sphere
+        weight: 1
+      - path: Sphere.001
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Kraken_Tentacle_Attack_Vertical
+      takeName: Armature|Tentacle_Attack_Vertical
+      firstFrame: 0
+      lastFrame: 400
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Head
+        weight: 1
+      - path: Armature/Head/Head_end
+        weight: 1
+      - path: Armature/Tentacle_01
+        weight: 1
+      - path: Armature/Tentacle_01/Tentacle_02
+        weight: 1
+      - path: Armature/Tentacle_01/Tentacle_02/Tentacle_03
+        weight: 1
+      - path: Armature/Tentacle_01/Tentacle_02/Tentacle_03/Tentacle_04
+        weight: 1
+      - path: Armature/Tentacle_01/Tentacle_02/Tentacle_03/Tentacle_04/Tentacle_05
+        weight: 1
+      - path: Armature/Tentacle_01/Tentacle_02/Tentacle_03/Tentacle_04/Tentacle_05/Tentacle_06
+        weight: 1
+      - path: Armature/Tentacle_01/Tentacle_02/Tentacle_03/Tentacle_04/Tentacle_05/Tentacle_06/Tentacle_07
+        weight: 1
+      - path: Armature/Tentacle_01/Tentacle_02/Tentacle_03/Tentacle_04/Tentacle_05/Tentacle_06/Tentacle_07/Tentacle_08
+        weight: 1
+      - path: Armature/Tentacle_01/Tentacle_02/Tentacle_03/Tentacle_04/Tentacle_05/Tentacle_06/Tentacle_07/Tentacle_08/Tentacle_09
+        weight: 1
+      - path: Armature/Tentacle_01/Tentacle_02/Tentacle_03/Tentacle_04/Tentacle_05/Tentacle_06/Tentacle_07/Tentacle_08/Tentacle_09/Tentacle_10
+        weight: 1
+      - path: Armature/Tentacle_01/Tentacle_02/Tentacle_03/Tentacle_04/Tentacle_05/Tentacle_06/Tentacle_07/Tentacle_08/Tentacle_09/Tentacle_10/Tentacle_11
+        weight: 1
+      - path: Armature/Tentacle_01/Tentacle_02/Tentacle_03/Tentacle_04/Tentacle_05/Tentacle_06/Tentacle_07/Tentacle_08/Tentacle_09/Tentacle_10/Tentacle_11/Tentacle_12
+        weight: 1
+      - path: Armature/Tentacle_01/Tentacle_02/Tentacle_03/Tentacle_04/Tentacle_05/Tentacle_06/Tentacle_07/Tentacle_08/Tentacle_09/Tentacle_10/Tentacle_11/Tentacle_12/Tentacle_13
+        weight: 1
+      - path: Armature/Tentacle_01/Tentacle_02/Tentacle_03/Tentacle_04/Tentacle_05/Tentacle_06/Tentacle_07/Tentacle_08/Tentacle_09/Tentacle_10/Tentacle_11/Tentacle_12/Tentacle_13/Tentacle_14
+        weight: 1
+      - path: Armature/Tentacle_01/Tentacle_02/Tentacle_03/Tentacle_04/Tentacle_05/Tentacle_06/Tentacle_07/Tentacle_08/Tentacle_09/Tentacle_10/Tentacle_11/Tentacle_12/Tentacle_13/Tentacle_14/Tentacle_15
+        weight: 1
+      - path: Armature/Tentacle_01/Tentacle_02/Tentacle_03/Tentacle_04/Tentacle_05/Tentacle_06/Tentacle_07/Tentacle_08/Tentacle_09/Tentacle_10/Tentacle_11/Tentacle_12/Tentacle_13/Tentacle_14/Tentacle_15/Tentacle_16
+        weight: 1
+      - path: Armature/Tentacle_01/Tentacle_02/Tentacle_03/Tentacle_04/Tentacle_05/Tentacle_06/Tentacle_07/Tentacle_08/Tentacle_09/Tentacle_10/Tentacle_11/Tentacle_12/Tentacle_13/Tentacle_14/Tentacle_15/Tentacle_16/Tentacle_17
+        weight: 1
+      - path: Armature/Tentacle_01/Tentacle_02/Tentacle_03/Tentacle_04/Tentacle_05/Tentacle_06/Tentacle_07/Tentacle_08/Tentacle_09/Tentacle_10/Tentacle_11/Tentacle_12/Tentacle_13/Tentacle_14/Tentacle_15/Tentacle_16/Tentacle_17/Tentacle_18
+        weight: 1
+      - path: Armature/Tentacle_01/Tentacle_02/Tentacle_03/Tentacle_04/Tentacle_05/Tentacle_06/Tentacle_07/Tentacle_08/Tentacle_09/Tentacle_10/Tentacle_11/Tentacle_12/Tentacle_13/Tentacle_14/Tentacle_15/Tentacle_16/Tentacle_17/Tentacle_18/Tentacle_19
+        weight: 1
+      - path: Armature/Tentacle_01/Tentacle_02/Tentacle_03/Tentacle_04/Tentacle_05/Tentacle_06/Tentacle_07/Tentacle_08/Tentacle_09/Tentacle_10/Tentacle_11/Tentacle_12/Tentacle_13/Tentacle_14/Tentacle_15/Tentacle_16/Tentacle_17/Tentacle_18/Tentacle_19/Tentacle_20
+        weight: 1
+      - path: Armature/Tentacle_01/Tentacle_02/Tentacle_03/Tentacle_04/Tentacle_05/Tentacle_06/Tentacle_07/Tentacle_08/Tentacle_09/Tentacle_10/Tentacle_11/Tentacle_12/Tentacle_13/Tentacle_14/Tentacle_15/Tentacle_16/Tentacle_17/Tentacle_18/Tentacle_19/Tentacle_20/Tentacle_21
+        weight: 1
+      - path: Armature/Tentacle_01/Tentacle_02/Tentacle_03/Tentacle_04/Tentacle_05/Tentacle_06/Tentacle_07/Tentacle_08/Tentacle_09/Tentacle_10/Tentacle_11/Tentacle_12/Tentacle_13/Tentacle_14/Tentacle_15/Tentacle_16/Tentacle_17/Tentacle_18/Tentacle_19/Tentacle_20/Tentacle_21/Tentacle_22
+        weight: 1
+      - path: Armature/Tentacle_01/Tentacle_02/Tentacle_03/Tentacle_04/Tentacle_05/Tentacle_06/Tentacle_07/Tentacle_08/Tentacle_09/Tentacle_10/Tentacle_11/Tentacle_12/Tentacle_13/Tentacle_14/Tentacle_15/Tentacle_16/Tentacle_17/Tentacle_18/Tentacle_19/Tentacle_20/Tentacle_21/Tentacle_22/Tentacle_23
+        weight: 1
+      - path: Armature/Tentacle_01/Tentacle_02/Tentacle_03/Tentacle_04/Tentacle_05/Tentacle_06/Tentacle_07/Tentacle_08/Tentacle_09/Tentacle_10/Tentacle_11/Tentacle_12/Tentacle_13/Tentacle_14/Tentacle_15/Tentacle_16/Tentacle_17/Tentacle_18/Tentacle_19/Tentacle_20/Tentacle_21/Tentacle_22/Tentacle_23/Tentacle_24
+        weight: 1
+      - path: Armature/Tentacle_01/Tentacle_02/Tentacle_03/Tentacle_04/Tentacle_05/Tentacle_06/Tentacle_07/Tentacle_08/Tentacle_09/Tentacle_10/Tentacle_11/Tentacle_12/Tentacle_13/Tentacle_14/Tentacle_15/Tentacle_16/Tentacle_17/Tentacle_18/Tentacle_19/Tentacle_20/Tentacle_21/Tentacle_22/Tentacle_23/Tentacle_24/Tentacle_24_end
+        weight: 1
+      - path: Sphere
+        weight: 1
+      - path: Sphere.001
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
