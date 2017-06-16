@@ -43,8 +43,13 @@ public class ViveController_Manager : MonoBehaviour
             gameObject.GetComponent<SteamVR_LaserPointer>().holder.SetActive(true);
         #endregion
 
-        if(controller.device.GetPressDown(controller.menuButton))
-            InitMode();
+        if (controller.device.GetPressDown(controller.menuButton))
+        {
+            if (Mode == "Gun")
+                LoadMode("Sword");
+            else if (Mode == "Sword")
+                LoadMode("Gun");
+        }
 
         switch (Mode)
         {
@@ -121,19 +126,6 @@ public class ViveController_Manager : MonoBehaviour
                         #endregion
                 }
                 #endregion
-                break;
-        }
-    }
-
-    private void InitMode()
-    {
-        switch (Mode)
-        {
-            case "Gun": // In gun mode, switch to sword
-                LoadMode("Sword");
-                break;
-            case "Sword": // In sword mode, switch to gun
-                LoadMode("Gun");
                 break;
         }
     }
