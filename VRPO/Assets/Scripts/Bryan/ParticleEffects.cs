@@ -5,11 +5,20 @@ using UnityEngine;
 public class ParticleEffects : MonoBehaviour {
     public float lifetime;
     private Transform targetPosition, targetRotation;
-    private Vector3 posOffset;
+    private Vector3 posOffset = new Vector3(0, 0, 0);
 	// Use this for initialization
 	void Start () {
 		
 	}
+
+    public void Init(Transform parentPosition, Transform parentRotation)
+    {
+        targetPosition = parentPosition;
+        targetRotation = parentRotation;
+
+        transform.position = targetPosition.position + posOffset;
+        transform.rotation = targetRotation.rotation;
+    }
 
     public void Init(Transform parentPosition, Transform parentRotation, Vector3 positionOffset)
     {
