@@ -29,7 +29,7 @@ public class BoatControl : MonoBehaviour {
         BoatMoving();
         BoatSpeedControl();
         TimeSlow();
-	}
+    }
 
     private void BoatSteering()
     {
@@ -65,6 +65,7 @@ public class BoatControl : MonoBehaviour {
         if (Input.GetKey(slowTime))
         {
             slowMo = true;
+            Time.timeScale = 0.3f;
         }
         if (Input.GetKey(normalTime))
         {
@@ -73,11 +74,21 @@ public class BoatControl : MonoBehaviour {
 
         if (slowMo == true)
         {
-            Time.timeScale = 0.1f;
+            if (Time.timeScale > 0.1f)
+            {
+                Time.timeScale -= Time.deltaTime;
+            }
         }
         if (slowMo == false)
         {
-            Time.timeScale = 1.0f;
+            if (Time.timeScale < 1.0f)
+            {
+                Time.timeScale += Time.deltaTime * 5.0f;
+            }
+            if (Time.timeScale > 1.0f)
+            {
+                Time.timeScale = 1.0f;
+            }
         }
 
     }
