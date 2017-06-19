@@ -87,7 +87,8 @@ public class Cannon : MonoBehaviour
         #region Spawn projectile
         Quaternion particleRotate = new Quaternion();
         particleRotate.eulerAngles = new Vector3(cannonBarrel.transform.eulerAngles.x, cannonBarrel.transform.eulerAngles.y, 0);
-        Instantiate(smokeParticles, smokeLocation.transform.position, particleRotate, smokeLocation.transform);
+        GameObject smoke = Instantiate(smokeParticles);
+        smoke.GetComponent<ParticleEffects>().Init(smokeLocation.transform, particleRotate);
         audio.Play();
         yield return new WaitForSeconds(0.1f);
 

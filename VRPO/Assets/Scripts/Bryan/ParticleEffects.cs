@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -10,6 +11,14 @@ public class ParticleEffects : MonoBehaviour {
 	void Start () {
 		
 	}
+
+    public void Init(Transform parentPosition, Quaternion rotation)
+    {
+        targetPosition = parentPosition;
+
+        transform.position = targetPosition.position + posOffset;
+        transform.rotation = rotation;
+    }
 
     public void Init(Transform parentPosition, Transform parentRotation)
     {
@@ -33,7 +42,7 @@ public class ParticleEffects : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
     {
-        transform.position = targetPosition.position + posOffset;
+        try { if (targetPosition != null) { transform.position = targetPosition.position + posOffset; } } catch (Exception e) { Debug.LogError(e); }
 
         if (lifetime > 0)
             lifetime -= Time.deltaTime;

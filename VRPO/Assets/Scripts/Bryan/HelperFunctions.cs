@@ -43,4 +43,13 @@ public class HelperFunctions
         else
             return false;
     }
+
+    public static bool RandomBool()
+    {
+        int boolean = Random.Range(0, 2);
+        if (boolean == 0)
+            return true;
+        else
+            return false;
+    }
 }
