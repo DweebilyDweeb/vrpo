@@ -6,6 +6,7 @@ public class PiranhaSpawn : MonoBehaviour
 {
     public float spawnRadius;
     public int piranhaToSpawn;
+    public float piranhaSpeed;
     private Collider triggerZone;
 	// Use this for initialization
 	void Start () 
@@ -30,20 +31,18 @@ public class PiranhaSpawn : MonoBehaviour
                 Vector3 eulerRot;
                 if(side) //right
                 {
-                    spawnPos.x += spawnRadius;
-                    spawnPos.z += Random.Range(-3, 3);
+                    spawnPos = new Vector3(spawnRadius, -1.5f, Random.Range(-3, 3));
                     eulerRot = new Vector3(0, -90, 0);
                 }
                 else //left
                 {
-                    spawnPos.x -= spawnRadius;
-                    spawnPos.z += Random.Range(-3, 3);
+                    spawnPos = new Vector3(-spawnRadius, -1.5f, Random.Range(-3, 3));
                     eulerRot = new Vector3(0, 90, 0);
                 }
                 GameObject piranha = Instantiate(Resources.Load<GameObject>("Prefabs/Animals/Piranha"), transform);
                 piranha.transform.localPosition = spawnPos;
                 piranha.transform.localEulerAngles = eulerRot;
-                piranha.GetComponent<Piranha>().InitSide(side);
+                piranha.GetComponent<Piranha>().Init(piranhaSpeed, side);
             }
         }
     }
