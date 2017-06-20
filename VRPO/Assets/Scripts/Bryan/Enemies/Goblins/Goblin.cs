@@ -20,8 +20,11 @@ public class Goblin : MonoBehaviour
 
     public void TriggerDeath()
     {
-        anim.SetTrigger("Death");
-        Debug.Log("Killed goblin");
+        if (currentState != Goblin_FSM.Death)
+        {
+            anim.SetTrigger("Death");
+            currentState = Goblin_FSM.Death;
+        }
     }
 
     public IEnumerator DespawnGoblin()
