@@ -13,7 +13,7 @@ public class BoatScriptedMovement : MonoBehaviour {
 	// Use this for initialization
 	void Start ()
     {
-        boatMovementSpeed = 8;
+        boatMovementSpeed = 5;
         boatRotateSpeed = 0;
         IsLeftTurn = false;
         IsRightTurn = false;
