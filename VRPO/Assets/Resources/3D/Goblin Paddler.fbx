@@ -12,8 +12,8 @@ FBXHeaderExtension:  {
 		Month: 06
 		Day: 20
 		Hour: 17
-		Minute: 41
-		Second: 01
+		Minute: 56
+		Second: 00
 		Millisecond: 0
 	}
 	Creator: "FBX SDK/FBX Plugins build 20070228"
@@ -21,7 +21,7 @@ FBXHeaderExtension:  {
 		FlagPLE: 0
 	}
 }
-CreationTime: "2017-06-20 17:41:01:000"
+CreationTime: "2017-06-20 17:56:00:000"
 Creator: "Blender version 2.78 (sub 0)"
 
 ; Object definitions
@@ -10981,36 +10981,6 @@ Objects:  {
 		AudioColor: 0,1,0
 		CameraOrthoZoom: 1
 	}
-	Material: "Material::01_-_Default__Map__7", "" {
-		Version: 102
-		ShadingModel: "lambert"
-		MultiLayer: 0
-		Properties60:  {
-			Property: "ShadingModel", "KString", "", "Lambert"
-			Property: "MultiLayer", "bool", "",0
-			Property: "EmissiveColor", "ColorRGB", "",0.5882,0.5882,0.5882
-			Property: "EmissiveFactor", "double", "",0.0000
-			Property: "AmbientColor", "ColorRGB", "",1.0000,1.0000,1.0000
-			Property: "AmbientFactor", "double", "",1.0000
-			Property: "DiffuseColor", "ColorRGB", "",0.5882,0.5882,0.5882
-			Property: "DiffuseFactor", "double", "",0.8000
-			Property: "Bump", "Vector3D", "",0,0,0
-			Property: "TransparentColor", "ColorRGB", "",1,1,1
-			Property: "TransparencyFactor", "double", "",1.0000
-			Property: "SpecularColor", "ColorRGB", "",0.9000,0.9000,0.9000
-			Property: "SpecularFactor", "double", "",0.0000
-			Property: "ShininessExponent", "double", "",2.5
-			Property: "ReflectionColor", "ColorRGB", "",0,0,0
-			Property: "ReflectionFactor", "double", "",1
-			Property: "Emissive", "ColorRGB", "",0,0,0
-			Property: "Ambient", "ColorRGB", "",1.0,1.0,1.0
-			Property: "Diffuse", "ColorRGB", "",0.6,0.6,0.6
-			Property: "Specular", "ColorRGB", "",0.9,0.9,0.9
-			Property: "Shininess", "double", "",2.5
-			Property: "Opacity", "double", "",0.0
-			Property: "Reflectivity", "double", "",0
-		}
-	}
 	Material: "Material::19_-_Default_003__Map__5_001", "" {
 		Version: 102
 		ShadingModel: "lambert"
@@ -11038,6 +11008,36 @@ Objects:  {
 			Property: "Specular", "ColorRGB", "",0.0,0.0,0.0
 			Property: "Shininess", "double", "",2.5
 			Property: "Opacity", "double", "",0.0
+			Property: "Reflectivity", "double", "",0
+		}
+	}
+	Material: "Material::Goblin_Material__Map__7", "" {
+		Version: 102
+		ShadingModel: "lambert"
+		MultiLayer: 0
+		Properties60:  {
+			Property: "ShadingModel", "KString", "", "Lambert"
+			Property: "MultiLayer", "bool", "",0
+			Property: "EmissiveColor", "ColorRGB", "",0.5882,0.5882,0.5882
+			Property: "EmissiveFactor", "double", "",0.0000
+			Property: "AmbientColor", "ColorRGB", "",1.0000,1.0000,1.0000
+			Property: "AmbientFactor", "double", "",1.0000
+			Property: "DiffuseColor", "ColorRGB", "",0.5882,0.5882,0.5882
+			Property: "DiffuseFactor", "double", "",0.8000
+			Property: "Bump", "Vector3D", "",0,0,0
+			Property: "TransparentColor", "ColorRGB", "",1,1,1
+			Property: "TransparencyFactor", "double", "",0.0000
+			Property: "SpecularColor", "ColorRGB", "",0.9000,0.9000,0.9000
+			Property: "SpecularFactor", "double", "",0.0000
+			Property: "ShininessExponent", "double", "",2.5
+			Property: "ReflectionColor", "ColorRGB", "",0,0,0
+			Property: "ReflectionFactor", "double", "",1
+			Property: "Emissive", "ColorRGB", "",0,0,0
+			Property: "Ambient", "ColorRGB", "",1.0,1.0,1.0
+			Property: "Diffuse", "ColorRGB", "",0.6,0.6,0.6
+			Property: "Specular", "ColorRGB", "",0.9,0.9,0.9
+			Property: "Shininess", "double", "",2.5
+			Property: "Opacity", "double", "",1.0
 			Property: "Reflectivity", "double", "",0
 		}
 	}
@@ -15269,9 +15269,9 @@ Relations:  {
 	}
 	Model: "Model::Camera Switcher", "CameraSwitcher" {
 	}
-	Material: "Material::01_-_Default__Map__7", "" {
-	}
 	Material: "Material::19_-_Default_003__Map__5_001", "" {
+	}
+	Material: "Material::Goblin_Material__Map__7", "" {
 	}
 	Material: "Material::unnamed", "" {
 	}
@@ -15291,13 +15291,15 @@ Relations:  {
 	}
 	Deformer: "Deformer::Skin Paddle", "Skin" {
 	}
+	Deformer: "SubDeformer::Cluster Paddle Goblin_Abdomen", "Cluster" {
+	}
 	Deformer: "SubDeformer::Cluster Weapon_L Goblin_Abdomen", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Goblin Goblin_Abdomen", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_R Goblin_Abdomen", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Paddle Goblin_Abdomen", "Cluster" {
+	Deformer: "SubDeformer::Cluster Paddle Goblin_Chest", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_L Goblin_Chest", "Cluster" {
 	}
@@ -15305,7 +15307,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_R Goblin_Chest", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Paddle Goblin_Chest", "Cluster" {
+	Deformer: "SubDeformer::Cluster Paddle Goblin_Neck", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_L Goblin_Neck", "Cluster" {
 	}
@@ -15313,7 +15315,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_R Goblin_Neck", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Paddle Goblin_Neck", "Cluster" {
+	Deformer: "SubDeformer::Cluster Paddle Goblin_Head", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_L Goblin_Head", "Cluster" {
 	}
@@ -15321,7 +15323,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_R Goblin_Head", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Paddle Goblin_Head", "Cluster" {
+	Deformer: "SubDeformer::Cluster Paddle Bone", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_L Bone", "Cluster" {
 	}
@@ -15329,7 +15331,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_R Bone", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Paddle Bone", "Cluster" {
+	Deformer: "SubDeformer::Cluster Paddle Holster_R", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_L Holster_R", "Cluster" {
 	}
@@ -15337,7 +15339,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_R Holster_R", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Paddle Holster_R", "Cluster" {
+	Deformer: "SubDeformer::Cluster Paddle Holster_L", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_L Holster_L", "Cluster" {
 	}
@@ -15345,7 +15347,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_R Holster_L", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Paddle Holster_L", "Cluster" {
+	Deformer: "SubDeformer::Cluster Paddle Goblin_Shoulder_L", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_L Goblin_Shoulder_L", "Cluster" {
 	}
@@ -15353,7 +15355,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_R Goblin_Shoulder_L", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Paddle Goblin_Shoulder_L", "Cluster" {
+	Deformer: "SubDeformer::Cluster Paddle Goblin_Forearm_L", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_L Goblin_Forearm_L", "Cluster" {
 	}
@@ -15361,7 +15363,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_R Goblin_Forearm_L", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Paddle Goblin_Forearm_L", "Cluster" {
+	Deformer: "SubDeformer::Cluster Paddle Goblin_LowerArm_L", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_L Goblin_LowerArm_L", "Cluster" {
 	}
@@ -15369,7 +15371,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_R Goblin_LowerArm_L", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Paddle Goblin_LowerArm_L", "Cluster" {
+	Deformer: "SubDeformer::Cluster Paddle Goblin_Palm_L", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_L Goblin_Palm_L", "Cluster" {
 	}
@@ -15377,7 +15379,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_R Goblin_Palm_L", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Paddle Goblin_Palm_L", "Cluster" {
+	Deformer: "SubDeformer::Cluster Paddle WeaponHolder_L", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_L WeaponHolder_L", "Cluster" {
 	}
@@ -15385,7 +15387,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_R WeaponHolder_L", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Paddle WeaponHolder_L", "Cluster" {
+	Deformer: "SubDeformer::Cluster Paddle WeaponHolder_L_BLade", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_L WeaponHolder_L_BLade", "Cluster" {
 	}
@@ -15393,7 +15395,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_R WeaponHolder_L_BLade", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Paddle WeaponHolder_L_BLade", "Cluster" {
+	Deformer: "SubDeformer::Cluster Paddle Goblin_Pinky_L_01", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_L Goblin_Pinky_L_01", "Cluster" {
 	}
@@ -15401,7 +15403,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_R Goblin_Pinky_L_01", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Paddle Goblin_Pinky_L_01", "Cluster" {
+	Deformer: "SubDeformer::Cluster Paddle Goblin_Pinky_L_02", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_L Goblin_Pinky_L_02", "Cluster" {
 	}
@@ -15409,7 +15411,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_R Goblin_Pinky_L_02", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Paddle Goblin_Pinky_L_02", "Cluster" {
+	Deformer: "SubDeformer::Cluster Paddle Goblin_Pinky_L_03", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_L Goblin_Pinky_L_03", "Cluster" {
 	}
@@ -15417,7 +15419,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_R Goblin_Pinky_L_03", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Paddle Goblin_Pinky_L_03", "Cluster" {
+	Deformer: "SubDeformer::Cluster Paddle Goblin_RingFinger_L_01", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_L Goblin_RingFinger_L_01", "Cluster" {
 	}
@@ -15425,7 +15427,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_R Goblin_RingFinger_L_01", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Paddle Goblin_RingFinger_L_01", "Cluster" {
+	Deformer: "SubDeformer::Cluster Paddle Goblin_RingFinger_L_02", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_L Goblin_RingFinger_L_02", "Cluster" {
 	}
@@ -15433,7 +15435,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_R Goblin_RingFinger_L_02", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Paddle Goblin_RingFinger_L_02", "Cluster" {
+	Deformer: "SubDeformer::Cluster Paddle Goblin_RingFinger_L_03", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_L Goblin_RingFinger_L_03", "Cluster" {
 	}
@@ -15441,7 +15443,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_R Goblin_RingFinger_L_03", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Paddle Goblin_RingFinger_L_03", "Cluster" {
+	Deformer: "SubDeformer::Cluster Paddle Goblin_MiddleFinger_01", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_L Goblin_MiddleFinger_01", "Cluster" {
 	}
@@ -15449,7 +15451,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_R Goblin_MiddleFinger_01", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Paddle Goblin_MiddleFinger_01", "Cluster" {
+	Deformer: "SubDeformer::Cluster Paddle Goblin_MiddleFinger_02", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_L Goblin_MiddleFinger_02", "Cluster" {
 	}
@@ -15457,7 +15459,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_R Goblin_MiddleFinger_02", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Paddle Goblin_MiddleFinger_02", "Cluster" {
+	Deformer: "SubDeformer::Cluster Paddle Goblin_MiddleFinger_03", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_L Goblin_MiddleFinger_03", "Cluster" {
 	}
@@ -15465,7 +15467,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_R Goblin_MiddleFinger_03", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Paddle Goblin_MiddleFinger_03", "Cluster" {
+	Deformer: "SubDeformer::Cluster Paddle Goblin_IndexFinger_L_01", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_L Goblin_IndexFinger_L_01", "Cluster" {
 	}
@@ -15473,7 +15475,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_R Goblin_IndexFinger_L_01", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Paddle Goblin_IndexFinger_L_01", "Cluster" {
+	Deformer: "SubDeformer::Cluster Paddle Goblin_IndexFinger_L_02", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_L Goblin_IndexFinger_L_02", "Cluster" {
 	}
@@ -15481,7 +15483,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_R Goblin_IndexFinger_L_02", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Paddle Goblin_IndexFinger_L_02", "Cluster" {
+	Deformer: "SubDeformer::Cluster Paddle Goblin_IndexFinger_L_03", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_L Goblin_IndexFinger_L_03", "Cluster" {
 	}
@@ -15489,7 +15491,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_R Goblin_IndexFinger_L_03", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Paddle Goblin_IndexFinger_L_03", "Cluster" {
+	Deformer: "SubDeformer::Cluster Paddle Goblin_Thumb_L_01", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_L Goblin_Thumb_L_01", "Cluster" {
 	}
@@ -15497,7 +15499,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_R Goblin_Thumb_L_01", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Paddle Goblin_Thumb_L_01", "Cluster" {
+	Deformer: "SubDeformer::Cluster Paddle Goblin_Thumb_L_02", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_L Goblin_Thumb_L_02", "Cluster" {
 	}
@@ -15505,7 +15507,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_R Goblin_Thumb_L_02", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Paddle Goblin_Thumb_L_02", "Cluster" {
+	Deformer: "SubDeformer::Cluster Paddle Goblin_Thumb_L_03", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_L Goblin_Thumb_L_03", "Cluster" {
 	}
@@ -15513,7 +15515,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_R Goblin_Thumb_L_03", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Paddle Goblin_Thumb_L_03", "Cluster" {
+	Deformer: "SubDeformer::Cluster Paddle Goblin_Shoulder_R", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_L Goblin_Shoulder_R", "Cluster" {
 	}
@@ -15521,7 +15523,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_R Goblin_Shoulder_R", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Paddle Goblin_Shoulder_R", "Cluster" {
+	Deformer: "SubDeformer::Cluster Paddle Goblin_Forearm_R", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_L Goblin_Forearm_R", "Cluster" {
 	}
@@ -15529,7 +15531,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_R Goblin_Forearm_R", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Paddle Goblin_Forearm_R", "Cluster" {
+	Deformer: "SubDeformer::Cluster Paddle Goblin_LowerArm_R", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_L Goblin_LowerArm_R", "Cluster" {
 	}
@@ -15537,7 +15539,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_R Goblin_LowerArm_R", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Paddle Goblin_LowerArm_R", "Cluster" {
+	Deformer: "SubDeformer::Cluster Paddle Goblin_Palm_R", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_L Goblin_Palm_R", "Cluster" {
 	}
@@ -15545,7 +15547,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_R Goblin_Palm_R", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Paddle Goblin_Palm_R", "Cluster" {
+	Deformer: "SubDeformer::Cluster Paddle Goblin_Pinky_R_01", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_L Goblin_Pinky_R_01", "Cluster" {
 	}
@@ -15553,7 +15555,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_R Goblin_Pinky_R_01", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Paddle Goblin_Pinky_R_01", "Cluster" {
+	Deformer: "SubDeformer::Cluster Paddle Goblin_Pinky_R_02", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_L Goblin_Pinky_R_02", "Cluster" {
 	}
@@ -15561,7 +15563,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_R Goblin_Pinky_R_02", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Paddle Goblin_Pinky_R_02", "Cluster" {
+	Deformer: "SubDeformer::Cluster Paddle Goblin_Pinky_R_03", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_L Goblin_Pinky_R_03", "Cluster" {
 	}
@@ -15569,7 +15571,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_R Goblin_Pinky_R_03", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Paddle Goblin_Pinky_R_03", "Cluster" {
+	Deformer: "SubDeformer::Cluster Paddle Goblin_RingFinger_R_01", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_L Goblin_RingFinger_R_01", "Cluster" {
 	}
@@ -15577,7 +15579,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_R Goblin_RingFinger_R_01", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Paddle Goblin_RingFinger_R_01", "Cluster" {
+	Deformer: "SubDeformer::Cluster Paddle Goblin_RingFinger_R_02", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_L Goblin_RingFinger_R_02", "Cluster" {
 	}
@@ -15585,7 +15587,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_R Goblin_RingFinger_R_02", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Paddle Goblin_RingFinger_R_02", "Cluster" {
+	Deformer: "SubDeformer::Cluster Paddle Goblin_RingFinger_R_03", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_L Goblin_RingFinger_R_03", "Cluster" {
 	}
@@ -15593,7 +15595,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_R Goblin_RingFinger_R_03", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Paddle Goblin_RingFinger_R_03", "Cluster" {
+	Deformer: "SubDeformer::Cluster Paddle Goblin_MiddleFinger_R_01", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_L Goblin_MiddleFinger_R_01", "Cluster" {
 	}
@@ -15601,7 +15603,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_R Goblin_MiddleFinger_R_01", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Paddle Goblin_MiddleFinger_R_01", "Cluster" {
+	Deformer: "SubDeformer::Cluster Paddle Goblin_MiddleFinger_R_02", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_L Goblin_MiddleFinger_R_02", "Cluster" {
 	}
@@ -15609,7 +15611,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_R Goblin_MiddleFinger_R_02", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Paddle Goblin_MiddleFinger_R_02", "Cluster" {
+	Deformer: "SubDeformer::Cluster Paddle Goblin_MiddleFinger_R_03", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_L Goblin_MiddleFinger_R_03", "Cluster" {
 	}
@@ -15617,7 +15619,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_R Goblin_MiddleFinger_R_03", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Paddle Goblin_MiddleFinger_R_03", "Cluster" {
+	Deformer: "SubDeformer::Cluster Paddle Goblin_IndexFinger_R_01", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_L Goblin_IndexFinger_R_01", "Cluster" {
 	}
@@ -15625,7 +15627,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_R Goblin_IndexFinger_R_01", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Paddle Goblin_IndexFinger_R_01", "Cluster" {
+	Deformer: "SubDeformer::Cluster Paddle Goblin_IndexFinger_R_02", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_L Goblin_IndexFinger_R_02", "Cluster" {
 	}
@@ -15633,7 +15635,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_R Goblin_IndexFinger_R_02", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Paddle Goblin_IndexFinger_R_02", "Cluster" {
+	Deformer: "SubDeformer::Cluster Paddle Goblin_IndexFinger_R_03", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_L Goblin_IndexFinger_R_03", "Cluster" {
 	}
@@ -15641,7 +15643,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_R Goblin_IndexFinger_R_03", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Paddle Goblin_IndexFinger_R_03", "Cluster" {
+	Deformer: "SubDeformer::Cluster Paddle Goblin_Thumb_R_01", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_L Goblin_Thumb_R_01", "Cluster" {
 	}
@@ -15649,7 +15651,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_R Goblin_Thumb_R_01", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Paddle Goblin_Thumb_R_01", "Cluster" {
+	Deformer: "SubDeformer::Cluster Paddle Goblin_Thumb_R_02", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_L Goblin_Thumb_R_02", "Cluster" {
 	}
@@ -15657,7 +15659,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_R Goblin_Thumb_R_02", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Paddle Goblin_Thumb_R_02", "Cluster" {
+	Deformer: "SubDeformer::Cluster Paddle Goblin_Thumb_R_03", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_L Goblin_Thumb_R_03", "Cluster" {
 	}
@@ -15665,7 +15667,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_R Goblin_Thumb_R_03", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Paddle Goblin_Thumb_R_03", "Cluster" {
+	Deformer: "SubDeformer::Cluster Paddle WeaponHolder_R", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_L WeaponHolder_R", "Cluster" {
 	}
@@ -15673,7 +15675,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_R WeaponHolder_R", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Paddle WeaponHolder_R", "Cluster" {
+	Deformer: "SubDeformer::Cluster Paddle WeaponHolder_R_Blade", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_L WeaponHolder_R_Blade", "Cluster" {
 	}
@@ -15681,7 +15683,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_R WeaponHolder_R_Blade", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Paddle WeaponHolder_R_Blade", "Cluster" {
+	Deformer: "SubDeformer::Cluster Paddle Goblin_Bottom", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_L Goblin_Bottom", "Cluster" {
 	}
@@ -15689,7 +15691,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_R Goblin_Bottom", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Paddle Goblin_Bottom", "Cluster" {
+	Deformer: "SubDeformer::Cluster Paddle Goblin_Thigh_R", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_L Goblin_Thigh_R", "Cluster" {
 	}
@@ -15697,7 +15699,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_R Goblin_Thigh_R", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Paddle Goblin_Thigh_R", "Cluster" {
+	Deformer: "SubDeformer::Cluster Paddle Goblin_Shin_R", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_L Goblin_Shin_R", "Cluster" {
 	}
@@ -15705,7 +15707,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_R Goblin_Shin_R", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Paddle Goblin_Shin_R", "Cluster" {
+	Deformer: "SubDeformer::Cluster Paddle Goblin_Foot_R", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_L Goblin_Foot_R", "Cluster" {
 	}
@@ -15713,7 +15715,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_R Goblin_Foot_R", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Paddle Goblin_Foot_R", "Cluster" {
+	Deformer: "SubDeformer::Cluster Paddle Goblin_Toes_R", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_L Goblin_Toes_R", "Cluster" {
 	}
@@ -15721,7 +15723,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_R Goblin_Toes_R", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Paddle Goblin_Toes_R", "Cluster" {
+	Deformer: "SubDeformer::Cluster Paddle Goblin_Thigh_L", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_L Goblin_Thigh_L", "Cluster" {
 	}
@@ -15729,7 +15731,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_R Goblin_Thigh_L", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Paddle Goblin_Thigh_L", "Cluster" {
+	Deformer: "SubDeformer::Cluster Paddle Goblin_Shin_L", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_L Goblin_Shin_L", "Cluster" {
 	}
@@ -15737,7 +15739,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_R Goblin_Shin_L", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Paddle Goblin_Shin_L", "Cluster" {
+	Deformer: "SubDeformer::Cluster Paddle Goblin_Foot_L", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_L Goblin_Foot_L", "Cluster" {
 	}
@@ -15745,7 +15747,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_R Goblin_Foot_L", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Paddle Goblin_Foot_L", "Cluster" {
+	Deformer: "SubDeformer::Cluster Paddle Goblin_Toes_L", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_L Goblin_Toes_L", "Cluster" {
 	}
@@ -15753,7 +15755,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_R Goblin_Toes_L", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Paddle Goblin_Toes_L", "Cluster" {
+	Deformer: "SubDeformer::Cluster Paddle Weapon_R_0", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_L Weapon_R_0", "Cluster" {
 	}
@@ -15761,7 +15763,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_R Weapon_R_0", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Paddle Weapon_R_0", "Cluster" {
+	Deformer: "SubDeformer::Cluster Paddle Weapon_L_0", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_L Weapon_L_0", "Cluster" {
 	}
@@ -15769,15 +15771,13 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_R Weapon_L_0", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Paddle Weapon_L_0", "Cluster" {
+	Deformer: "SubDeformer::Cluster Paddle Laddle_Lower", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_L Laddle_Lower", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Goblin Laddle_Lower", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Weapon_R Laddle_Lower", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster Paddle Laddle_Lower", "Cluster" {
 	}
 }
 
@@ -15792,7 +15792,7 @@ Connections:  {
 	Connect: "OO", "Model::Paddle", "Model::Scene"
 	Connect: "OO", "Model::Goblin_Armature", "Model::Goblin"
 	Connect: "OO", "Material::unnamed", "Model::Cube"
-	Connect: "OO", "Material::01_-_Default__Map__7", "Model::Goblin"
+	Connect: "OO", "Material::Goblin_Material__Map__7", "Model::Goblin"
 	Connect: "OO", "Material::19_-_Default_003__Map__5_001", "Model::Weapon_R"
 	Connect: "OO", "Material::19_-_Default_003__Map__5_001", "Model::Weapon_L"
 	Connect: "OO", "Material::unnamed", "Model::Paddle"
@@ -15805,494 +15805,494 @@ Connections:  {
 	Connect: "OO", "Deformer::Skin Weapon_R", "Model::Weapon_R"
 	Connect: "OO", "Deformer::Skin Weapon_L", "Model::Weapon_L"
 	Connect: "OO", "Deformer::Skin Paddle", "Model::Paddle"
+	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_Abdomen", "Deformer::Skin Paddle"
 	Connect: "OO", "SubDeformer::Cluster Weapon_L Goblin_Abdomen", "Deformer::Skin Weapon_L"
 	Connect: "OO", "SubDeformer::Cluster Goblin Goblin_Abdomen", "Deformer::Skin Goblin"
 	Connect: "OO", "SubDeformer::Cluster Weapon_R Goblin_Abdomen", "Deformer::Skin Weapon_R"
-	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_Abdomen", "Deformer::Skin Paddle"
+	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_Chest", "Deformer::Skin Paddle"
 	Connect: "OO", "SubDeformer::Cluster Weapon_L Goblin_Chest", "Deformer::Skin Weapon_L"
 	Connect: "OO", "SubDeformer::Cluster Goblin Goblin_Chest", "Deformer::Skin Goblin"
 	Connect: "OO", "SubDeformer::Cluster Weapon_R Goblin_Chest", "Deformer::Skin Weapon_R"
-	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_Chest", "Deformer::Skin Paddle"
+	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_Neck", "Deformer::Skin Paddle"
 	Connect: "OO", "SubDeformer::Cluster Weapon_L Goblin_Neck", "Deformer::Skin Weapon_L"
 	Connect: "OO", "SubDeformer::Cluster Goblin Goblin_Neck", "Deformer::Skin Goblin"
 	Connect: "OO", "SubDeformer::Cluster Weapon_R Goblin_Neck", "Deformer::Skin Weapon_R"
-	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_Neck", "Deformer::Skin Paddle"
+	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_Head", "Deformer::Skin Paddle"
 	Connect: "OO", "SubDeformer::Cluster Weapon_L Goblin_Head", "Deformer::Skin Weapon_L"
 	Connect: "OO", "SubDeformer::Cluster Goblin Goblin_Head", "Deformer::Skin Goblin"
 	Connect: "OO", "SubDeformer::Cluster Weapon_R Goblin_Head", "Deformer::Skin Weapon_R"
-	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_Head", "Deformer::Skin Paddle"
+	Connect: "OO", "SubDeformer::Cluster Paddle Bone", "Deformer::Skin Paddle"
 	Connect: "OO", "SubDeformer::Cluster Weapon_L Bone", "Deformer::Skin Weapon_L"
 	Connect: "OO", "SubDeformer::Cluster Goblin Bone", "Deformer::Skin Goblin"
 	Connect: "OO", "SubDeformer::Cluster Weapon_R Bone", "Deformer::Skin Weapon_R"
-	Connect: "OO", "SubDeformer::Cluster Paddle Bone", "Deformer::Skin Paddle"
+	Connect: "OO", "SubDeformer::Cluster Paddle Holster_R", "Deformer::Skin Paddle"
 	Connect: "OO", "SubDeformer::Cluster Weapon_L Holster_R", "Deformer::Skin Weapon_L"
 	Connect: "OO", "SubDeformer::Cluster Goblin Holster_R", "Deformer::Skin Goblin"
 	Connect: "OO", "SubDeformer::Cluster Weapon_R Holster_R", "Deformer::Skin Weapon_R"
-	Connect: "OO", "SubDeformer::Cluster Paddle Holster_R", "Deformer::Skin Paddle"
+	Connect: "OO", "SubDeformer::Cluster Paddle Holster_L", "Deformer::Skin Paddle"
 	Connect: "OO", "SubDeformer::Cluster Weapon_L Holster_L", "Deformer::Skin Weapon_L"
 	Connect: "OO", "SubDeformer::Cluster Goblin Holster_L", "Deformer::Skin Goblin"
 	Connect: "OO", "SubDeformer::Cluster Weapon_R Holster_L", "Deformer::Skin Weapon_R"
-	Connect: "OO", "SubDeformer::Cluster Paddle Holster_L", "Deformer::Skin Paddle"
+	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_Shoulder_L", "Deformer::Skin Paddle"
 	Connect: "OO", "SubDeformer::Cluster Weapon_L Goblin_Shoulder_L", "Deformer::Skin Weapon_L"
 	Connect: "OO", "SubDeformer::Cluster Goblin Goblin_Shoulder_L", "Deformer::Skin Goblin"
 	Connect: "OO", "SubDeformer::Cluster Weapon_R Goblin_Shoulder_L", "Deformer::Skin Weapon_R"
-	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_Shoulder_L", "Deformer::Skin Paddle"
+	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_Forearm_L", "Deformer::Skin Paddle"
 	Connect: "OO", "SubDeformer::Cluster Weapon_L Goblin_Forearm_L", "Deformer::Skin Weapon_L"
 	Connect: "OO", "SubDeformer::Cluster Goblin Goblin_Forearm_L", "Deformer::Skin Goblin"
 	Connect: "OO", "SubDeformer::Cluster Weapon_R Goblin_Forearm_L", "Deformer::Skin Weapon_R"
-	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_Forearm_L", "Deformer::Skin Paddle"
+	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_LowerArm_L", "Deformer::Skin Paddle"
 	Connect: "OO", "SubDeformer::Cluster Weapon_L Goblin_LowerArm_L", "Deformer::Skin Weapon_L"
 	Connect: "OO", "SubDeformer::Cluster Goblin Goblin_LowerArm_L", "Deformer::Skin Goblin"
 	Connect: "OO", "SubDeformer::Cluster Weapon_R Goblin_LowerArm_L", "Deformer::Skin Weapon_R"
-	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_LowerArm_L", "Deformer::Skin Paddle"
+	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_Palm_L", "Deformer::Skin Paddle"
 	Connect: "OO", "SubDeformer::Cluster Weapon_L Goblin_Palm_L", "Deformer::Skin Weapon_L"
 	Connect: "OO", "SubDeformer::Cluster Goblin Goblin_Palm_L", "Deformer::Skin Goblin"
 	Connect: "OO", "SubDeformer::Cluster Weapon_R Goblin_Palm_L", "Deformer::Skin Weapon_R"
-	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_Palm_L", "Deformer::Skin Paddle"
+	Connect: "OO", "SubDeformer::Cluster Paddle WeaponHolder_L", "Deformer::Skin Paddle"
 	Connect: "OO", "SubDeformer::Cluster Weapon_L WeaponHolder_L", "Deformer::Skin Weapon_L"
 	Connect: "OO", "SubDeformer::Cluster Goblin WeaponHolder_L", "Deformer::Skin Goblin"
 	Connect: "OO", "SubDeformer::Cluster Weapon_R WeaponHolder_L", "Deformer::Skin Weapon_R"
-	Connect: "OO", "SubDeformer::Cluster Paddle WeaponHolder_L", "Deformer::Skin Paddle"
+	Connect: "OO", "SubDeformer::Cluster Paddle WeaponHolder_L_BLade", "Deformer::Skin Paddle"
 	Connect: "OO", "SubDeformer::Cluster Weapon_L WeaponHolder_L_BLade", "Deformer::Skin Weapon_L"
 	Connect: "OO", "SubDeformer::Cluster Goblin WeaponHolder_L_BLade", "Deformer::Skin Goblin"
 	Connect: "OO", "SubDeformer::Cluster Weapon_R WeaponHolder_L_BLade", "Deformer::Skin Weapon_R"
-	Connect: "OO", "SubDeformer::Cluster Paddle WeaponHolder_L_BLade", "Deformer::Skin Paddle"
+	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_Pinky_L_01", "Deformer::Skin Paddle"
 	Connect: "OO", "SubDeformer::Cluster Weapon_L Goblin_Pinky_L_01", "Deformer::Skin Weapon_L"
 	Connect: "OO", "SubDeformer::Cluster Goblin Goblin_Pinky_L_01", "Deformer::Skin Goblin"
 	Connect: "OO", "SubDeformer::Cluster Weapon_R Goblin_Pinky_L_01", "Deformer::Skin Weapon_R"
-	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_Pinky_L_01", "Deformer::Skin Paddle"
+	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_Pinky_L_02", "Deformer::Skin Paddle"
 	Connect: "OO", "SubDeformer::Cluster Weapon_L Goblin_Pinky_L_02", "Deformer::Skin Weapon_L"
 	Connect: "OO", "SubDeformer::Cluster Goblin Goblin_Pinky_L_02", "Deformer::Skin Goblin"
 	Connect: "OO", "SubDeformer::Cluster Weapon_R Goblin_Pinky_L_02", "Deformer::Skin Weapon_R"
-	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_Pinky_L_02", "Deformer::Skin Paddle"
+	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_Pinky_L_03", "Deformer::Skin Paddle"
 	Connect: "OO", "SubDeformer::Cluster Weapon_L Goblin_Pinky_L_03", "Deformer::Skin Weapon_L"
 	Connect: "OO", "SubDeformer::Cluster Goblin Goblin_Pinky_L_03", "Deformer::Skin Goblin"
 	Connect: "OO", "SubDeformer::Cluster Weapon_R Goblin_Pinky_L_03", "Deformer::Skin Weapon_R"
-	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_Pinky_L_03", "Deformer::Skin Paddle"
+	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_RingFinger_L_01", "Deformer::Skin Paddle"
 	Connect: "OO", "SubDeformer::Cluster Weapon_L Goblin_RingFinger_L_01", "Deformer::Skin Weapon_L"
 	Connect: "OO", "SubDeformer::Cluster Goblin Goblin_RingFinger_L_01", "Deformer::Skin Goblin"
 	Connect: "OO", "SubDeformer::Cluster Weapon_R Goblin_RingFinger_L_01", "Deformer::Skin Weapon_R"
-	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_RingFinger_L_01", "Deformer::Skin Paddle"
+	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_RingFinger_L_02", "Deformer::Skin Paddle"
 	Connect: "OO", "SubDeformer::Cluster Weapon_L Goblin_RingFinger_L_02", "Deformer::Skin Weapon_L"
 	Connect: "OO", "SubDeformer::Cluster Goblin Goblin_RingFinger_L_02", "Deformer::Skin Goblin"
 	Connect: "OO", "SubDeformer::Cluster Weapon_R Goblin_RingFinger_L_02", "Deformer::Skin Weapon_R"
-	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_RingFinger_L_02", "Deformer::Skin Paddle"
+	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_RingFinger_L_03", "Deformer::Skin Paddle"
 	Connect: "OO", "SubDeformer::Cluster Weapon_L Goblin_RingFinger_L_03", "Deformer::Skin Weapon_L"
 	Connect: "OO", "SubDeformer::Cluster Goblin Goblin_RingFinger_L_03", "Deformer::Skin Goblin"
 	Connect: "OO", "SubDeformer::Cluster Weapon_R Goblin_RingFinger_L_03", "Deformer::Skin Weapon_R"
-	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_RingFinger_L_03", "Deformer::Skin Paddle"
+	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_MiddleFinger_01", "Deformer::Skin Paddle"
 	Connect: "OO", "SubDeformer::Cluster Weapon_L Goblin_MiddleFinger_01", "Deformer::Skin Weapon_L"
 	Connect: "OO", "SubDeformer::Cluster Goblin Goblin_MiddleFinger_01", "Deformer::Skin Goblin"
 	Connect: "OO", "SubDeformer::Cluster Weapon_R Goblin_MiddleFinger_01", "Deformer::Skin Weapon_R"
-	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_MiddleFinger_01", "Deformer::Skin Paddle"
+	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_MiddleFinger_02", "Deformer::Skin Paddle"
 	Connect: "OO", "SubDeformer::Cluster Weapon_L Goblin_MiddleFinger_02", "Deformer::Skin Weapon_L"
 	Connect: "OO", "SubDeformer::Cluster Goblin Goblin_MiddleFinger_02", "Deformer::Skin Goblin"
 	Connect: "OO", "SubDeformer::Cluster Weapon_R Goblin_MiddleFinger_02", "Deformer::Skin Weapon_R"
-	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_MiddleFinger_02", "Deformer::Skin Paddle"
+	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_MiddleFinger_03", "Deformer::Skin Paddle"
 	Connect: "OO", "SubDeformer::Cluster Weapon_L Goblin_MiddleFinger_03", "Deformer::Skin Weapon_L"
 	Connect: "OO", "SubDeformer::Cluster Goblin Goblin_MiddleFinger_03", "Deformer::Skin Goblin"
 	Connect: "OO", "SubDeformer::Cluster Weapon_R Goblin_MiddleFinger_03", "Deformer::Skin Weapon_R"
-	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_MiddleFinger_03", "Deformer::Skin Paddle"
+	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_IndexFinger_L_01", "Deformer::Skin Paddle"
 	Connect: "OO", "SubDeformer::Cluster Weapon_L Goblin_IndexFinger_L_01", "Deformer::Skin Weapon_L"
 	Connect: "OO", "SubDeformer::Cluster Goblin Goblin_IndexFinger_L_01", "Deformer::Skin Goblin"
 	Connect: "OO", "SubDeformer::Cluster Weapon_R Goblin_IndexFinger_L_01", "Deformer::Skin Weapon_R"
-	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_IndexFinger_L_01", "Deformer::Skin Paddle"
+	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_IndexFinger_L_02", "Deformer::Skin Paddle"
 	Connect: "OO", "SubDeformer::Cluster Weapon_L Goblin_IndexFinger_L_02", "Deformer::Skin Weapon_L"
 	Connect: "OO", "SubDeformer::Cluster Goblin Goblin_IndexFinger_L_02", "Deformer::Skin Goblin"
 	Connect: "OO", "SubDeformer::Cluster Weapon_R Goblin_IndexFinger_L_02", "Deformer::Skin Weapon_R"
-	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_IndexFinger_L_02", "Deformer::Skin Paddle"
+	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_IndexFinger_L_03", "Deformer::Skin Paddle"
 	Connect: "OO", "SubDeformer::Cluster Weapon_L Goblin_IndexFinger_L_03", "Deformer::Skin Weapon_L"
 	Connect: "OO", "SubDeformer::Cluster Goblin Goblin_IndexFinger_L_03", "Deformer::Skin Goblin"
 	Connect: "OO", "SubDeformer::Cluster Weapon_R Goblin_IndexFinger_L_03", "Deformer::Skin Weapon_R"
-	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_IndexFinger_L_03", "Deformer::Skin Paddle"
+	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_Thumb_L_01", "Deformer::Skin Paddle"
 	Connect: "OO", "SubDeformer::Cluster Weapon_L Goblin_Thumb_L_01", "Deformer::Skin Weapon_L"
 	Connect: "OO", "SubDeformer::Cluster Goblin Goblin_Thumb_L_01", "Deformer::Skin Goblin"
 	Connect: "OO", "SubDeformer::Cluster Weapon_R Goblin_Thumb_L_01", "Deformer::Skin Weapon_R"
-	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_Thumb_L_01", "Deformer::Skin Paddle"
+	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_Thumb_L_02", "Deformer::Skin Paddle"
 	Connect: "OO", "SubDeformer::Cluster Weapon_L Goblin_Thumb_L_02", "Deformer::Skin Weapon_L"
 	Connect: "OO", "SubDeformer::Cluster Goblin Goblin_Thumb_L_02", "Deformer::Skin Goblin"
 	Connect: "OO", "SubDeformer::Cluster Weapon_R Goblin_Thumb_L_02", "Deformer::Skin Weapon_R"
-	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_Thumb_L_02", "Deformer::Skin Paddle"
+	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_Thumb_L_03", "Deformer::Skin Paddle"
 	Connect: "OO", "SubDeformer::Cluster Weapon_L Goblin_Thumb_L_03", "Deformer::Skin Weapon_L"
 	Connect: "OO", "SubDeformer::Cluster Goblin Goblin_Thumb_L_03", "Deformer::Skin Goblin"
 	Connect: "OO", "SubDeformer::Cluster Weapon_R Goblin_Thumb_L_03", "Deformer::Skin Weapon_R"
-	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_Thumb_L_03", "Deformer::Skin Paddle"
+	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_Shoulder_R", "Deformer::Skin Paddle"
 	Connect: "OO", "SubDeformer::Cluster Weapon_L Goblin_Shoulder_R", "Deformer::Skin Weapon_L"
 	Connect: "OO", "SubDeformer::Cluster Goblin Goblin_Shoulder_R", "Deformer::Skin Goblin"
 	Connect: "OO", "SubDeformer::Cluster Weapon_R Goblin_Shoulder_R", "Deformer::Skin Weapon_R"
-	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_Shoulder_R", "Deformer::Skin Paddle"
+	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_Forearm_R", "Deformer::Skin Paddle"
 	Connect: "OO", "SubDeformer::Cluster Weapon_L Goblin_Forearm_R", "Deformer::Skin Weapon_L"
 	Connect: "OO", "SubDeformer::Cluster Goblin Goblin_Forearm_R", "Deformer::Skin Goblin"
 	Connect: "OO", "SubDeformer::Cluster Weapon_R Goblin_Forearm_R", "Deformer::Skin Weapon_R"
-	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_Forearm_R", "Deformer::Skin Paddle"
+	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_LowerArm_R", "Deformer::Skin Paddle"
 	Connect: "OO", "SubDeformer::Cluster Weapon_L Goblin_LowerArm_R", "Deformer::Skin Weapon_L"
 	Connect: "OO", "SubDeformer::Cluster Goblin Goblin_LowerArm_R", "Deformer::Skin Goblin"
 	Connect: "OO", "SubDeformer::Cluster Weapon_R Goblin_LowerArm_R", "Deformer::Skin Weapon_R"
-	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_LowerArm_R", "Deformer::Skin Paddle"
+	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_Palm_R", "Deformer::Skin Paddle"
 	Connect: "OO", "SubDeformer::Cluster Weapon_L Goblin_Palm_R", "Deformer::Skin Weapon_L"
 	Connect: "OO", "SubDeformer::Cluster Goblin Goblin_Palm_R", "Deformer::Skin Goblin"
 	Connect: "OO", "SubDeformer::Cluster Weapon_R Goblin_Palm_R", "Deformer::Skin Weapon_R"
-	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_Palm_R", "Deformer::Skin Paddle"
+	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_Pinky_R_01", "Deformer::Skin Paddle"
 	Connect: "OO", "SubDeformer::Cluster Weapon_L Goblin_Pinky_R_01", "Deformer::Skin Weapon_L"
 	Connect: "OO", "SubDeformer::Cluster Goblin Goblin_Pinky_R_01", "Deformer::Skin Goblin"
 	Connect: "OO", "SubDeformer::Cluster Weapon_R Goblin_Pinky_R_01", "Deformer::Skin Weapon_R"
-	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_Pinky_R_01", "Deformer::Skin Paddle"
+	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_Pinky_R_02", "Deformer::Skin Paddle"
 	Connect: "OO", "SubDeformer::Cluster Weapon_L Goblin_Pinky_R_02", "Deformer::Skin Weapon_L"
 	Connect: "OO", "SubDeformer::Cluster Goblin Goblin_Pinky_R_02", "Deformer::Skin Goblin"
 	Connect: "OO", "SubDeformer::Cluster Weapon_R Goblin_Pinky_R_02", "Deformer::Skin Weapon_R"
-	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_Pinky_R_02", "Deformer::Skin Paddle"
+	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_Pinky_R_03", "Deformer::Skin Paddle"
 	Connect: "OO", "SubDeformer::Cluster Weapon_L Goblin_Pinky_R_03", "Deformer::Skin Weapon_L"
 	Connect: "OO", "SubDeformer::Cluster Goblin Goblin_Pinky_R_03", "Deformer::Skin Goblin"
 	Connect: "OO", "SubDeformer::Cluster Weapon_R Goblin_Pinky_R_03", "Deformer::Skin Weapon_R"
-	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_Pinky_R_03", "Deformer::Skin Paddle"
+	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_RingFinger_R_01", "Deformer::Skin Paddle"
 	Connect: "OO", "SubDeformer::Cluster Weapon_L Goblin_RingFinger_R_01", "Deformer::Skin Weapon_L"
 	Connect: "OO", "SubDeformer::Cluster Goblin Goblin_RingFinger_R_01", "Deformer::Skin Goblin"
 	Connect: "OO", "SubDeformer::Cluster Weapon_R Goblin_RingFinger_R_01", "Deformer::Skin Weapon_R"
-	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_RingFinger_R_01", "Deformer::Skin Paddle"
+	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_RingFinger_R_02", "Deformer::Skin Paddle"
 	Connect: "OO", "SubDeformer::Cluster Weapon_L Goblin_RingFinger_R_02", "Deformer::Skin Weapon_L"
 	Connect: "OO", "SubDeformer::Cluster Goblin Goblin_RingFinger_R_02", "Deformer::Skin Goblin"
 	Connect: "OO", "SubDeformer::Cluster Weapon_R Goblin_RingFinger_R_02", "Deformer::Skin Weapon_R"
-	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_RingFinger_R_02", "Deformer::Skin Paddle"
+	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_RingFinger_R_03", "Deformer::Skin Paddle"
 	Connect: "OO", "SubDeformer::Cluster Weapon_L Goblin_RingFinger_R_03", "Deformer::Skin Weapon_L"
 	Connect: "OO", "SubDeformer::Cluster Goblin Goblin_RingFinger_R_03", "Deformer::Skin Goblin"
 	Connect: "OO", "SubDeformer::Cluster Weapon_R Goblin_RingFinger_R_03", "Deformer::Skin Weapon_R"
-	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_RingFinger_R_03", "Deformer::Skin Paddle"
+	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_MiddleFinger_R_01", "Deformer::Skin Paddle"
 	Connect: "OO", "SubDeformer::Cluster Weapon_L Goblin_MiddleFinger_R_01", "Deformer::Skin Weapon_L"
 	Connect: "OO", "SubDeformer::Cluster Goblin Goblin_MiddleFinger_R_01", "Deformer::Skin Goblin"
 	Connect: "OO", "SubDeformer::Cluster Weapon_R Goblin_MiddleFinger_R_01", "Deformer::Skin Weapon_R"
-	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_MiddleFinger_R_01", "Deformer::Skin Paddle"
+	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_MiddleFinger_R_02", "Deformer::Skin Paddle"
 	Connect: "OO", "SubDeformer::Cluster Weapon_L Goblin_MiddleFinger_R_02", "Deformer::Skin Weapon_L"
 	Connect: "OO", "SubDeformer::Cluster Goblin Goblin_MiddleFinger_R_02", "Deformer::Skin Goblin"
 	Connect: "OO", "SubDeformer::Cluster Weapon_R Goblin_MiddleFinger_R_02", "Deformer::Skin Weapon_R"
-	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_MiddleFinger_R_02", "Deformer::Skin Paddle"
+	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_MiddleFinger_R_03", "Deformer::Skin Paddle"
 	Connect: "OO", "SubDeformer::Cluster Weapon_L Goblin_MiddleFinger_R_03", "Deformer::Skin Weapon_L"
 	Connect: "OO", "SubDeformer::Cluster Goblin Goblin_MiddleFinger_R_03", "Deformer::Skin Goblin"
 	Connect: "OO", "SubDeformer::Cluster Weapon_R Goblin_MiddleFinger_R_03", "Deformer::Skin Weapon_R"
-	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_MiddleFinger_R_03", "Deformer::Skin Paddle"
+	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_IndexFinger_R_01", "Deformer::Skin Paddle"
 	Connect: "OO", "SubDeformer::Cluster Weapon_L Goblin_IndexFinger_R_01", "Deformer::Skin Weapon_L"
 	Connect: "OO", "SubDeformer::Cluster Goblin Goblin_IndexFinger_R_01", "Deformer::Skin Goblin"
 	Connect: "OO", "SubDeformer::Cluster Weapon_R Goblin_IndexFinger_R_01", "Deformer::Skin Weapon_R"
-	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_IndexFinger_R_01", "Deformer::Skin Paddle"
+	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_IndexFinger_R_02", "Deformer::Skin Paddle"
 	Connect: "OO", "SubDeformer::Cluster Weapon_L Goblin_IndexFinger_R_02", "Deformer::Skin Weapon_L"
 	Connect: "OO", "SubDeformer::Cluster Goblin Goblin_IndexFinger_R_02", "Deformer::Skin Goblin"
 	Connect: "OO", "SubDeformer::Cluster Weapon_R Goblin_IndexFinger_R_02", "Deformer::Skin Weapon_R"
-	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_IndexFinger_R_02", "Deformer::Skin Paddle"
+	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_IndexFinger_R_03", "Deformer::Skin Paddle"
 	Connect: "OO", "SubDeformer::Cluster Weapon_L Goblin_IndexFinger_R_03", "Deformer::Skin Weapon_L"
 	Connect: "OO", "SubDeformer::Cluster Goblin Goblin_IndexFinger_R_03", "Deformer::Skin Goblin"
 	Connect: "OO", "SubDeformer::Cluster Weapon_R Goblin_IndexFinger_R_03", "Deformer::Skin Weapon_R"
-	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_IndexFinger_R_03", "Deformer::Skin Paddle"
+	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_Thumb_R_01", "Deformer::Skin Paddle"
 	Connect: "OO", "SubDeformer::Cluster Weapon_L Goblin_Thumb_R_01", "Deformer::Skin Weapon_L"
 	Connect: "OO", "SubDeformer::Cluster Goblin Goblin_Thumb_R_01", "Deformer::Skin Goblin"
 	Connect: "OO", "SubDeformer::Cluster Weapon_R Goblin_Thumb_R_01", "Deformer::Skin Weapon_R"
-	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_Thumb_R_01", "Deformer::Skin Paddle"
+	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_Thumb_R_02", "Deformer::Skin Paddle"
 	Connect: "OO", "SubDeformer::Cluster Weapon_L Goblin_Thumb_R_02", "Deformer::Skin Weapon_L"
 	Connect: "OO", "SubDeformer::Cluster Goblin Goblin_Thumb_R_02", "Deformer::Skin Goblin"
 	Connect: "OO", "SubDeformer::Cluster Weapon_R Goblin_Thumb_R_02", "Deformer::Skin Weapon_R"
-	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_Thumb_R_02", "Deformer::Skin Paddle"
+	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_Thumb_R_03", "Deformer::Skin Paddle"
 	Connect: "OO", "SubDeformer::Cluster Weapon_L Goblin_Thumb_R_03", "Deformer::Skin Weapon_L"
 	Connect: "OO", "SubDeformer::Cluster Goblin Goblin_Thumb_R_03", "Deformer::Skin Goblin"
 	Connect: "OO", "SubDeformer::Cluster Weapon_R Goblin_Thumb_R_03", "Deformer::Skin Weapon_R"
-	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_Thumb_R_03", "Deformer::Skin Paddle"
+	Connect: "OO", "SubDeformer::Cluster Paddle WeaponHolder_R", "Deformer::Skin Paddle"
 	Connect: "OO", "SubDeformer::Cluster Weapon_L WeaponHolder_R", "Deformer::Skin Weapon_L"
 	Connect: "OO", "SubDeformer::Cluster Goblin WeaponHolder_R", "Deformer::Skin Goblin"
 	Connect: "OO", "SubDeformer::Cluster Weapon_R WeaponHolder_R", "Deformer::Skin Weapon_R"
-	Connect: "OO", "SubDeformer::Cluster Paddle WeaponHolder_R", "Deformer::Skin Paddle"
+	Connect: "OO", "SubDeformer::Cluster Paddle WeaponHolder_R_Blade", "Deformer::Skin Paddle"
 	Connect: "OO", "SubDeformer::Cluster Weapon_L WeaponHolder_R_Blade", "Deformer::Skin Weapon_L"
 	Connect: "OO", "SubDeformer::Cluster Goblin WeaponHolder_R_Blade", "Deformer::Skin Goblin"
 	Connect: "OO", "SubDeformer::Cluster Weapon_R WeaponHolder_R_Blade", "Deformer::Skin Weapon_R"
-	Connect: "OO", "SubDeformer::Cluster Paddle WeaponHolder_R_Blade", "Deformer::Skin Paddle"
+	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_Bottom", "Deformer::Skin Paddle"
 	Connect: "OO", "SubDeformer::Cluster Weapon_L Goblin_Bottom", "Deformer::Skin Weapon_L"
 	Connect: "OO", "SubDeformer::Cluster Goblin Goblin_Bottom", "Deformer::Skin Goblin"
 	Connect: "OO", "SubDeformer::Cluster Weapon_R Goblin_Bottom", "Deformer::Skin Weapon_R"
-	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_Bottom", "Deformer::Skin Paddle"
+	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_Thigh_R", "Deformer::Skin Paddle"
 	Connect: "OO", "SubDeformer::Cluster Weapon_L Goblin_Thigh_R", "Deformer::Skin Weapon_L"
 	Connect: "OO", "SubDeformer::Cluster Goblin Goblin_Thigh_R", "Deformer::Skin Goblin"
 	Connect: "OO", "SubDeformer::Cluster Weapon_R Goblin_Thigh_R", "Deformer::Skin Weapon_R"
-	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_Thigh_R", "Deformer::Skin Paddle"
+	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_Shin_R", "Deformer::Skin Paddle"
 	Connect: "OO", "SubDeformer::Cluster Weapon_L Goblin_Shin_R", "Deformer::Skin Weapon_L"
 	Connect: "OO", "SubDeformer::Cluster Goblin Goblin_Shin_R", "Deformer::Skin Goblin"
 	Connect: "OO", "SubDeformer::Cluster Weapon_R Goblin_Shin_R", "Deformer::Skin Weapon_R"
-	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_Shin_R", "Deformer::Skin Paddle"
+	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_Foot_R", "Deformer::Skin Paddle"
 	Connect: "OO", "SubDeformer::Cluster Weapon_L Goblin_Foot_R", "Deformer::Skin Weapon_L"
 	Connect: "OO", "SubDeformer::Cluster Goblin Goblin_Foot_R", "Deformer::Skin Goblin"
 	Connect: "OO", "SubDeformer::Cluster Weapon_R Goblin_Foot_R", "Deformer::Skin Weapon_R"
-	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_Foot_R", "Deformer::Skin Paddle"
+	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_Toes_R", "Deformer::Skin Paddle"
 	Connect: "OO", "SubDeformer::Cluster Weapon_L Goblin_Toes_R", "Deformer::Skin Weapon_L"
 	Connect: "OO", "SubDeformer::Cluster Goblin Goblin_Toes_R", "Deformer::Skin Goblin"
 	Connect: "OO", "SubDeformer::Cluster Weapon_R Goblin_Toes_R", "Deformer::Skin Weapon_R"
-	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_Toes_R", "Deformer::Skin Paddle"
+	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_Thigh_L", "Deformer::Skin Paddle"
 	Connect: "OO", "SubDeformer::Cluster Weapon_L Goblin_Thigh_L", "Deformer::Skin Weapon_L"
 	Connect: "OO", "SubDeformer::Cluster Goblin Goblin_Thigh_L", "Deformer::Skin Goblin"
 	Connect: "OO", "SubDeformer::Cluster Weapon_R Goblin_Thigh_L", "Deformer::Skin Weapon_R"
-	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_Thigh_L", "Deformer::Skin Paddle"
+	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_Shin_L", "Deformer::Skin Paddle"
 	Connect: "OO", "SubDeformer::Cluster Weapon_L Goblin_Shin_L", "Deformer::Skin Weapon_L"
 	Connect: "OO", "SubDeformer::Cluster Goblin Goblin_Shin_L", "Deformer::Skin Goblin"
 	Connect: "OO", "SubDeformer::Cluster Weapon_R Goblin_Shin_L", "Deformer::Skin Weapon_R"
-	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_Shin_L", "Deformer::Skin Paddle"
+	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_Foot_L", "Deformer::Skin Paddle"
 	Connect: "OO", "SubDeformer::Cluster Weapon_L Goblin_Foot_L", "Deformer::Skin Weapon_L"
 	Connect: "OO", "SubDeformer::Cluster Goblin Goblin_Foot_L", "Deformer::Skin Goblin"
 	Connect: "OO", "SubDeformer::Cluster Weapon_R Goblin_Foot_L", "Deformer::Skin Weapon_R"
-	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_Foot_L", "Deformer::Skin Paddle"
+	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_Toes_L", "Deformer::Skin Paddle"
 	Connect: "OO", "SubDeformer::Cluster Weapon_L Goblin_Toes_L", "Deformer::Skin Weapon_L"
 	Connect: "OO", "SubDeformer::Cluster Goblin Goblin_Toes_L", "Deformer::Skin Goblin"
 	Connect: "OO", "SubDeformer::Cluster Weapon_R Goblin_Toes_L", "Deformer::Skin Weapon_R"
-	Connect: "OO", "SubDeformer::Cluster Paddle Goblin_Toes_L", "Deformer::Skin Paddle"
+	Connect: "OO", "SubDeformer::Cluster Paddle Weapon_R_0", "Deformer::Skin Paddle"
 	Connect: "OO", "SubDeformer::Cluster Weapon_L Weapon_R_0", "Deformer::Skin Weapon_L"
 	Connect: "OO", "SubDeformer::Cluster Goblin Weapon_R_0", "Deformer::Skin Goblin"
 	Connect: "OO", "SubDeformer::Cluster Weapon_R Weapon_R_0", "Deformer::Skin Weapon_R"
-	Connect: "OO", "SubDeformer::Cluster Paddle Weapon_R_0", "Deformer::Skin Paddle"
+	Connect: "OO", "SubDeformer::Cluster Paddle Weapon_L_0", "Deformer::Skin Paddle"
 	Connect: "OO", "SubDeformer::Cluster Weapon_L Weapon_L_0", "Deformer::Skin Weapon_L"
 	Connect: "OO", "SubDeformer::Cluster Goblin Weapon_L_0", "Deformer::Skin Goblin"
 	Connect: "OO", "SubDeformer::Cluster Weapon_R Weapon_L_0", "Deformer::Skin Weapon_R"
-	Connect: "OO", "SubDeformer::Cluster Paddle Weapon_L_0", "Deformer::Skin Paddle"
+	Connect: "OO", "SubDeformer::Cluster Paddle Laddle_Lower", "Deformer::Skin Paddle"
 	Connect: "OO", "SubDeformer::Cluster Weapon_L Laddle_Lower", "Deformer::Skin Weapon_L"
 	Connect: "OO", "SubDeformer::Cluster Goblin Laddle_Lower", "Deformer::Skin Goblin"
 	Connect: "OO", "SubDeformer::Cluster Weapon_R Laddle_Lower", "Deformer::Skin Weapon_R"
-	Connect: "OO", "SubDeformer::Cluster Paddle Laddle_Lower", "Deformer::Skin Paddle"
+	Connect: "OO", "Model::Goblin_Abdomen", "SubDeformer::Cluster Paddle Goblin_Abdomen"
 	Connect: "OO", "Model::Goblin_Abdomen", "SubDeformer::Cluster Weapon_L Goblin_Abdomen"
 	Connect: "OO", "Model::Goblin_Abdomen", "SubDeformer::Cluster Goblin Goblin_Abdomen"
 	Connect: "OO", "Model::Goblin_Abdomen", "SubDeformer::Cluster Weapon_R Goblin_Abdomen"
-	Connect: "OO", "Model::Goblin_Abdomen", "SubDeformer::Cluster Paddle Goblin_Abdomen"
+	Connect: "OO", "Model::Goblin_Chest", "SubDeformer::Cluster Paddle Goblin_Chest"
 	Connect: "OO", "Model::Goblin_Chest", "SubDeformer::Cluster Weapon_L Goblin_Chest"
 	Connect: "OO", "Model::Goblin_Chest", "SubDeformer::Cluster Goblin Goblin_Chest"
 	Connect: "OO", "Model::Goblin_Chest", "SubDeformer::Cluster Weapon_R Goblin_Chest"
-	Connect: "OO", "Model::Goblin_Chest", "SubDeformer::Cluster Paddle Goblin_Chest"
+	Connect: "OO", "Model::Goblin_Neck", "SubDeformer::Cluster Paddle Goblin_Neck"
 	Connect: "OO", "Model::Goblin_Neck", "SubDeformer::Cluster Weapon_L Goblin_Neck"
 	Connect: "OO", "Model::Goblin_Neck", "SubDeformer::Cluster Goblin Goblin_Neck"
 	Connect: "OO", "Model::Goblin_Neck", "SubDeformer::Cluster Weapon_R Goblin_Neck"
-	Connect: "OO", "Model::Goblin_Neck", "SubDeformer::Cluster Paddle Goblin_Neck"
+	Connect: "OO", "Model::Goblin_Head", "SubDeformer::Cluster Paddle Goblin_Head"
 	Connect: "OO", "Model::Goblin_Head", "SubDeformer::Cluster Weapon_L Goblin_Head"
 	Connect: "OO", "Model::Goblin_Head", "SubDeformer::Cluster Goblin Goblin_Head"
 	Connect: "OO", "Model::Goblin_Head", "SubDeformer::Cluster Weapon_R Goblin_Head"
-	Connect: "OO", "Model::Goblin_Head", "SubDeformer::Cluster Paddle Goblin_Head"
+	Connect: "OO", "Model::Bone", "SubDeformer::Cluster Paddle Bone"
 	Connect: "OO", "Model::Bone", "SubDeformer::Cluster Weapon_L Bone"
 	Connect: "OO", "Model::Bone", "SubDeformer::Cluster Goblin Bone"
 	Connect: "OO", "Model::Bone", "SubDeformer::Cluster Weapon_R Bone"
-	Connect: "OO", "Model::Bone", "SubDeformer::Cluster Paddle Bone"
+	Connect: "OO", "Model::Holster_R", "SubDeformer::Cluster Paddle Holster_R"
 	Connect: "OO", "Model::Holster_R", "SubDeformer::Cluster Weapon_L Holster_R"
 	Connect: "OO", "Model::Holster_R", "SubDeformer::Cluster Goblin Holster_R"
 	Connect: "OO", "Model::Holster_R", "SubDeformer::Cluster Weapon_R Holster_R"
-	Connect: "OO", "Model::Holster_R", "SubDeformer::Cluster Paddle Holster_R"
+	Connect: "OO", "Model::Holster_L", "SubDeformer::Cluster Paddle Holster_L"
 	Connect: "OO", "Model::Holster_L", "SubDeformer::Cluster Weapon_L Holster_L"
 	Connect: "OO", "Model::Holster_L", "SubDeformer::Cluster Goblin Holster_L"
 	Connect: "OO", "Model::Holster_L", "SubDeformer::Cluster Weapon_R Holster_L"
-	Connect: "OO", "Model::Holster_L", "SubDeformer::Cluster Paddle Holster_L"
+	Connect: "OO", "Model::Goblin_Shoulder_L", "SubDeformer::Cluster Paddle Goblin_Shoulder_L"
 	Connect: "OO", "Model::Goblin_Shoulder_L", "SubDeformer::Cluster Weapon_L Goblin_Shoulder_L"
 	Connect: "OO", "Model::Goblin_Shoulder_L", "SubDeformer::Cluster Goblin Goblin_Shoulder_L"
 	Connect: "OO", "Model::Goblin_Shoulder_L", "SubDeformer::Cluster Weapon_R Goblin_Shoulder_L"
-	Connect: "OO", "Model::Goblin_Shoulder_L", "SubDeformer::Cluster Paddle Goblin_Shoulder_L"
+	Connect: "OO", "Model::Goblin_Forearm_L", "SubDeformer::Cluster Paddle Goblin_Forearm_L"
 	Connect: "OO", "Model::Goblin_Forearm_L", "SubDeformer::Cluster Weapon_L Goblin_Forearm_L"
 	Connect: "OO", "Model::Goblin_Forearm_L", "SubDeformer::Cluster Goblin Goblin_Forearm_L"
 	Connect: "OO", "Model::Goblin_Forearm_L", "SubDeformer::Cluster Weapon_R Goblin_Forearm_L"
-	Connect: "OO", "Model::Goblin_Forearm_L", "SubDeformer::Cluster Paddle Goblin_Forearm_L"
+	Connect: "OO", "Model::Goblin_LowerArm_L", "SubDeformer::Cluster Paddle Goblin_LowerArm_L"
 	Connect: "OO", "Model::Goblin_LowerArm_L", "SubDeformer::Cluster Weapon_L Goblin_LowerArm_L"
 	Connect: "OO", "Model::Goblin_LowerArm_L", "SubDeformer::Cluster Goblin Goblin_LowerArm_L"
 	Connect: "OO", "Model::Goblin_LowerArm_L", "SubDeformer::Cluster Weapon_R Goblin_LowerArm_L"
-	Connect: "OO", "Model::Goblin_LowerArm_L", "SubDeformer::Cluster Paddle Goblin_LowerArm_L"
+	Connect: "OO", "Model::Goblin_Palm_L", "SubDeformer::Cluster Paddle Goblin_Palm_L"
 	Connect: "OO", "Model::Goblin_Palm_L", "SubDeformer::Cluster Weapon_L Goblin_Palm_L"
 	Connect: "OO", "Model::Goblin_Palm_L", "SubDeformer::Cluster Goblin Goblin_Palm_L"
 	Connect: "OO", "Model::Goblin_Palm_L", "SubDeformer::Cluster Weapon_R Goblin_Palm_L"
-	Connect: "OO", "Model::Goblin_Palm_L", "SubDeformer::Cluster Paddle Goblin_Palm_L"
+	Connect: "OO", "Model::WeaponHolder_L", "SubDeformer::Cluster Paddle WeaponHolder_L"
 	Connect: "OO", "Model::WeaponHolder_L", "SubDeformer::Cluster Weapon_L WeaponHolder_L"
 	Connect: "OO", "Model::WeaponHolder_L", "SubDeformer::Cluster Goblin WeaponHolder_L"
 	Connect: "OO", "Model::WeaponHolder_L", "SubDeformer::Cluster Weapon_R WeaponHolder_L"
-	Connect: "OO", "Model::WeaponHolder_L", "SubDeformer::Cluster Paddle WeaponHolder_L"
+	Connect: "OO", "Model::WeaponHolder_L_BLade", "SubDeformer::Cluster Paddle WeaponHolder_L_BLade"
 	Connect: "OO", "Model::WeaponHolder_L_BLade", "SubDeformer::Cluster Weapon_L WeaponHolder_L_BLade"
 	Connect: "OO", "Model::WeaponHolder_L_BLade", "SubDeformer::Cluster Goblin WeaponHolder_L_BLade"
 	Connect: "OO", "Model::WeaponHolder_L_BLade", "SubDeformer::Cluster Weapon_R WeaponHolder_L_BLade"
-	Connect: "OO", "Model::WeaponHolder_L_BLade", "SubDeformer::Cluster Paddle WeaponHolder_L_BLade"
+	Connect: "OO", "Model::Goblin_Pinky_L_01", "SubDeformer::Cluster Paddle Goblin_Pinky_L_01"
 	Connect: "OO", "Model::Goblin_Pinky_L_01", "SubDeformer::Cluster Weapon_L Goblin_Pinky_L_01"
 	Connect: "OO", "Model::Goblin_Pinky_L_01", "SubDeformer::Cluster Goblin Goblin_Pinky_L_01"
 	Connect: "OO", "Model::Goblin_Pinky_L_01", "SubDeformer::Cluster Weapon_R Goblin_Pinky_L_01"
-	Connect: "OO", "Model::Goblin_Pinky_L_01", "SubDeformer::Cluster Paddle Goblin_Pinky_L_01"
+	Connect: "OO", "Model::Goblin_Pinky_L_02", "SubDeformer::Cluster Paddle Goblin_Pinky_L_02"
 	Connect: "OO", "Model::Goblin_Pinky_L_02", "SubDeformer::Cluster Weapon_L Goblin_Pinky_L_02"
 	Connect: "OO", "Model::Goblin_Pinky_L_02", "SubDeformer::Cluster Goblin Goblin_Pinky_L_02"
 	Connect: "OO", "Model::Goblin_Pinky_L_02", "SubDeformer::Cluster Weapon_R Goblin_Pinky_L_02"
-	Connect: "OO", "Model::Goblin_Pinky_L_02", "SubDeformer::Cluster Paddle Goblin_Pinky_L_02"
+	Connect: "OO", "Model::Goblin_Pinky_L_03", "SubDeformer::Cluster Paddle Goblin_Pinky_L_03"
 	Connect: "OO", "Model::Goblin_Pinky_L_03", "SubDeformer::Cluster Weapon_L Goblin_Pinky_L_03"
 	Connect: "OO", "Model::Goblin_Pinky_L_03", "SubDeformer::Cluster Goblin Goblin_Pinky_L_03"
 	Connect: "OO", "Model::Goblin_Pinky_L_03", "SubDeformer::Cluster Weapon_R Goblin_Pinky_L_03"
-	Connect: "OO", "Model::Goblin_Pinky_L_03", "SubDeformer::Cluster Paddle Goblin_Pinky_L_03"
+	Connect: "OO", "Model::Goblin_RingFinger_L_01", "SubDeformer::Cluster Paddle Goblin_RingFinger_L_01"
 	Connect: "OO", "Model::Goblin_RingFinger_L_01", "SubDeformer::Cluster Weapon_L Goblin_RingFinger_L_01"
 	Connect: "OO", "Model::Goblin_RingFinger_L_01", "SubDeformer::Cluster Goblin Goblin_RingFinger_L_01"
 	Connect: "OO", "Model::Goblin_RingFinger_L_01", "SubDeformer::Cluster Weapon_R Goblin_RingFinger_L_01"
-	Connect: "OO", "Model::Goblin_RingFinger_L_01", "SubDeformer::Cluster Paddle Goblin_RingFinger_L_01"
+	Connect: "OO", "Model::Goblin_RingFinger_L_02", "SubDeformer::Cluster Paddle Goblin_RingFinger_L_02"
 	Connect: "OO", "Model::Goblin_RingFinger_L_02", "SubDeformer::Cluster Weapon_L Goblin_RingFinger_L_02"
 	Connect: "OO", "Model::Goblin_RingFinger_L_02", "SubDeformer::Cluster Goblin Goblin_RingFinger_L_02"
 	Connect: "OO", "Model::Goblin_RingFinger_L_02", "SubDeformer::Cluster Weapon_R Goblin_RingFinger_L_02"
-	Connect: "OO", "Model::Goblin_RingFinger_L_02", "SubDeformer::Cluster Paddle Goblin_RingFinger_L_02"
+	Connect: "OO", "Model::Goblin_RingFinger_L_03", "SubDeformer::Cluster Paddle Goblin_RingFinger_L_03"
 	Connect: "OO", "Model::Goblin_RingFinger_L_03", "SubDeformer::Cluster Weapon_L Goblin_RingFinger_L_03"
 	Connect: "OO", "Model::Goblin_RingFinger_L_03", "SubDeformer::Cluster Goblin Goblin_RingFinger_L_03"
 	Connect: "OO", "Model::Goblin_RingFinger_L_03", "SubDeformer::Cluster Weapon_R Goblin_RingFinger_L_03"
-	Connect: "OO", "Model::Goblin_RingFinger_L_03", "SubDeformer::Cluster Paddle Goblin_RingFinger_L_03"
+	Connect: "OO", "Model::Goblin_MiddleFinger_01", "SubDeformer::Cluster Paddle Goblin_MiddleFinger_01"
 	Connect: "OO", "Model::Goblin_MiddleFinger_01", "SubDeformer::Cluster Weapon_L Goblin_MiddleFinger_01"
 	Connect: "OO", "Model::Goblin_MiddleFinger_01", "SubDeformer::Cluster Goblin Goblin_MiddleFinger_01"
 	Connect: "OO", "Model::Goblin_MiddleFinger_01", "SubDeformer::Cluster Weapon_R Goblin_MiddleFinger_01"
-	Connect: "OO", "Model::Goblin_MiddleFinger_01", "SubDeformer::Cluster Paddle Goblin_MiddleFinger_01"
+	Connect: "OO", "Model::Goblin_MiddleFinger_02", "SubDeformer::Cluster Paddle Goblin_MiddleFinger_02"
 	Connect: "OO", "Model::Goblin_MiddleFinger_02", "SubDeformer::Cluster Weapon_L Goblin_MiddleFinger_02"
 	Connect: "OO", "Model::Goblin_MiddleFinger_02", "SubDeformer::Cluster Goblin Goblin_MiddleFinger_02"
 	Connect: "OO", "Model::Goblin_MiddleFinger_02", "SubDeformer::Cluster Weapon_R Goblin_MiddleFinger_02"
-	Connect: "OO", "Model::Goblin_MiddleFinger_02", "SubDeformer::Cluster Paddle Goblin_MiddleFinger_02"
+	Connect: "OO", "Model::Goblin_MiddleFinger_03", "SubDeformer::Cluster Paddle Goblin_MiddleFinger_03"
 	Connect: "OO", "Model::Goblin_MiddleFinger_03", "SubDeformer::Cluster Weapon_L Goblin_MiddleFinger_03"
 	Connect: "OO", "Model::Goblin_MiddleFinger_03", "SubDeformer::Cluster Goblin Goblin_MiddleFinger_03"
 	Connect: "OO", "Model::Goblin_MiddleFinger_03", "SubDeformer::Cluster Weapon_R Goblin_MiddleFinger_03"
-	Connect: "OO", "Model::Goblin_MiddleFinger_03", "SubDeformer::Cluster Paddle Goblin_MiddleFinger_03"
+	Connect: "OO", "Model::Goblin_IndexFinger_L_01", "SubDeformer::Cluster Paddle Goblin_IndexFinger_L_01"
 	Connect: "OO", "Model::Goblin_IndexFinger_L_01", "SubDeformer::Cluster Weapon_L Goblin_IndexFinger_L_01"
 	Connect: "OO", "Model::Goblin_IndexFinger_L_01", "SubDeformer::Cluster Goblin Goblin_IndexFinger_L_01"
 	Connect: "OO", "Model::Goblin_IndexFinger_L_01", "SubDeformer::Cluster Weapon_R Goblin_IndexFinger_L_01"
-	Connect: "OO", "Model::Goblin_IndexFinger_L_01", "SubDeformer::Cluster Paddle Goblin_IndexFinger_L_01"
+	Connect: "OO", "Model::Goblin_IndexFinger_L_02", "SubDeformer::Cluster Paddle Goblin_IndexFinger_L_02"
 	Connect: "OO", "Model::Goblin_IndexFinger_L_02", "SubDeformer::Cluster Weapon_L Goblin_IndexFinger_L_02"
 	Connect: "OO", "Model::Goblin_IndexFinger_L_02", "SubDeformer::Cluster Goblin Goblin_IndexFinger_L_02"
 	Connect: "OO", "Model::Goblin_IndexFinger_L_02", "SubDeformer::Cluster Weapon_R Goblin_IndexFinger_L_02"
-	Connect: "OO", "Model::Goblin_IndexFinger_L_02", "SubDeformer::Cluster Paddle Goblin_IndexFinger_L_02"
+	Connect: "OO", "Model::Goblin_IndexFinger_L_03", "SubDeformer::Cluster Paddle Goblin_IndexFinger_L_03"
 	Connect: "OO", "Model::Goblin_IndexFinger_L_03", "SubDeformer::Cluster Weapon_L Goblin_IndexFinger_L_03"
 	Connect: "OO", "Model::Goblin_IndexFinger_L_03", "SubDeformer::Cluster Goblin Goblin_IndexFinger_L_03"
 	Connect: "OO", "Model::Goblin_IndexFinger_L_03", "SubDeformer::Cluster Weapon_R Goblin_IndexFinger_L_03"
-	Connect: "OO", "Model::Goblin_IndexFinger_L_03", "SubDeformer::Cluster Paddle Goblin_IndexFinger_L_03"
+	Connect: "OO", "Model::Goblin_Thumb_L_01", "SubDeformer::Cluster Paddle Goblin_Thumb_L_01"
 	Connect: "OO", "Model::Goblin_Thumb_L_01", "SubDeformer::Cluster Weapon_L Goblin_Thumb_L_01"
 	Connect: "OO", "Model::Goblin_Thumb_L_01", "SubDeformer::Cluster Goblin Goblin_Thumb_L_01"
 	Connect: "OO", "Model::Goblin_Thumb_L_01", "SubDeformer::Cluster Weapon_R Goblin_Thumb_L_01"
-	Connect: "OO", "Model::Goblin_Thumb_L_01", "SubDeformer::Cluster Paddle Goblin_Thumb_L_01"
+	Connect: "OO", "Model::Goblin_Thumb_L_02", "SubDeformer::Cluster Paddle Goblin_Thumb_L_02"
 	Connect: "OO", "Model::Goblin_Thumb_L_02", "SubDeformer::Cluster Weapon_L Goblin_Thumb_L_02"
 	Connect: "OO", "Model::Goblin_Thumb_L_02", "SubDeformer::Cluster Goblin Goblin_Thumb_L_02"
 	Connect: "OO", "Model::Goblin_Thumb_L_02", "SubDeformer::Cluster Weapon_R Goblin_Thumb_L_02"
-	Connect: "OO", "Model::Goblin_Thumb_L_02", "SubDeformer::Cluster Paddle Goblin_Thumb_L_02"
+	Connect: "OO", "Model::Goblin_Thumb_L_03", "SubDeformer::Cluster Paddle Goblin_Thumb_L_03"
 	Connect: "OO", "Model::Goblin_Thumb_L_03", "SubDeformer::Cluster Weapon_L Goblin_Thumb_L_03"
 	Connect: "OO", "Model::Goblin_Thumb_L_03", "SubDeformer::Cluster Goblin Goblin_Thumb_L_03"
 	Connect: "OO", "Model::Goblin_Thumb_L_03", "SubDeformer::Cluster Weapon_R Goblin_Thumb_L_03"
-	Connect: "OO", "Model::Goblin_Thumb_L_03", "SubDeformer::Cluster Paddle Goblin_Thumb_L_03"
+	Connect: "OO", "Model::Goblin_Shoulder_R", "SubDeformer::Cluster Paddle Goblin_Shoulder_R"
 	Connect: "OO", "Model::Goblin_Shoulder_R", "SubDeformer::Cluster Weapon_L Goblin_Shoulder_R"
 	Connect: "OO", "Model::Goblin_Shoulder_R", "SubDeformer::Cluster Goblin Goblin_Shoulder_R"
 	Connect: "OO", "Model::Goblin_Shoulder_R", "SubDeformer::Cluster Weapon_R Goblin_Shoulder_R"
-	Connect: "OO", "Model::Goblin_Shoulder_R", "SubDeformer::Cluster Paddle Goblin_Shoulder_R"
+	Connect: "OO", "Model::Goblin_Forearm_R", "SubDeformer::Cluster Paddle Goblin_Forearm_R"
 	Connect: "OO", "Model::Goblin_Forearm_R", "SubDeformer::Cluster Weapon_L Goblin_Forearm_R"
 	Connect: "OO", "Model::Goblin_Forearm_R", "SubDeformer::Cluster Goblin Goblin_Forearm_R"
 	Connect: "OO", "Model::Goblin_Forearm_R", "SubDeformer::Cluster Weapon_R Goblin_Forearm_R"
-	Connect: "OO", "Model::Goblin_Forearm_R", "SubDeformer::Cluster Paddle Goblin_Forearm_R"
+	Connect: "OO", "Model::Goblin_LowerArm_R", "SubDeformer::Cluster Paddle Goblin_LowerArm_R"
 	Connect: "OO", "Model::Goblin_LowerArm_R", "SubDeformer::Cluster Weapon_L Goblin_LowerArm_R"
 	Connect: "OO", "Model::Goblin_LowerArm_R", "SubDeformer::Cluster Goblin Goblin_LowerArm_R"
 	Connect: "OO", "Model::Goblin_LowerArm_R", "SubDeformer::Cluster Weapon_R Goblin_LowerArm_R"
-	Connect: "OO", "Model::Goblin_LowerArm_R", "SubDeformer::Cluster Paddle Goblin_LowerArm_R"
+	Connect: "OO", "Model::Goblin_Palm_R", "SubDeformer::Cluster Paddle Goblin_Palm_R"
 	Connect: "OO", "Model::Goblin_Palm_R", "SubDeformer::Cluster Weapon_L Goblin_Palm_R"
 	Connect: "OO", "Model::Goblin_Palm_R", "SubDeformer::Cluster Goblin Goblin_Palm_R"
 	Connect: "OO", "Model::Goblin_Palm_R", "SubDeformer::Cluster Weapon_R Goblin_Palm_R"
-	Connect: "OO", "Model::Goblin_Palm_R", "SubDeformer::Cluster Paddle Goblin_Palm_R"
+	Connect: "OO", "Model::Goblin_Pinky_R_01", "SubDeformer::Cluster Paddle Goblin_Pinky_R_01"
 	Connect: "OO", "Model::Goblin_Pinky_R_01", "SubDeformer::Cluster Weapon_L Goblin_Pinky_R_01"
 	Connect: "OO", "Model::Goblin_Pinky_R_01", "SubDeformer::Cluster Goblin Goblin_Pinky_R_01"
 	Connect: "OO", "Model::Goblin_Pinky_R_01", "SubDeformer::Cluster Weapon_R Goblin_Pinky_R_01"
-	Connect: "OO", "Model::Goblin_Pinky_R_01", "SubDeformer::Cluster Paddle Goblin_Pinky_R_01"
+	Connect: "OO", "Model::Goblin_Pinky_R_02", "SubDeformer::Cluster Paddle Goblin_Pinky_R_02"
 	Connect: "OO", "Model::Goblin_Pinky_R_02", "SubDeformer::Cluster Weapon_L Goblin_Pinky_R_02"
 	Connect: "OO", "Model::Goblin_Pinky_R_02", "SubDeformer::Cluster Goblin Goblin_Pinky_R_02"
 	Connect: "OO", "Model::Goblin_Pinky_R_02", "SubDeformer::Cluster Weapon_R Goblin_Pinky_R_02"
-	Connect: "OO", "Model::Goblin_Pinky_R_02", "SubDeformer::Cluster Paddle Goblin_Pinky_R_02"
+	Connect: "OO", "Model::Goblin_Pinky_R_03", "SubDeformer::Cluster Paddle Goblin_Pinky_R_03"
 	Connect: "OO", "Model::Goblin_Pinky_R_03", "SubDeformer::Cluster Weapon_L Goblin_Pinky_R_03"
 	Connect: "OO", "Model::Goblin_Pinky_R_03", "SubDeformer::Cluster Goblin Goblin_Pinky_R_03"
 	Connect: "OO", "Model::Goblin_Pinky_R_03", "SubDeformer::Cluster Weapon_R Goblin_Pinky_R_03"
-	Connect: "OO", "Model::Goblin_Pinky_R_03", "SubDeformer::Cluster Paddle Goblin_Pinky_R_03"
+	Connect: "OO", "Model::Goblin_RingFinger_R_01", "SubDeformer::Cluster Paddle Goblin_RingFinger_R_01"
 	Connect: "OO", "Model::Goblin_RingFinger_R_01", "SubDeformer::Cluster Weapon_L Goblin_RingFinger_R_01"
 	Connect: "OO", "Model::Goblin_RingFinger_R_01", "SubDeformer::Cluster Goblin Goblin_RingFinger_R_01"
 	Connect: "OO", "Model::Goblin_RingFinger_R_01", "SubDeformer::Cluster Weapon_R Goblin_RingFinger_R_01"
-	Connect: "OO", "Model::Goblin_RingFinger_R_01", "SubDeformer::Cluster Paddle Goblin_RingFinger_R_01"
+	Connect: "OO", "Model::Goblin_RingFinger_R_02", "SubDeformer::Cluster Paddle Goblin_RingFinger_R_02"
 	Connect: "OO", "Model::Goblin_RingFinger_R_02", "SubDeformer::Cluster Weapon_L Goblin_RingFinger_R_02"
 	Connect: "OO", "Model::Goblin_RingFinger_R_02", "SubDeformer::Cluster Goblin Goblin_RingFinger_R_02"
 	Connect: "OO", "Model::Goblin_RingFinger_R_02", "SubDeformer::Cluster Weapon_R Goblin_RingFinger_R_02"
-	Connect: "OO", "Model::Goblin_RingFinger_R_02", "SubDeformer::Cluster Paddle Goblin_RingFinger_R_02"
+	Connect: "OO", "Model::Goblin_RingFinger_R_03", "SubDeformer::Cluster Paddle Goblin_RingFinger_R_03"
 	Connect: "OO", "Model::Goblin_RingFinger_R_03", "SubDeformer::Cluster Weapon_L Goblin_RingFinger_R_03"
 	Connect: "OO", "Model::Goblin_RingFinger_R_03", "SubDeformer::Cluster Goblin Goblin_RingFinger_R_03"
 	Connect: "OO", "Model::Goblin_RingFinger_R_03", "SubDeformer::Cluster Weapon_R Goblin_RingFinger_R_03"
-	Connect: "OO", "Model::Goblin_RingFinger_R_03", "SubDeformer::Cluster Paddle Goblin_RingFinger_R_03"
+	Connect: "OO", "Model::Goblin_MiddleFinger_R_01", "SubDeformer::Cluster Paddle Goblin_MiddleFinger_R_01"
 	Connect: "OO", "Model::Goblin_MiddleFinger_R_01", "SubDeformer::Cluster Weapon_L Goblin_MiddleFinger_R_01"
 	Connect: "OO", "Model::Goblin_MiddleFinger_R_01", "SubDeformer::Cluster Goblin Goblin_MiddleFinger_R_01"
 	Connect: "OO", "Model::Goblin_MiddleFinger_R_01", "SubDeformer::Cluster Weapon_R Goblin_MiddleFinger_R_01"
-	Connect: "OO", "Model::Goblin_MiddleFinger_R_01", "SubDeformer::Cluster Paddle Goblin_MiddleFinger_R_01"
+	Connect: "OO", "Model::Goblin_MiddleFinger_R_02", "SubDeformer::Cluster Paddle Goblin_MiddleFinger_R_02"
 	Connect: "OO", "Model::Goblin_MiddleFinger_R_02", "SubDeformer::Cluster Weapon_L Goblin_MiddleFinger_R_02"
 	Connect: "OO", "Model::Goblin_MiddleFinger_R_02", "SubDeformer::Cluster Goblin Goblin_MiddleFinger_R_02"
 	Connect: "OO", "Model::Goblin_MiddleFinger_R_02", "SubDeformer::Cluster Weapon_R Goblin_MiddleFinger_R_02"
-	Connect: "OO", "Model::Goblin_MiddleFinger_R_02", "SubDeformer::Cluster Paddle Goblin_MiddleFinger_R_02"
+	Connect: "OO", "Model::Goblin_MiddleFinger_R_03", "SubDeformer::Cluster Paddle Goblin_MiddleFinger_R_03"
 	Connect: "OO", "Model::Goblin_MiddleFinger_R_03", "SubDeformer::Cluster Weapon_L Goblin_MiddleFinger_R_03"
 	Connect: "OO", "Model::Goblin_MiddleFinger_R_03", "SubDeformer::Cluster Goblin Goblin_MiddleFinger_R_03"
 	Connect: "OO", "Model::Goblin_MiddleFinger_R_03", "SubDeformer::Cluster Weapon_R Goblin_MiddleFinger_R_03"
-	Connect: "OO", "Model::Goblin_MiddleFinger_R_03", "SubDeformer::Cluster Paddle Goblin_MiddleFinger_R_03"
+	Connect: "OO", "Model::Goblin_IndexFinger_R_01", "SubDeformer::Cluster Paddle Goblin_IndexFinger_R_01"
 	Connect: "OO", "Model::Goblin_IndexFinger_R_01", "SubDeformer::Cluster Weapon_L Goblin_IndexFinger_R_01"
 	Connect: "OO", "Model::Goblin_IndexFinger_R_01", "SubDeformer::Cluster Goblin Goblin_IndexFinger_R_01"
 	Connect: "OO", "Model::Goblin_IndexFinger_R_01", "SubDeformer::Cluster Weapon_R Goblin_IndexFinger_R_01"
-	Connect: "OO", "Model::Goblin_IndexFinger_R_01", "SubDeformer::Cluster Paddle Goblin_IndexFinger_R_01"
+	Connect: "OO", "Model::Goblin_IndexFinger_R_02", "SubDeformer::Cluster Paddle Goblin_IndexFinger_R_02"
 	Connect: "OO", "Model::Goblin_IndexFinger_R_02", "SubDeformer::Cluster Weapon_L Goblin_IndexFinger_R_02"
 	Connect: "OO", "Model::Goblin_IndexFinger_R_02", "SubDeformer::Cluster Goblin Goblin_IndexFinger_R_02"
 	Connect: "OO", "Model::Goblin_IndexFinger_R_02", "SubDeformer::Cluster Weapon_R Goblin_IndexFinger_R_02"
-	Connect: "OO", "Model::Goblin_IndexFinger_R_02", "SubDeformer::Cluster Paddle Goblin_IndexFinger_R_02"
+	Connect: "OO", "Model::Goblin_IndexFinger_R_03", "SubDeformer::Cluster Paddle Goblin_IndexFinger_R_03"
 	Connect: "OO", "Model::Goblin_IndexFinger_R_03", "SubDeformer::Cluster Weapon_L Goblin_IndexFinger_R_03"
 	Connect: "OO", "Model::Goblin_IndexFinger_R_03", "SubDeformer::Cluster Goblin Goblin_IndexFinger_R_03"
 	Connect: "OO", "Model::Goblin_IndexFinger_R_03", "SubDeformer::Cluster Weapon_R Goblin_IndexFinger_R_03"
-	Connect: "OO", "Model::Goblin_IndexFinger_R_03", "SubDeformer::Cluster Paddle Goblin_IndexFinger_R_03"
+	Connect: "OO", "Model::Goblin_Thumb_R_01", "SubDeformer::Cluster Paddle Goblin_Thumb_R_01"
 	Connect: "OO", "Model::Goblin_Thumb_R_01", "SubDeformer::Cluster Weapon_L Goblin_Thumb_R_01"
 	Connect: "OO", "Model::Goblin_Thumb_R_01", "SubDeformer::Cluster Goblin Goblin_Thumb_R_01"
 	Connect: "OO", "Model::Goblin_Thumb_R_01", "SubDeformer::Cluster Weapon_R Goblin_Thumb_R_01"
-	Connect: "OO", "Model::Goblin_Thumb_R_01", "SubDeformer::Cluster Paddle Goblin_Thumb_R_01"
+	Connect: "OO", "Model::Goblin_Thumb_R_02", "SubDeformer::Cluster Paddle Goblin_Thumb_R_02"
 	Connect: "OO", "Model::Goblin_Thumb_R_02", "SubDeformer::Cluster Weapon_L Goblin_Thumb_R_02"
 	Connect: "OO", "Model::Goblin_Thumb_R_02", "SubDeformer::Cluster Goblin Goblin_Thumb_R_02"
 	Connect: "OO", "Model::Goblin_Thumb_R_02", "SubDeformer::Cluster Weapon_R Goblin_Thumb_R_02"
-	Connect: "OO", "Model::Goblin_Thumb_R_02", "SubDeformer::Cluster Paddle Goblin_Thumb_R_02"
+	Connect: "OO", "Model::Goblin_Thumb_R_03", "SubDeformer::Cluster Paddle Goblin_Thumb_R_03"
 	Connect: "OO", "Model::Goblin_Thumb_R_03", "SubDeformer::Cluster Weapon_L Goblin_Thumb_R_03"
 	Connect: "OO", "Model::Goblin_Thumb_R_03", "SubDeformer::Cluster Goblin Goblin_Thumb_R_03"
 	Connect: "OO", "Model::Goblin_Thumb_R_03", "SubDeformer::Cluster Weapon_R Goblin_Thumb_R_03"
-	Connect: "OO", "Model::Goblin_Thumb_R_03", "SubDeformer::Cluster Paddle Goblin_Thumb_R_03"
+	Connect: "OO", "Model::WeaponHolder_R", "SubDeformer::Cluster Paddle WeaponHolder_R"
 	Connect: "OO", "Model::WeaponHolder_R", "SubDeformer::Cluster Weapon_L WeaponHolder_R"
 	Connect: "OO", "Model::WeaponHolder_R", "SubDeformer::Cluster Goblin WeaponHolder_R"
 	Connect: "OO", "Model::WeaponHolder_R", "SubDeformer::Cluster Weapon_R WeaponHolder_R"
-	Connect: "OO", "Model::WeaponHolder_R", "SubDeformer::Cluster Paddle WeaponHolder_R"
+	Connect: "OO", "Model::WeaponHolder_R_Blade", "SubDeformer::Cluster Paddle WeaponHolder_R_Blade"
 	Connect: "OO", "Model::WeaponHolder_R_Blade", "SubDeformer::Cluster Weapon_L WeaponHolder_R_Blade"
 	Connect: "OO", "Model::WeaponHolder_R_Blade", "SubDeformer::Cluster Goblin WeaponHolder_R_Blade"
 	Connect: "OO", "Model::WeaponHolder_R_Blade", "SubDeformer::Cluster Weapon_R WeaponHolder_R_Blade"
-	Connect: "OO", "Model::WeaponHolder_R_Blade", "SubDeformer::Cluster Paddle WeaponHolder_R_Blade"
+	Connect: "OO", "Model::Goblin_Bottom", "SubDeformer::Cluster Paddle Goblin_Bottom"
 	Connect: "OO", "Model::Goblin_Bottom", "SubDeformer::Cluster Weapon_L Goblin_Bottom"
 	Connect: "OO", "Model::Goblin_Bottom", "SubDeformer::Cluster Goblin Goblin_Bottom"
 	Connect: "OO", "Model::Goblin_Bottom", "SubDeformer::Cluster Weapon_R Goblin_Bottom"
-	Connect: "OO", "Model::Goblin_Bottom", "SubDeformer::Cluster Paddle Goblin_Bottom"
+	Connect: "OO", "Model::Goblin_Thigh_R", "SubDeformer::Cluster Paddle Goblin_Thigh_R"
 	Connect: "OO", "Model::Goblin_Thigh_R", "SubDeformer::Cluster Weapon_L Goblin_Thigh_R"
 	Connect: "OO", "Model::Goblin_Thigh_R", "SubDeformer::Cluster Goblin Goblin_Thigh_R"
 	Connect: "OO", "Model::Goblin_Thigh_R", "SubDeformer::Cluster Weapon_R Goblin_Thigh_R"
-	Connect: "OO", "Model::Goblin_Thigh_R", "SubDeformer::Cluster Paddle Goblin_Thigh_R"
+	Connect: "OO", "Model::Goblin_Shin_R", "SubDeformer::Cluster Paddle Goblin_Shin_R"
 	Connect: "OO", "Model::Goblin_Shin_R", "SubDeformer::Cluster Weapon_L Goblin_Shin_R"
 	Connect: "OO", "Model::Goblin_Shin_R", "SubDeformer::Cluster Goblin Goblin_Shin_R"
 	Connect: "OO", "Model::Goblin_Shin_R", "SubDeformer::Cluster Weapon_R Goblin_Shin_R"
-	Connect: "OO", "Model::Goblin_Shin_R", "SubDeformer::Cluster Paddle Goblin_Shin_R"
+	Connect: "OO", "Model::Goblin_Foot_R", "SubDeformer::Cluster Paddle Goblin_Foot_R"
 	Connect: "OO", "Model::Goblin_Foot_R", "SubDeformer::Cluster Weapon_L Goblin_Foot_R"
 	Connect: "OO", "Model::Goblin_Foot_R", "SubDeformer::Cluster Goblin Goblin_Foot_R"
 	Connect: "OO", "Model::Goblin_Foot_R", "SubDeformer::Cluster Weapon_R Goblin_Foot_R"
-	Connect: "OO", "Model::Goblin_Foot_R", "SubDeformer::Cluster Paddle Goblin_Foot_R"
+	Connect: "OO", "Model::Goblin_Toes_R", "SubDeformer::Cluster Paddle Goblin_Toes_R"
 	Connect: "OO", "Model::Goblin_Toes_R", "SubDeformer::Cluster Weapon_L Goblin_Toes_R"
 	Connect: "OO", "Model::Goblin_Toes_R", "SubDeformer::Cluster Goblin Goblin_Toes_R"
 	Connect: "OO", "Model::Goblin_Toes_R", "SubDeformer::Cluster Weapon_R Goblin_Toes_R"
-	Connect: "OO", "Model::Goblin_Toes_R", "SubDeformer::Cluster Paddle Goblin_Toes_R"
+	Connect: "OO", "Model::Goblin_Thigh_L", "SubDeformer::Cluster Paddle Goblin_Thigh_L"
 	Connect: "OO", "Model::Goblin_Thigh_L", "SubDeformer::Cluster Weapon_L Goblin_Thigh_L"
 	Connect: "OO", "Model::Goblin_Thigh_L", "SubDeformer::Cluster Goblin Goblin_Thigh_L"
 	Connect: "OO", "Model::Goblin_Thigh_L", "SubDeformer::Cluster Weapon_R Goblin_Thigh_L"
-	Connect: "OO", "Model::Goblin_Thigh_L", "SubDeformer::Cluster Paddle Goblin_Thigh_L"
+	Connect: "OO", "Model::Goblin_Shin_L", "SubDeformer::Cluster Paddle Goblin_Shin_L"
 	Connect: "OO", "Model::Goblin_Shin_L", "SubDeformer::Cluster Weapon_L Goblin_Shin_L"
 	Connect: "OO", "Model::Goblin_Shin_L", "SubDeformer::Cluster Goblin Goblin_Shin_L"
 	Connect: "OO", "Model::Goblin_Shin_L", "SubDeformer::Cluster Weapon_R Goblin_Shin_L"
-	Connect: "OO", "Model::Goblin_Shin_L", "SubDeformer::Cluster Paddle Goblin_Shin_L"
+	Connect: "OO", "Model::Goblin_Foot_L", "SubDeformer::Cluster Paddle Goblin_Foot_L"
 	Connect: "OO", "Model::Goblin_Foot_L", "SubDeformer::Cluster Weapon_L Goblin_Foot_L"
 	Connect: "OO", "Model::Goblin_Foot_L", "SubDeformer::Cluster Goblin Goblin_Foot_L"
 	Connect: "OO", "Model::Goblin_Foot_L", "SubDeformer::Cluster Weapon_R Goblin_Foot_L"
-	Connect: "OO", "Model::Goblin_Foot_L", "SubDeformer::Cluster Paddle Goblin_Foot_L"
+	Connect: "OO", "Model::Goblin_Toes_L", "SubDeformer::Cluster Paddle Goblin_Toes_L"
 	Connect: "OO", "Model::Goblin_Toes_L", "SubDeformer::Cluster Weapon_L Goblin_Toes_L"
 	Connect: "OO", "Model::Goblin_Toes_L", "SubDeformer::Cluster Goblin Goblin_Toes_L"
 	Connect: "OO", "Model::Goblin_Toes_L", "SubDeformer::Cluster Weapon_R Goblin_Toes_L"
-	Connect: "OO", "Model::Goblin_Toes_L", "SubDeformer::Cluster Paddle Goblin_Toes_L"
+	Connect: "OO", "Model::Weapon_R_0", "SubDeformer::Cluster Paddle Weapon_R_0"
 	Connect: "OO", "Model::Weapon_R_0", "SubDeformer::Cluster Weapon_L Weapon_R_0"
 	Connect: "OO", "Model::Weapon_R_0", "SubDeformer::Cluster Goblin Weapon_R_0"
 	Connect: "OO", "Model::Weapon_R_0", "SubDeformer::Cluster Weapon_R Weapon_R_0"
-	Connect: "OO", "Model::Weapon_R_0", "SubDeformer::Cluster Paddle Weapon_R_0"
+	Connect: "OO", "Model::Weapon_L_0", "SubDeformer::Cluster Paddle Weapon_L_0"
 	Connect: "OO", "Model::Weapon_L_0", "SubDeformer::Cluster Weapon_L Weapon_L_0"
 	Connect: "OO", "Model::Weapon_L_0", "SubDeformer::Cluster Goblin Weapon_L_0"
 	Connect: "OO", "Model::Weapon_L_0", "SubDeformer::Cluster Weapon_R Weapon_L_0"
-	Connect: "OO", "Model::Weapon_L_0", "SubDeformer::Cluster Paddle Weapon_L_0"
+	Connect: "OO", "Model::Laddle_Lower", "SubDeformer::Cluster Paddle Laddle_Lower"
 	Connect: "OO", "Model::Laddle_Lower", "SubDeformer::Cluster Weapon_L Laddle_Lower"
 	Connect: "OO", "Model::Laddle_Lower", "SubDeformer::Cluster Goblin Laddle_Lower"
 	Connect: "OO", "Model::Laddle_Lower", "SubDeformer::Cluster Weapon_R Laddle_Lower"
-	Connect: "OO", "Model::Laddle_Lower", "SubDeformer::Cluster Paddle Laddle_Lower"
 	Connect: "OO", "Model::Goblin_Abdomen", "Model::Goblin_Armature"
 	Connect: "OO", "Model::Goblin_Chest", "Model::Goblin_Abdomen"
 	Connect: "OO", "Model::Goblin_Neck", "Model::Goblin_Chest"
