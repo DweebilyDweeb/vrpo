@@ -5,11 +5,11 @@ using UnityEngine;
 
 public class Gun : MonoBehaviour 
 {
-    private ViveController_Manager controller;
+    private ViveControllerManager controller;
 	// Use this for initialization
 	void Start() 
     {
-        controller = gameObject.GetComponentInParent<ViveController_Manager>();
+        controller = gameObject.GetComponentInParent<ViveControllerManager>();
 	}
 	
 	// Update is called once per frame
