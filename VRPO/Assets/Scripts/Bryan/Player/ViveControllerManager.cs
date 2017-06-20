@@ -168,7 +168,6 @@ public class ViveControllerManager : MonoBehaviour
                     Instantiate(Resources.Load<GameObject>("Prefabs/Animals/Seagull"));
                     break;
                 case "Goblin":
-                    Debug.Log("Hit goblin");
                     collide.gameObject.GetComponent<Goblin>().TriggerDeath();
                     break;
             }
