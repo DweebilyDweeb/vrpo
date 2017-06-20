@@ -24,6 +24,9 @@ public class Sword : MonoBehaviour
             case "Cannonball":
                 collision.gameObject.GetComponent<Cannonball>().KillCannonball();
                 break;
+            case "Goblin":
+                collision.gameObject.GetComponent<Goblin>().TriggerDeath();
+                break;
         }
     }
 }
