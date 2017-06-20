@@ -23,4 +23,10 @@ public class Goblin : MonoBehaviour
         anim.SetTrigger("Death");
         Debug.Log("Killed goblin");
     }
+
+    public IEnumerator DespawnGoblin()
+    {
+        yield return new WaitForSeconds(1.0f);
+        Destroy(gameObject);
+    }
 }
