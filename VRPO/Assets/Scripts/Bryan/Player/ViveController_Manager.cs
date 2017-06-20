@@ -43,8 +43,13 @@ public class ViveController_Manager : MonoBehaviour
             gameObject.GetComponent<SteamVR_LaserPointer>().holder.SetActive(true);
         #endregion
 
-        if(controller.device.GetPressDown(controller.menuButton))
-            InitMode();
+        if (controller.device.GetPressDown(controller.menuButton))
+        {
+            if (Mode == "Gun")
+                LoadMode("Sword");
+            else if (Mode == "Sword")
+                LoadMode("Gun");
+        }
 
         switch (Mode)
         {
@@ -125,19 +130,6 @@ public class ViveController_Manager : MonoBehaviour
         }
     }
 
-    private void InitMode()
-    {
-        switch (Mode)
-        {
-            case "Gun": // In gun mode, switch to sword
-                LoadMode("Sword");
-                break;
-            case "Sword": // In sword mode, switch to gun
-                LoadMode("Gun");
-                break;
-        }
-    }
-
     private void LoadMode(string mode)
     {
         switch(mode)
@@ -184,8 +176,10 @@ public class ViveController_Manager : MonoBehaviour
         audio.Play();
         //anim.SetTrigger("Fire");
         RaycastInteraction();
-        GameObject flintlockSmoke = Instantiate(Resources.Load<GameObject>("Prefabs/Particle Effects/FlintlockSmoke"), flintlock.transform.Find("SmokeLocation").transform.position, flintlock.transform.Find("SmokeLocation").transform.rotation, flintlock.transform.Find("SmokeLocation"));
+        GameObject flintlockSmoke = Instantiate(Resources.Load<GameObject>("Prefabs/Particle Effects/FlintlockSmoke"));//, flintlock.transform.Find("SmokeLocation").transform.position, flintlock.transform.Find("SmokeLocation").transform.rotation, flintlock.transform.Find("SmokeLocation"));
+        flintlockSmoke.GetComponent<ParticleEffects>().Init(flintlock.transform.Find("SmokeLocation").transform, flintlock.transform.Find("SmokeLocation").transform);
         
-        GameObject muzzleFlash = Instantiate(Resources.Load<GameObject>("Prefabs/Particle Effects/MuzzleFlash"), flintlock.transform.Find("MuzzleFlashLocation").transform.position, new Quaternion(0,0,0,0), flintlock.transform.Find("MuzzleFlashLocation"));
+        GameObject muzzleFlash = Instantiate(Resources.Load<GameObject>("Prefabs/Particle Effects/MuzzleFlash"));//, flintlock.transform.Find("MuzzleFlashLocation").transform.position, new Quaternion(0,0,0,0), flintlock.transform.Find("MuzzleFlashLocation"));
+        muzzleFlash.GetComponent<ParticleEffects>().Init(flintlock.transform.Find("MuzzleFlashLocation").transform, flintlock.transform.Find("MuzzleFlashLocation").transform);
     }
 }

@@ -73,7 +73,7 @@ public class GullRoam : MonoBehaviour {
 
     void MovementOfFish()
     {
-        transform.Translate(-Vector3.up * Time.deltaTime * fishSpeed * 10, Space.Self);
+        transform.Translate(-Vector3.up * Time.deltaTime * fishSpeed * 5, Space.Self);
     }
 
     void RotationOfFish()
