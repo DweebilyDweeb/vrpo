@@ -29,7 +29,7 @@ public class Piranha : MonoBehaviour
     {
         distance = new Vector3(target.transform.position.x - transform.position.x, 0, target.transform.position.z - transform.position.z).magnitude;
         //Debug.Log("distance from boat: " + distance);
-        if (distance < 12 && !inJumpRange && !hasJumped)
+        if (distance < 14 && !inJumpRange && !hasJumped)
             inJumpRange = true;
 
         if(inJumpRange)
@@ -37,12 +37,12 @@ public class Piranha : MonoBehaviour
             if (!hasJumped)
             {
                 hasJumped = true;
-                transform.localRotation = Quaternion.Lerp(transform.localRotation, Quaternion.Euler(-45, transform.localEulerAngles.y, 0), 1.0f);
+                transform.localRotation = Quaternion.Lerp(transform.localRotation, Quaternion.Euler(-75, transform.localEulerAngles.y, 0), 1.0f);
             }
             else
             {
                 Vector3 newRot = transform.localEulerAngles;
-                newRot.x += Time.deltaTime * (velocity * 4);
+                newRot.x += Time.deltaTime * (velocity * 4.5f);
                 transform.localRotation = Quaternion.Euler(newRot);
             }
         }
