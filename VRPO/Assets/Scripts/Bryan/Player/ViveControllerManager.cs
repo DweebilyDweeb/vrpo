@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ViveController_Manager : MonoBehaviour 
+public class ViveControllerManager : MonoBehaviour 
 {
     private ViveController controller;
     public GameObject flintlock, cutlass;
@@ -166,6 +166,11 @@ public class ViveController_Manager : MonoBehaviour
                     GameObject.FindGameObjectWithTag("Player").GetComponent<Player>().AddHP(3);
                     Destroy(collide.gameObject);
                     Instantiate(Resources.Load<GameObject>("Prefabs/Animals/Seagull"));
+                    break;
+                case "Monster":
+                    Animator mobAnim = collide.gameObject.GetComponent<Animator>();
+                    try { mobAnim.SetTrigger("Death"); }
+                    catch (Exception e) { Debug.LogError("Could not find Trigger 'Death' in " + collide.name + ", Exception: " + e); }
                     break;
             }
         }
