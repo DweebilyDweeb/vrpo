@@ -1881,7 +1881,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1989914493435028, guid: 0e625c621cf5ab440bd1085caba3e066, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4164483585366058, guid: 0e625c621cf5ab440bd1085caba3e066, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -3887,6 +3887,11 @@ Prefab:
     - target: {fileID: 4263010660895932, guid: 158eea578ca9c8446b4cdf670ec3cb6c, type: 2}
       propertyPath: m_RootOrder
       value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 114100060793687056, guid: 158eea578ca9c8446b4cdf670ec3cb6c,
+        type: 2}
+      propertyPath: spawnRandomness
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 158eea578ca9c8446b4cdf670ec3cb6c, type: 2}
