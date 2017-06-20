@@ -8,20 +8,25 @@ public class BoatScriptedMovement : MonoBehaviour {
 
     bool IsLeftTurn;
     bool IsRightTurn;
+    bool IsRotationAccelerate;
+    bool IsRotationDecelerate;
 	// Use this for initialization
 	void Start ()
     {
-        boatMovementSpeed = 10;
+        boatMovementSpeed = 8;
         boatRotateSpeed = 0;
         IsLeftTurn = false;
         IsRightTurn = false;
-	}
+        IsRotationAccelerate = false;
+        IsRotationDecelerate = false;
+    }
 	
 	// Update is called once per frame
 	void Update ()
     {
         MovementOfBoat();
         RotationOfBoat();
+        Debug.Log(boatRotateSpeed);
     }
     
     void MovementOfBoat()
@@ -34,20 +39,35 @@ public class BoatScriptedMovement : MonoBehaviour {
         if (IsLeftTurn == true)
         {
             transform.Rotate(-Vector3.up * Time.deltaTime * boatRotateSpeed, Space.Self);
-            if (boatRotateSpeed < 15)
-            {
-                boatRotateSpeed += Time.deltaTime * 3;
-                Debug.Log(boatRotateSpeed);
-            }
         }
         if (IsRightTurn == true)
         {
             transform.Rotate(Vector3.up * Time.deltaTime * boatRotateSpeed, Space.Self);
-            if (boatRotateSpeed < 15)
-            {
-                boatRotateSpeed += Time.deltaTime * 3;
-                Debug.Log(boatRotateSpeed);
-            }
+        }
+        if (IsRotationDecelerate == true)
+        {
+            DecelerationOfRotation();
+        }
+        if (IsRotationAccelerate == true)
+        {
+            AccelerationOfRotation();
+        }
+    }
+    
+    void AccelerationOfRotation()
+    {
+        if (boatRotateSpeed < 15)
+        {
+            boatRotateSpeed += Time.deltaTime * 3;
+        }
+
+    }
+    
+    void DecelerationOfRotation()
+    {
+        if (boatRotateSpeed > 0)
+        {
+            boatRotateSpeed -= Time.deltaTime * 5;
         }
     }
 
@@ -56,10 +76,14 @@ public class BoatScriptedMovement : MonoBehaviour {
         if (col.gameObject.name == "LeftTurn")
         {
             IsLeftTurn = true;
+            IsRotationAccelerate = true;
+            IsRotationDecelerate = false;
         }
         if (col.gameObject.name == "RightTurn")
         {
             IsRightTurn = true;
+            IsRotationAccelerate = true;
+            IsRotationDecelerate = false;
         }
     }
 
@@ -68,12 +92,14 @@ public class BoatScriptedMovement : MonoBehaviour {
         if (col.gameObject.name == "LeftTurn")
         {
             IsLeftTurn = false;
-            boatRotateSpeed = 0;
+            IsRotationDecelerate = true;
+            IsRotationAccelerate = false;
         }
         if (col.gameObject.name == "RightTurn")
         {
             IsRightTurn = false;
-            boatRotateSpeed = 0;
+            IsRotationDecelerate = true;
+            IsRotationAccelerate = false;
         }
     }
 }
