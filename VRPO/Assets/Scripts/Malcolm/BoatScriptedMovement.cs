@@ -26,7 +26,6 @@ public class BoatScriptedMovement : MonoBehaviour {
     {
         MovementOfBoat();
         RotationOfBoat();
-        Debug.Log(boatRotateSpeed);
     }
     
     void MovementOfBoat()
