@@ -167,10 +167,14 @@ public class ViveControllerManager : MonoBehaviour
                     Destroy(collide.gameObject);
                     Instantiate(Resources.Load<GameObject>("Prefabs/Animals/Seagull"));
                     break;
-                case "Monster":
-                    Animator mobAnim = collide.gameObject.GetComponent<Animator>();
-                    try { mobAnim.SetTrigger("Death"); }
-                    catch (Exception e) { Debug.LogError("Could not find Trigger 'Death' in " + collide.name + ", Exception: " + e); }
+                case "Goblin":
+                    try
+                    {
+                        Animator mobAnim = collide.gameObject.GetComponent<Animator>();
+                        try { mobAnim.SetTrigger("Death"); }
+                        catch (Exception e) { Debug.LogError("Could not find Trigger 'Death' in " + collide.name + ", Exception: " + e); }
+                    }
+                    catch (Exception e) { Debug.LogError("Unable to find Animator component in " + collide.name + ", Exception: " + e); }                    
                     break;
             }
         }
