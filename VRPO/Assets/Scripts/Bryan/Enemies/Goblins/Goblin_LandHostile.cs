@@ -48,7 +48,7 @@ public class Goblin_LandHostile : Goblin
         //Debug.Log("Distance: " + distance);
         float height = target.transform.position.y - transform.position.y;
         
-        GameObject projectile = Instantiate(Resources.Load<GameObject>("Prefabs/Objects/Dagger"));
+        GameObject projectile = Instantiate(Resources.Load<GameObject>("Prefabs/Enemies/Dagger"));
 
         // Add velocity to cannonball
         #region Old Method
@@ -83,6 +83,6 @@ public class Goblin_LandHostile : Goblin
         Matrix4x4 rotationMatrix = Matrix4x4.TRS(transform.position, transform.rotation, transform.lossyScale);
         Gizmos.matrix = rotationMatrix;
         Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(Vector3.zero, detectionRange);
+        Gizmos.DrawWireSphere(Vector3.zero, (detectionRange/transform.localScale.x));
     }
 }
