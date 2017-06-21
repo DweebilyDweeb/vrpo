@@ -1,0 +1,4774 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Goblin_Paddler
+  serializedVersion: 6
+  m_Legacy: 0
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -4.3297806e-17, y: 0.7071068, z: 0.7071068, w: -4.3297806e-17}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -4.3297806e-17, y: 0.7071068, z: 0.7071068, w: -4.3297806e-17}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Cube
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0, y: 0, z: -0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0, y: 0, z: -0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.65170646, y: 0.39246315, z: -0.62658846, w: 0.16922864}
+        inSlope: {x: -0.11772036, y: 0.039017197, z: -0.06738424, w: 0.11176496}
+        outSlope: {x: -0.11772036, y: 0.039017197, z: -0.06738424, w: 0.11176496}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.083333336
+        value: {x: 0.60227096, y: 0.40829274, z: -0.65049654, w: 0.21776359}
+        inSlope: {x: -1.0769138, y: 0.32987857, z: -0.42325073, w: 1.0865471}
+        outSlope: {x: -1.0769138, y: 0.32987857, z: -0.42325073, w: 1.0865471}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 0.5207059, y: 0.43335915, z: -0.66666996, w: 0.31083182}
+        inSlope: {x: -0.622834, y: 0.21212609, z: 0.13503672, w: 1.0368992}
+        outSlope: {x: -0.622834, y: 0.21212609, z: 0.13503672, w: 1.0368992}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.25
+        value: {x: 0.4971108, y: 0.433109, z: -0.60997975, w: 0.43957043}
+        inSlope: {x: -0.027434558, y: -0.21568714, z: 1.069209, w: 1.73173}
+        outSlope: {x: -0.027434558, y: -0.21568714, z: 1.069209, w: 1.73173}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.33333334
+        value: {x: 0.49907178, y: 0.4183953, z: -0.5533386, w: 0.519316}
+        inSlope: {x: 0.037738662, y: -0.022426866, z: 0.057370752, w: 0.043296352}
+        outSlope: {x: 0.037738662, y: -0.022426866, z: 0.057370752, w: 0.043296352}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5
+        value: {x: 0.58663535, y: 0.4133537, z: -0.60149455, w: 0.35100138}
+        inSlope: {x: 0.76155543, y: -0.12938963, z: -0.36547574, w: -1.7467272}
+        outSlope: {x: 0.76155543, y: -0.12938963, z: -0.36547574, w: -1.7467272}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.65000004
+        value: {x: 0.65113634, y: 0.39276963, z: -0.62644553, w: 0.17122932}
+        inSlope: {x: 0.06941206, y: -0.036706958, z: -0.017772334, w: -0.24159664}
+        outSlope: {x: 0.06941206, y: -0.036706958, z: -0.017772334, w: -0.24159664}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6666667
+        value: {x: 0.65207, y: 0.39227575, z: -0.6266845, w: 0.1679792}
+        inSlope: {x: 0.043385416, y: -0.02296308, z: -0.011096396, w: -0.15107235}
+        outSlope: {x: 0.043385416, y: -0.02296308, z: -0.011096396, w: -0.15107235}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.95444226, y: 0.035093617, z: -0.28151047, w: -0.09252199}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.95444226, y: 0.035093617, z: -0.28151047, w: -0.09252199}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.03567948, y: -0.3276103, z: 0.05364537, w: 0.9426138}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.03567948, y: -0.3276103, z: 0.05364537, w: 0.9426138}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest/Goblin_Neck
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.14461842, y: 0.4085892, z: 0.17681657, w: 0.88367206}
+        inSlope: {x: -0.13252705, y: -0.04630029, z: -0.11571675, w: 0.022555588}
+        outSlope: {x: -0.13252705, y: -0.04630029, z: -0.11571675, w: 0.022555588}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.083333336
+        value: {x: -0.19421348, y: 0.39021516, z: 0.13281786, w: 0.89015317}
+        inSlope: {x: -0.9497079, y: -0.37317926, z: -0.8566248, w: 0.084196314}
+        outSlope: {x: -0.9497079, y: -0.37317926, z: -0.8566248, w: 0.084196314}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.20000002
+        value: {x: -0.23432775, y: 0.37369877, z: 0.09613764, w: 0.8922989}
+        inSlope: {x: 0.5078136, y: 0.217798, z: 0.47009814, w: -0.010857581}
+        outSlope: {x: 0.5078136, y: 0.217798, z: 0.47009814, w: -0.010857581}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.3166667
+        value: {x: -0.14682719, y: 0.40781754, z: 0.17488793, w: 0.884048}
+        inSlope: {x: 0.26559132, y: 0.09356346, z: 0.23243165, w: -0.043753967}
+        outSlope: {x: 0.26559132, y: 0.09356346, z: 0.23243165, w: -0.043753967}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.43333337
+        value: {x: -0.14461847, y: 0.40858918, z: 0.17681667, w: 0.883672}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6666667
+        value: {x: -0.14461845, y: 0.40858918, z: 0.17681664, w: 0.88367206}
+        inSlope: {x: 0.00000013148085, y: 0.00000010518468, z: -0.00000031555405,
+          w: 0}
+        outSlope: {x: 0.00000013148085, y: 0.00000010518468, z: -0.00000031555405,
+          w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest/Goblin_Neck/Goblin_Head
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.7437636, y: 0.0000002584985, z: 0.6684427, w: -0.00000059414634}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.7437636, y: 0.0000002584985, z: 0.6684427, w: -0.00000059414634}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest/Goblin_Neck/Goblin_Head/Bone
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.15953079, y: -0.060200047, z: 0.97757936, w: -0.123549625}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.15953079, y: -0.060200047, z: 0.97757936, w: -0.123549625}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest/Holster_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.15953083, y: 0.06020041, z: 0.9775793, w: 0.123549566}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.15953083, y: 0.06020041, z: 0.9775793, w: 0.123549566}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest/Holster_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.55852926, y: -0.28577974, z: 0.3454213, w: 0.6978962}
+        inSlope: {x: -0.11653303, y: 0.013718604, z: -0.10412156, w: -0.036417242}
+        outSlope: {x: -0.11653303, y: 0.013718604, z: -0.10412156, w: -0.036417242}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.083333336
+        value: {x: -0.60604334, y: -0.28005514, z: 0.30620039, w: 0.67861766}
+        inSlope: {x: -1.0017835, y: 0.123846516, z: -0.7576104, w: -0.50324845}
+        outSlope: {x: -1.0017835, y: 0.123846516, z: -0.7576104, w: -0.50324845}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.18333334
+        value: {x: -0.6915632, y: -0.27208102, z: 0.27202505, w: 0.61132205}
+        inSlope: {x: -0.62171793, y: -0.06045784, z: 0.38580334, w: -0.90671504}
+        outSlope: {x: -0.62171793, y: -0.06045784, z: 0.38580334, w: -0.90671504}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.26666668
+        value: {x: -0.73330694, y: -0.29016978, z: 0.3545223, w: 0.5023707}
+        inSlope: {x: -0.25513867, y: -0.24590471, z: 1.1214397, w: -1.297869}
+        outSlope: {x: -0.25513867, y: -0.24590471, z: 1.1214397, w: -1.297869}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.35000002
+        value: {x: -0.73857677, y: -0.29894373, z: 0.39531252, w: 0.45701754}
+        inSlope: {x: 0.09774153, y: -0.00040143743, z: -0.021210026, w: 0.17529586}
+        outSlope: {x: 0.09774153, y: -0.00040143743, z: -0.021210026, w: 0.17529586}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5166667
+        value: {x: -0.6415867, y: -0.29467946, z: 0.37063697, w: 0.6034558}
+        inSlope: {x: 0.9059314, y: 0.075166166, z: -0.25798717, w: 1.1593249}
+        outSlope: {x: 0.9059314, y: 0.075166166, z: -0.25798717, w: 1.1593249}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6666667
+        value: {x: -0.55852926, y: -0.28577974, z: 0.3454213, w: 0.6978962}
+        inSlope: {x: 0.034232173, y: 0.004388098, z: -0.01095147, w: 0.034672055}
+        outSlope: {x: 0.034232173, y: 0.004388098, z: -0.01095147, w: 0.034672055}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.11914132, y: -0.6875481, z: 0.1476947, w: 0.70090604}
+        inSlope: {x: -0.14027104, y: 0.09186386, z: -0.014657377, w: 0.11654376}
+        outSlope: {x: -0.14027104, y: 0.09186386, z: -0.014657377, w: 0.11654376}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.083333336
+        value: {x: 0.062104095, y: -0.64926726, z: 0.1455412, w: 0.7439172}
+        inSlope: {x: -1.1972948, y: 0.8225976, z: 0.03789781, w: 0.8089434}
+        outSlope: {x: -1.1972948, y: 0.8225976, z: 0.03789781, w: 0.8089434}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: -0.02151984, y: -0.5932729, z: 0.16791922, w: 0.7869989}
+        inSlope: {x: -0.6144242, y: 0.33645454, z: 0.5158107, w: 0.12717964}
+        outSlope: {x: -0.6144242, y: 0.33645454, z: 0.5158107, w: 0.12717964}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.33333334
+        value: {x: -0.10848131, y: -0.5557527, z: 0.25619468, w: 0.7834125}
+        inSlope: {x: 0.055292338, y: -0.023866262, z: 0.08298402, w: -0.036435127}
+        outSlope: {x: 0.055292338, y: -0.023866262, z: 0.08298402, w: -0.036435127}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5166667
+        value: {x: 0.02668566, y: -0.6396341, z: 0.19818565, w: 0.74221194}
+        inSlope: {x: 1.0854722, y: -0.615182, z: -0.56157136, w: -0.4184815}
+        outSlope: {x: 1.0854722, y: -0.615182, z: -0.56157136, w: -0.4184815}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6666667
+        value: {x: 0.11914132, y: -0.6875481, z: 0.1476947, w: 0.70090604}
+        inSlope: {x: 0.03557976, y: -0.01672806, z: -0.020498801, w: -0.018081682}
+        outSlope: {x: 0.03557976, y: -0.01672806, z: -0.020498801, w: -0.018081682}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.7188301, y: -0.45833042, z: -0.010343817, w: 0.5225988}
+        inSlope: {x: -0.035623312, y: 0.042294856, z: 0.09766816, w: -0.010174512}
+        outSlope: {x: -0.035623312, y: 0.042294856, z: 0.09766816, w: -0.010174512}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.116666675
+        value: {x: -0.7416286, y: -0.43458688, z: 0.05112064, w: 0.5084369}
+        inSlope: {x: -0.24756613, y: 0.18048944, z: 0.6160176, w: -0.26717308}
+        outSlope: {x: -0.24756613, y: 0.18048944, z: 0.6160176, w: -0.26717308}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.25
+        value: {x: -0.7709709, y: -0.44780704, z: 0.07319631, w: 0.44689494}
+        inSlope: {x: -0.28291583, y: -0.18242331, z: -0.011627594, w: -0.6683064}
+        outSlope: {x: -0.28291583, y: -0.18242331, z: -0.011627594, w: -0.6683064}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.48333335
+        value: {x: -0.7589739, y: -0.4582179, z: 0.03747614, w: 0.4610754}
+        inSlope: {x: 0.30960053, y: -0.015507653, z: -0.3963579, w: 0.526139}
+        outSlope: {x: 0.30960053, y: -0.015507653, z: -0.3963579, w: 0.526139}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6666667
+        value: {x: -0.7188301, y: -0.45833042, z: -0.010343817, w: 0.5225988}
+        inSlope: {x: 0.012155782, y: 0.00046223446, z: -0.013546091, w: 0.016878264}
+        outSlope: {x: 0.012155782, y: 0.00046223446, z: -0.013546091, w: 0.016878264}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.7606543, y: 0.14200835, z: 0.11558918, w: 0.62279844}
+        inSlope: {x: -0.0076496596, y: 0.03453523, z: 0.0077502425, w: 0.000010728835}
+        outSlope: {x: -0.0076496596, y: 0.03453523, z: 0.0077502425, w: 0.000010728835}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.21666668
+        value: {x: 0.7466092, y: 0.19902733, z: 0.1282349, w: 0.62170625}
+        inSlope: {x: -0.09372891, y: 0.34488517, z: 0.07556141, w: -0.013505817}
+        outSlope: {x: -0.09372891, y: 0.34488517, z: 0.07556141, w: -0.013505817}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.45000002
+        value: {x: 0.74544895, y: 0.20326829, z: 0.12916324, w: 0.62153417}
+        inSlope: {x: 0.09723723, y: -0.35329837, z: -0.07727668, w: 0.014796854}
+        outSlope: {x: 0.09723723, y: -0.35329837, z: -0.07727668, w: 0.014796854}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6666667
+        value: {x: 0.76054007, y: 0.1425108, z: 0.11570163, w: 0.62279636}
+        inSlope: {x: 0.013530592, y: -0.0594178, z: -0.013294382, w: 0.00026892332}
+        outSlope: {x: 0.013530592, y: -0.0594178, z: -0.013294382, w: 0.00026892332}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.22372209, y: 0.28689358, z: 0.7664476, w: 0.5293378}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.22372209, y: 0.28689358, z: 0.7664476, w: 0.5293378}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/WeaponHolder_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.0129633695, y: 0.06660981, z: 0.97579247, w: -0.20790416}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.0129633695, y: 0.06660981, z: 0.97579247, w: -0.20790416}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/WeaponHolder_L/WeaponHolder_L_BLade
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.47811493, y: -0.38507932, z: -0.55752116, w: 0.5588293}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.47811493, y: -0.38507932, z: -0.55752116, w: 0.5588293}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Pinky_L_01
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.056316815, y: 0.015766354, z: -0.2589303, w: 0.96412396}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.056316815, y: 0.015766354, z: -0.2589303, w: 0.96412396}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Pinky_L_01/Goblin_Pinky_L_02
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.030982675, y: -0.026719222, z: -0.3333564, w: 0.9419128}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.030982675, y: -0.026719222, z: -0.3333564, w: 0.9419128}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Pinky_L_01/Goblin_Pinky_L_02/Goblin_Pinky_L_03
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.49461967, y: -0.36747488, z: -0.60438913, w: 0.5050025}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.49461967, y: -0.36747488, z: -0.60438913, w: 0.5050025}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_RingFinger_L_01
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.18232566, y: 0.008282645, z: -0.30077064, w: 0.9360693}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.18232566, y: 0.008282645, z: -0.30077064, w: 0.9360693}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_RingFinger_L_01/Goblin_RingFinger_L_02
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.040976275, y: 0.0046172305, z: -0.28053373, w: 0.958958}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.040976275, y: 0.0046172305, z: -0.28053373, w: 0.958958}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_RingFinger_L_01/Goblin_RingFinger_L_02/Goblin_RingFinger_L_03
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.3962996, y: -0.4521333, z: -0.44053447, w: 0.666672}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.3962996, y: -0.4521333, z: -0.44053447, w: 0.666672}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_MiddleFinger_01
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.027998473, y: -0.0021622723, z: -0.45661363, w: 0.88922185}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.027998473, y: -0.0021622723, z: -0.45661363, w: 0.88922185}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_MiddleFinger_01/Goblin_MiddleFinger_02
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.9500335, y: -0.31110457, z: 0.009254814, w: 0.02376502}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.9500335, y: -0.31110457, z: 0.009254814, w: 0.02376502}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_MiddleFinger_01/Goblin_MiddleFinger_02/Goblin_MiddleFinger_03
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.412872, y: -0.43763584, z: -0.3674673, w: 0.7092104}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.412872, y: -0.43763584, z: -0.3674673, w: 0.7092104}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_IndexFinger_L_01
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.010438273, y: -0.031547405, z: -0.52049536, w: 0.85321766}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.010438273, y: -0.031547405, z: -0.52049536, w: 0.85321766}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_IndexFinger_L_01/Goblin_IndexFinger_L_02
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.017741743, y: -0.09096902, z: -0.48139808, w: 0.87158805}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.017741743, y: -0.09096902, z: -0.48139808, w: 0.87158805}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_IndexFinger_L_01/Goblin_IndexFinger_L_02/Goblin_IndexFinger_L_03
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.17746378, y: -0.5537192, z: -0.27533004, w: 0.76556844}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.17746378, y: -0.5537192, z: -0.27533004, w: 0.76556844}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Thumb_L_01
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.64542913, y: 0.106235735, z: 0.17374197, w: 0.7361718}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.64542913, y: 0.106235735, z: 0.17374197, w: 0.7361718}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Thumb_L_01/Goblin_Thumb_L_02
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.03996172, y: 0.345653, z: 0.25264397, w: 0.9028278}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.03996172, y: 0.345653, z: 0.25264397, w: 0.9028278}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Thumb_L_01/Goblin_Thumb_L_02/Goblin_Thumb_L_03
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.75938064, y: -0.23468512, z: -0.42275247, w: 0.43536687}
+        inSlope: {x: 0.027433632, y: -0.01358807, z: 0.08767962, w: 0.029783247}
+        outSlope: {x: 0.027433632, y: -0.01358807, z: 0.08767962, w: 0.029783247}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.116666675
+        value: {x: 0.77837616, y: -0.24447984, z: -0.35420138, w: 0.45705748}
+        inSlope: {x: 0.2223909, y: -0.120456226, z: 0.91922796, w: 0.26986244}
+        outSlope: {x: 0.2223909, y: -0.120456226, z: 0.91922796, w: 0.26986244}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.23333335
+        value: {x: 0.7975552, y: -0.2558451, z: -0.25522792, w: 0.48301935}
+        inSlope: {x: 0.14102703, y: -0.094825074, z: 0.95471, w: 0.22187692}
+        outSlope: {x: 0.14102703, y: -0.094825074, z: 0.95471, w: 0.22187692}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.38333336
+        value: {x: 0.8032632, y: -0.25998795, z: -0.2104385, w: 0.4928389}
+        inSlope: {x: -0.049921233, y: 0.03958133, z: -0.45923674, w: -0.09509853}
+        outSlope: {x: -0.049921233, y: 0.03958133, z: -0.45923674, w: -0.09509853}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.55
+        value: {x: 0.77558684, y: -0.24298143, z: -0.36547917, w: 0.453707}
+        inSlope: {x: -0.23644547, y: 0.12608518, z: -0.937291, w: -0.28145736}
+        outSlope: {x: -0.23644547, y: 0.12608518, z: -0.937291, w: -0.28145736}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6666667
+        value: {x: 0.7600636, y: -0.2350057, z: -0.4209246, w: 0.43605983}
+        inSlope: {x: -0.041984707, y: 0.019998744, z: -0.11824764, w: -0.043401312}
+        outSlope: {x: -0.041984707, y: 0.019998744, z: -0.11824764, w: -0.043401312}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.16250654, y: -0.7122313, z: 0.021194959, w: 0.68254596}
+        inSlope: {x: 0.06802976, y: 0.052886005, z: 0.027358977, w: 0.03802299}
+        outSlope: {x: 0.06802976, y: 0.052886005, z: 0.027358977, w: 0.03802299}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.116666675
+        value: {x: 0.21434197, y: -0.66959846, z: 0.042159557, w: 0.7098719}
+        inSlope: {x: 0.67725563, y: 0.58857685, z: 0.27557108, w: 0.3347576}
+        outSlope: {x: 0.67725563, y: 0.58857685, z: 0.27557108, w: 0.3347576}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.23333335
+        value: {x: 0.28462625, y: -0.60374194, z: 0.07100954, w: 0.741243}
+        inSlope: {x: 0.6536082, y: 0.6581429, z: 0.2706918, w: 0.25947702}
+        outSlope: {x: 0.6536082, y: 0.6581429, z: 0.2706918, w: 0.25947702}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.38333336
+        value: {x: 0.31478524, y: -0.57239455, z: 0.08355165, w: 0.75252503}
+        inSlope: {x: -0.30444658, y: -0.325872, z: -0.1271042, w: -0.1072382}
+        outSlope: {x: -0.30444658, y: -0.325872, z: -0.1271042, w: -0.1072382}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.55
+        value: {x: 0.20599918, y: -0.67678773, z: 0.03876825, w: 0.7057051}
+        inSlope: {x: -0.695904, y: -0.59508157, z: -0.28265166, w: -0.3508273}
+        outSlope: {x: -0.695904, y: -0.59508157, z: -0.28265166, w: -0.3508273}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6666667
+        value: {x: 0.16398598, y: -0.71118677, z: 0.021784265, w: 0.6834475}
+        inSlope: {x: -0.094496086, y: -0.068721354, z: -0.037745725, w: -0.056163855}
+        outSlope: {x: -0.094496086, y: -0.068721354, z: -0.037745725, w: -0.056163855}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.46177766, y: -0.6935644, z: -0.1768156, w: 0.523895}
+        inSlope: {x: 0.033211112, y: 0.0105535975, z: -0.035763677, w: -0.027419327}
+        outSlope: {x: 0.033211112, y: 0.0105535975, z: -0.035763677, w: -0.027419327}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.18333334
+        value: {x: 0.50504875, y: -0.6773791, z: -0.22433178, w: 0.48554978}
+        inSlope: {x: 0.26321757, y: 0.114678696, z: -0.29523286, w: -0.25073636}
+        outSlope: {x: 0.26321757, y: 0.114678696, z: -0.29523286, w: -0.25073636}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.35000002
+        value: {x: 0.5373185, y: -0.6616891, z: -0.26114735, w: 0.45305467}
+        inSlope: {x: -0.047174715, y: -0.025447024, z: 0.054778785, w: 0.05020472}
+        outSlope: {x: -0.047174715, y: -0.025447024, z: 0.054778785, w: 0.05020472}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5833334
+        value: {x: 0.47281504, y: -0.68991137, z: -0.18875459, w: 0.5146262}
+        inSlope: {x: -0.2578991, y: -0.08924255, z: 0.28044355, w: 0.22075495}
+        outSlope: {x: -0.2578991, y: -0.08924255, z: 0.28044355, w: 0.22075495}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6666667
+        value: {x: 0.4607154, y: -0.6940498, z: -0.1756157, w: 0.524931}
+        inSlope: {x: -0.053320266, y: -0.017468844, z: 0.057607844, w: 0.044584442}
+        outSlope: {x: -0.053320266, y: -0.017468844, z: 0.057607844, w: 0.044584442}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.8263119, y: 0.1912921, z: 0.007607408, w: 0.5296774}
+        inSlope: {x: 0.09133815, y: -0.009927749, z: -0.22024105, w: 0.14799713}
+        outSlope: {x: 0.09133815, y: -0.009927749, z: -0.22024105, w: 0.14799713}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.06666667
+        value: {x: -0.80090666, y: 0.18828489, z: -0.048842814, w: 0.56631416}
+        inSlope: {x: 0.74202245, y: -0.0947173, z: -1.5141413, w: 0.9433312}
+        outSlope: {x: 0.74202245, y: -0.0947173, z: -1.5141413, w: 0.9433312}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: -0.7394834, y: 0.17962001, z: -0.15805554, w: 0.62922126}
+        inSlope: {x: 0, y: -0.0000008940697, z: -0.00000044703484, w: 0}
+        outSlope: {x: 0, y: -0.0000008940697, z: -0.00000044703484, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.26666668
+        value: {x: -0.80090666, y: 0.1882849, z: -0.04884276, w: 0.56631416}
+        inSlope: {x: -0.7420236, y: 0.09471677, z: 1.5141402, w: -0.9433267}
+        outSlope: {x: -0.7420236, y: 0.09471677, z: 1.5141402, w: -0.9433267}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.33333334
+        value: {x: -0.8263119, y: 0.19129212, z: 0.007607383, w: 0.5296774}
+        inSlope: {x: -0.045669124, y: 0.0049629854, z: 0.110119596, w: -0.07399864}
+        outSlope: {x: -0.045669124, y: 0.0049629854, z: 0.110119596, w: -0.07399864}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.53333336
+        value: {x: -0.8263119, y: 0.1912921, z: 0.007607392, w: 0.5296774}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6666667
+        value: {x: -0.8263118, y: 0.19129209, z: 0.007607395, w: 0.5296774}
+        inSlope: {x: 0, y: 0, z: 0.00000004190952, w: 0}
+        outSlope: {x: 0, y: 0, z: 0.00000004190952, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.45451307, y: -0.3424673, z: 0.5586946, w: 0.60331947}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.45451307, y: -0.3424673, z: 0.5586946, w: 0.60331947}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Pinky_R_01
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.0751703, y: 0.014926915, z: 0.055451017, w: 0.9955159}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.0751703, y: 0.014926915, z: 0.055451017, w: 0.9955159}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Pinky_R_01/Goblin_Pinky_R_02
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.037372664, y: -0.0093634585, z: 0.12615061, w: 0.9912627}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.037372664, y: -0.0093634585, z: 0.12615061, w: 0.9912627}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Pinky_R_01/Goblin_Pinky_R_02/Goblin_Pinky_R_03
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.5267817, y: -0.31317893, z: 0.5261352, w: 0.5895776}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.5267817, y: -0.31317893, z: 0.5261352, w: 0.5895776}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_RingFinger_R_01
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.20905608, y: 0.006141698, z: 0.10867548, w: 0.97182685}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.20905608, y: 0.006141698, z: 0.10867548, w: 0.97182685}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_RingFinger_R_01/Goblin_RingFinger_R_02
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.03561795, y: 0.015022481, z: 0.14313795, w: 0.9889476}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.03561795, y: 0.015022481, z: 0.14313795, w: 0.9889476}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_RingFinger_R_01/Goblin_RingFinger_R_02/Goblin_RingFinger_R_03
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.40788028, y: -0.4098869, z: 0.377224, w: 0.7234145}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.40788028, y: -0.4098869, z: 0.377224, w: 0.7234145}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_MiddleFinger_R_01
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.014183743, y: 0.012915166, z: 0.17165352, w: 0.9849706}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.014183743, y: 0.012915166, z: 0.17165352, w: 0.9849706}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_MiddleFinger_R_01/Goblin_MiddleFinger_R_02
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.99455255, y: 0.10170432, z: 0.0026939095, w: -0.022676889}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.99455255, y: 0.10170432, z: 0.0026939095, w: -0.022676889}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_MiddleFinger_R_01/Goblin_MiddleFinger_R_02/Goblin_MiddleFinger_R_03
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.44663578, y: -0.35167003, z: 0.28022447, w: 0.77351075}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.44663578, y: -0.35167003, z: 0.28022447, w: 0.77351075}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_IndexFinger_R_01
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.020396825, y: 0.020702375, z: 0.12337003, w: 0.99193513}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.020396825, y: 0.020702375, z: 0.12337003, w: 0.99193513}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_IndexFinger_R_01/Goblin_IndexFinger_R_02
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.022961384, y: -0.03290546, z: 0.14068307, w: 0.9892413}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.022961384, y: -0.03290546, z: 0.14068307, w: 0.9892413}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_IndexFinger_R_01/Goblin_IndexFinger_R_02/Goblin_IndexFinger_R_03
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.34301826, y: -0.47030866, z: -0.023673503, w: 0.81276554}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.34301826, y: -0.47030866, z: -0.023673503, w: 0.81276554}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Thumb_R_01
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.6639273, y: 0.15896784, z: -0.024948128, w: 0.7302789}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.6639273, y: 0.15896784, z: -0.024948128, w: 0.7302789}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Thumb_R_01/Goblin_Thumb_R_02
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.029946312, y: 0.09285476, z: -0.058526836, w: 0.99350685}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.029946312, y: 0.09285476, z: -0.058526836, w: 0.99350685}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Thumb_R_01/Goblin_Thumb_R_02/Goblin_Thumb_R_03
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.22372204, y: 0.28689358, z: -0.7664476, w: 0.5293379}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.22372204, y: 0.28689358, z: -0.7664476, w: 0.5293379}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/WeaponHolder_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.012963285, y: -0.06660972, z: 0.97579247, w: 0.20790416}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.012963285, y: -0.06660972, z: 0.97579247, w: 0.20790416}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/WeaponHolder_R/WeaponHolder_R_Blade
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.5495561, y: 0.44495857, z: 0.549556, w: -0.44495863}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.5495561, y: 0.44495857, z: 0.549556, w: -0.44495863}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Bottom
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.4443417, y: -0.2793168, z: -0.49147525, w: 0.6949782}
+        inSlope: {x: -0.018419622, y: 0.012715458, z: 0.04281163, w: 0.023574827}
+        outSlope: {x: -0.018419622, y: 0.012715458, z: 0.04281163, w: 0.023574827}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.18333334
+        value: {x: -0.46792588, y: -0.26152575, z: -0.43272236, w: 0.7248455}
+        inSlope: {x: -0.14078373, y: 0.1164418, z: 0.37735358, w: 0.17608517}
+        outSlope: {x: -0.14078373, y: 0.1164418, z: 0.37735358, w: 0.17608517}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.35000002
+        value: {x: -0.48492414, y: -0.24641807, z: -0.38443285, w: 0.7458807}
+        inSlope: {x: 0.024451923, y: -0.023372333, z: -0.0737286, w: -0.029908435}
+        outSlope: {x: 0.024451923, y: -0.023372333, z: -0.0737286, w: -0.029908435}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6
+        value: {x: -0.448275, y: -0.2765653, z: -0.48223737, w: 0.7000059}
+        inSlope: {x: 0.11625509, y: -0.082638934, z: -0.27645734, w: -0.14831737}
+        outSlope: {x: 0.11625509, y: -0.082638934, z: -0.27645734, w: -0.14831737}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6666667
+        value: {x: -0.44354096, y: -0.27992165, z: -0.4934721, w: 0.69396436}
+        inSlope: {x: 0.03250403, y: -0.022871962, z: -0.07668869, w: -0.04151906}
+        outSlope: {x: 0.03250403, y: -0.022871962, z: -0.07668869, w: -0.04151906}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.40448236, y: 0.5269658, z: 0.6014183, w: 0.44384366}
+        inSlope: {x: 0.09660243, y: -0.0660789, z: -0.07646798, w: 0.09349286}
+        outSlope: {x: 0.09660243, y: -0.0660789, z: -0.07646798, w: 0.09349286}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.083333336
+        value: {x: 0.44525218, y: 0.49703294, z: 0.5667985, w: 0.4831648}
+        inSlope: {x: 0.8859067, y: -0.7014485, z: -0.8107852, w: 0.8510978}
+        outSlope: {x: 0.8859067, y: -0.7014485, z: -0.8107852, w: 0.8510978}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 0.51510197, y: 0.4340119, z: 0.49402422, w: 0.549767}
+        inSlope: {x: 0.6605244, y: -0.68072325, z: -0.78539914, w: 0.624286}
+        outSlope: {x: 0.6605244, y: -0.68072325, z: -0.78539914, w: 0.624286}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.28333336
+        value: {x: 0.59349895, y: 0.3371354, z: 0.38236308, w: 0.62281394}
+        inSlope: {x: 0.40509042, y: -0.60223186, z: -0.69354945, w: 0.37081537}
+        outSlope: {x: 0.40509042, y: -0.60223186, z: -0.69354945, w: 0.37081537}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4166667
+        value: {x: 0.5817758, y: 0.35410956, z: 0.4019133, w: 0.61205316}
+        inSlope: {x: -0.5347717, y: 0.7463676, z: 0.85977674, w: -0.49269852}
+        outSlope: {x: -0.5347717, y: 0.7463676, z: 0.85977674, w: -0.49269852}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.53333336
+        value: {x: 0.48131976, y: 0.46658638, z: 0.5316233, w: 0.5176921}
+        inSlope: {x: -0.99601334, y: 0.90061605, z: 1.0399811, w: -0.949578}
+        outSlope: {x: -0.99601334, y: 0.90061605, z: 1.0399811, w: -0.949578}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6666667
+        value: {x: 0.40448236, y: 0.5269658, z: 0.6014183, w: 0.44384366}
+        inSlope: {x: -0.038619377, y: 0.026401903, z: 0.030552179, w: -0.03737662}
+        outSlope: {x: -0.038619377, y: 0.026401903, z: 0.030552179, w: -0.03737662}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_R/Goblin_Shin_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.49223927, y: 0.51240325, z: 0.52307785, w: -0.4706729}
+        inSlope: {x: 0.07064581, y: -0.071632855, z: -0.060750242, w: -0.0712806}
+        outSlope: {x: 0.07064581, y: -0.071632855, z: -0.060750242, w: -0.0712806}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.10000001
+        value: {x: 0.53296155, y: 0.46776575, z: 0.484916, w: -0.51186293}
+        inSlope: {x: 0.6685834, y: -0.79493153, z: -0.6846409, w: -0.6778871}
+        outSlope: {x: 0.6685834, y: -0.79493153, z: -0.6846409, w: -0.6778871}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.23333335
+        value: {x: 0.606511, y: 0.36382526, z: 0.3941693, w: -0.5868613}
+        inSlope: {x: 0.5286797, y: -0.8970492, z: -0.7925771, w: -0.5429723}
+        outSlope: {x: 0.5286797, y: -0.8970492, z: -0.7925771, w: -0.5429723}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.35000002
+        value: {x: 0.6345931, y: 0.31160435, z: 0.34779143, w: -0.61582106}
+        inSlope: {x: -0.0716776, y: 0.14600076, z: 0.13027318, w: 0.07425252}
+        outSlope: {x: -0.0716776, y: 0.14600076, z: 0.13027318, w: 0.07425252}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5166667
+        value: {x: 0.559838, y: 0.43392268, z: 0.4556283, w: -0.53916174}
+        inSlope: {x: -0.7240993, y: 0.967893, z: 0.8415611, w: 0.7369292}
+        outSlope: {x: -0.7240993, y: 0.967893, z: 0.8415611, w: 0.7369292}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6666667
+        value: {x: 0.4922393, y: 0.5124033, z: 0.52307785, w: -0.47067297}
+        inSlope: {x: -0.028242793, y: 0.028628139, z: 0.024279378, w: 0.028500287}
+        outSlope: {x: -0.028242793, y: 0.028628139, z: 0.024279378, w: 0.028500287}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_R/Goblin_Shin_R/Goblin_Foot_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.6691096, y: 0.1720731, z: -0.22606054, w: 0.68671674}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6666667
+        value: {x: -0.6691096, y: 0.1720731, z: -0.22606054, w: 0.6867168}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_R/Goblin_Shin_R/Goblin_Foot_R/Goblin_Toes_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.424909, y: 0.17777348, z: 0.16690937, w: 0.8717742}
+        inSlope: {x: -0.019855497, y: 0.009872316, z: -0.01811385, w: 0.011122226}
+        outSlope: {x: -0.019855497, y: 0.009872316, z: -0.01811385, w: 0.011122226}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.40000004
+        value: {x: 0.38019612, y: 0.1991215, z: 0.12661292, w: 0.89429903}
+        inSlope: {x: 0.13247968, y: -0.06074221, z: 0.117971614, w: -0.05958439}
+        outSlope: {x: 0.13247968, y: -0.06074221, z: 0.117971614, w: -0.05958439}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6666667
+        value: {x: 0.424909, y: 0.17777348, z: 0.16690937, w: 0.8717742}
+        inSlope: {x: 0.007937558, y: -0.0039464273, z: 0.0072410773, w: -0.0044471067}
+        outSlope: {x: 0.007937558, y: -0.0039464273, z: 0.0072410773, w: -0.0044471067}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.22006412, y: 0.5510191, z: -0.48083535, w: 0.6455596}
+        inSlope: {x: -0.099757604, y: -0.06475568, z: 0.05320966, w: 0.06062865}
+        outSlope: {x: -0.099757604, y: -0.06475568, z: 0.05320966, w: 0.06062865}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.10000001
+        value: {x: -0.2791422, y: 0.5101587, z: -0.44715488, w: 0.6796104}
+        inSlope: {x: -0.9985532, y: -0.7361357, z: 0.6085073, w: 0.54196703}
+        outSlope: {x: -0.9985532, y: -0.7361357, z: 0.6085073, w: 0.54196703}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.23333335
+        value: {x: -0.3963197, y: 0.4120009, z: -0.36559653, w: 0.73452383}
+        inSlope: {x: -0.9074588, y: -0.86050045, z: 0.7181234, w: 0.35125512}
+        outSlope: {x: -0.9074588, y: -0.86050045, z: 0.7181234, w: 0.35125512}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.35000002
+        value: {x: -0.44646263, y: 0.36161944, z: -0.32347304, w: 0.75184286}
+        inSlope: {x: 0.13335057, y: 0.14154114, z: -0.118537605, w: -0.04048886}
+        outSlope: {x: 0.13335057, y: 0.14154114, z: -0.118537605, w: -0.04048886}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5166667
+        value: {x: -0.32013616, y: 0.4785904, z: -0.42101178, w: 0.700866}
+        inSlope: {x: 1.1295273, y: 0.90906954, z: -0.7541784, w: -0.55671346}
+        outSlope: {x: 1.1295273, y: 0.90906954, z: -0.7541784, w: -0.55671346}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6666667
+        value: {x: -0.22006412, y: 0.5510191, z: -0.48083535, w: 0.6455596}
+        inSlope: {x: 0.03988225, y: 0.025877977, z: -0.021262785, w: -0.024243616}
+        outSlope: {x: 0.03988225, y: 0.025877977, z: -0.021262785, w: -0.024243616}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_L/Goblin_Shin_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.5418902, y: -0.36621058, z: 0.46399578, w: 0.5974552}
+        inSlope: {x: 0.0272727, y: 0.032851696, z: -0.041393634, w: 0.027487276}
+        outSlope: {x: 0.0272727, y: 0.032851696, z: -0.041393634, w: 0.027487276}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.18333334
+        value: {x: 0.5764627, y: -0.32065246, z: 0.4065731, w: 0.6321164}
+        inSlope: {x: 0.20371011, y: 0.29527265, z: -0.37222877, w: 0.20288399}
+        outSlope: {x: 0.20371011, y: 0.29527265, z: -0.37222877, w: 0.20288399}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.35000002
+        value: {x: 0.60073996, y: -0.28267908, z: 0.3586971, w: 0.6561558}
+        inSlope: {x: -0.034402028, y: -0.05820754, z: 0.073396005, w: -0.03384413}
+        outSlope: {x: -0.034402028, y: -0.05820754, z: 0.073396005, w: -0.03384413}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5666667
+        value: {x: 0.554672, y: -0.35033, z: 0.4439816, w: 0.6103181}
+        inSlope: {x: -0.2410338, y: -0.30973136, z: 0.39037997, w: -0.24204767}
+        outSlope: {x: -0.2410338, y: -0.30973136, z: 0.39037997, w: -0.24204767}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6666667
+        value: {x: 0.5414956, y: -0.3670703, z: 0.46508026, w: 0.59707665}
+        inSlope: {x: -0.044699192, y: -0.05430436, z: 0.068436146, w: -0.04504466}
+        outSlope: {x: -0.044699192, y: -0.05430436, z: 0.068436146, w: -0.04504466}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_L/Goblin_Shin_L/Goblin_Foot_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.48823842, y: 0.31837183, z: 0.60211504, w: 0.5456373}
+        inSlope: {x: -0.02782881, y: -0.010247826, z: -0.008404255, w: 0.04011869}
+        outSlope: {x: -0.02782881, y: -0.010247826, z: -0.008404255, w: 0.04011869}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.18333334
+        value: {x: 0.44996873, y: 0.30396554, z: 0.5895307, w: 0.5979855}
+        inSlope: {x: -0.24632952, y: -0.094682835, z: -0.08741137, w: 0.31933117}
+        outSlope: {x: -0.24632952, y: -0.094682835, z: -0.08741137, w: 0.31933117}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.36666667
+        value: {x: 0.41960075, y: 0.29212418, z: 0.5782009, w: 0.6358321}
+        inSlope: {x: 0.09689121, y: 0.038296573, z: 0.03783881, w: -0.1161146}
+        outSlope: {x: 0.09689121, y: 0.038296573, z: 0.03783881, w: -0.1161146}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6166667
+        value: {x: 0.48486513, y: 0.31712732, z: 0.60108894, w: 0.55048007}
+        inSlope: {x: 0.13540141, y: 0.050081287, z: 0.041602828, w: -0.19324411}
+        outSlope: {x: 0.13540141, y: 0.050081287, z: 0.041602828, w: -0.19324411}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6666667
+        value: {x: 0.4894429, y: 0.31882015, z: 0.60249424, w: 0.54394335}
+        inSlope: {x: 0.052599777, y: 0.019441416, z: 0.016116755, w: -0.07519304}
+        outSlope: {x: 0.052599777, y: 0.019441416, z: 0.016116755, w: -0.07519304}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_L/Goblin_Shin_L/Goblin_Foot_L/Goblin_Toes_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.58916587, y: -0.037905805, z: 0.69688237, w: -0.40718758}
+        inSlope: {x: 0.099406235, y: 0.110045664, z: -0.09701728, w: -0.031784177}
+        outSlope: {x: 0.099406235, y: 0.110045664, z: -0.09701728, w: -0.031784177}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.083333336
+        value: {x: 0.6267407, y: 0.0104508065, z: 0.6557975, w: -0.42073333}
+        inSlope: {x: 0.72484183, y: 1.0952723, z: -0.9031211, w: -0.29604965}
+        outSlope: {x: 0.72484183, y: 1.0952723, z: -0.9031211, w: -0.29604965}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 0.6673783, y: 0.10574974, z: 0.58649737, w: -0.4465916}
+        inSlope: {x: 0.09787024, y: 1.0733278, z: -0.5281252, w: -0.29290977}
+        outSlope: {x: 0.09787024, y: 1.0733278, z: -0.5281252, w: -0.29290977}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.25
+        value: {x: 0.6300448, y: 0.24086404, z: 0.5710276, w: -0.4679268}
+        inSlope: {x: -0.8664715, y: 1.8474106, z: 0.057746157, w: -0.14945899}
+        outSlope: {x: -0.8664715, y: 1.8474106, z: 0.057746157, w: -0.14945899}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.33333334
+        value: {x: 0.58190423, y: 0.32706028, z: 0.576377, w: -0.4713901}
+        inSlope: {x: -0.058854893, y: 0.04748061, z: 0.036758766, w: 0.004831549}
+        outSlope: {x: -0.058854893, y: 0.04748061, z: 0.036758766, w: 0.004831549}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5
+        value: {x: 0.5969796, y: 0.14740314, z: 0.64907295, w: -0.44787508}
+        inSlope: {x: 0.03623307, y: -1.8209558, z: 0.60125065, w: 0.32033324}
+        outSlope: {x: 0.03623307, y: -1.8209558, z: 0.60125065, w: 0.32033324}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.65000004
+        value: {x: 0.58937126, y: -0.035909425, z: 0.6965082, w: -0.40771115}
+        inSlope: {x: -0.02433481, y: -0.2412542, z: 0.045772836, w: 0.062933624}
+        outSlope: {x: -0.02433481, y: -0.2412542, z: 0.045772836, w: 0.062933624}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6666667
+        value: {x: 0.5890438, y: -0.0391549, z: 0.6971239, w: -0.40686446}
+        inSlope: {x: -0.015231963, y: -0.15085247, z: 0.028602673, w: 0.0393624}
+        outSlope: {x: -0.015231963, y: -0.15085247, z: 0.028602673, w: 0.0393624}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Weapon_R_0
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.20924863, y: -0.7903842, z: 0.096915975, w: 0.5675519}
+        inSlope: {x: 0.056911107, y: 0.08229374, z: 0.13197362, w: 0.07061005}
+        outSlope: {x: 0.056911107, y: 0.08229374, z: 0.13197362, w: 0.07061005}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.083333336
+        value: {x: 0.23351732, y: -0.75546986, z: 0.15334617, w: 0.59263813}
+        inSlope: {x: 0.53359234, y: 0.7698815, z: 1.2459548, w: 0.44543976}
+        outSlope: {x: 0.53359234, y: 0.7698815, z: 1.2459548, w: 0.44543976}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 0.2779095, y: -0.69696873, z: 0.25594687, w: 0.6095015}
+        inSlope: {x: 0.44105354, y: 0.4226643, z: 1.0613117, w: -0.16364874}
+        outSlope: {x: 0.44105354, y: 0.4226643, z: 1.0613117, w: -0.16364874}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.25
+        value: {x: 0.30593443, y: -0.68799055, z: 0.37673333, w: 0.5395787}
+        inSlope: {x: 0.18075947, y: -0.09322464, z: 1.5612998, w: -1.3078041}
+        outSlope: {x: 0.18075947, y: -0.09322464, z: 1.5612998, w: -1.3078041}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.33333334
+        value: {x: 0.3103787, y: -0.6938376, z: 0.44766894, w: 0.47100648}
+        inSlope: {x: -0.012344409, y: -0.033454288, z: 0.030647941, w: -0.06987344}
+        outSlope: {x: -0.012344409, y: -0.033454288, z: 0.030647941, w: -0.06987344}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5
+        value: {x: 0.26489204, y: -0.7566159, z: 0.2776147, w: 0.52942866}
+        inSlope: {x: -0.5045812, y: -0.48171008, z: -1.7500442, w: 0.48170114}
+        outSlope: {x: -0.5045812, y: -0.48171008, z: -1.7500442, w: 0.48170114}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.65000004
+        value: {x: 0.20989345, y: -0.79018104, z: 0.09889025, w: 0.567256}
+        inSlope: {x: -0.077735856, y: -0.02518239, z: -0.23846269, w: 0.036217008}
+        outSlope: {x: -0.077735856, y: -0.02518239, z: -0.23846269, w: 0.036217008}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6666667
+        value: {x: 0.20884766, y: -0.79051965, z: 0.0956823, w: 0.56774306}
+        inSlope: {x: -0.04861319, y: -0.01572529, z: -0.1491109, w: 0.022631083}
+        outSlope: {x: -0.04861319, y: -0.01572529, z: -0.1491109, w: 0.022631083}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Weapon_L_0
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.16685255, y: -0.18640302, z: -0.7068085, w: 0.6616918}
+        inSlope: {x: -0.16970067, y: 0.21462946, z: 0.25033236, w: 0.367223}
+        outSlope: {x: -0.16970067, y: 0.21462946, z: 0.25033236, w: 0.367223}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.050000004
+        value: {x: 0.1382681, y: -0.15400246, z: -0.6668014, w: 0.71591973}
+        inSlope: {x: -1.2597618, y: 1.2612216, z: 1.6545081, w: 2.0200717}
+        outSlope: {x: -1.2597618, y: 1.2612216, z: 1.6545081, w: 2.0200717}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.10000001
+        value: {x: 0.037656497, y: -0.07493231, z: -0.54705334, w: 0.8328864}
+        inSlope: {x: -2.5627131, y: 1.5045588, z: 2.847631, w: 2.1253676}
+        outSlope: {x: -2.5627131, y: 1.5045588, z: 2.847631, w: 2.1253676}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: -0.11674344, y: -0.03638951, z: -0.37226245, w: 0.9200367}
+        inSlope: {x: -1.6054475, y: -0.65423954, z: 2.2052526, w: 0.6645209}
+        outSlope: {x: -1.6054475, y: -0.65423954, z: 2.2052526, w: 0.6645209}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.23333335
+        value: {x: -0.18876886, y: -0.19226722, z: -0.1994438, w: 0.9421368}
+        inSlope: {x: -0.44569835, y: -3.5688782, z: 2.9508176, w: -0.1995601}
+        outSlope: {x: -0.44569835, y: -3.5688782, z: 2.9508176, w: -0.1995601}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.28333336
+        value: {x: -0.18822685, y: -0.35900116, z: -0.06530683, w: 0.91182446}
+        inSlope: {x: 0.2571756, y: -2.4752164, z: 2.022577, w: -0.7470703}
+        outSlope: {x: 0.2571756, y: -2.4752164, z: 2.022577, w: -0.7470703}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.33333334
+        value: {x: -0.1788237, y: -0.4207929, z: -0.013941485, w: 0.8892475}
+        inSlope: {x: 0.10504602, y: -0.16992085, z: 0.050437905, w: -0.057433352}
+        outSlope: {x: 0.10504602, y: -0.16992085, z: 0.050437905, w: -0.057433352}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.43333337
+        value: {x: -0.09961061, y: -0.3828879, z: -0.15683012, w: 0.90491927}
+        inSlope: {x: 1.5087492, y: 0.7789002, z: -2.8032312, w: -0.0039339922}
+        outSlope: {x: 1.5087492, y: 0.7789002, z: -2.8032312, w: -0.0039339922}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5
+        value: {x: 0.015922576, y: -0.31563532, z: -0.38046595, w: 0.8691182}
+        inSlope: {x: 1.7598367, y: 1.1680331, z: -3.55439, w: -1.1644316}
+        outSlope: {x: 1.7598367, y: 1.1680331, z: -3.55439, w: -1.1644316}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5833334
+        value: {x: 0.13165689, y: -0.22373523, z: -0.62617236, w: 0.73519874}
+        inSlope: {x: 0.8967757, y: 0.8669078, z: -2.0081558, w: -1.5904655}
+        outSlope: {x: 0.8967757, y: 0.8669078, z: -2.0081558, w: -1.5904655}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6666667
+        value: {x: 0.16685255, y: -0.18640302, z: -0.7068085, w: 0.6616918}
+        inSlope: {x: 0.03887687, y: 0.045081273, z: -0.091043204, w: -0.0938327}
+        outSlope: {x: 0.03887687, y: 0.045081273, z: -0.091043204, w: -0.0938327}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Laddle_Lower
+  m_CompressedRotationCurves: []
+  m_EulerCurves: []
+  m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.0072578364, y: 0, z: -0.008002417}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.0072578364, y: 0, z: -0.008002417}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Cube
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0, y: 0, z: 0}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0, y: 0, z: 0}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -2e-17, y: 0.00093334465, z: 0.0036520846}
+        inSlope: {x: -0, y: 0.00021283326, z: 0.0003994524}
+        outSlope: {x: -0, y: 0.00021283326, z: 0.0003994524}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.06666667
+        value: {x: -2e-17, y: 0.0009925687, z: 0.0037632363}
+        inSlope: {x: -0, y: 0.0015564408, z: 0.0029211217}
+        outSlope: {x: -0, y: 0.0019055085, z: 0.003576279}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.18333334
+        value: {x: -2e-17, y: 0.001218539, z: 0.0041873385}
+        inSlope: {x: -0, y: 0.0016732649, z: 0.003140384}
+        outSlope: {x: -0, y: 0.0019127772, z: 0.0035899046}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.31666666
+        value: {x: -2e-17, y: 0.0014444106, z: 0.0046112556}
+        inSlope: {x: -0, y: 0.00066111144, z: 0.0012407731}
+        outSlope: {x: -0, y: 0.0002128331, z: 0.0003994342}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.46666667
+        value: {x: -2e-17, y: 0.0012733693, z: 0.004290244}
+        inSlope: {x: -0, y: -0.002295647, z: -0.004308482}
+        outSlope: {x: -0, y: -0.0024815418, z: -0.0045857416}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6166667
+        value: {x: -2e-17, y: 0.0009590873, z: 0.0037003986}
+        inSlope: {x: -0, y: -0.0012000437, z: -0.002252235}
+        outSlope: {x: -0, y: -0.00086004665, z: -0.0016141548}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6666667
+        value: {x: -2e-17, y: 0.0009333011, z: 0.0036520027}
+        inSlope: {x: 0, y: -0.00022882357, z: -0.00042945758}
+        outSlope: {x: 0, y: -0.00022882357, z: -0.00042945758}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.0010665486, y: 9.778887e-11, z: 3.259629e-11}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.0010665486, y: 9.778887e-11, z: 3.259629e-11}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.002092746, y: -7.4505804e-11, z: 6.1467287e-10}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.002092746, y: -7.4505804e-11, z: 6.1467287e-10}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest/Goblin_Neck
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.0011844999, y: 2.2351741e-10, z: 6.61239e-10}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.0011844999, y: 2.2351741e-10, z: 6.61239e-10}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest/Goblin_Neck/Goblin_Head
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.00022500793, y: 4.4703483e-10, z: -0.0010937238}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.00022500793, y: 4.4703483e-10, z: -0.0010937238}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest/Goblin_Neck/Goblin_Head/Bone
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.0017316709, y: -0.0014829987, z: 0.0018371168}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.0017316709, y: -0.0014829987, z: 0.0018371168}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest/Holster_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.0017316703, y: 0.0014829988, z: 0.0018371161}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.0017316703, y: 0.0014829988, z: 0.0018371161}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest/Holster_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.0010665486, y: 9.778887e-11, z: 3.259629e-11}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.0010665486, y: 9.778887e-11, z: 3.259629e-11}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.003003928, y: 0, z: -1.862645e-10}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.003003928, y: 0, z: -1.862645e-10}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.0026222107, y: -1.4901161e-10, z: 3.5390257e-10}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.0026222107, y: -1.4901161e-10, z: 3.5390257e-10}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.002130603, y: 1.11758706e-10, z: -2.2351741e-10}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.002130603, y: 1.11758706e-10, z: -2.2351741e-10}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.00084997836, y: 0.0007273209, z: -0.0007942775}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.00084997836, y: 0.0007273209, z: -0.0007942775}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/WeaponHolder_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.0013045948, y: 1.4901161e-10, z: -1.862645e-10}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.0013045948, y: 1.4901161e-10, z: -1.862645e-10}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/WeaponHolder_L/WeaponHolder_L_BLade
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.0011457681, y: 0.00057039224, z: -0.0005167616}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.0011457681, y: 0.00057039224, z: -0.0005167616}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Pinky_L_01
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.00037636797, y: 0, z: 1.862645e-10}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.00037636797, y: 0, z: 1.862645e-10}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Pinky_L_01/Goblin_Pinky_L_02
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.00031093034, y: -1.9557773e-10, z: 3.632158e-10}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.00031093034, y: -1.9557773e-10, z: 3.632158e-10}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Pinky_L_01/Goblin_Pinky_L_02/Goblin_Pinky_L_03
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.0011044326, y: 0.0002793021, z: -0.0006191166}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.0011044326, y: 0.0002793021, z: -0.0006191166}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_RingFinger_L_01
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.00046689608, y: -2.2351741e-10, z: -1.4901161e-10}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.00046689608, y: -2.2351741e-10, z: -1.4901161e-10}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_RingFinger_L_01/Goblin_RingFinger_L_02
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.00043076335, y: -1.862645e-11, z: 7.4505804e-11}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.00043076335, y: -1.862645e-11, z: 7.4505804e-11}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_RingFinger_L_01/Goblin_RingFinger_L_02/Goblin_RingFinger_L_03
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.001069679, y: -0.00007047544, z: -0.000677336}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.001069679, y: -0.00007047544, z: -0.000677336}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_MiddleFinger_01
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.00047519855, y: -1.44355e-10, z: 5.587935e-11}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.00047519855, y: -1.44355e-10, z: 5.587935e-11}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_MiddleFinger_01/Goblin_MiddleFinger_02
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.00044557877, y: -7.4505804e-11, z: 7.4505804e-11}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.00044557877, y: -7.4505804e-11, z: 7.4505804e-11}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_MiddleFinger_01/Goblin_MiddleFinger_02/Goblin_MiddleFinger_03
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.0009535901, y: -0.00038341028, z: -0.0008676697}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.0009535901, y: -0.00038341028, z: -0.0008676697}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_IndexFinger_L_01
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.00038796657, y: 3.72529e-10, z: 2.1187588e-10}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.00038796657, y: 3.72529e-10, z: 2.1187588e-10}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_IndexFinger_L_01/Goblin_IndexFinger_L_02
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.00046534822, y: 0, z: -8.381903e-11}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.00046534822, y: 0, z: -8.381903e-11}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_IndexFinger_L_01/Goblin_IndexFinger_L_02/Goblin_IndexFinger_L_03
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.00017767314, y: -0.0004998546, z: -0.0005114633}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.00017767314, y: -0.0004998546, z: -0.0005114633}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Thumb_L_01
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.0004925187, y: 1.4901161e-10, z: 7.4505804e-11}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.0004925187, y: 1.4901161e-10, z: 7.4505804e-11}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Thumb_L_01/Goblin_Thumb_L_02
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.000631812, y: 0, z: 0}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.000631812, y: 0, z: 0}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Thumb_L_01/Goblin_Thumb_L_02/Goblin_Thumb_L_03
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.0010665486, y: 9.778887e-11, z: 3.259629e-11}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.0010665486, y: 9.778887e-11, z: 3.259629e-11}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.0030039283, y: 1.862645e-10, z: 6.193295e-10}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.0030039283, y: 1.862645e-10, z: 6.193295e-10}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.002622211, y: 2.9802322e-10, z: 0}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.002622211, y: 2.9802322e-10, z: 0}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.0021306025, y: 1.11758706e-10, z: 1.862645e-11}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.0021306025, y: 1.11758706e-10, z: 1.862645e-11}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.0011457694, y: -0.00057039224, z: -0.00051676115}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.0011457694, y: -0.00057039224, z: -0.00051676115}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Pinky_R_01
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.00037636797, y: 2.4214386e-10, z: -7.4505804e-11}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.00037636797, y: 2.4214386e-10, z: -7.4505804e-11}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Pinky_R_01/Goblin_Pinky_R_02
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.00031093007, y: -7.4505804e-11, z: 3.72529e-11}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.00031093007, y: -7.4505804e-11, z: 3.72529e-11}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Pinky_R_01/Goblin_Pinky_R_02/Goblin_Pinky_R_03
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.0011044333, y: -0.00027930207, z: -0.0006191162}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.0011044333, y: -0.00027930207, z: -0.0006191162}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_RingFinger_R_01
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.00046689613, y: -1.11758706e-10, z: -7.4505804e-11}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.00046689613, y: -1.11758706e-10, z: -7.4505804e-11}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_RingFinger_R_01/Goblin_RingFinger_R_02
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.00043076306, y: 1.0244548e-10, z: 8.847564e-11}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.00043076306, y: 1.0244548e-10, z: 8.847564e-11}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_RingFinger_R_01/Goblin_RingFinger_R_02/Goblin_RingFinger_R_03
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.0010696799, y: 0.00007047545, z: -0.0006773357}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.0010696799, y: 0.00007047545, z: -0.0006773357}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_MiddleFinger_R_01
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.0004751986, y: 1.862645e-10, z: -1.3038516e-10}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.0004751986, y: 1.862645e-10, z: -1.3038516e-10}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_MiddleFinger_R_01/Goblin_MiddleFinger_R_02
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.00044557903, y: -1.4901161e-10, z: 1.3969838e-10}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.00044557903, y: -1.4901161e-10, z: 1.3969838e-10}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_MiddleFinger_R_01/Goblin_MiddleFinger_R_02/Goblin_MiddleFinger_R_03
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.00095359085, y: 0.00038341008, z: -0.00086766935}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.00095359085, y: 0.00038341008, z: -0.00086766935}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_IndexFinger_R_01
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.0003879665, y: 4.4703483e-10, z: 1.862645e-11}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.0003879665, y: 4.4703483e-10, z: 1.862645e-11}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_IndexFinger_R_01/Goblin_IndexFinger_R_02
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.00046534836, y: 5.2154064e-10, z: 2.2351741e-10}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.00046534836, y: 5.2154064e-10, z: 2.2351741e-10}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_IndexFinger_R_01/Goblin_IndexFinger_R_02/Goblin_IndexFinger_R_03
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.0001776729, y: 0.00049985404, z: -0.0005114632}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.0001776729, y: 0.00049985404, z: -0.0005114632}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Thumb_R_01
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.00049251824, y: 1.4901161e-10, z: 5.587935e-11}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.00049251824, y: 1.4901161e-10, z: 5.587935e-11}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Thumb_R_01/Goblin_Thumb_R_02
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.0006318122, y: 0, z: 3.72529e-11}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.0006318122, y: 0, z: 3.72529e-11}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Thumb_R_01/Goblin_Thumb_R_02/Goblin_Thumb_R_03
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.00084997923, y: -0.000727321, z: -0.0007942772}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.00084997923, y: -0.000727321, z: -0.0007942772}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/WeaponHolder_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.0013045948, y: 1.4901161e-10, z: -1.11758706e-10}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.0013045948, y: 1.4901161e-10, z: -1.11758706e-10}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/WeaponHolder_R/WeaponHolder_R_Blade
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0, y: 0.00093334465, z: 0.0036520846}
+        inSlope: {x: -0, y: 0.00021016893, z: 0.00039911264}
+        outSlope: {x: -0, y: 0.00021016893, z: 0.00039911264}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.083333336
+        value: {x: -0, y: 0.0010231883, z: 0.0038227}
+        inSlope: {x: -0, y: 0.0018816636, z: 0.0035733285}
+        outSlope: {x: -0, y: 0.0021044605, z: 0.004029767}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.18333334
+        value: {x: -0, y: 0.0012149693, z: 0.0041868966}
+        inSlope: {x: -0, y: 0.0016523213, z: 0.0031377913}
+        outSlope: {x: -0, y: 0.0018888385, z: 0.0035869542}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.31666666
+        value: {x: -0, y: 0.0014380137, z: 0.0046104635}
+        inSlope: {x: -0, y: 0.0006528324, z: 0.0012397361}
+        outSlope: {x: -0, y: 0.00021016879, z: 0.00039911235}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.46666667
+        value: {x: -0, y: 0.0012691133, z: 0.0042897174}
+        inSlope: {x: -0, y: -0.0022669206, z: -0.004304924}
+        outSlope: {x: -0, y: -0.002450482, z: -0.0045819683}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6166667
+        value: {x: -0, y: 0.00095876504, z: 0.0037003588}
+        inSlope: {x: -0, y: -0.0011850233, z: -0.0022503755}
+        outSlope: {x: -0, y: -0.0008492865, z: -0.0016128137}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6666667
+        value: {x: 0, y: 0.0009333016, z: 0.003652003}
+        inSlope: {x: 0, y: -0.00022595898, z: -0.00042910367}
+        outSlope: {x: 0, y: -0.00022595898, z: -0.00042910367}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Bottom
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.0010025781, y: 0.0008709412, z: -0.00055222306}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.0010025781, y: 0.0008709412, z: -0.00055222306}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.0020432111, y: 9.778887e-11, z: -4.6566126e-11}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.0020432111, y: 9.778887e-11, z: -4.6566126e-11}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_R/Goblin_Shin_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.0016650616, y: 1.3504177e-10, z: -8.381903e-11}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6666667
+        value: {x: -0.0016650616, y: 1.3504177e-10, z: -8.381903e-11}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_R/Goblin_Shin_R/Goblin_Foot_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.0012035716, y: 1.9092113e-10, z: 6.1991155e-11}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6666667
+        value: {x: -0.0012035716, y: 1.9092111e-10, z: 6.1991155e-11}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_R/Goblin_Shin_R/Goblin_Foot_R/Goblin_Toes_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.0010025782, y: -0.000870941, z: 0.00019499761}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.0010025782, y: -0.000870941, z: 0.00019499761}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.0020432111, y: 2.7008354e-10, z: -2.2351741e-10}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.0020432111, y: 2.7008354e-10, z: -2.2351741e-10}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_L/Goblin_Shin_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.0016650616, y: 2.2351741e-10, z: -5.3551046e-11}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.0016650616, y: 2.2351741e-10, z: -5.3551046e-11}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_L/Goblin_Shin_L/Goblin_Foot_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.0012035716, y: 5.3085386e-10, z: 2.2351741e-10}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.0012035716, y: 5.3085386e-10, z: 2.2351741e-10}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_L/Goblin_Shin_L/Goblin_Foot_L/Goblin_Toes_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.0016612429, y: -0.00065961917, z: 0.0063496446}
+        inSlope: {x: 0.000846818, y: 0.0011587499, z: 0.00043151373}
+        outSlope: {x: 0.000846818, y: 0.0011587499, z: 0.00043151373}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.0016753566, y: -0.0006403067, z: 0.0063568363}
+        inSlope: {x: 0.000846818, y: 0.0011587499, z: 0.00043151373}
+        outSlope: {x: 0.00256505, y: 0.003615175, z: 0.0013275861}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.033333335
+        value: {x: 0.0017181074, y: -0.0005800538, z: 0.0063789627}
+        inSlope: {x: 0.00256505, y: 0.003615175, z: 0.0013275861}
+        outSlope: {x: 0.0041780504, y: 0.006204057, z: 0.0021909357}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.05
+        value: {x: 0.0017877416, y: -0.0004766528, z: 0.0064154784}
+        inSlope: {x: 0.0041780504, y: 0.006204057, z: 0.0021909357}
+        outSlope: {x: 0.005441826, y: 0.008723575, z: 0.002899217}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.06666667
+        value: {x: 0.0018784388, y: -0.0003312599, z: 0.0064637987}
+        inSlope: {x: 0.005441826, y: 0.008723575, z: 0.002899217}
+        outSlope: {x: 0.0060693654, y: 0.010853463, z: 0.003353298}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.083333336
+        value: {x: 0.0019795948, y: -0.00015036884, z: 0.006519687}
+        inSlope: {x: 0.0060693654, y: 0.010853463, z: 0.003353298}
+        outSlope: {x: 0.0060693654, y: 0.012251223, z: 0.0034732106}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.1
+        value: {x: 0.002080751, y: 0.00005381818, z: 0.0065775737}
+        inSlope: {x: 0.0060693654, y: 0.012251223, z: 0.0034732106}
+        outSlope: {x: 0.0052904254, y: 0.0127161415, z: 0.0034732462}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.11666667
+        value: {x: 0.0021689245, y: 0.00026575386, z: 0.0066354615}
+        inSlope: {x: 0.0052904254, y: 0.0127161415, z: 0.0034732462}
+        outSlope: {x: 0.0041135326, y: 0.012286203, z: 0.0034732088}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.13333334
+        value: {x: 0.0022374836, y: 0.00047052398, z: 0.0066933483}
+        inSlope: {x: 0.0041135326, y: 0.012286203, z: 0.0034732088}
+        outSlope: {x: 0.0027735652, y: 0.011184369, z: 0.0032300593}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.15
+        value: {x: 0.0022837096, y: 0.00065693015, z: 0.0067471825}
+        inSlope: {x: 0.0027735652, y: 0.011184369, z: 0.0032300593}
+        outSlope: {x: 0.0014700115, y: 0.009649796, z: 0.0032300593}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.18333334
+        value: {x: 0.002304432, y: 0.0009785899, z: 0.006871758}
+        inSlope: {x: -0.00022666456, y: 0.009649788, z: 0.004244471}
+        outSlope: {x: -0.0025489393, y: 0.010961791, z: 0.0062898877}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.21666667
+        value: {x: 0.0021787502, y: 0.0013594836, z: 0.0071094404}
+        inSlope: {x: -0.0049919756, y: 0.0118918335, z: 0.00797106}
+        outSlope: {x: -0.0072617773, y: 0.0121254455, z: 0.008981038}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.26666668
+        value: {x: 0.0017524044, y: 0.0019178542, z: 0.007543733}
+        inSlope: {x: -0.009425892, y: 0.009916074, z: 0.008095472}
+        outSlope: {x: -0.008667209, y: 0.0077620246, z: 0.0064943135}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.3
+        value: {x: 0.001494625, y: 0.002136856, z: 0.007728301}
+        inSlope: {x: -0.0067995545, y: 0.0053780833, z: 0.0045797783}
+        outSlope: {x: -0.0042395843, y: 0.0030658036, z: 0.0026528144}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.31666666
+        value: {x: 0.0014239653, y: 0.0021879526, z: 0.0077725146}
+        inSlope: {x: -0.0042395843, y: 0.0030658036, z: 0.0026528144}
+        outSlope: {x: -0.0014152216, y: 0.00096860743, z: 0.000851833}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.33333334
+        value: {x: 0.0014003783, y: 0.0022040962, z: 0.0077867117}
+        inSlope: {x: -0.0014152216, y: 0.00096860743, z: 0.000851833}
+        outSlope: {x: 0.0003315571, y: -0.0008948126, z: -0.00029468563}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.38333333
+        value: {x: 0.0014491895, y: 0.0020676681, z: 0.007740929}
+        inSlope: {x: 0.0016081824, y: -0.004575531, z: -0.0015497103}
+        outSlope: {x: 0.002145828, y: -0.0064543015, z: -0.002248154}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.41666666
+        value: {x: 0.0015275449, y: 0.0018215687, z: 0.0076534026}
+        inSlope: {x: 0.0025555037, y: -0.008311664, z: -0.0030034333}
+        outSlope: {x: 0.0028071527, y: -0.010084865, z: -0.0038110581}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.45
+        value: {x: 0.0016211167, y: 0.0014586834, z: 0.0075123613}
+        inSlope: {x: 0.002807149, y: -0.011688255, z: -0.00465142}
+        outSlope: {x: 0.0026281066, y: -0.013020057, z: -0.0054864716}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.51666665
+        value: {x: 0.0017462021, y: 0.000526641, z: 0.007079089}
+        inSlope: {x: 0.0009963969, y: -0.014463084, z: -0.007346148}
+        outSlope: {x: 0.00033206557, y: -0.013931768, z: -0.0074745812}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.53333336
+        value: {x: 0.0017517365, y: 0.00029444427, z: 0.0069545126}
+        inSlope: {x: 0.00033206557, y: -0.013931768, z: -0.0074745812}
+        outSlope: {x: -0.0002537551, y: -0.012952307, z: -0.0074746083}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.55
+        value: {x: 0.0017475073, y: 0.000078572666, z: 0.0068299356}
+        inSlope: {x: -0.0002537551, y: -0.012952307, z: -0.0074746083}
+        outSlope: {x: -0.00069826015, y: -0.011605499, z: -0.0070127314}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.56666666
+        value: {x: 0.0017358696, y: -0.00011485216, z: 0.006713057}
+        inSlope: {x: -0.00069826015, y: -0.011605499, z: -0.0070127314}
+        outSlope: {x: -0.0010041485, y: -0.009996426, z: -0.006333488}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5833333
+        value: {x: 0.0017191338, y: -0.0002814591, z: 0.006607499}
+        inSlope: {x: -0.0010041485, y: -0.009996426, z: -0.006333488}
+        outSlope: {x: -0.0010041359, y: -0.008226647, z: -0.0054271673}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6
+        value: {x: 0.0017023982, y: -0.0004185702, z: 0.006517046}
+        inSlope: {x: -0.0010041359, y: -0.008226647, z: -0.0054271673}
+        outSlope: {x: -0.0010041485, y: -0.0063806325, z: -0.004349653}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6166667
+        value: {x: 0.0016856624, y: -0.000524914, z: 0.006444552}
+        inSlope: {x: -0.0010041485, y: -0.0063806325, z: -0.004349653}
+        outSlope: {x: -0.00078922283, y: -0.0045191376, z: -0.003158}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6333333
+        value: {x: 0.0016725087, y: -0.00060023286, z: 0.0063919183}
+        inSlope: {x: -0.00078922283, y: -0.0045191376, z: -0.003158}
+        outSlope: {x: -0.00050398754, y: -0.0026802558, z: -0.0019040125}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.65
+        value: {x: 0.001664109, y: -0.00064490375, z: 0.006360185}
+        inSlope: {x: -0.00050398754, y: -0.0026802558, z: -0.0019040125}
+        outSlope: {x: -0.00017195597, y: -0.0008829228, z: -0.00063242746}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6666667
+        value: {x: 0.0016612429, y: -0.00065961917, z: 0.0063496446}
+        inSlope: {x: -0.00017195597, y: -0.0008829228, z: -0.00063242746}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Weapon_R_0
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.00006492127, y: 0.0014616061, z: 0.007163834}
+        inSlope: {x: 0.00042555618, y: 0.00089605444, z: 0.00028728246}
+        outSlope: {x: 0.00042555618, y: 0.00089605444, z: 0.00028728246}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.00007201387, y: 0.0014765403, z: 0.0071686218}
+        inSlope: {x: 0.00042555618, y: 0.00089605444, z: 0.00028728246}
+        outSlope: {x: 0.0012453297, y: 0.0027787506, z: 0.00087493646}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.033333335
+        value: {x: 0.00009276937, y: 0.0015228529, z: 0.007183204}
+        inSlope: {x: 0.0012453297, y: 0.0027787506, z: 0.00087493646}
+        outSlope: {x: 0.001917589, y: 0.0047180057, z: 0.0014265062}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.05
+        value: {x: 0.00012472918, y: 0.0016014864, z: 0.007206979}
+        inSlope: {x: 0.001917589, y: 0.0047180057, z: 0.0014265062}
+        outSlope: {x: 0.0022560537, y: 0.006531365, z: 0.0018608448}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.083333336
+        value: {x: 0.00019993098, y: 0.0018429923, z: 0.007273655}
+        inSlope: {x: 0.0022560542, y: 0.0079589905, z: 0.0021396875}
+        outSlope: {x: 0.0016988207, y: 0.00877516, z: 0.002139652}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.1
+        value: {x: 0.00022824465, y: 0.001989245, z: 0.0073093157}
+        inSlope: {x: 0.0016988207, y: 0.00877516, z: 0.002139652}
+        outSlope: {x: 0.0008182504, y: 0.00877516, z: 0.0021396875}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.11666667
+        value: {x: 0.00024188217, y: 0.0021354975, z: 0.007344977}
+        inSlope: {x: 0.0008182504, y: 0.00877516, z: 0.0021396875}
+        outSlope: {x: -0.00022560274, y: 0.008176961, z: 0.0019825094}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.13333334
+        value: {x: 0.00023812211, y: 0.0022717803, z: 0.007378019}
+        inSlope: {x: -0.00022560274, y: 0.008176961, z: 0.0019825094}
+        outSlope: {x: -0.0012539641, y: 0.00709464, z: 0.0017907502}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.15
+        value: {x: 0.00021722271, y: 0.0023900243, z: 0.0074078646}
+        inSlope: {x: -0.0012539641, y: 0.00709464, z: 0.0017907502}
+        outSlope: {x: -0.002160467, y: 0.0057754847, z: 0.0017907859}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 0.00018121494, y: 0.0024862825, z: 0.007437711}
+        inSlope: {x: -0.002160467, y: 0.0057754847, z: 0.0017907859}
+        outSlope: {x: -0.004109057, y: 0.005392376, z: 0.0017907502}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.18333334
+        value: {x: 0.00011273065, y: 0.0025761554, z: 0.007467557}
+        inSlope: {x: -0.004109057, y: 0.005392376, z: 0.0017907502}
+        outSlope: {x: -0.0072103976, y: 0.005796737, z: 0.0020207763}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.2
+        value: {x: -0.0000074426353, y: 0.0026727675, z: 0.0075012366}
+        inSlope: {x: -0.0072103976, y: 0.005796737, z: 0.0020207763}
+        outSlope: {x: -0.0100759845, y: 0.005796719, z: 0.0020207406}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.21666667
+        value: {x: -0.0001753757, y: 0.0027693796, z: 0.0075349156}
+        inSlope: {x: -0.0100759845, y: 0.005796719, z: 0.0020207406}
+        outSlope: {x: -0.012251689, y: 0.005277783, z: 0.0015635134}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.23333333
+        value: {x: -0.0003795705, y: 0.0028573426, z: 0.007560974}
+        inSlope: {x: -0.012251689, y: 0.005277783, z: 0.0015635134}
+        outSlope: {x: -0.013240415, y: 0.0043079318, z: 0.0008440018}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.26666668
+        value: {x: -0.00081271474, y: 0.002980806, z: 0.007576038}
+        inSlope: {x: -0.012748231, y: 0.003099862, z: 0.00005983109}
+        outSlope: {x: -0.010880449, y: 0.0019451218, z: -0.000515378}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.28333333
+        value: {x: -0.0009940554, y: 0.0030132246, z: 0.0075674485}
+        inSlope: {x: -0.010880449, y: 0.0019451218, z: -0.000515378}
+        outSlope: {x: -0.008077666, y: 0.0010531774, z: -0.0007238024}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.3
+        value: {x: -0.0011286833, y: 0.0030307774, z: 0.007555385}
+        inSlope: {x: -0.008077666, y: 0.0010531774, z: -0.0007238024}
+        outSlope: {x: -0.0048546554, y: 0.0004716222, z: -0.000580967}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.31666666
+        value: {x: -0.0012095941, y: 0.0030386378, z: 0.007545702}
+        inSlope: {x: -0.0048546554, y: 0.0004716222, z: -0.000580967}
+        outSlope: {x: -0.0015897618, y: 0.00012499084, z: -0.00021640043}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.33333334
+        value: {x: -0.0012360902, y: 0.003040721, z: 0.0075420956}
+        inSlope: {x: -0.0015897618, y: 0.00012499084, z: -0.00021640043}
+        outSlope: {x: 0.00048967794, y: -0.00032334952, z: -0.00006197697}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.38333333
+        value: {x: -0.0011619374, y: 0.0029903045, z: 0.007536407}
+        inSlope: {x: 0.0024784796, y: -0.0017094628, z: -0.00021733066}
+        outSlope: {x: 0.0034598052, y: -0.0024907866, z: -0.00021736603}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.43333334
+        value: {x: -0.0009438155, y: 0.0028220862, z: 0.0075171385}
+        inSlope: {x: 0.0052348003, y: -0.0042591654, z: -0.0005500312}
+        outSlope: {x: 0.005936123, y: -0.0052120555, z: -0.000755883}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.51666665
+        value: {x: -0.0004049797, y: 0.0022514293, z: 0.007408128}
+        inSlope: {x: 0.006494557, y: -0.008157946, z: -0.0018853801}
+        outSlope: {x: 0.00603056, y: -0.008307897, z: -0.0021187607}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.53333336
+        value: {x: -0.00030447013, y: 0.002112964, z: 0.0073728156}
+        inSlope: {x: 0.00603056, y: -0.008307897, z: -0.0021187607}
+        outSlope: {x: 0.005396252, y: -0.008127602, z: -0.0022464057}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.55
+        value: {x: -0.00021453269, y: 0.0019775042, z: 0.0073353755}
+        inSlope: {x: 0.005396252, y: -0.008127602, z: -0.0022464057}
+        outSlope: {x: 0.004654759, y: -0.0076244366, z: -0.00224637}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.56666666
+        value: {x: -0.00013695344, y: 0.0018504303, z: 0.007297936}
+        inSlope: {x: 0.004654759, y: -0.0076244366, z: -0.00224637}
+        outSlope: {x: 0.003866009, y: -0.006836117, z: -0.0022464057}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5833333
+        value: {x: -0.00007252002, y: 0.0017364952, z: 0.007260496}
+        inSlope: {x: 0.003866009, y: -0.006836117, z: -0.0022464057}
+        outSlope: {x: 0.0030773936, y: -0.005819296, z: -0.001962585}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6
+        value: {x: -0.00002122999, y: 0.0016395067, z: 0.007227786}
+        inSlope: {x: 0.0030773936, y: -0.005819296, z: -0.001962585}
+        outSlope: {x: 0.002319365, y: -0.0046378565, z: -0.001629497}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6166667
+        value: {x: 0.000017426059, y: 0.0015622091, z: 0.0072006276}
+        inSlope: {x: 0.002319365, y: -0.0046378565, z: -0.001629497}
+        outSlope: {x: 0.0016057763, y: -0.0033524605, z: -0.0012140404}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6333333
+        value: {x: 0.000044188968, y: 0.0015063348, z: 0.0071803937}
+        inSlope: {x: 0.0016057763, y: -0.0033524605, z: -0.0012140404}
+        outSlope: {x: 0.0009375595, y: -0.002015351, z: -0.00074429583}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.65
+        value: {x: 0.000059814945, y: 0.0014727457, z: 0.007167989}
+        inSlope: {x: 0.0009375595, y: -0.002015351, z: -0.00074429583}
+        outSlope: {x: 0.00030637844, y: -0.00066836894, z: -0.00024930172}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6666667
+        value: {x: 0.00006492127, y: 0.0014616061, z: 0.007163834}
+        inSlope: {x: 0.00030637844, y: -0.00066836894, z: -0.00024930172}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Weapon_L_0
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.0025880102, y: -0.0011427592, z: 0.0026156174}
+        inSlope: {x: -0.0005247831, y: -0.0026043935, z: 0.002537316}
+        outSlope: {x: -0.0005247831, y: -0.0026043935, z: 0.002537316}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.0025967564, y: -0.0011861657, z: 0.0026579062}
+        inSlope: {x: -0.0005247831, y: -0.0026043935, z: 0.002537316}
+        outSlope: {x: -0.0012435257, y: -0.008089854, z: 0.007984595}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.033333335
+        value: {x: -0.0026174819, y: -0.0013209967, z: 0.0027909826}
+        inSlope: {x: -0.0012435257, y: -0.008089854, z: 0.007984595}
+        outSlope: {x: -0.00086281303, y: -0.013680769, z: 0.014047534}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.05
+        value: {x: -0.0026318622, y: -0.0015490095, z: 0.0030251082}
+        inSlope: {x: -0.00086281303, y: -0.013680769, z: 0.014047534}
+        outSlope: {x: 0.00134899, y: -0.01857356, z: 0.020459816}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.06666667
+        value: {x: -0.002609379, y: -0.0018585689, z: 0.0033661053}
+        inSlope: {x: 0.00134899, y: -0.01857356, z: 0.020459816}
+        outSlope: {x: 0.0055881324, y: -0.021578578, z: 0.026368942}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.083333336
+        value: {x: -0.0025162434, y: -0.0022182118, z: 0.0038055875}
+        inSlope: {x: 0.0055881324, y: -0.021578578, z: 0.026368942}
+        outSlope: {x: 0.011041654, y: -0.021712357, z: 0.030500812}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.1
+        value: {x: -0.002332216, y: -0.0025800844, z: 0.004313934}
+        inSlope: {x: 0.011041654, y: -0.021712357, z: 0.030500812}
+        outSlope: {x: 0.016081972, y: -0.018989557, z: 0.031824715}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.11666667
+        value: {x: -0.0020641831, y: -0.0028965771, z: 0.004844346}
+        inSlope: {x: 0.016081972, y: -0.018989557, z: 0.031824715}
+        outSlope: {x: 0.019219154, y: -0.01454978, z: 0.030184692}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.13333334
+        value: {x: -0.0017438637, y: -0.0031390735, z: 0.0053474247}
+        inSlope: {x: 0.019219154, y: -0.01454978, z: 0.030184692}
+        outSlope: {x: 0.019906873, y: -0.009914339, z: 0.026273347}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: -0.0011032375, y: -0.0034072082, z: 0.006136786}
+        inSlope: {x: 0.018530693, y: -0.006173748, z: 0.021088352}
+        outSlope: {x: 0.01832542, y: -0.0040750448, z: 0.018651653}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.18333334
+        value: {x: -0.0007978139, y: -0.0034751256, z: 0.006447647}
+        inSlope: {x: 0.01832542, y: -0.0040750448, z: 0.018651653}
+        outSlope: {x: 0.019834343, y: -0.0022825957, z: 0.019601334}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.2
+        value: {x: -0.0004672415, y: -0.003513169, z: 0.006774336}
+        inSlope: {x: 0.019834343, y: -0.0022825957, z: 0.019601334}
+        outSlope: {x: 0.020435508, y: 0.00017527344, z: 0.020729473}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.21666667
+        value: {x: -0.00012664971, y: -0.0035102477, z: 0.007119827}
+        inSlope: {x: 0.020435508, y: 0.00017527344, z: 0.020729473}
+        outSlope: {x: 0.019771295, y: 0.0030362073, z: 0.021605017}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.23333333
+        value: {x: 0.00020287183, y: -0.0034596443, z: 0.0074799107}
+        inSlope: {x: 0.019771295, y: 0.0030362073, z: 0.021605017}
+        outSlope: {x: 0.017643783, y: 0.005737228, z: 0.021605017}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.25
+        value: {x: 0.00049693487, y: -0.0033640238, z: 0.0078399945}
+        inSlope: {x: 0.017643783, y: 0.005737228, z: 0.021605017}
+        outSlope: {x: 0.01427381, y: 0.007528829, z: 0.020136148}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.26666668
+        value: {x: 0.0007348319, y: -0.0032385432, z: 0.008175597}
+        inSlope: {x: 0.01427381, y: 0.007528829, z: 0.020136148}
+        outSlope: {x: 0.0103291245, y: 0.007835706, z: 0.017014913}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.28333333
+        value: {x: 0.0009069838, y: -0.0031079482, z: 0.008459179}
+        inSlope: {x: 0.0103291245, y: 0.007835706, z: 0.017014913}
+        outSlope: {x: 0.006579252, y: 0.006593669, z: 0.012587238}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.3
+        value: {x: 0.0010166381, y: -0.0029980536, z: 0.008668966}
+        inSlope: {x: 0.006579252, y: 0.006593669, z: 0.012587238}
+        outSlope: {x: 0.0034768076, y: 0.004238985, z: 0.0075128386}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.31666666
+        value: {x: 0.0010745849, y: -0.002927404, z: 0.00879418}
+        inSlope: {x: 0.0034768076, y: 0.004238985, z: 0.0075128386}
+        outSlope: {x: 0.0010454705, y: 0.0014155078, z: 0.002427075}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.33333334
+        value: {x: 0.0010920094, y: -0.002903812, z: 0.008834631}
+        inSlope: {x: 0.0010454705, y: 0.0014155078, z: 0.002427075}
+        outSlope: {x: -0.0011347185, y: -0.0015571847, z: -0.0026048208}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.35
+        value: {x: 0.0010730975, y: -0.0029297653, z: 0.008791218}
+        inSlope: {x: -0.0011347185, y: -0.0015571847, z: -0.0026048208}
+        outSlope: {x: -0.0035124212, y: -0.004559537, z: -0.007903533}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.36666667
+        value: {x: 0.001014557, y: -0.0030057575, z: 0.008659492}
+        inSlope: {x: -0.0035124212, y: -0.004559537, z: -0.007903533}
+        outSlope: {x: -0.0061404896, y: -0.0071204132, z: -0.0133046275}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.38333333
+        value: {x: 0.0009122156, y: -0.003124431, z: 0.008437748}
+        inSlope: {x: -0.0061404896, y: -0.0071204132, z: -0.0133046275}
+        outSlope: {x: -0.009085438, y: -0.008855931, z: -0.018705852}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4
+        value: {x: 0.00076079153, y: -0.00327203, z: 0.008125984}
+        inSlope: {x: -0.009085438, y: -0.008855931, z: -0.018705852}
+        outSlope: {x: -0.012316001, y: -0.009387025, z: -0.023905622}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.41666666
+        value: {x: 0.000555525, y: -0.0034284804, z: 0.0077275573}
+        inSlope: {x: -0.012316001, y: -0.009387025, z: -0.023905622}
+        outSlope: {x: -0.015661724, y: -0.008408593, z: -0.028590642}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.43333334
+        value: {x: 0.00029449607, y: -0.0035686237, z: 0.007251046}
+        inSlope: {x: -0.015661724, y: -0.008408593, z: -0.028590642}
+        outSlope: {x: -0.018803766, y: -0.0057825437, z: -0.032358345}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.45
+        value: {x: -0.000018899736, y: -0.0036649993, z: 0.006711741}
+        inSlope: {x: -0.018803766, y: -0.0057825437, z: -0.032358345}
+        outSlope: {x: -0.021311864, y: -0.0016373621, z: -0.034785755}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.46666667
+        value: {x: -0.00037409778, y: -0.0036922887, z: 0.006131978}
+        inSlope: {x: -0.021311864, y: -0.0016373621, z: -0.034785755}
+        outSlope: {x: -0.022765433, y: 0.0035811814, z: -0.035539873}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.48333332
+        value: {x: -0.0007535213, y: -0.0036326023, z: 0.0055396473}
+        inSlope: {x: -0.022765433, y: 0.0035811814, z: -0.035539873}
+        outSlope: {x: -0.022765435, y: 0.009152655, z: -0.03449461}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5
+        value: {x: -0.0011329455, y: -0.003480058, z: 0.0049647368}
+        inSlope: {x: -0.022765435, y: 0.009152655, z: -0.03449461}
+        outSlope: {x: -0.02137449, y: 0.0142343, z: -0.03180053}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.51666665
+        value: {x: -0.0014891867, y: -0.0032428198, z: 0.004434728}
+        inSlope: {x: -0.02137449, y: 0.0142343, z: -0.03180053}
+        outSlope: {x: -0.018736111, y: 0.018078899, z: -0.027866218}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.53333336
+        value: {x: -0.001801456, y: -0.0029415041, z: 0.00397029}
+        inSlope: {x: -0.018736111, y: 0.018078899, z: -0.027866218}
+        outSlope: {x: -0.015328329, y: 0.020220747, z: -0.023251733}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.55
+        value: {x: -0.002056928, y: -0.002604492, z: 0.0035827614}
+        inSlope: {x: -0.015328329, y: 0.020220747, z: -0.023251733}
+        outSlope: {x: -0.011693137, y: 0.020554475, z: -0.01851974}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.56666666
+        value: {x: -0.0022518134, y: -0.0022619178, z: 0.0032740994}
+        inSlope: {x: -0.011693137, y: 0.020554475, z: -0.01851974}
+        outSlope: {x: -0.008306845, y: 0.019283716, z: -0.014113045}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5833333
+        value: {x: -0.0023902606, y: -0.0019405227, z: 0.0030388823}
+        inSlope: {x: -0.008306845, y: 0.019283716, z: -0.014113045}
+        outSlope: {x: -0.0054833326, y: 0.016791148, z: -0.010291913}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6
+        value: {x: -0.0024816499, y: -0.0016606696, z: 0.00286735}
+        inSlope: {x: -0.0054833326, y: 0.016791148, z: -0.010291913}
+        outSlope: {x: -0.0033479366, y: 0.013499213, z: -0.00713926}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6166667
+        value: {x: -0.0025374487, y: -0.0014356829, z: 0.0027483623}
+        inSlope: {x: -0.0033479366, y: 0.013499213, z: -0.00713926}
+        outSlope: {x: -0.0018672483, y: 0.009769956, z: -0.004603247}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6333333
+        value: {x: -0.0025685695, y: -0.0012728504, z: 0.0026716418}
+        inSlope: {x: -0.0018672483, y: 0.009769956, z: -0.004603247}
+        outSlope: {x: -0.00090301124, y: 0.005863761, z: -0.0025507472}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.65
+        value: {x: -0.0025836197, y: -0.0011751212, z: 0.0026291292}
+        inSlope: {x: -0.00090301124, y: 0.005863761, z: -0.0025507472}
+        outSlope: {x: -0.000263428, y: 0.001941713, z: -0.0008107044}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6666667
+        value: {x: -0.0025880102, y: -0.0011427592, z: 0.0026156174}
+        inSlope: {x: -0.000263428, y: 0.001941713, z: -0.0008107044}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Laddle_Lower
+  m_ScaleCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Cube
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1.0000001, y: 1.0000001, z: 1.0000002}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 1.0000001, y: 1.0000001, z: 1.0000002}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.99999994, y: 1, z: 0.99999994}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.99999994, y: 1, z: 0.99999994}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.9999999, y: 0.99999994, z: 1.0000001}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.9999999, y: 0.99999994, z: 1.0000001}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.99999994, y: 1, z: 0.99999994}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.99999994, y: 1, z: 0.99999994}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest/Goblin_Neck
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 0.99999994, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 1, y: 0.99999994, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest/Goblin_Neck/Goblin_Head
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.99999994, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.99999994, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest/Goblin_Neck/Goblin_Head/Bone
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1.0000001, y: 1.0000005, z: 1.0000007}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 1.0000001, y: 1.0000005, z: 1.0000007}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest/Holster_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1.0000002, y: 1.0000008, z: 1.0000011}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 1.0000002, y: 1.0000008, z: 1.0000011}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest/Holster_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.9999999, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.9999999, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1.0000002, y: 0.99999994, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 1.0000002, y: 0.99999994, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1.0000001, y: 1, z: 1.0000001}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 1.0000001, y: 1, z: 1.0000001}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.99999994, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.99999994, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/WeaponHolder_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.99999994, y: 0.9999983, z: 0.99999994}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.99999994, y: 0.9999983, z: 0.99999994}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/WeaponHolder_L/WeaponHolder_L_BLade
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Pinky_L_01
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.99999994, y: 0.9999998, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.99999994, y: 0.9999998, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Pinky_L_01/Goblin_Pinky_L_02
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 0.99999994, z: 1.0000001}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 1, y: 0.99999994, z: 1.0000001}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Pinky_L_01/Goblin_Pinky_L_02/Goblin_Pinky_L_03
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.99999994, y: 1.0000001, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.99999994, y: 1.0000001, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_RingFinger_L_01
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 0.9999999, z: 1.0000002}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 1, y: 0.9999999, z: 1.0000002}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_RingFinger_L_01/Goblin_RingFinger_L_02
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1.0000001, z: 0.99999994}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 1, y: 1.0000001, z: 0.99999994}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_RingFinger_L_01/Goblin_RingFinger_L_02/Goblin_RingFinger_L_03
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_MiddleFinger_01
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.9999998, y: 0.9999999, z: 1.0000001}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.9999998, y: 0.9999999, z: 1.0000001}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_MiddleFinger_01/Goblin_MiddleFinger_02
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1.0000001, y: 1, z: 1.0000001}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 1.0000001, y: 1, z: 1.0000001}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_MiddleFinger_01/Goblin_MiddleFinger_02/Goblin_MiddleFinger_03
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1.0000001, y: 0.99999994, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 1.0000001, y: 0.99999994, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_IndexFinger_L_01
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 0.9999999, z: 0.9999999}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 1, y: 0.9999999, z: 0.9999999}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_IndexFinger_L_01/Goblin_IndexFinger_L_02
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1.0000001, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 1.0000001, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_IndexFinger_L_01/Goblin_IndexFinger_L_02/Goblin_IndexFinger_L_03
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1.0000001, y: 0.99999994, z: 0.99999994}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 1.0000001, y: 0.99999994, z: 0.99999994}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Thumb_L_01
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1.0000001, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 1, y: 1.0000001, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Thumb_L_01/Goblin_Thumb_L_02
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.9999998, y: 0.99999976, z: 0.99999994}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.9999998, y: 0.99999976, z: 0.99999994}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Thumb_L_01/Goblin_Thumb_L_02/Goblin_Thumb_L_03
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.99999976, y: 0.99999994, z: 0.99999994}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.99999976, y: 0.99999994, z: 0.99999994}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1.0000001, z: 0.9999999}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 1, y: 1.0000001, z: 0.9999999}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 0.9999999}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 1, y: 1, z: 0.9999999}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 0.9999999}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 1, y: 1, z: 0.9999999}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.99999994, y: 0.99999994, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.99999994, y: 0.99999994, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Pinky_R_01
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.99999994, y: 0.9999999, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.99999994, y: 0.9999999, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Pinky_R_01/Goblin_Pinky_R_02
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1.0000001, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 1, y: 1.0000001, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Pinky_R_01/Goblin_Pinky_R_02/Goblin_Pinky_R_03
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.99999994, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.99999994, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_RingFinger_R_01
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 0.99999994, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 1, y: 0.99999994, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_RingFinger_R_01/Goblin_RingFinger_R_02
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_RingFinger_R_01/Goblin_RingFinger_R_02/Goblin_RingFinger_R_03
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.99999994, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.99999994, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_MiddleFinger_R_01
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 0.99999994, z: 1.0000001}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 1, y: 0.99999994, z: 1.0000001}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_MiddleFinger_R_01/Goblin_MiddleFinger_R_02
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1.0000001, y: 0.99999994, z: 0.99999994}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 1.0000001, y: 0.99999994, z: 0.99999994}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_MiddleFinger_R_01/Goblin_MiddleFinger_R_02/Goblin_MiddleFinger_R_03
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1.0000001, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 1, y: 1.0000001, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_IndexFinger_R_01
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.99999994, y: 1, z: 0.9999999}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.99999994, y: 1, z: 0.9999999}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_IndexFinger_R_01/Goblin_IndexFinger_R_02
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1.0000001, y: 0.99999994, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 1.0000001, y: 0.99999994, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_IndexFinger_R_01/Goblin_IndexFinger_R_02/Goblin_IndexFinger_R_03
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1.0000002, y: 1.0000001, z: 1.0000001}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 1.0000002, y: 1.0000001, z: 1.0000001}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Thumb_R_01
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Thumb_R_01/Goblin_Thumb_R_02
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 0.99999994, z: 0.9999999}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 1, y: 0.99999994, z: 0.9999999}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Thumb_R_01/Goblin_Thumb_R_02/Goblin_Thumb_R_03
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/WeaponHolder_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.99999994, y: 0.999999, z: 0.99999994}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.99999994, y: 0.999999, z: 0.99999994}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/WeaponHolder_R/WeaponHolder_R_Blade
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Bottom
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.9999999, y: 0.99999994, z: 0.99999994}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.9999999, y: 0.99999994, z: 0.99999994}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1.0000001, z: 0.99999994}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6666667
+        value: {x: 1, y: 1.0000001, z: 0.9999999}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_R/Goblin_Shin_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1.0000001, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6666667
+        value: {x: 1.0000001, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_R/Goblin_Shin_R/Goblin_Foot_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1.0000001, y: 0.9999998, z: 0.9999999}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 1.0000001, y: 0.9999998, z: 0.9999999}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_R/Goblin_Shin_R/Goblin_Foot_R/Goblin_Toes_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.99999994, y: 0.9999999, z: 0.9999999}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.99999994, y: 0.9999999, z: 0.9999999}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1.0000001, y: 1.0000001, z: 1.0000002}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 1.0000001, y: 1.0000001, z: 1.0000002}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_L/Goblin_Shin_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 0.99999994}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 1, y: 1, z: 0.99999994}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_L/Goblin_Shin_L/Goblin_Foot_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 0.99999994}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 1, y: 1, z: 0.99999994}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_L/Goblin_Shin_L/Goblin_Foot_L/Goblin_Toes_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.99999976, y: 1.0000005, z: 1.0000007}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.99999976, y: 1.0000005, z: 1.0000007}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Weapon_R_0
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1.0000001, y: 1.0000002, z: 1.0000012}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 1.0000001, y: 1.0000002, z: 1.0000012}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Weapon_L_0
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.99999994, y: 0.9999997, z: 1.0000002}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.99999994, y: 0.9999997, z: 1.0000002}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Goblin/Goblin_Armature/Laddle_Lower
+  m_FloatCurves: []
+  m_PPtrCurves: []
+  m_SampleRate: 60
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings: []
+    pptrCurveMapping: []
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_AdditiveReferencePoseClip: {fileID: 0}
+    m_AdditiveReferencePoseTime: 0
+    m_StartTime: 0
+    m_StopTime: 0.6666667
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_HasAdditiveReferencePose: 0
+    m_LoopTime: 1
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves: []
+  m_EulerEditorCurves: []
+  m_HasGenericRootTransform: 0
+  m_HasMotionFloatCurves: 0
+  m_GenerateMotionCurves: 0
+  m_Events: []
