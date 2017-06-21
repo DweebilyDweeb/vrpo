@@ -8,7 +8,7 @@ namespace UnityEngine.PostProcessing
 
         public BuiltinDebugViewsModel debugViews = new BuiltinDebugViewsModel();
         public FogModel fog = new FogModel();
-        public AntialiasingModel antiAliasing = new AntialiasingModel();
+        public AntialiasingModel antialiasing = new AntialiasingModel();
         public AmbientOcclusionModel ambientOcclusion = new AmbientOcclusionModel();
         public ScreenSpaceReflectionModel screenSpaceReflection = new ScreenSpaceReflectionModel();
         public DepthOfFieldModel depthOfField = new DepthOfFieldModel();
