@@ -8,7 +8,8 @@ public class Piranha : MonoBehaviour
     private float distance, velocity;
     private float lifetime = 5.0f;
     private bool isRightSide, inJumpRange, hasJumped;
-    
+    private Animator anim;
+
 	// Use this for initialization
     
     void Start () 
@@ -16,6 +17,7 @@ public class Piranha : MonoBehaviour
         target = GameObject.FindGameObjectWithTag("Boat");
         inJumpRange = false;
         hasJumped = false;
+        anim = GetComponent<Animator>();
 	}
 
     public void Init(float vel, bool onRightSide)
@@ -37,13 +39,7 @@ public class Piranha : MonoBehaviour
             if (!hasJumped)
             {
                 hasJumped = true;
-                transform.localRotation = Quaternion.Lerp(transform.localRotation, Quaternion.Euler(-75, transform.localEulerAngles.y, 0), 1.0f);
-            }
-            else
-            {
-                Vector3 newRot = transform.localEulerAngles;
-                newRot.x += Time.deltaTime * (velocity * 4.5f);
-                transform.localRotation = Quaternion.Euler(newRot);
+                anim.SetTrigger("Jump");
             }
         }
 
