@@ -49,9 +49,10 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4660205114338722}
+  - component: {fileID: 65542336434614542}
   m_Layer: 0
   m_Name: joint_head
-  m_TagString: Untagged
+  m_TagString: Piranha
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -82,10 +83,9 @@ GameObject:
   - component: {fileID: 137694588012994146}
   - component: {fileID: 95758969412615024}
   - component: {fileID: 114794268033807142}
-  - component: {fileID: 65764054625236854}
   m_Layer: 0
   m_Name: Piranha
-  m_TagString: Untagged
+  m_TagString: Piranha
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -130,7 +130,7 @@ Transform:
   - {fileID: 4769252586977772}
   m_Father: {fileID: 4660205114338722}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: -18.743309, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -1.9849861e-14, z: 0}
 --- !u!4 &4660205114338722
 Transform:
   m_ObjectHideFlags: 1
@@ -144,7 +144,7 @@ Transform:
   - {fileID: 4253936844751660}
   m_Father: {fileID: 4147973546361078}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -13.9597225, y: -86.03487, z: 27.776316}
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!4 &4769252586977772
 Transform:
   m_ObjectHideFlags: 1
@@ -158,19 +158,19 @@ Transform:
   - {fileID: 4129226908296580}
   m_Father: {fileID: 4253936844751660}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: -43.36584, z: 0}
---- !u!65 &65764054625236854
+  m_LocalEulerAnglesHint: {x: 0, y: -2.3957153e-14, z: 0}
+--- !u!65 &65542336434614542
 BoxCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1837309176393238}
+  m_GameObject: {fileID: 1752125936667662}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.10325734, y: 0.31011105, z: 0.66236234}
-  m_Center: {x: -0.123214684, y: 0.14613384, z: -0.011456609}
+  m_Size: {x: 0.68170136, y: 0.3454067, z: 0.15327956}
+  m_Center: {x: -0.29365227, y: 0.01938208, z: -0.009584655}
 --- !u!95 &95758969412615024
 Animator:
   serializedVersion: 3
