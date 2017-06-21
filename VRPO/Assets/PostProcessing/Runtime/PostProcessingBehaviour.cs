@@ -15,9 +15,8 @@ namespace UnityEngine.PostProcessing
     {
         // Inspector fields
         public PostProcessingProfile profile;
-        public PostProcessingProfile profile2;
+
         public Func<Vector2, Matrix4x4> jitteredMatrixFunc;
-        Matrix4x4 nonJitteredProjectionMatrix;
 
         // Internal helpers
         Dictionary<Type, KeyValuePair<CameraEvent, CommandBuffer>> m_CommandBuffers;
@@ -121,7 +120,7 @@ namespace UnityEngine.PostProcessing
             m_ScreenSpaceReflection.Init(context, profile.screenSpaceReflection);
             m_FogComponent.Init(context, profile.fog);
             m_MotionBlur.Init(context, profile.motionBlur);
-            m_Taa.Init(context, profile.antiAliasing);
+            m_Taa.Init(context, profile.antialiasing);
             m_EyeAdaptation.Init(context, profile.eyeAdaptation);
             m_DepthOfField.Init(context, profile.depthOfField);
             m_Bloom.Init(context, profile.bloom);
@@ -131,7 +130,7 @@ namespace UnityEngine.PostProcessing
             m_Grain.Init(context, profile.grain);
             m_Vignette.Init(context, profile.vignette);
             m_Dithering.Init(context, profile.dithering);
-            m_Fxaa.Init(context, profile.antiAliasing);
+            m_Fxaa.Init(context, profile.antialiasing);
 
             // Handles profile change and 'enable' state observers
             if (m_PreviousProfile != profile)
@@ -155,10 +154,7 @@ namespace UnityEngine.PostProcessing
 
             // Temporal antialiasing jittering, needs to happen before culling
             if (!m_RenderingInSceneView && m_Taa.active && !profile.debugViews.willInterrupt)
-            {
-                nonJitteredProjectionMatrix = m_Context.camera.projectionMatrix;
                 m_Taa.SetProjectionMatrix(jitteredMatrixFunc);
-            }
         }
 
         void OnPreRender()
@@ -182,7 +178,7 @@ namespace UnityEngine.PostProcessing
                 return;
 
             if (!m_RenderingInSceneView && m_Taa.active && !profile.debugViews.willInterrupt)
-                m_Context.camera.projectionMatrix = nonJitteredProjectionMatrix;
+                m_Context.camera.ResetProjectionMatrix();
         }
 
         // Classic render target pipeline for RT-based effects
@@ -224,12 +220,14 @@ namespace UnityEngine.PostProcessing
                 dst = m_RenderTextureFactory.Get(src);
 #endif
 
-            Texture autoExposure = null;
+            Texture autoExposure = GraphicsUtils.whiteTexture;
             if (m_EyeAdaptation.active)
             {
                 uberActive = true;
                 autoExposure = m_EyeAdaptation.Prepare(src, uberMaterial);
             }
+
+            uberMaterial.SetTexture("_AutoExposure", autoExposure);
 
             if (dofActive)
             {
