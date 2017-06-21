@@ -91,6 +91,8 @@ ModelImporter:
     100166: Weapon_R_end
     100168: Cube
     100170: Cube.001
+    100172: Weapon_L_0
+    100174: Weapon_R_0
     400000: Bone
     400002: Bone_end
     400004: //RootNode
@@ -177,6 +179,8 @@ ModelImporter:
     400166: Weapon_R_end
     400168: Cube
     400170: Cube.001
+    400172: Weapon_L_0
+    400174: Weapon_R_0
     2300000: Weapon_L
     2300002: Weapon_R
     2300004: Cube
@@ -199,6 +203,16 @@ ModelImporter:
     7400012: Weapon_L|Weapon_L_Unsheathe
     7400014: Weapon_L|Weapon_L_Walk
     7400016: Goblin_Armature|Goblin_Walk
+    7400018: Goblin_Attack_Ranged_L
+    7400020: Goblin_Attack_Ranged_R
+    7400022: Goblin_Idle
+    7400024: Goblin_Run
+    7400026: Goblin_Unsheathe
+    7400028: Goblin_Walk
+    7400030: Goblin_Death_Alarmed_01
+    7400032: Goblin_Death_Alarmed_02
+    7400034: Goblin_Death_Unalarmed_1
+    7400036: Goblin_Death_Unalarmed_2
     9500000: //RootNode
     13700000: Goblin
     13700002: Weapon_L
@@ -225,7 +239,1587 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Goblin_Attack_Ranged_L
+      takeName: Goblin_Attack_Ranged_L
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Goblin
+        weight: 1
+      - path: Goblin/Goblin_Armature
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest/Goblin_Neck
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest/Goblin_Neck/Goblin_Head
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest/Goblin_Neck/Goblin_Head/Bone
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest/Holster_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest/Holster_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_IndexFinger_L_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_IndexFinger_L_01/Goblin_IndexFinger_L_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_IndexFinger_L_01/Goblin_IndexFinger_L_02/Goblin_IndexFinger_L_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_MiddleFinger_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_MiddleFinger_01/Goblin_MiddleFinger_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_MiddleFinger_01/Goblin_MiddleFinger_02/Goblin_MiddleFinger_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Pinky_L_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Pinky_L_01/Goblin_Pinky_L_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Pinky_L_01/Goblin_Pinky_L_02/Goblin_Pinky_L_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_RingFinger_L_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_RingFinger_L_01/Goblin_RingFinger_L_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_RingFinger_L_01/Goblin_RingFinger_L_02/Goblin_RingFinger_L_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Thumb_L_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Thumb_L_01/Goblin_Thumb_L_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Thumb_L_01/Goblin_Thumb_L_02/Goblin_Thumb_L_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/WeaponHolder_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/WeaponHolder_L/WeaponHolder_L_BLade
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_IndexFinger_R_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_IndexFinger_R_01/Goblin_IndexFinger_R_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_IndexFinger_R_01/Goblin_IndexFinger_R_02/Goblin_IndexFinger_R_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_MiddleFinger_R_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_MiddleFinger_R_01/Goblin_MiddleFinger_R_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_MiddleFinger_R_01/Goblin_MiddleFinger_R_02/Goblin_MiddleFinger_R_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Pinky_R_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Pinky_R_01/Goblin_Pinky_R_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Pinky_R_01/Goblin_Pinky_R_02/Goblin_Pinky_R_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_RingFinger_R_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_RingFinger_R_01/Goblin_RingFinger_R_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_RingFinger_R_01/Goblin_RingFinger_R_02/Goblin_RingFinger_R_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Thumb_R_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Thumb_R_01/Goblin_Thumb_R_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Thumb_R_01/Goblin_Thumb_R_02/Goblin_Thumb_R_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/WeaponHolder_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/WeaponHolder_R/WeaponHolder_R_Blade
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_L/Goblin_Shin_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_L/Goblin_Shin_L/Goblin_Foot_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_L/Goblin_Shin_L/Goblin_Foot_L/Goblin_Toes_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_R/Goblin_Shin_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_R/Goblin_Shin_R/Goblin_Foot_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_R/Goblin_Shin_R/Goblin_Foot_R/Goblin_Toes_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Weapon_L_0
+        weight: 1
+      - path: Goblin/Goblin_Armature/Weapon_R_0
+        weight: 1
+      - path: Weapon_L
+        weight: 1
+      - path: Weapon_R
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Goblin_Attack_Ranged_R
+      takeName: Goblin_Attack_Ranged_R
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Goblin
+        weight: 1
+      - path: Goblin/Goblin_Armature
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest/Goblin_Neck
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest/Goblin_Neck/Goblin_Head
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest/Goblin_Neck/Goblin_Head/Bone
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest/Holster_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest/Holster_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_IndexFinger_L_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_IndexFinger_L_01/Goblin_IndexFinger_L_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_IndexFinger_L_01/Goblin_IndexFinger_L_02/Goblin_IndexFinger_L_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_MiddleFinger_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_MiddleFinger_01/Goblin_MiddleFinger_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_MiddleFinger_01/Goblin_MiddleFinger_02/Goblin_MiddleFinger_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Pinky_L_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Pinky_L_01/Goblin_Pinky_L_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Pinky_L_01/Goblin_Pinky_L_02/Goblin_Pinky_L_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_RingFinger_L_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_RingFinger_L_01/Goblin_RingFinger_L_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_RingFinger_L_01/Goblin_RingFinger_L_02/Goblin_RingFinger_L_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Thumb_L_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Thumb_L_01/Goblin_Thumb_L_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Thumb_L_01/Goblin_Thumb_L_02/Goblin_Thumb_L_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/WeaponHolder_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/WeaponHolder_L/WeaponHolder_L_BLade
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_IndexFinger_R_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_IndexFinger_R_01/Goblin_IndexFinger_R_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_IndexFinger_R_01/Goblin_IndexFinger_R_02/Goblin_IndexFinger_R_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_MiddleFinger_R_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_MiddleFinger_R_01/Goblin_MiddleFinger_R_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_MiddleFinger_R_01/Goblin_MiddleFinger_R_02/Goblin_MiddleFinger_R_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Pinky_R_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Pinky_R_01/Goblin_Pinky_R_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Pinky_R_01/Goblin_Pinky_R_02/Goblin_Pinky_R_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_RingFinger_R_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_RingFinger_R_01/Goblin_RingFinger_R_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_RingFinger_R_01/Goblin_RingFinger_R_02/Goblin_RingFinger_R_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Thumb_R_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Thumb_R_01/Goblin_Thumb_R_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Thumb_R_01/Goblin_Thumb_R_02/Goblin_Thumb_R_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/WeaponHolder_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/WeaponHolder_R/WeaponHolder_R_Blade
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_L/Goblin_Shin_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_L/Goblin_Shin_L/Goblin_Foot_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_L/Goblin_Shin_L/Goblin_Foot_L/Goblin_Toes_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_R/Goblin_Shin_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_R/Goblin_Shin_R/Goblin_Foot_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_R/Goblin_Shin_R/Goblin_Foot_R/Goblin_Toes_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Weapon_L_0
+        weight: 1
+      - path: Goblin/Goblin_Armature/Weapon_R_0
+        weight: 1
+      - path: Weapon_L
+        weight: 1
+      - path: Weapon_R
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Goblin_Idle
+      takeName: Goblin_Idle
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Goblin
+        weight: 1
+      - path: Goblin/Goblin_Armature
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest/Goblin_Neck
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest/Goblin_Neck/Goblin_Head
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest/Goblin_Neck/Goblin_Head/Bone
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest/Holster_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest/Holster_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_IndexFinger_L_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_IndexFinger_L_01/Goblin_IndexFinger_L_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_IndexFinger_L_01/Goblin_IndexFinger_L_02/Goblin_IndexFinger_L_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_MiddleFinger_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_MiddleFinger_01/Goblin_MiddleFinger_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_MiddleFinger_01/Goblin_MiddleFinger_02/Goblin_MiddleFinger_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Pinky_L_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Pinky_L_01/Goblin_Pinky_L_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Pinky_L_01/Goblin_Pinky_L_02/Goblin_Pinky_L_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_RingFinger_L_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_RingFinger_L_01/Goblin_RingFinger_L_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_RingFinger_L_01/Goblin_RingFinger_L_02/Goblin_RingFinger_L_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Thumb_L_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Thumb_L_01/Goblin_Thumb_L_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Thumb_L_01/Goblin_Thumb_L_02/Goblin_Thumb_L_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/WeaponHolder_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/WeaponHolder_L/WeaponHolder_L_BLade
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_IndexFinger_R_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_IndexFinger_R_01/Goblin_IndexFinger_R_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_IndexFinger_R_01/Goblin_IndexFinger_R_02/Goblin_IndexFinger_R_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_MiddleFinger_R_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_MiddleFinger_R_01/Goblin_MiddleFinger_R_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_MiddleFinger_R_01/Goblin_MiddleFinger_R_02/Goblin_MiddleFinger_R_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Pinky_R_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Pinky_R_01/Goblin_Pinky_R_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Pinky_R_01/Goblin_Pinky_R_02/Goblin_Pinky_R_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_RingFinger_R_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_RingFinger_R_01/Goblin_RingFinger_R_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_RingFinger_R_01/Goblin_RingFinger_R_02/Goblin_RingFinger_R_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Thumb_R_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Thumb_R_01/Goblin_Thumb_R_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Thumb_R_01/Goblin_Thumb_R_02/Goblin_Thumb_R_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/WeaponHolder_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/WeaponHolder_R/WeaponHolder_R_Blade
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_L/Goblin_Shin_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_L/Goblin_Shin_L/Goblin_Foot_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_L/Goblin_Shin_L/Goblin_Foot_L/Goblin_Toes_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_R/Goblin_Shin_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_R/Goblin_Shin_R/Goblin_Foot_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_R/Goblin_Shin_R/Goblin_Foot_R/Goblin_Toes_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Weapon_L_0
+        weight: 1
+      - path: Goblin/Goblin_Armature/Weapon_R_0
+        weight: 1
+      - path: Weapon_L
+        weight: 1
+      - path: Weapon_R
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Goblin_Run
+      takeName: Goblin_Run
+      firstFrame: 10
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Goblin
+        weight: 1
+      - path: Goblin/Goblin_Armature
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest/Goblin_Neck
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest/Goblin_Neck/Goblin_Head
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest/Goblin_Neck/Goblin_Head/Bone
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest/Holster_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest/Holster_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_IndexFinger_L_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_IndexFinger_L_01/Goblin_IndexFinger_L_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_IndexFinger_L_01/Goblin_IndexFinger_L_02/Goblin_IndexFinger_L_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_MiddleFinger_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_MiddleFinger_01/Goblin_MiddleFinger_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_MiddleFinger_01/Goblin_MiddleFinger_02/Goblin_MiddleFinger_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Pinky_L_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Pinky_L_01/Goblin_Pinky_L_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Pinky_L_01/Goblin_Pinky_L_02/Goblin_Pinky_L_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_RingFinger_L_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_RingFinger_L_01/Goblin_RingFinger_L_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_RingFinger_L_01/Goblin_RingFinger_L_02/Goblin_RingFinger_L_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Thumb_L_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Thumb_L_01/Goblin_Thumb_L_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Thumb_L_01/Goblin_Thumb_L_02/Goblin_Thumb_L_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/WeaponHolder_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/WeaponHolder_L/WeaponHolder_L_BLade
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_IndexFinger_R_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_IndexFinger_R_01/Goblin_IndexFinger_R_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_IndexFinger_R_01/Goblin_IndexFinger_R_02/Goblin_IndexFinger_R_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_MiddleFinger_R_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_MiddleFinger_R_01/Goblin_MiddleFinger_R_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_MiddleFinger_R_01/Goblin_MiddleFinger_R_02/Goblin_MiddleFinger_R_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Pinky_R_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Pinky_R_01/Goblin_Pinky_R_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Pinky_R_01/Goblin_Pinky_R_02/Goblin_Pinky_R_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_RingFinger_R_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_RingFinger_R_01/Goblin_RingFinger_R_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_RingFinger_R_01/Goblin_RingFinger_R_02/Goblin_RingFinger_R_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Thumb_R_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Thumb_R_01/Goblin_Thumb_R_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Thumb_R_01/Goblin_Thumb_R_02/Goblin_Thumb_R_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/WeaponHolder_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/WeaponHolder_R/WeaponHolder_R_Blade
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_L/Goblin_Shin_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_L/Goblin_Shin_L/Goblin_Foot_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_L/Goblin_Shin_L/Goblin_Foot_L/Goblin_Toes_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_R/Goblin_Shin_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_R/Goblin_Shin_R/Goblin_Foot_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_R/Goblin_Shin_R/Goblin_Foot_R/Goblin_Toes_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Weapon_L_0
+        weight: 1
+      - path: Goblin/Goblin_Armature/Weapon_R_0
+        weight: 1
+      - path: Weapon_L
+        weight: 1
+      - path: Weapon_R
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Goblin_Unsheathe
+      takeName: Goblin_Unsheathe
+      firstFrame: 0
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Goblin
+        weight: 1
+      - path: Goblin/Goblin_Armature
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest/Goblin_Neck
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest/Goblin_Neck/Goblin_Head
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest/Goblin_Neck/Goblin_Head/Bone
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest/Holster_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest/Holster_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_IndexFinger_L_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_IndexFinger_L_01/Goblin_IndexFinger_L_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_IndexFinger_L_01/Goblin_IndexFinger_L_02/Goblin_IndexFinger_L_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_MiddleFinger_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_MiddleFinger_01/Goblin_MiddleFinger_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_MiddleFinger_01/Goblin_MiddleFinger_02/Goblin_MiddleFinger_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Pinky_L_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Pinky_L_01/Goblin_Pinky_L_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Pinky_L_01/Goblin_Pinky_L_02/Goblin_Pinky_L_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_RingFinger_L_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_RingFinger_L_01/Goblin_RingFinger_L_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_RingFinger_L_01/Goblin_RingFinger_L_02/Goblin_RingFinger_L_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Thumb_L_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Thumb_L_01/Goblin_Thumb_L_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Thumb_L_01/Goblin_Thumb_L_02/Goblin_Thumb_L_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/WeaponHolder_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/WeaponHolder_L/WeaponHolder_L_BLade
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_IndexFinger_R_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_IndexFinger_R_01/Goblin_IndexFinger_R_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_IndexFinger_R_01/Goblin_IndexFinger_R_02/Goblin_IndexFinger_R_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_MiddleFinger_R_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_MiddleFinger_R_01/Goblin_MiddleFinger_R_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_MiddleFinger_R_01/Goblin_MiddleFinger_R_02/Goblin_MiddleFinger_R_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Pinky_R_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Pinky_R_01/Goblin_Pinky_R_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Pinky_R_01/Goblin_Pinky_R_02/Goblin_Pinky_R_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_RingFinger_R_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_RingFinger_R_01/Goblin_RingFinger_R_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_RingFinger_R_01/Goblin_RingFinger_R_02/Goblin_RingFinger_R_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Thumb_R_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Thumb_R_01/Goblin_Thumb_R_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Thumb_R_01/Goblin_Thumb_R_02/Goblin_Thumb_R_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/WeaponHolder_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/WeaponHolder_R/WeaponHolder_R_Blade
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_L/Goblin_Shin_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_L/Goblin_Shin_L/Goblin_Foot_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_L/Goblin_Shin_L/Goblin_Foot_L/Goblin_Toes_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_R/Goblin_Shin_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_R/Goblin_Shin_R/Goblin_Foot_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_R/Goblin_Shin_R/Goblin_Foot_R/Goblin_Toes_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Weapon_L_0
+        weight: 1
+      - path: Goblin/Goblin_Armature/Weapon_R_0
+        weight: 1
+      - path: Weapon_L
+        weight: 1
+      - path: Weapon_R
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Goblin_Walk
+      takeName: Goblin_Walk
+      firstFrame: 30
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Goblin
+        weight: 1
+      - path: Goblin/Goblin_Armature
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest/Goblin_Neck
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest/Goblin_Neck/Goblin_Head
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest/Goblin_Neck/Goblin_Head/Bone
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest/Holster_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest/Holster_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_IndexFinger_L_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_IndexFinger_L_01/Goblin_IndexFinger_L_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_IndexFinger_L_01/Goblin_IndexFinger_L_02/Goblin_IndexFinger_L_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_MiddleFinger_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_MiddleFinger_01/Goblin_MiddleFinger_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_MiddleFinger_01/Goblin_MiddleFinger_02/Goblin_MiddleFinger_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Pinky_L_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Pinky_L_01/Goblin_Pinky_L_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Pinky_L_01/Goblin_Pinky_L_02/Goblin_Pinky_L_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_RingFinger_L_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_RingFinger_L_01/Goblin_RingFinger_L_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_RingFinger_L_01/Goblin_RingFinger_L_02/Goblin_RingFinger_L_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Thumb_L_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Thumb_L_01/Goblin_Thumb_L_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Thumb_L_01/Goblin_Thumb_L_02/Goblin_Thumb_L_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/WeaponHolder_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/WeaponHolder_L/WeaponHolder_L_BLade
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_IndexFinger_R_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_IndexFinger_R_01/Goblin_IndexFinger_R_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_IndexFinger_R_01/Goblin_IndexFinger_R_02/Goblin_IndexFinger_R_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_MiddleFinger_R_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_MiddleFinger_R_01/Goblin_MiddleFinger_R_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_MiddleFinger_R_01/Goblin_MiddleFinger_R_02/Goblin_MiddleFinger_R_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Pinky_R_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Pinky_R_01/Goblin_Pinky_R_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Pinky_R_01/Goblin_Pinky_R_02/Goblin_Pinky_R_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_RingFinger_R_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_RingFinger_R_01/Goblin_RingFinger_R_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_RingFinger_R_01/Goblin_RingFinger_R_02/Goblin_RingFinger_R_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Thumb_R_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Thumb_R_01/Goblin_Thumb_R_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Thumb_R_01/Goblin_Thumb_R_02/Goblin_Thumb_R_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/WeaponHolder_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/WeaponHolder_R/WeaponHolder_R_Blade
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_L/Goblin_Shin_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_L/Goblin_Shin_L/Goblin_Foot_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_L/Goblin_Shin_L/Goblin_Foot_L/Goblin_Toes_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_R/Goblin_Shin_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_R/Goblin_Shin_R/Goblin_Foot_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_R/Goblin_Shin_R/Goblin_Foot_R/Goblin_Toes_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Weapon_L_0
+        weight: 1
+      - path: Goblin/Goblin_Armature/Weapon_R_0
+        weight: 1
+      - path: Weapon_L
+        weight: 1
+      - path: Weapon_R
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Goblin_Death_Alarmed_01
+      takeName: Goblin_Death_Alarmed_01
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Goblin
+        weight: 1
+      - path: Goblin/Goblin_Armature
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest/Goblin_Neck
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest/Goblin_Neck/Goblin_Head
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest/Goblin_Neck/Goblin_Head/Bone
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest/Holster_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest/Holster_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_IndexFinger_L_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_IndexFinger_L_01/Goblin_IndexFinger_L_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_IndexFinger_L_01/Goblin_IndexFinger_L_02/Goblin_IndexFinger_L_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_MiddleFinger_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_MiddleFinger_01/Goblin_MiddleFinger_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_MiddleFinger_01/Goblin_MiddleFinger_02/Goblin_MiddleFinger_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Pinky_L_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Pinky_L_01/Goblin_Pinky_L_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Pinky_L_01/Goblin_Pinky_L_02/Goblin_Pinky_L_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_RingFinger_L_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_RingFinger_L_01/Goblin_RingFinger_L_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_RingFinger_L_01/Goblin_RingFinger_L_02/Goblin_RingFinger_L_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Thumb_L_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Thumb_L_01/Goblin_Thumb_L_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Thumb_L_01/Goblin_Thumb_L_02/Goblin_Thumb_L_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/WeaponHolder_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/WeaponHolder_L/WeaponHolder_L_BLade
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_IndexFinger_R_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_IndexFinger_R_01/Goblin_IndexFinger_R_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_IndexFinger_R_01/Goblin_IndexFinger_R_02/Goblin_IndexFinger_R_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_MiddleFinger_R_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_MiddleFinger_R_01/Goblin_MiddleFinger_R_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_MiddleFinger_R_01/Goblin_MiddleFinger_R_02/Goblin_MiddleFinger_R_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Pinky_R_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Pinky_R_01/Goblin_Pinky_R_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Pinky_R_01/Goblin_Pinky_R_02/Goblin_Pinky_R_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_RingFinger_R_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_RingFinger_R_01/Goblin_RingFinger_R_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_RingFinger_R_01/Goblin_RingFinger_R_02/Goblin_RingFinger_R_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Thumb_R_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Thumb_R_01/Goblin_Thumb_R_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Thumb_R_01/Goblin_Thumb_R_02/Goblin_Thumb_R_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/WeaponHolder_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/WeaponHolder_R/WeaponHolder_R_Blade
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_L/Goblin_Shin_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_L/Goblin_Shin_L/Goblin_Foot_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_L/Goblin_Shin_L/Goblin_Foot_L/Goblin_Toes_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_R/Goblin_Shin_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_R/Goblin_Shin_R/Goblin_Foot_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_R/Goblin_Shin_R/Goblin_Foot_R/Goblin_Toes_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Weapon_L_0
+        weight: 1
+      - path: Goblin/Goblin_Armature/Weapon_R_0
+        weight: 1
+      - path: Weapon_L
+        weight: 1
+      - path: Weapon_R
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Goblin_Death_Alarmed_02
+      takeName: Goblin_Death_Alarmed_02
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Goblin
+        weight: 1
+      - path: Goblin/Goblin_Armature
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest/Goblin_Neck
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest/Goblin_Neck/Goblin_Head
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest/Goblin_Neck/Goblin_Head/Bone
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest/Holster_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest/Holster_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_IndexFinger_L_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_IndexFinger_L_01/Goblin_IndexFinger_L_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_IndexFinger_L_01/Goblin_IndexFinger_L_02/Goblin_IndexFinger_L_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_MiddleFinger_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_MiddleFinger_01/Goblin_MiddleFinger_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_MiddleFinger_01/Goblin_MiddleFinger_02/Goblin_MiddleFinger_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Pinky_L_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Pinky_L_01/Goblin_Pinky_L_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Pinky_L_01/Goblin_Pinky_L_02/Goblin_Pinky_L_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_RingFinger_L_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_RingFinger_L_01/Goblin_RingFinger_L_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_RingFinger_L_01/Goblin_RingFinger_L_02/Goblin_RingFinger_L_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Thumb_L_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Thumb_L_01/Goblin_Thumb_L_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Thumb_L_01/Goblin_Thumb_L_02/Goblin_Thumb_L_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/WeaponHolder_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/WeaponHolder_L/WeaponHolder_L_BLade
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_IndexFinger_R_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_IndexFinger_R_01/Goblin_IndexFinger_R_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_IndexFinger_R_01/Goblin_IndexFinger_R_02/Goblin_IndexFinger_R_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_MiddleFinger_R_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_MiddleFinger_R_01/Goblin_MiddleFinger_R_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_MiddleFinger_R_01/Goblin_MiddleFinger_R_02/Goblin_MiddleFinger_R_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Pinky_R_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Pinky_R_01/Goblin_Pinky_R_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Pinky_R_01/Goblin_Pinky_R_02/Goblin_Pinky_R_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_RingFinger_R_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_RingFinger_R_01/Goblin_RingFinger_R_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_RingFinger_R_01/Goblin_RingFinger_R_02/Goblin_RingFinger_R_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Thumb_R_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Thumb_R_01/Goblin_Thumb_R_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Thumb_R_01/Goblin_Thumb_R_02/Goblin_Thumb_R_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/WeaponHolder_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/WeaponHolder_R/WeaponHolder_R_Blade
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_L/Goblin_Shin_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_L/Goblin_Shin_L/Goblin_Foot_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_L/Goblin_Shin_L/Goblin_Foot_L/Goblin_Toes_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_R/Goblin_Shin_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_R/Goblin_Shin_R/Goblin_Foot_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_R/Goblin_Shin_R/Goblin_Foot_R/Goblin_Toes_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Weapon_L_0
+        weight: 1
+      - path: Goblin/Goblin_Armature/Weapon_R_0
+        weight: 1
+      - path: Weapon_L
+        weight: 1
+      - path: Weapon_R
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Goblin_Death_Unalarmed_1
+      takeName: Goblin_Death_Unalarmed_1
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Goblin
+        weight: 1
+      - path: Goblin/Goblin_Armature
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest/Goblin_Neck
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest/Goblin_Neck/Goblin_Head
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest/Goblin_Neck/Goblin_Head/Bone
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest/Holster_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest/Holster_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_IndexFinger_L_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_IndexFinger_L_01/Goblin_IndexFinger_L_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_IndexFinger_L_01/Goblin_IndexFinger_L_02/Goblin_IndexFinger_L_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_MiddleFinger_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_MiddleFinger_01/Goblin_MiddleFinger_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_MiddleFinger_01/Goblin_MiddleFinger_02/Goblin_MiddleFinger_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Pinky_L_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Pinky_L_01/Goblin_Pinky_L_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Pinky_L_01/Goblin_Pinky_L_02/Goblin_Pinky_L_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_RingFinger_L_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_RingFinger_L_01/Goblin_RingFinger_L_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_RingFinger_L_01/Goblin_RingFinger_L_02/Goblin_RingFinger_L_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Thumb_L_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Thumb_L_01/Goblin_Thumb_L_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Thumb_L_01/Goblin_Thumb_L_02/Goblin_Thumb_L_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/WeaponHolder_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/WeaponHolder_L/WeaponHolder_L_BLade
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_IndexFinger_R_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_IndexFinger_R_01/Goblin_IndexFinger_R_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_IndexFinger_R_01/Goblin_IndexFinger_R_02/Goblin_IndexFinger_R_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_MiddleFinger_R_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_MiddleFinger_R_01/Goblin_MiddleFinger_R_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_MiddleFinger_R_01/Goblin_MiddleFinger_R_02/Goblin_MiddleFinger_R_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Pinky_R_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Pinky_R_01/Goblin_Pinky_R_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Pinky_R_01/Goblin_Pinky_R_02/Goblin_Pinky_R_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_RingFinger_R_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_RingFinger_R_01/Goblin_RingFinger_R_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_RingFinger_R_01/Goblin_RingFinger_R_02/Goblin_RingFinger_R_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Thumb_R_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Thumb_R_01/Goblin_Thumb_R_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Thumb_R_01/Goblin_Thumb_R_02/Goblin_Thumb_R_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/WeaponHolder_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/WeaponHolder_R/WeaponHolder_R_Blade
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_L/Goblin_Shin_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_L/Goblin_Shin_L/Goblin_Foot_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_L/Goblin_Shin_L/Goblin_Foot_L/Goblin_Toes_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_R/Goblin_Shin_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_R/Goblin_Shin_R/Goblin_Foot_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_R/Goblin_Shin_R/Goblin_Foot_R/Goblin_Toes_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Weapon_L_0
+        weight: 1
+      - path: Goblin/Goblin_Armature/Weapon_R_0
+        weight: 1
+      - path: Weapon_L
+        weight: 1
+      - path: Weapon_R
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Goblin_Death_Unalarmed_2
+      takeName: Goblin_Death_Unalarmed_2
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Goblin
+        weight: 1
+      - path: Goblin/Goblin_Armature
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest/Goblin_Neck
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest/Goblin_Neck/Goblin_Head
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest/Goblin_Neck/Goblin_Head/Bone
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest/Holster_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Chest/Holster_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_IndexFinger_L_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_IndexFinger_L_01/Goblin_IndexFinger_L_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_IndexFinger_L_01/Goblin_IndexFinger_L_02/Goblin_IndexFinger_L_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_MiddleFinger_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_MiddleFinger_01/Goblin_MiddleFinger_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_MiddleFinger_01/Goblin_MiddleFinger_02/Goblin_MiddleFinger_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Pinky_L_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Pinky_L_01/Goblin_Pinky_L_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Pinky_L_01/Goblin_Pinky_L_02/Goblin_Pinky_L_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_RingFinger_L_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_RingFinger_L_01/Goblin_RingFinger_L_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_RingFinger_L_01/Goblin_RingFinger_L_02/Goblin_RingFinger_L_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Thumb_L_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Thumb_L_01/Goblin_Thumb_L_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/Goblin_Thumb_L_01/Goblin_Thumb_L_02/Goblin_Thumb_L_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/WeaponHolder_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_L/Goblin_Forearm_L/Goblin_LowerArm_L/Goblin_Palm_L/WeaponHolder_L/WeaponHolder_L_BLade
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_IndexFinger_R_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_IndexFinger_R_01/Goblin_IndexFinger_R_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_IndexFinger_R_01/Goblin_IndexFinger_R_02/Goblin_IndexFinger_R_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_MiddleFinger_R_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_MiddleFinger_R_01/Goblin_MiddleFinger_R_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_MiddleFinger_R_01/Goblin_MiddleFinger_R_02/Goblin_MiddleFinger_R_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Pinky_R_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Pinky_R_01/Goblin_Pinky_R_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Pinky_R_01/Goblin_Pinky_R_02/Goblin_Pinky_R_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_RingFinger_R_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_RingFinger_R_01/Goblin_RingFinger_R_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_RingFinger_R_01/Goblin_RingFinger_R_02/Goblin_RingFinger_R_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Thumb_R_01
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Thumb_R_01/Goblin_Thumb_R_02
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/Goblin_Thumb_R_01/Goblin_Thumb_R_02/Goblin_Thumb_R_03
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/WeaponHolder_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Abdomen/Goblin_Shoulder_R/Goblin_Forearm_R/Goblin_LowerArm_R/Goblin_Palm_R/WeaponHolder_R/WeaponHolder_R_Blade
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_L/Goblin_Shin_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_L/Goblin_Shin_L/Goblin_Foot_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_L/Goblin_Shin_L/Goblin_Foot_L/Goblin_Toes_L
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_R/Goblin_Shin_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_R/Goblin_Shin_R/Goblin_Foot_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Goblin_Bottom/Goblin_Thigh_R/Goblin_Shin_R/Goblin_Foot_R/Goblin_Toes_R
+        weight: 1
+      - path: Goblin/Goblin_Armature/Weapon_L_0
+        weight: 1
+      - path: Goblin/Goblin_Armature/Weapon_R_0
+        weight: 1
+      - path: Weapon_L
+        weight: 1
+      - path: Weapon_R
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
