@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Goblin_LandHostile : Goblin
 {
+    public GameObject leftHand, rightHand;
     public float detectionRange;
     private bool inRange;
     private GameObject target;
@@ -42,40 +43,29 @@ public class Goblin_LandHostile : Goblin
         }
 	}
 
-    public void ThrowDagger()
+    public void ThrowDagger(int isLeftArm)
     {
         float distance = new Vector3(target.transform.position.x - transform.position.x, 0, target.transform.position.z - transform.position.z).magnitude;
         //Debug.Log("Distance: " + distance);
         float height = target.transform.position.y - transform.position.y;
-        
-        GameObject projectile = Instantiate(Resources.Load<GameObject>("Prefabs/Enemies/Dagger"));
 
-        // Add velocity to cannonball
-        #region Old Method
-        //projectile.GetComponent<Rigidbody>().velocity = projectile.transform.forward * velocity;
-        //projectile.GetComponent<Rigidbody>().AddForce(0, 45, 0); // Aim it upwards a little to compensate for gravity
+        #region Instantiate Throwing Dagger
+        GameObject projectile = Instantiate(Resources.Load<GameObject>("Prefabs/Enemies/Dagger"));
+        if (isLeftArm == 0)
+            projectile.transform.position = leftHand.transform.position;
+        else
+            projectile.transform.position = rightHand.transform.position;
         #endregion
 
-        if (distance > 400)
-        {
-            direction = HelperFunctions.MultiplyVector3(direction, new Vector3(0.125f, 0.125f, 0.125f));
-            //Debug.Log("distance > 200, adjusted to : " + direction);
-        }
-        else if (distance > 200)
-        {
-            direction = HelperFunctions.MultiplyVector3(direction, new Vector3(0.25f, 0.25f, 0.25f));
-            //Debug.Log("distance > 200, adjusted to : " + direction);
-        }
-        else if (distance > 100)
-        {
-            direction = direction / 2;
-            //Debug.Log("distance > 100, adjusted to : " + direction);
-        }
-
-        projectile.GetComponent<Rigidbody>().velocity = direction;
+        // Add velocity to throwing dagger
+        direction = target.transform.position - projectile.transform.position;
+        projectile.GetComponent<Rigidbody>().velocity = new Vector3(direction.x * 0.8f, direction.y, direction.z * 0.8f);
+        //projectile.GetComponent<Rigidbody>().velocity += new Vector3(0, -5, 0);
+        Debug.Log("throwing dagger direction: " + direction);
+        Debug.Log("throwing dagger velocity: " + projectile.GetComponent<Rigidbody>().velocity);
 
         // Add bullet spread to cannonball for some randomness
-        projectile.GetComponent<Rigidbody>().velocity += new Vector3(Random.Range(-0.5f, 0.5f), Random.Range(-0.5f, -0.25f), Random.Range(-0.5f, 0.5f));
+        //projectile.GetComponent<Rigidbody>().velocity += new Vector3(Random.Range(-0.5f, 0.5f), Random.Range(-0.5f, -0.25f), Random.Range(-0.5f, 0.5f));
     }
 
     private void OnDrawGizmosSelected()
