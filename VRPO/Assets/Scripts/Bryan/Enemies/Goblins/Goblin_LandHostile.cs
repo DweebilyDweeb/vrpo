@@ -45,10 +45,6 @@ public class Goblin_LandHostile : Goblin
 
     public void ThrowDagger(int isLeftArm)
     {
-        float distance = new Vector3(target.transform.position.x - transform.position.x, 0, target.transform.position.z - transform.position.z).magnitude;
-        //Debug.Log("Distance: " + distance);
-        float height = target.transform.position.y - transform.position.y;
-
         #region Instantiate Throwing Dagger
         GameObject projectile = Instantiate(Resources.Load<GameObject>("Prefabs/Enemies/Dagger"));
         if (isLeftArm == 0)
@@ -60,12 +56,6 @@ public class Goblin_LandHostile : Goblin
         // Add velocity to throwing dagger
         direction = target.transform.position - projectile.transform.position;
         projectile.GetComponent<Rigidbody>().velocity = new Vector3(direction.x * 0.8f, direction.y, direction.z * 0.8f);
-        //projectile.GetComponent<Rigidbody>().velocity += new Vector3(0, -5, 0);
-        Debug.Log("throwing dagger direction: " + direction);
-        Debug.Log("throwing dagger velocity: " + projectile.GetComponent<Rigidbody>().velocity);
-
-        // Add bullet spread to cannonball for some randomness
-        //projectile.GetComponent<Rigidbody>().velocity += new Vector3(Random.Range(-0.5f, 0.5f), Random.Range(-0.5f, -0.25f), Random.Range(-0.5f, 0.5f));
     }
 
     private void OnDrawGizmosSelected()
