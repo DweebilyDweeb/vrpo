@@ -41,17 +41,6 @@ public class Piranha : MonoBehaviour
                 hasJumped = true;
                 anim.SetTrigger("Jump");
             }
-            //if (!hasJumped)
-            //{
-            //    hasJumped = true;
-            //    transform.localRotation = Quaternion.Lerp(transform.localRotation, Quaternion.Euler(-75, transform.localEulerAngles.y, 0), 1.0f);
-            //}
-            //else
-            //{
-            //    Vector3 newRot = transform.localEulerAngles;
-            //    newRot.x += Time.deltaTime * (velocity * 4.5f);
-            //    transform.localRotation = Quaternion.Euler(newRot);
-            //}
         }
 
         transform.position += transform.forward * Time.deltaTime * velocity;
