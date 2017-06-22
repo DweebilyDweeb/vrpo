@@ -22,7 +22,7 @@ public class Sword : MonoBehaviour
         switch(collision.gameObject.tag)
         {
             case "Cannonball":
-                collision.gameObject.GetComponent<Cannonball>().KillCannonball();
+                collision.gameObject.GetComponent<Projectile>().DestroyProjectile();
                 break;
             case "Goblin":
                 collision.gameObject.GetComponent<Goblin>().TriggerDeath();

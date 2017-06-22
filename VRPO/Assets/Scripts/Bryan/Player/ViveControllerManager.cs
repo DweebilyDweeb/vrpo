@@ -160,7 +160,7 @@ public class ViveControllerManager : MonoBehaviour
             switch (collide.tag)
             {
                 case "Cannonball":
-                    collide.gameObject.GetComponent<Cannonball>().KillCannonball();
+                    collide.gameObject.GetComponent<Projectile>().DestroyProjectile();
                     break;
                 case "Bird":
                     GameObject.FindGameObjectWithTag("Player").GetComponent<Player>().AddHP(3);

@@ -52,6 +52,7 @@ GameObject:
   - component: {fileID: 95197808140748270}
   - component: {fileID: 65876329274451994}
   - component: {fileID: 54621757535587060}
+  - component: {fileID: 114236666181713580}
   m_Layer: 0
   m_Name: Dagger
   m_TagString: Untagged
@@ -174,6 +175,17 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114236666181713580
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1225974817436702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91e6bc9cea9a6ae45b948b9cb383fd0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!137 &137310390131093426
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1

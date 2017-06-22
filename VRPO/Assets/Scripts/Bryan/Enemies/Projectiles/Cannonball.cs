@@ -2,15 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Cannonball : MonoBehaviour {
-    float lifetime = 30.0f;
+public class Cannonball : Projectile
+{
 	// Use this for initialization
 	void Start () {
-		
+        lifetime = 20.0f;
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	public override void Update () {
         if (lifetime > 0)
             lifetime -= Time.deltaTime;
         else
@@ -20,7 +20,7 @@ public class Cannonball : MonoBehaviour {
             GetComponent<Rigidbody>().useGravity = true;
 	}
 
-    public void KillCannonball()
+    public override void DestroyProjectile()
     {
         Instantiate(Resources.Load<GameObject>("Prefabs/Particle Effects/CannonSmoke2"), gameObject.transform.position, new Quaternion(0, 0, 0, 0));
         Destroy(gameObject);
