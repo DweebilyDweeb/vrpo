@@ -16,4 +16,13 @@ public class Goblin_Boarder : Goblin
 	void Update () {
 		
 	}
+
+    public void OnCollisionEnterChild(Collision collision)
+    {
+        switch (collision.gameObject.tag)
+        {
+            case "Player":
+                break;
+        }
+    }
 }

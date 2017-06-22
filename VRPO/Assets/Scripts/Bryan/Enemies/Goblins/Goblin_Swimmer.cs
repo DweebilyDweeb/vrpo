@@ -49,4 +49,13 @@ public class Goblin_Swimmer : Goblin
     {
         // instantiate boarder goblins and despawn swimmers
     }
+
+    public void OnCollisionEnterChild(Collision collision)
+    {
+        switch (collision.gameObject.tag)
+        {
+            case "Player":
+                break;
+        }
+    }
 }

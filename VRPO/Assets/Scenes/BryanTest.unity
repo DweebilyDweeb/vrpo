@@ -369,26 +369,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9324c40c90500e74da048e32d2dd3b55, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &366834799 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1260937760141888, guid: 1911c4abd989de74fbbe737cd2f34a39,
-    type: 2}
-  m_PrefabInternal: {fileID: 2041772168}
---- !u!114 &366834800
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 366834799}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b78eba90438baa49ab7873f20703bbe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  goblinsToSpawn: 2
-  goblinSwimSpeed: 10
-  spawnDistance: 70
-  spreadDistance: 7.5
 --- !u!1 &398535575
 GameObject:
   m_ObjectHideFlags: 0
