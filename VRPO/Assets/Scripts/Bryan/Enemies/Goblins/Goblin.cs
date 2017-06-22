@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Goblin : MonoBehaviour 
 {
-    public enum Goblin_FSM { Idle = 1, Walk, Walk_LTurn, Walk_RTurn, Run, Dash, Unsheathe, Attack, Throw, Hit, Death }
+    public enum Goblin_FSM { Idle = 1, Walk, Run, Unsheathe, Swim, Dive, Board, Attack, Throw, Hit, Death }
     protected Goblin_FSM currentState = Goblin_FSM.Idle;
     protected Animator anim;
 	// Use this for initialization
