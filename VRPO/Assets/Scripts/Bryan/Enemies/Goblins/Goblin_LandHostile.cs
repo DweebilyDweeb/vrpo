@@ -7,13 +7,14 @@ public class Goblin_LandHostile : Goblin
     public GameObject leftHand, rightHand;
     public float detectionRange;
     private float distFromPlayer;
-    private bool inRange;
+    private bool inRange, hasDetectedPlayer;
     private GameObject target;
     private Vector3 direction;
 
 	// Use this for initialization
 	void Start () 
     {
+        hasDetectedPlayer = false;
         anim = GetComponent<Animator>();
         target = GameObject.FindGameObjectWithTag("Player");
 	}
@@ -28,7 +29,11 @@ public class Goblin_LandHostile : Goblin
                 distFromPlayer = new Vector3(target.transform.position.x - transform.position.x, 0, target.transform.position.z - transform.position.z).magnitude;
 
                 if (distFromPlayer < detectionRange)
+                {
                     inRange = true;
+                    if (!hasDetectedPlayer)
+                        hasDetectedPlayer = true;
+                }
                 else
                     inRange = false;
                 #endregion
@@ -46,6 +51,21 @@ public class Goblin_LandHostile : Goblin
                 break;
             case Goblin_FSM.Death:
                 anim.SetTrigger("Death");
+                bool anim1 = HelperFunctions.RandomBool();
+                if(!hasDetectedPlayer) // Play unalarmed death animations
+                {
+                    if (anim1)
+                        anim.SetInteger("Death_Type", 1);
+                    else
+                        anim.SetInteger("Death_Type", 2);
+                }
+                else // Play alarmed death animations
+                {
+                    if (anim1)
+                        anim.SetInteger("Death_Type", 3);
+                    else
+                        anim.SetInteger("Death_Type", 4);
+                }
                 break;
         }
 	}
