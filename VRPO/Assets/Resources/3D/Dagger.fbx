@@ -11,9 +11,9 @@ FBXHeaderExtension:  {
 		Year: 2017
 		Month: 06
 		Day: 21
-		Hour: 15
-		Minute: 43
-		Second: 49
+		Hour: 17
+		Minute: 13
+		Second: 47
 		Millisecond: 0
 	}
 	Creator: "FBX SDK/FBX Plugins build 20070228"
@@ -21,7 +21,7 @@ FBXHeaderExtension:  {
 		FlagPLE: 0
 	}
 }
-CreationTime: "2017-06-21 15:43:49:000"
+CreationTime: "2017-06-21 17:13:47:000"
 Creator: "Blender version 2.78 (sub 0)"
 
 ; Object definitions
@@ -1987,9 +1987,217 @@ Connections:  {
 ;----------------------------------------------------
 
 Takes:  {
-	Current: "Dagger_ArmatureAction"
-	Take: "Dagger_ArmatureAction" {
-		FileName: "Dagger_ArmatureAction.tak"
+	Current: "Default Take"
+	Take: "Default Take" {
+		FileName: "Default_Take.tak"
+		LocalTime: 0,14625616700
+		ReferenceTime: 0,14625616700
+
+		;Models animation
+		;----------------------------------------------------
+		Model: "Model::Dagger_Main_Bone" {
+			Version: 1.1
+			Channel: "Transform" {
+				Channel: "T" {
+					Channel: "X" {
+						Default: 0.000000000000000
+						KeyVer: 4005
+						KeyCount: 1
+						Key: 
+							769769300,0.000000000000000,L
+						Color: 1,0,0
+					}
+					Channel: "Y" {
+						Default: 0.000000000000000
+						KeyVer: 4005
+						KeyCount: 1
+						Key: 
+							769769300,0.000000000000000,L
+						Color: 0,1,0
+					}
+					Channel: "Z" {
+						Default: 0.000000000000000
+						KeyVer: 4005
+						KeyCount: 1
+						Key: 
+							769769300,0.000000000000000,L
+						Color: 0,0,1
+					}
+					LayerType: 1
+				}
+				Channel: "R" {
+					Channel: "X" {
+						Default: -0.000099817194427
+						KeyVer: 4005
+						KeyCount: 6
+						Key: 
+							0,-0.000099817194427,L,
+							6158154400,0.000012209336218,L,
+							6927923700,-90.000002504348856,L,
+							7697693000,-0.000012209322376,L,
+							13855847400,0.000099818751220,L,
+							14625616700,90.000002504348856,L
+						Color: 1,0,0
+					}
+					Channel: "Y" {
+						Default: -92.481437550567605
+						KeyVer: 4005
+						KeyCount: 19
+						Key: 
+							0,-92.481437550567605,L,
+							769769300,-100.189442632699311,L,
+							1539538600,-113.283482177296051,L,
+							2309307900,-131.430393217023408,L,
+							3079077200,-153.647222737858783,L,
+							3848846500,-178.363314098646583,L,
+							4618615800,-203.756618715640172,L,
+							5388385100,-228.189462131547970,L,
+							6158154400,-250.491013318848047,L,
+							7697693000,-289.509042688380077,L,
+							8467462300,-311.810593875680183,L,
+							9237231600,-336.243409970831294,L,
+							10007000900,-361.636741908581541,L,
+							10776770200,-386.352819608991013,L,
+							11546539500,-408.569649129826360,L,
+							12316308800,-426.716560169553759,L,
+							13086078100,-439.810606544339635,L,
+							13855847400,-447.518611626471397,L,
+							14625616700,-449.999992031176760,L
+						Color: 0,1,0
+					}
+					Channel: "Z" {
+						Default: 90.000098126997230
+						KeyVer: 4005
+						KeyCount: 6
+						Key: 
+							0,90.000098126997230,L,
+							6158154400,90.000016164727199,L,
+							6927923700,0.000000000000000,L,
+							7697693000,89.999988843970513,L,
+							13855847400,89.999900051511304,L,
+							14625616700,0.000000000000000,L
+						Color: 0,0,1
+					}
+					LayerType: 2
+				}
+				Channel: "S" {
+					Channel: "X" {
+						Default: 1.000000000000000
+						KeyVer: 4005
+						KeyCount: 1
+						Key: 
+							769769300,1.000000000000000,L
+						Color: 1,0,0
+					}
+					Channel: "Y" {
+						Default: 1.000000000000000
+						KeyVer: 4005
+						KeyCount: 1
+						Key: 
+							769769300,1.000000000000000,L
+						Color: 0,1,0
+					}
+					Channel: "Z" {
+						Default: 1.000000000000000
+						KeyVer: 4005
+						KeyCount: 1
+						Key: 
+							769769300,1.000000000000000,L
+						Color: 0,0,1
+					}
+					LayerType: 3
+				}
+			}
+		}
+		Model: "Model::Dagger_Armature" {
+			Version: 1.1
+			Channel: "Transform" {
+				Channel: "T" {
+					Channel: "X" {
+						Default: 0.000000000000000
+						KeyVer: 4005
+						KeyCount: 1
+						Key: 
+							769769300,0.000000000000000,L
+						Color: 1,0,0
+					}
+					Channel: "Y" {
+						Default: 0.000000000000000
+						KeyVer: 4005
+						KeyCount: 1
+						Key: 
+							769769300,0.000000000000000,L
+						Color: 0,1,0
+					}
+					Channel: "Z" {
+						Default: 0.000000000000000
+						KeyVer: 4005
+						KeyCount: 1
+						Key: 
+							769769300,0.000000000000000,L
+						Color: 0,0,1
+					}
+					LayerType: 1
+				}
+				Channel: "R" {
+					Channel: "X" {
+						Default: -90.000002504348856
+						KeyVer: 4005
+						KeyCount: 1
+						Key: 
+							769769300,-90.000002504348856,L
+						Color: 1,0,0
+					}
+					Channel: "Y" {
+						Default: -0.000000000000000
+						KeyVer: 4005
+						KeyCount: 1
+						Key: 
+							769769300,-0.000000000000000,L
+						Color: 0,1,0
+					}
+					Channel: "Z" {
+						Default: 0.000000000000000
+						KeyVer: 4005
+						KeyCount: 1
+						Key: 
+							769769300,0.000000000000000,L
+						Color: 0,0,1
+					}
+					LayerType: 2
+				}
+				Channel: "S" {
+					Channel: "X" {
+						Default: 1.000000000000000
+						KeyVer: 4005
+						KeyCount: 1
+						Key: 
+							769769300,1.000000000000000,L
+						Color: 1,0,0
+					}
+					Channel: "Y" {
+						Default: 1.000000000000000
+						KeyVer: 4005
+						KeyCount: 1
+						Key: 
+							769769300,1.000000000000000,L
+						Color: 0,1,0
+					}
+					Channel: "Z" {
+						Default: 1.000000000000000
+						KeyVer: 4005
+						KeyCount: 1
+						Key: 
+							769769300,1.000000000000000,L
+						Color: 0,0,1
+					}
+					LayerType: 3
+				}
+			}
+		}
+	}
+	Take: "Dagger_Spin" {
+		FileName: "Dagger_Spin.tak"
 		LocalTime: -769769299,14625616700
 		ReferenceTime: -769769299,14625616700
 
