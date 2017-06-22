@@ -1,15 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
-guid: 4fe068ef1f55144449a5af7c1872bce6
-timeCreated: 1498109608
-licenseType: Free
-ModelImporter:
-  serializedVersion: 19
-  fileIDToRecycleName: {}
-=======
 guid: 558887a07cfe0bb42a2590e6692f42f5
-timeCreated: 1498106310
-licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
@@ -147,14 +137,18 @@ ModelImporter:
     4300002: Weapon_R
     4300004: Weapon_L
     7400000: Default Take
-    7400002: Goblin_Boarding
-    7400004: Goblin_Dive
-    7400006: Goblin_Swim
+    7400002: Goblin_Boarded_Death_Unsheathed_02
+    7400004: Goblin_Boarding
+    7400006: Goblin_Boarding_Death_Sheathed_01
+    7400008: Goblin_Boarding_Death_Sheathed_02
+    7400010: Goblin_Boarding_Death_Unsheathed_01
+    7400012: Goblin_Dive
+    7400014: Goblin_Swim
+    7400016: Goblin_Swim_Death
     9500000: //RootNode
     13700000: Goblin
     13700002: Weapon_L
     13700004: Weapon_R
->>>>>>> 0c79ccd62a4241786e8d87c3611226bd787f1311
   materials:
     importMaterials: 1
     materialName: 0
@@ -181,7 +175,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 0
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1
