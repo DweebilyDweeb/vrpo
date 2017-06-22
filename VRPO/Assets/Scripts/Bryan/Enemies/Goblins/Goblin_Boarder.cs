@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class Goblin_Boarder : Goblin
 {
-
+    public bool isRightSide;
 	// Use this for initialization
 	void Start () 
     {
         currentState = Goblin_FSM.Board;
+        anim = GetComponent<Animator>();
 	}
 	
 	// Update is called once per frame
