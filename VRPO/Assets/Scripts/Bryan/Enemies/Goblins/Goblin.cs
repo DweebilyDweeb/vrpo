@@ -18,7 +18,7 @@ public class Goblin : MonoBehaviour
 		
 	}
 
-    public void TriggerDeath()
+    public virtual void TriggerDeath()
     {
         if (currentState != Goblin_FSM.Death)
             currentState = Goblin_FSM.Death;
