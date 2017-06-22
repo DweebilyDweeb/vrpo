@@ -6,39 +6,66 @@ public class Goblin_LandHostile : Goblin
 {
     public GameObject leftHand, rightHand;
     public float detectionRange;
-    private bool inRange;
-    private GameObject target;
+    private float distFromPlayer;
+    private bool inRange, hasDetectedPlayer;
+    private GameObject player;
     private Vector3 direction;
 
 	// Use this for initialization
 	void Start () 
     {
+        hasDetectedPlayer = false;
         anim = GetComponent<Animator>();
-        target = GameObject.FindGameObjectWithTag("Player");
+        player = GameObject.FindGameObjectWithTag("Player");
 	}
 	
 	// Update is called once per frame
 	void Update ()
-    {
-        if (new Vector3(target.transform.position.x - transform.position.x, 0, target.transform.position.z - transform.position.z).magnitude < detectionRange)
-            inRange = true;
-        if (inRange)
-        {
-            transform.LookAt(target.transform);
-            direction = target.transform.position - transform.position;
-
-            if (currentState == Goblin_FSM.Idle || currentState == Goblin_FSM.Walk)
-                currentState = Goblin_FSM.Unsheathe;
-        }
+    {        
 		switch(currentState)
         {
             case Goblin_FSM.Idle:
+                #region check if player is in range
+                distFromPlayer = new Vector3(player.transform.position.x - transform.position.x, 0, player.transform.position.z - transform.position.z).magnitude;
+
+                if (distFromPlayer < detectionRange)
+                {
+                    inRange = true;
+                    if (!hasDetectedPlayer)
+                        hasDetectedPlayer = true;
+                }
+                else
+                    inRange = false;
+                #endregion
+
+                if (inRange)
+                {
+                    transform.LookAt(new Vector3(player.transform.position.x, transform.position.y, player.transform.position.z));
+                    direction = player.transform.position - transform.position;
+                    currentState = Goblin_FSM.Unsheathe;
+                }
                 break;
             case Goblin_FSM.Unsheathe:
                 anim.SetTrigger("Unsheathe");
+                currentState = Goblin_FSM.Idle;
                 break;
-            case Goblin_FSM.Throw:
-                anim.SetTrigger("Throw");
+            case Goblin_FSM.Death:
+                anim.SetTrigger("Death");
+                bool anim1 = HelperFunctions.RandomBool();
+                if(!hasDetectedPlayer) // Play unalarmed death animations
+                {
+                    if (anim1)
+                        anim.SetInteger("Death_Type", 1);
+                    else
+                        anim.SetInteger("Death_Type", 2);
+                }
+                else // Play alarmed death animations
+                {
+                    if (anim1)
+                        anim.SetInteger("Death_Type", 3);
+                    else
+                        anim.SetInteger("Death_Type", 4);
+                }
                 break;
         }
 	}
@@ -54,8 +81,8 @@ public class Goblin_LandHostile : Goblin
         #endregion
 
         // Add velocity to throwing dagger
-        direction = target.transform.position - projectile.transform.position;
-        projectile.GetComponent<Rigidbody>().velocity = new Vector3(direction.x * 0.8f, direction.y, direction.z * 0.8f);
+        direction = player.transform.position - projectile.transform.position;
+        projectile.GetComponent<Rigidbody>().velocity = direction.normalized * 100;
     }
 
     private void OnDrawGizmosSelected()
