@@ -6,6 +6,7 @@ public class Goblin_LandHostile : Goblin
 {
     public GameObject leftHand, rightHand;
     public float detectionRange;
+    private float distFromPlayer;
     private bool inRange;
     private GameObject target;
     private Vector3 direction;
@@ -19,26 +20,32 @@ public class Goblin_LandHostile : Goblin
 	
 	// Update is called once per frame
 	void Update ()
-    {
-        if (new Vector3(target.transform.position.x - transform.position.x, 0, target.transform.position.z - transform.position.z).magnitude < detectionRange)
-            inRange = true;
-        if (inRange)
-        {
-            transform.LookAt(target.transform);
-            direction = target.transform.position - transform.position;
-
-            if (currentState == Goblin_FSM.Idle || currentState == Goblin_FSM.Walk)
-                currentState = Goblin_FSM.Unsheathe;
-        }
+    {        
 		switch(currentState)
         {
             case Goblin_FSM.Idle:
+                #region check if player is in range
+                distFromPlayer = new Vector3(target.transform.position.x - transform.position.x, 0, target.transform.position.z - transform.position.z).magnitude;
+
+                if (distFromPlayer < detectionRange)
+                    inRange = true;
+                else
+                    inRange = false;
+                #endregion
+
+                if (inRange)
+                {
+                    transform.LookAt(new Vector3(target.transform.position.x, transform.position.y, target.transform.position.z));
+                    direction = target.transform.position - transform.position;
+                    currentState = Goblin_FSM.Unsheathe;
+                }
                 break;
             case Goblin_FSM.Unsheathe:
                 anim.SetTrigger("Unsheathe");
+                currentState = Goblin_FSM.Idle;
                 break;
-            case Goblin_FSM.Throw:
-                anim.SetTrigger("Throw");
+            case Goblin_FSM.Death:
+                anim.SetTrigger("Death");
                 break;
         }
 	}
@@ -55,7 +62,7 @@ public class Goblin_LandHostile : Goblin
 
         // Add velocity to throwing dagger
         direction = target.transform.position - projectile.transform.position;
-        projectile.GetComponent<Rigidbody>().velocity = new Vector3(direction.x * 0.8f, direction.y, direction.z * 0.8f);
+        projectile.GetComponent<Rigidbody>().velocity = direction.normalized * 100;
     }
 
     private void OnDrawGizmosSelected()
