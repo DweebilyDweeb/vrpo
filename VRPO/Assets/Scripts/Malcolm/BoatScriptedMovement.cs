@@ -10,6 +10,7 @@ public class BoatScriptedMovement : MonoBehaviour {
     bool IsRightTurn;
     bool IsRotationAccelerate;
     bool IsRotationDecelerate;
+    public bool isLeftOccupied, isRightOccupied, isBackOccupied; // For goblin boarders
 	// Use this for initialization
 	void Start ()
     {
