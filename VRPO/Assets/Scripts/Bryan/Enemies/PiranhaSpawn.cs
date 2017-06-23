@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PiranhaSpawn : MonoBehaviour 
 {
-    public float spawnRadius, spawnRandomness;
+    public float spawnRadius, spawnRandomness, spawnForwardOffset;
     public int piranhaToSpawn;
     public float piranhaSpeed;
     private Collider triggerZone;
@@ -31,12 +31,12 @@ public class PiranhaSpawn : MonoBehaviour
                 Vector3 eulerRot;
                 if(side) //right
                 {
-                    spawnPos = new Vector3(spawnRadius + Random.RandomRange(-spawnRandomness, spawnRandomness), -1.5f, Random.Range(-3, 3));
+                    spawnPos = new Vector3(spawnRadius + Random.RandomRange(-spawnRandomness, spawnRandomness), -1.5f, spawnForwardOffset + Random.Range(-3, 3));
                     eulerRot = new Vector3(0, -90, 0);
                 }
                 else //left
                 {
-                    spawnPos = new Vector3(-spawnRadius + Random.RandomRange(-spawnRandomness, spawnRandomness), -1.5f, Random.Range(-3, 3));
+                    spawnPos = new Vector3(-spawnRadius + Random.RandomRange(-spawnRandomness, spawnRandomness), -1.5f, spawnForwardOffset + Random.Range(-3, 3));
                     eulerRot = new Vector3(0, 90, 0);
                 }
                 GameObject piranha = Instantiate(Resources.Load<GameObject>("Prefabs/Animals/Piranha"), transform);
@@ -53,6 +53,6 @@ public class PiranhaSpawn : MonoBehaviour
         Gizmos.matrix = rotationMatrix;
         Gizmos.color = Color.red;
         //Gizmos.DrawWireSphere(Vector3.zero, spawnRadius);
-        Gizmos.DrawLine(new Vector3(-spawnRadius, 0, 0), new Vector3(spawnRadius, 0, 0));
+        Gizmos.DrawWireCube(new Vector3(0, 0, spawnForwardOffset), new Vector3(spawnRadius * 2, 0, 6));
     }
 }
