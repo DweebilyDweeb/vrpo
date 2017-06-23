@@ -50,21 +50,26 @@ public class Goblin_LandHostile : Goblin
                 currentState = Goblin_FSM.Idle;
                 break;
             case Goblin_FSM.Death:
-                anim.SetTrigger("Death");
-                bool anim1 = HelperFunctions.RandomBool();
-                if(!hasDetectedPlayer) // Play unalarmed death animations
+                if (!isDead)
                 {
-                    if (anim1)
-                        anim.SetInteger("Death_Type", 1);
-                    else
-                        anim.SetInteger("Death_Type", 2);
-                }
-                else // Play alarmed death animations
-                {
-                    if (anim1)
-                        anim.SetInteger("Death_Type", 3);
-                    else
-                        anim.SetInteger("Death_Type", 4);
+                    isDead = true;
+
+                    anim.SetTrigger("Death");
+                    bool anim1 = HelperFunctions.RandomBool();
+                    if (!hasDetectedPlayer) // Play unalarmed death animations
+                    {
+                        if (anim1)
+                            anim.SetInteger("Death_Type", 1);
+                        else
+                            anim.SetInteger("Death_Type", 2);
+                    }
+                    else // Play alarmed death animations
+                    {
+                        if (anim1)
+                            anim.SetInteger("Death_Type", 3);
+                        else
+                            anim.SetInteger("Death_Type", 4);
+                    }
                 }
                 break;
         }
