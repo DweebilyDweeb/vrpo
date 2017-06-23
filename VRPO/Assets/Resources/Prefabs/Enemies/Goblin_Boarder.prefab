@@ -262,6 +262,7 @@ GameObject:
   - component: {fileID: 4235499079157308}
   - component: {fileID: 65516155540841848}
   - component: {fileID: 54758665023200090}
+  - component: {fileID: 114696882494559778}
   m_Layer: 0
   m_Name: Goblin_Abdomen
   m_TagString: Untagged
@@ -1946,6 +1947,19 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114696882494559778
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1179736174150276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bea37d66e493494ca9c9cac0a0854af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentScript_S: {fileID: 0}
+  parentScript_B: {fileID: 114817591935928206}
 --- !u!114 &114817591935928206
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1957,7 +1971,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 681271c63fd691d4a962a6bb4c38fd54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isRightSide: 0
 --- !u!137 &137467090726434902
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
