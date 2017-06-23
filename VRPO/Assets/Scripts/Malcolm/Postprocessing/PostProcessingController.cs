@@ -78,9 +78,10 @@ namespace UnityEngine.PostProcessing.Utilities
         #endregion
 
         #region MonoBehaviour functions
-
+        private KeyCode Blackout;
         void Start()
         {
+            #region Post Processing Stuff
             // Replace the profile with its clone.
             var postfx = GetComponent<PostProcessingBehaviour>();
             _profile = Instantiate<PostProcessingProfile>(postfx.profile);
@@ -142,6 +143,9 @@ namespace UnityEngine.PostProcessing.Utilities
 
             vignetteChange = false;
             vignette = _profile.vignette.settings;
+            #endregion
+
+            Blackout = KeyCode.F1;
         }
         void OnTriggerEnter(Collider col)
         {
@@ -1070,6 +1074,11 @@ namespace UnityEngine.PostProcessing.Utilities
             if (!testchange1)
             {
                 ProfileChange();
+            }
+
+            if (Input.GetKey(Blackout))
+            {
+                
             }
 
             #region Obsolete
