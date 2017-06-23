@@ -37,7 +37,14 @@ public class Goblin_Swimmer : Goblin
             case Goblin_FSM.Dive:
                 transform.LookAt(boat.transform);
                 transform.position += transform.forward * Time.deltaTime * speed;
-                anim.SetTrigger("Dive");
+
+                if (CheckBoatSides() != "Full")
+                    anim.SetTrigger("Dive");
+                else
+                    currentState = Goblin_FSM.Swim;
+                break;
+            case Goblin_FSM.Board:
+                transform.position = new Vector3(0, -100, 0);
                 break;
             case Goblin_FSM.Death:
                 anim.SetTrigger("Death");
@@ -45,9 +52,43 @@ public class Goblin_Swimmer : Goblin
         }
 	}
 
-    public void SpawnBoarders()
+    private string CheckBoatSides()
     {
-        // instantiate boarder goblins and despawn swimmers
+        if (isRightSide) // Check right first
+        {
+            if (!boat.GetComponent<BoatScriptedMovement>().isRightOccupied)
+                return "Right";
+            else if (!boat.GetComponent<BoatScriptedMovement>().isLeftOccupied)
+                return "Left";
+            else if (!boat.GetComponent<BoatScriptedMovement>().isBackOccupied)
+                return "Back";
+            else
+                return "Full";
+        }
+        else // Check left first
+        {
+            if (!boat.GetComponent<BoatScriptedMovement>().isLeftOccupied)
+                return "Left";
+            else if (!boat.GetComponent<BoatScriptedMovement>().isRightOccupied)
+                return "Right";
+            else if (!boat.GetComponent<BoatScriptedMovement>().isBackOccupied)
+                return "Back";
+            else
+                return "Full";
+        }
+    }
+
+    private IEnumerator BoardShip()
+    {
+        currentState = Goblin_FSM.Board;
+
+        yield return new WaitForSeconds(0.75f);
+
+        GameObject boarder = Instantiate(Resources.Load<GameObject>("Prefabs/Enemies/Goblin_Boarder"));
+        boarder.GetComponent<Goblin_Boarder>().Init();
+        boarder.GetComponent<Goblin_Boarder>().SpawnBoarder(CheckBoatSides());
+
+        Destroy(gameObject); // Kill swimmers after spawning boarders
     }
 
     public void OnCollisionEnterChild(Collision collision)

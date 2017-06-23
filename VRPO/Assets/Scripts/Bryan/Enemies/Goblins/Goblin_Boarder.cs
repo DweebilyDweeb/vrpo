@@ -4,27 +4,74 @@ using UnityEngine;
 
 public class Goblin_Boarder : Goblin
 {
-    public bool isRightSide;
+    private bool isBoarding;
     private GameObject boat, player;
 	// Use this for initialization
-	void Start () 
+	public void Init() 
     {
-        currentState = Goblin_FSM.Board;
+        isBoarding = true;
         anim = GetComponent<Animator>();
         boat = GameObject.FindGameObjectWithTag("Boat");
         player = GameObject.FindGameObjectWithTag("Player");
 	}
 
-    public void Init(bool isRight)
+    public void SpawnBoarder(string side)
     {
-        isRightSide = isRight;
+        switch(side)
+        {
+            case "Right":
+                {
+                    boat.GetComponent<BoatScriptedMovement>().isRightOccupied = true;
+                    transform.parent = boat.transform;
+                    transform.localPosition = new Vector3(277.8f, -100, 0);
+                    Vector3 localRot = new Vector3(0, -90, 0);
+                    transform.localRotation = Quaternion.Euler(localRot);
+                }
+                break;
+            case "Left":
+                {
+                    boat.GetComponent<BoatScriptedMovement>().isLeftOccupied = true;
+                    transform.parent = boat.transform;
+                    transform.localPosition = new Vector3(-277.8f, -100, 0);
+                    Vector3 localRot = new Vector3(0, 90, 0);
+                    transform.localRotation = Quaternion.Euler(localRot);
+                }
+                break;
+            case "Back":
+                {
+                    boat.GetComponent<BoatScriptedMovement>().isBackOccupied = true;
+                    transform.parent = boat.transform;
+                    transform.localPosition = new Vector3(0, -100, -490);
+                    Vector3 localRot = Vector3.zero;
+                    transform.localRotation = Quaternion.Euler(localRot);
+                }
+                break;
+        }
     }
 	
 	// Update is called once per frame
 	void Update () 
     {
-		
+		switch(currentState)
+        {
+            case Goblin_FSM.Death:
+                anim.SetTrigger("Death");
+
+                bool anim1 = HelperFunctions.RandomBool();
+                if (anim1)
+                    anim.SetInteger("Death_Type", 1);
+                else
+                    anim.SetInteger("Death_Type", 2);
+
+                anim.SetBool("isBoarding", isBoarding);
+                break;
+        }
 	}
+
+    public void TriggerAttack()
+    {
+        isBoarding = false;
+    }
 
     public void OnCollisionEnterChild(Collision collision)
     {
