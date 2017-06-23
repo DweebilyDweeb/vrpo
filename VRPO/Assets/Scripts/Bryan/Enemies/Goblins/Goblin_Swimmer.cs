@@ -47,7 +47,12 @@ public class Goblin_Swimmer : Goblin
                 transform.position = new Vector3(0, -100, 0);
                 break;
             case Goblin_FSM.Death:
-                anim.SetTrigger("Death");
+                if (!isDead)
+                {
+                    isDead = true;
+
+                    anim.SetTrigger("Death");
+                }
                 break;
         }
 	}
@@ -85,8 +90,9 @@ public class Goblin_Swimmer : Goblin
         yield return new WaitForSeconds(0.75f);
 
         GameObject boarder = Instantiate(Resources.Load<GameObject>("Prefabs/Enemies/Goblin_Boarder"));
-        boarder.GetComponent<Goblin_Boarder>().Init();
-        boarder.GetComponent<Goblin_Boarder>().SpawnBoarder(CheckBoatSides());
+        string side = CheckBoatSides();
+        boarder.GetComponent<Goblin_Boarder>().Init(side);
+        boarder.GetComponent<Goblin_Boarder>().SpawnBoarder(side);
 
         Destroy(gameObject); // Kill swimmers after spawning boarders
     }

@@ -5,11 +5,13 @@ using UnityEngine;
 public class Goblin_Boarder : Goblin
 {
     private bool isBoarding;
+    private string side;
     private GameObject boat, player;
 	// Use this for initialization
-	public void Init() 
+	public void Init(string sideBoarded) 
     {
         isBoarding = true;
+        side = sideBoarded;
         anim = GetComponent<Animator>();
         boat = GameObject.FindGameObjectWithTag("Boat");
         player = GameObject.FindGameObjectWithTag("Player");
@@ -55,15 +57,20 @@ public class Goblin_Boarder : Goblin
 		switch(currentState)
         {
             case Goblin_FSM.Death:
-                anim.SetTrigger("Death");
+                if (!isDead)
+                {
+                    isDead = true;
 
-                bool anim1 = HelperFunctions.RandomBool();
-                if (anim1)
-                    anim.SetInteger("Death_Type", 1);
-                else
-                    anim.SetInteger("Death_Type", 2);
+                    anim.SetTrigger("Death");
 
-                anim.SetBool("isBoarding", isBoarding);
+                    bool anim1 = HelperFunctions.RandomBool();
+                    if (anim1)
+                        anim.SetInteger("Death_Type", 1);
+                    else
+                        anim.SetInteger("Death_Type", 2);
+
+                    anim.SetBool("isBoarding", isBoarding);
+                }
                 break;
         }
 	}
@@ -71,6 +78,29 @@ public class Goblin_Boarder : Goblin
     public void TriggerAttack()
     {
         isBoarding = false;
+    }
+
+    private void UnoccupySide()
+    {
+        switch(side)
+        {
+            case "Right":
+                boat.GetComponent<BoatScriptedMovement>().isRightOccupied = false;
+                break;
+            case "Left":
+                boat.GetComponent<BoatScriptedMovement>().isLeftOccupied = false;
+                break;
+            case "Back":
+                boat.GetComponent<BoatScriptedMovement>().isBackOccupied = false;
+                break;
+        }
+    }
+
+    public override IEnumerator DespawnGoblin()
+    {
+        UnoccupySide();
+        yield return new WaitForSeconds(1.0f);
+        Destroy(gameObject);
     }
 
     public void OnCollisionEnterChild(Collision collision)
