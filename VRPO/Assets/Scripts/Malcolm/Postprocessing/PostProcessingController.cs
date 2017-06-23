@@ -434,9 +434,9 @@ namespace UnityEngine.PostProcessing.Utilities
 
             #region Fog
             {
-                _profile.fog.enabled = _profile2.fog.enabled;
-                fog = _profile2.fog.settings;
-                _profile.fog.settings = fog;
+                //_profile.fog.enabled = _profile2.fog.enabled;
+                //fog = _profile2.fog.settings;
+                //_profile.fog.settings = fog;
 
             }
             #endregion
