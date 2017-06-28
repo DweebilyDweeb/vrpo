@@ -18,7 +18,7 @@ public class Goblin_Boarder : Goblin
         player = GameObject.FindGameObjectWithTag("Player");
 	}
 
-    public void SpawnBoarder(string side)
+    public void SpawnBoarder()
     {
         switch(side)
         {
@@ -26,7 +26,7 @@ public class Goblin_Boarder : Goblin
                 {
                     boat.GetComponent<BoatScriptedMovement>().isRightOccupied = true;
                     transform.parent = boat.transform;
-                    transform.localPosition = new Vector3(277.8f, -300, 0);
+                    transform.localPosition = new Vector3(277.8f, -1000, 0);
                     Vector3 localRot = new Vector3(0, -90, 0);
                     transform.localRotation = Quaternion.Euler(localRot);
                 }
@@ -35,7 +35,7 @@ public class Goblin_Boarder : Goblin
                 {
                     boat.GetComponent<BoatScriptedMovement>().isLeftOccupied = true;
                     transform.parent = boat.transform;
-                    transform.localPosition = new Vector3(-277.8f, -300, 0);
+                    transform.localPosition = new Vector3(-277.8f, -1000, 0);
                     Vector3 localRot = new Vector3(0, 90, 0);
                     transform.localRotation = Quaternion.Euler(localRot);
                 }
@@ -44,7 +44,7 @@ public class Goblin_Boarder : Goblin
                 {
                     boat.GetComponent<BoatScriptedMovement>().isBackOccupied = true;
                     transform.parent = boat.transform;
-                    transform.localPosition = new Vector3(0, -300, -490);
+                    transform.localPosition = new Vector3(0, -1000, -490);
                     Vector3 localRot = Vector3.zero;
                     transform.localRotation = Quaternion.Euler(localRot);
                 }
@@ -78,7 +78,7 @@ public class Goblin_Boarder : Goblin
     
     public void TriggerBoarding()
     {
-        transform.localPosition += new Vector3(0, 200, 0);
+        transform.localPosition += new Vector3(0, 900, 0);
         anim.SetTrigger("Board");
     }
 
