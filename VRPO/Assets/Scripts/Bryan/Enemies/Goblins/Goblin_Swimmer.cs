@@ -6,7 +6,7 @@ public class Goblin_Swimmer : Goblin
 {
     public bool isRightSide;
     private float speed, distFromBoat;
-    private GameObject boat;
+    private GameObject boat, boarderToSpawn;
 	// Use this for initialization
 	void Start () 
     {
@@ -30,9 +30,10 @@ public class Goblin_Swimmer : Goblin
                 distFromBoat = new Vector3(boat.transform.position.x - transform.position.x, 0, boat.transform.position.z - transform.position.z).magnitude;
                 if (distFromBoat < (speed * 4.5f))
                     currentState = Goblin_FSM.Dive;
+                else
+                    transform.position += transform.forward * Time.deltaTime * speed;
 
                 transform.LookAt(boat.transform);
-                transform.position += transform.forward * Time.deltaTime * speed;                
                 break;
             case Goblin_FSM.Dive:
                 transform.LookAt(boat.transform);
@@ -83,18 +84,32 @@ public class Goblin_Swimmer : Goblin
         }
     }
 
+    private void ReserveBoatSide()
+    {
+        boarderToSpawn = Instantiate(Resources.Load<GameObject>("Prefabs/Enemies/Goblin_Boarder"));
+        string side = CheckBoatSides();
+        boarderToSpawn.GetComponent<Goblin_Boarder>().Init(side);
+        boarderToSpawn.GetComponent<Goblin_Boarder>().SpawnBoarder(side);
+    }
+
     private IEnumerator BoardShip()
     {
         currentState = Goblin_FSM.Board;
 
         yield return new WaitForSeconds(0.75f);
 
-        GameObject boarder = Instantiate(Resources.Load<GameObject>("Prefabs/Enemies/Goblin_Boarder"));
-        string side = CheckBoatSides();
-        boarder.GetComponent<Goblin_Boarder>().Init(side);
-        boarder.GetComponent<Goblin_Boarder>().SpawnBoarder(side);
+        boarderToSpawn.GetComponent<Goblin_Boarder>().TriggerBoarding();
 
         Destroy(gameObject); // Kill swimmers after spawning boarders
+    }
+
+    private void CheckBoatMidDive()
+    {
+        if (CheckBoatSides() == "Full")
+        {
+            anim.SetTrigger("Cancel_Dive");
+            currentState = Goblin_FSM.Swim;
+        }
     }
 
     public void OnCollisionEnterChild(Collision collision)
