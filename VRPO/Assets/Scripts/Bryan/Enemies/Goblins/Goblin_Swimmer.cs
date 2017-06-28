@@ -48,7 +48,7 @@ public class Goblin_Swimmer : Goblin
                     currentState = Goblin_FSM.Swim;
                 break;
             case Goblin_FSM.Board:
-                transform.position = new Vector3(0, -100, 0);
+                transform.position = new Vector3(0, -1000, 0);
                 break;
             case Goblin_FSM.Death:
                 if (!isDead)
