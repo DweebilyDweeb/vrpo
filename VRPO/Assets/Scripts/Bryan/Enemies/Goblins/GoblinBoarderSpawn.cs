@@ -26,9 +26,9 @@ public class GoblinBoarderSpawn : MonoBehaviour
                 Vector3 spawnPos = Vector3.zero;
                 Vector3 eulerRot = new Vector3(0, 180, 0);
                 if (side) //right
-                    spawnPos = new Vector3(-spreadDistance + Random.RandomRange(-spreadDistance, spreadDistance), 0, spawnDistance + Random.Range(-5, 5));
+                    spawnPos = new Vector3(-spreadDistance + Random.Range(-spreadDistance, spreadDistance), 0, spawnDistance + Random.Range(-5, 5));
                 else //left
-                    spawnPos = new Vector3(spreadDistance + Random.RandomRange(-spreadDistance, spreadDistance), -1.5f, spawnDistance + Random.Range(-5, 5));
+                    spawnPos = new Vector3(spreadDistance + Random.Range(-spreadDistance, spreadDistance), -1.5f, spawnDistance + Random.Range(-5, 5));
 
                 GameObject goblin = Instantiate(Resources.Load<GameObject>("Prefabs/Enemies/Goblin_Swimmer"), transform);
                 goblin.transform.localPosition = spawnPos;
