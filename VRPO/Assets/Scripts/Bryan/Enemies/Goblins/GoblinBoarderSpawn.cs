@@ -20,21 +20,28 @@ public class GoblinBoarderSpawn : MonoBehaviour
     {
         if (collision.tag == "Boat")
         {
-            for (int spawnCount = 0; spawnCount < goblinsToSpawn; spawnCount++)
-            {
-                bool side = HelperFunctions.RandomBool();
-                Vector3 spawnPos = Vector3.zero;
-                Vector3 eulerRot = new Vector3(0, 180, 0);
-                if (side) //right
-                    spawnPos = new Vector3(-spreadDistance + Random.RandomRange(-spreadDistance, spreadDistance), 0, spawnDistance + Random.Range(-5, 5));
-                else //left
-                    spawnPos = new Vector3(spreadDistance + Random.RandomRange(-spreadDistance, spreadDistance), -1.5f, spawnDistance + Random.Range(-5, 5));
+            StartCoroutine(SpawnSwimmers());
+        }
+    }
 
-                GameObject goblin = Instantiate(Resources.Load<GameObject>("Prefabs/Enemies/Goblin_Swimmer"), transform);
-                goblin.transform.localPosition = spawnPos;
-                goblin.transform.localEulerAngles = eulerRot;
-                goblin.GetComponent<Goblin_Swimmer>().Init(side, goblinSwimSpeed);
-            }
+    private IEnumerator SpawnSwimmers()
+    {
+        for (int spawnCount = 0; spawnCount < goblinsToSpawn; spawnCount++)
+        {
+            bool side = HelperFunctions.RandomBool();
+            Vector3 spawnPos = Vector3.zero;
+            Vector3 eulerRot = new Vector3(0, 180, 0);
+            if (side) //right
+                spawnPos = new Vector3(-spreadDistance + Random.RandomRange(-spreadDistance, spreadDistance), 0, spawnDistance + Random.Range(-5, 5));
+            else //left
+                spawnPos = new Vector3(spreadDistance + Random.RandomRange(-spreadDistance, spreadDistance), -1.5f, spawnDistance + Random.Range(-5, 5));
+
+            GameObject goblin = Instantiate(Resources.Load<GameObject>("Prefabs/Enemies/Goblin_Swimmer"), transform);
+            goblin.transform.localPosition = spawnPos;
+            goblin.transform.localEulerAngles = eulerRot;
+            goblin.GetComponent<Goblin_Swimmer>().Init(side, goblinSwimSpeed);
+
+            yield return new WaitForSeconds(0.25f);
         }
     }
 
