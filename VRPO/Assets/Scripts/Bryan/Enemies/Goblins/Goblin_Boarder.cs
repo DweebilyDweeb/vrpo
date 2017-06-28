@@ -7,6 +7,7 @@ public class Goblin_Boarder : Goblin
     private bool isBoarding;
     private string side;
     private GameObject boat, player;
+    private Vector3 spawnPos;
 	// Use this for initialization
 	public void Init(string sideBoarded) 
     {
@@ -25,7 +26,7 @@ public class Goblin_Boarder : Goblin
                 {
                     boat.GetComponent<BoatScriptedMovement>().isRightOccupied = true;
                     transform.parent = boat.transform;
-                    transform.localPosition = new Vector3(277.8f, -100, 0);
+                    transform.localPosition = new Vector3(277.8f, -300, 0);
                     Vector3 localRot = new Vector3(0, -90, 0);
                     transform.localRotation = Quaternion.Euler(localRot);
                 }
@@ -34,7 +35,7 @@ public class Goblin_Boarder : Goblin
                 {
                     boat.GetComponent<BoatScriptedMovement>().isLeftOccupied = true;
                     transform.parent = boat.transform;
-                    transform.localPosition = new Vector3(-277.8f, -100, 0);
+                    transform.localPosition = new Vector3(-277.8f, -300, 0);
                     Vector3 localRot = new Vector3(0, 90, 0);
                     transform.localRotation = Quaternion.Euler(localRot);
                 }
@@ -43,7 +44,7 @@ public class Goblin_Boarder : Goblin
                 {
                     boat.GetComponent<BoatScriptedMovement>().isBackOccupied = true;
                     transform.parent = boat.transform;
-                    transform.localPosition = new Vector3(0, -100, -490);
+                    transform.localPosition = new Vector3(0, -300, -490);
                     Vector3 localRot = Vector3.zero;
                     transform.localRotation = Quaternion.Euler(localRot);
                 }
@@ -74,6 +75,12 @@ public class Goblin_Boarder : Goblin
                 break;
         }
 	}
+    
+    public void TriggerBoarding()
+    {
+        transform.localPosition += new Vector3(0, 200, 0);
+        anim.SetTrigger("Board");
+    }
 
     public void TriggerAttack()
     {
