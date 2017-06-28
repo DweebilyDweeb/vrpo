@@ -18,7 +18,7 @@ public class Goblin_Boarder : Goblin
         player = GameObject.FindGameObjectWithTag("Player");
 	}
 
-    public void SpawnBoarder(string side)
+    public void SpawnBoarder()
     {
         switch(side)
         {

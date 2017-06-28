@@ -92,7 +92,7 @@ public class Goblin_Swimmer : Goblin
         boarderToSpawn = Instantiate(Resources.Load<GameObject>("Prefabs/Enemies/Goblin_Boarder"));
         string side = CheckBoatSides();
         boarderToSpawn.GetComponent<Goblin_Boarder>().Init(side);
-        boarderToSpawn.GetComponent<Goblin_Boarder>().SpawnBoarder(side);
+        boarderToSpawn.GetComponent<Goblin_Boarder>().SpawnBoarder();
     }
 
     private IEnumerator BoardShip()
