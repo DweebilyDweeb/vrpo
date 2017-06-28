@@ -28,12 +28,15 @@ public class Goblin_Swimmer : Goblin
         {
             case Goblin_FSM.Swim:
                 distFromBoat = new Vector3(boat.transform.position.x - transform.position.x, 0, boat.transform.position.z - transform.position.z).magnitude;
+                transform.LookAt(boat.transform);
+
                 if (distFromBoat < (speed * 4.5f))
-                    currentState = Goblin_FSM.Dive;
+                {
+                    if (CheckBoatSides() != "Full")
+                        currentState = Goblin_FSM.Dive; 
+                }
                 else
                     transform.position += transform.forward * Time.deltaTime * speed;
-
-                transform.LookAt(boat.transform);
                 break;
             case Goblin_FSM.Dive:
                 transform.LookAt(boat.transform);
@@ -45,7 +48,7 @@ public class Goblin_Swimmer : Goblin
                     currentState = Goblin_FSM.Swim;
                 break;
             case Goblin_FSM.Board:
-                transform.position = new Vector3(0, -100, 0);
+                transform.position = new Vector3(0, -1000, 0);
                 break;
             case Goblin_FSM.Death:
                 if (!isDead)
@@ -89,7 +92,7 @@ public class Goblin_Swimmer : Goblin
         boarderToSpawn = Instantiate(Resources.Load<GameObject>("Prefabs/Enemies/Goblin_Boarder"));
         string side = CheckBoatSides();
         boarderToSpawn.GetComponent<Goblin_Boarder>().Init(side);
-        boarderToSpawn.GetComponent<Goblin_Boarder>().SpawnBoarder(side);
+        boarderToSpawn.GetComponent<Goblin_Boarder>().SpawnBoarder();
     }
 
     private IEnumerator BoardShip()
