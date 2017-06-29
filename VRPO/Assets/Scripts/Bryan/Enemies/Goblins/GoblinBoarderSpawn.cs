@@ -5,7 +5,7 @@ using UnityEngine;
 public class GoblinBoarderSpawn : MonoBehaviour 
 {
     public int goblinsToSpawn;
-    public float goblinSwimSpeed, spawnDistance, spreadDistance;
+    public float goblinSwimSpeed, spawnDistance, spreadDistance, spawnHeight;
 	// Use this for initialization
 	void Start () {
 		
@@ -32,9 +32,9 @@ public class GoblinBoarderSpawn : MonoBehaviour
             Vector3 spawnPos = Vector3.zero;
             Vector3 eulerRot = new Vector3(0, 180, 0);
             if (side) //right
-                spawnPos = new Vector3(-spreadDistance + Random.RandomRange(-spreadDistance, spreadDistance), 0, spawnDistance + Random.Range(-5, 5));
+                spawnPos = new Vector3(-spreadDistance + Random.RandomRange(-spreadDistance, spreadDistance), spawnHeight, spawnDistance + Random.Range(-5, 5));
             else //left
-                spawnPos = new Vector3(spreadDistance + Random.RandomRange(-spreadDistance, spreadDistance), -1.5f, spawnDistance + Random.Range(-5, 5));
+                spawnPos = new Vector3(spreadDistance + Random.RandomRange(-spreadDistance, spreadDistance), spawnHeight, spawnDistance + Random.Range(-5, 5));
 
             GameObject goblin = Instantiate(Resources.Load<GameObject>("Prefabs/Enemies/Goblin_Swimmer"), transform);
             goblin.transform.localPosition = spawnPos;
@@ -51,6 +51,6 @@ public class GoblinBoarderSpawn : MonoBehaviour
         Gizmos.matrix = rotationMatrix;
         Gizmos.color = Color.red;
         //Gizmos.DrawWireSphere(Vector3.zero, spawnRadius);
-        Gizmos.DrawLine(new Vector3(-(spreadDistance * 2), 0, spawnDistance), new Vector3((spreadDistance * 2), 0, spawnDistance));
+        Gizmos.DrawLine(new Vector3(-(spreadDistance * 2), spawnHeight, spawnDistance), new Vector3((spreadDistance * 2), spawnHeight, spawnDistance));
     }
 }
