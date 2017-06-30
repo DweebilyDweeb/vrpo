@@ -23,7 +23,7 @@ public class ScoreSystem : MonoBehaviour {
 
     void Update()
     {
-        scoreText.text = "Score: " + Score;
+        scoreText.text = Score.ToString();
 
         if(scoreModifiers.Count > 0)
         {
