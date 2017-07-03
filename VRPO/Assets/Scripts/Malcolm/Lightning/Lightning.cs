@@ -8,11 +8,13 @@ public class Lightning : MonoBehaviour {
     float randomX;
     float randomZ;
     public GameObject LightningBolt;
+    private GameObject Player;
     Quaternion randomRot;
 	// Use this for initialization
 	void Start()
     {
-        StartCoroutine(Wait(UnityEngine.Random.Range(5,10)));
+        Player = GameObject.FindGameObjectWithTag("Player");
+        StartCoroutine(Wait(UnityEngine.Random.Range(3,8)));
     }
 
     // Update is called once per frame
@@ -38,15 +40,17 @@ public class Lightning : MonoBehaviour {
     }
 
     private Quaternion RandomRotation()
+
     {
-        randomRot.eulerAngles = new Vector3(0, UnityEngine.Random.Range(-180, 180), 0);
+        //randomRot.eulerAngles = new Vector3(0, UnityEngine.Random.Range(-180, 180), 0);
+        randomRot.eulerAngles = Vector3.zero;
         return randomRot;
     }
 
     private void SpawnLightning()
     {
         GameObject lightning = Instantiate(LightningBolt, RandomPosition(), RandomRotation());
-
+        lightning.transform.LookAt(Player.transform);
     }
 
 }
