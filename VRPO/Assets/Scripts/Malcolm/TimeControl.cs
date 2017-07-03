@@ -21,6 +21,7 @@ public class TimeControl : MonoBehaviour
         }
 
         instance = this;
+        this.gameObject.tag = "TimeControl";
         DontDestroyOnLoad(this.gameObject);
     }
 
