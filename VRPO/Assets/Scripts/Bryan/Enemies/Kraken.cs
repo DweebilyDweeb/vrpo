@@ -116,6 +116,9 @@ public class Kraken : MonoBehaviour
                     }
                     break;
                 }
+            default:
+                Debug.LogError("currentState is not an attack state");
+                break;
         }
     }
 
