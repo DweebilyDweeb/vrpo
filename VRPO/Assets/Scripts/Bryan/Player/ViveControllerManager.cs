@@ -163,12 +163,12 @@ public class ViveControllerManager : MonoBehaviour
                     collide.gameObject.GetComponent<Projectile>().DestroyProjectile();
                     break;
                 case "Bird":
-                    GameObject.FindGameObjectWithTag("GameController").GetComponent<ScoreSystem>().AddScore(1000);
+                    GameObject.FindGameObjectWithTag("GameController").GetComponent<ScoreSystem>().AddScore(10);
                     Destroy(collide.gameObject);
                     Instantiate(Resources.Load<GameObject>("Prefabs/Animals/Seagull"));
                     break;
                 case "Goblin":
-                    GameObject.FindGameObjectWithTag("GameController").GetComponent<ScoreSystem>().AddScore(500);
+                    GameObject.FindGameObjectWithTag("GameController").GetComponent<ScoreSystem>().AddScore(50);
                     collide.gameObject.GetComponent<Goblin>().TriggerDeath();
                     break;
             }

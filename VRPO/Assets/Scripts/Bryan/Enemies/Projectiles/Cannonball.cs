@@ -31,7 +31,7 @@ public class Cannonball : Projectile
         switch(collision.gameObject.tag)
         {
             case "Player":
-                GameObject.FindGameObjectWithTag("GameController").GetComponent<ScoreSystem>().AddScore(-100);
+                GameObject.FindGameObjectWithTag("GameController").GetComponent<ScoreSystem>().AddScore(-10);
                 Destroy(gameObject);
                 break;
             case "Terrain":
