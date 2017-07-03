@@ -5,7 +5,7 @@ using UnityEngine;
 public class LightningFade : MonoBehaviour {
     // Use this for initialization
     void Start () {
-        StartCoroutine(Wait(0.5f));
+        StartCoroutine(Wait(0.000050f));
         Destroy(gameObject,10);
     }
 

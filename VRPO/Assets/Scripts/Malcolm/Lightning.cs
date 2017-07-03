@@ -12,7 +12,7 @@ public class Lightning : MonoBehaviour {
 	// Use this for initialization
 	void Start()
     {
-        StartCoroutine(Wait(UnityEngine.Random.Range(3,8)));
+        StartCoroutine(Wait(UnityEngine.Random.Range(5,10)));
     }
 
     // Update is called once per frame
