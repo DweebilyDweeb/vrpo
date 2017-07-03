@@ -5,7 +5,7 @@ AnimatorController:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Goblin_Dagger
+  m_Name: Goblin_ThrowingWep
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: Idle
@@ -13,7 +13,7 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -92,7 +92,7 @@ AnimatorState:
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
-  m_Motion: {fileID: 7400002, guid: 145793ffef0c79b42b814e29f3c69817, type: 3}
+  m_Motion: {fileID: 7400000, guid: 3ec72c1392f53b649b7e300e0101857c, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 

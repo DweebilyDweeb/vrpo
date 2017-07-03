@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ThrowingDagger : Projectile
+public class Goblin_ThrowingWep : Projectile
 {
     private Animator anim;
 	// Use this for initialization

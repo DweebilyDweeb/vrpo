@@ -75,10 +75,10 @@ public class Goblin_LandHostile : Goblin
         }
 	}
 
-    public void ThrowDagger(int isLeftArm)
+    public void ThrowWeapon(int isLeftArm)
     {
-        #region Instantiate Throwing Dagger
-        GameObject projectile = Instantiate(Resources.Load<GameObject>("Prefabs/Enemies/Dagger"));
+        #region Instantiate Throwing Weapon
+        GameObject projectile = Instantiate(Resources.Load<GameObject>("Prefabs/Enemies/G_ThrowingWep"));
         if (isLeftArm == 0)
             projectile.transform.position = leftHand.transform.position;
         else
