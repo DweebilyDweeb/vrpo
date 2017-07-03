@@ -171,6 +171,10 @@ public class ViveControllerManager : MonoBehaviour
                     GameObject.FindGameObjectWithTag("GameController").GetComponent<ScoreSystem>().AddScore(50);
                     collide.gameObject.GetComponent<Goblin>().TriggerDeath();
                     break;
+                case "Kraken":
+                    GameObject.FindGameObjectWithTag("GameController").GetComponent<ScoreSystem>().AddScore(50);
+                    Destroy(collide.gameObject);
+                    break;
             }
         }
     }
