@@ -60,13 +60,13 @@ public class Kraken : MonoBehaviour
                 }
                 break;
             case Kraken_FSM.Attack_R_Tentacle_Horizontal:
-                if (targetList.Count == 0)
-                    ToggleSlowMo(1);
+                //if (targetList.Count == 0)
+                //    ToggleSlowMo(1);
                 // Toggle knockback
                 break;
             case Kraken_FSM.Attack_R_Tentacle_Vertical:
-                if (targetList.Count == 0)
-                    ToggleSlowMo(1);
+                //if (targetList.Count == 0)
+                //    ToggleSlowMo(1);
                 // Toggle knockback
                 break;
         }
