@@ -7,8 +7,10 @@ public class Kraken : MonoBehaviour
     public List<GameObject> targetList = new List<GameObject>();
     public List<GameObject> spawnPoints = new List<GameObject>();
     private bool spawnPointInit = false;
-    private float atkTimeDefault = 2.0f;
+    private bool targetsSpawned = false;
+
     private float atkTimer;
+    private float atkTimeDefault = 2.0f;
 
     private enum Kraken_FSM { Spawn = 1, Idle, Dive, Rise, Attack_R_Tentacle_Horizontal, Attack_R_Tentacle_Vertical }
     private Kraken_FSM currentState = Kraken_FSM.Spawn;
@@ -49,25 +51,28 @@ public class Kraken : MonoBehaviour
 
                     atkTimer = atkTimeDefault;
                 }
-
-                if (targetList.Count != 0)
-                {
-                    foreach (GameObject targetCollider in targetList)
-                    {
-                        Destroy(targetCollider);
-                    }
-                    targetList.Clear();
-                }
                 break;
             case Kraken_FSM.Attack_R_Tentacle_Horizontal:
-                //if (targetList.Count == 0)
-                //    ToggleSlowMo(1);
-                // Toggle knockback
+                if (targetsSpawned)
+                {
+                    if (targetList.Count == 0)
+                    {
+                        ToggleSlowMo(1);
+                        // Toggle knockback anim
+                        targetsSpawned = false;
+                    }
+                }
                 break;
             case Kraken_FSM.Attack_R_Tentacle_Vertical:
-                //if (targetList.Count == 0)
-                //    ToggleSlowMo(1);
-                // Toggle knockback
+                if (targetsSpawned)
+                {
+                    if (targetList.Count == 0)
+                    {
+                        ToggleSlowMo(1);
+                        // Toggle knockback anim
+                        targetsSpawned = false;
+                    }
+                }
                 break;
         }
 	}
@@ -107,6 +112,8 @@ public class Kraken : MonoBehaviour
                         targetCollider.transform.localPosition = Vector3.zero;
                         targetList.Add(targetCollider);
                     }
+
+                    targetsSpawned = true;
                     break;
                 }
             case Kraken_FSM.Attack_R_Tentacle_Vertical:
@@ -118,11 +125,27 @@ public class Kraken : MonoBehaviour
                         targetCollider.transform.localPosition = Vector3.zero;
                         targetList.Add(targetCollider);
                     }
+
+                    targetsSpawned = true;
                     break;
                 }
             default:
                 Debug.LogError("currentState is not an attack state");
                 break;
+        }
+    }
+
+    void DespawnTargetColliders()
+    {
+        if (targetList.Count != 0)
+        {
+            foreach (GameObject targetCollider in targetList)
+            {
+                Destroy(targetCollider);
+            }
+            targetList.Clear();
+            ToggleSlowMo(1);
+            targetsSpawned = false;
         }
     }
 
