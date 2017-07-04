@@ -36299,14 +36299,14 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_GenerateMotionCurves: 0
   m_Events:
-  - time: 10.5
+  - time: 10
     functionName: ToggleSlowMo
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 12
+  - time: 11
     functionName: SpawnTargetColliders
     data: 
     objectReferenceParameter: {fileID: 0}
@@ -36314,13 +36314,13 @@ AnimationClip:
     intParameter: 0
     messageOptions: 0
   - time: 13
-    functionName: ToggleSlowMo
+    functionName: DespawnTargetColliders
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
-    intParameter: 1
+    intParameter: 0
     messageOptions: 0
-  - time: 22.875
+  - time: 20
     functionName: SetFSM
     data: 
     objectReferenceParameter: {fileID: 0}
