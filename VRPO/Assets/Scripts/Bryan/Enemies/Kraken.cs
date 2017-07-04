@@ -7,7 +7,8 @@ public class Kraken : MonoBehaviour
     public List<GameObject> targetList = new List<GameObject>();
     public List<GameObject> spawnPoints = new List<GameObject>();
     private bool spawnPointInit = false;
-    private float atkTimer = 2.0f;
+    private float atkTimeDefault = 2.0f;
+    private float atkTimer;
 
     private enum Kraken_FSM { Spawn = 1, Idle, Dive, Rise, Attack_R_Tentacle_Horizontal, Attack_R_Tentacle_Vertical }
     private Kraken_FSM currentState = Kraken_FSM.Spawn;
@@ -15,6 +16,7 @@ public class Kraken : MonoBehaviour
 	// Use this for initialization
 	void Start () 
     {
+        atkTimer = atkTimeDefault;
 		anim = GetComponent<Animator>();
 
         spawnPoints.Add(transform.Find("Kraken_Armature").Find("Tentacle_01").gameObject);
@@ -44,6 +46,8 @@ public class Kraken : MonoBehaviour
                         SetFSM(Kraken_FSM.Attack_R_Tentacle_Horizontal);
                     else
                         SetFSM(Kraken_FSM.Attack_R_Tentacle_Vertical);
+
+                    atkTimer = atkTimeDefault;
                 }
 
                 if (targetList.Count != 0)
