@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -79,24 +80,28 @@ public class Kraken : MonoBehaviour
 
     void SetFSM(Kraken_FSM state)
     {
-        Debug.Log("SetFSM called, state = " + state);
-        currentState = state;
-
-        switch(currentState)
+        try
         {
-            case Kraken_FSM.Dive:
-                anim.SetTrigger("Dive");
-                break;
-            case Kraken_FSM.Rise:
-                anim.SetTrigger("Rise");
-                break;
-            case Kraken_FSM.Attack_R_Tentacle_Horizontal:
-                anim.SetTrigger("Atk_Horizontal");
-                break;
-            case Kraken_FSM.Attack_R_Tentacle_Vertical:
-                anim.SetTrigger("Atk_Vertical");
-                break;
+            Debug.Log("SetFSM called, state = " + state);
+            currentState = state;
+
+            switch (currentState)
+            {
+                case Kraken_FSM.Dive:
+                    anim.SetTrigger("Dive");
+                    break;
+                case Kraken_FSM.Rise:
+                    anim.SetTrigger("Rise");
+                    break;
+                case Kraken_FSM.Attack_R_Tentacle_Horizontal:
+                    anim.SetTrigger("Atk_Horizontal");
+                    break;
+                case Kraken_FSM.Attack_R_Tentacle_Vertical:
+                    anim.SetTrigger("Atk_Vertical");
+                    break;
+            }
         }
+        catch (Exception e) { Debug.LogError("Kraken SetFSM function failed, reason: " + e); }
     }
 
     void SpawnTargetColliders()
