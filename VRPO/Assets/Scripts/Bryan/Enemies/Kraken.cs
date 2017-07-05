@@ -157,8 +157,8 @@ public class Kraken : MonoBehaviour
     void ToggleSlowMo(int On)
     {
         if(On == 0)
-            GameObject.FindGameObjectWithTag("TimeControl").GetComponent<TimeControl>().slowMo = true;
+            TimeControl.instance.slowMo = true;
         else
-            GameObject.FindGameObjectWithTag("TimeControl").GetComponent<TimeControl>().slowMo = false;
+            TimeControl.instance.slowMo = false;
     }
 }
