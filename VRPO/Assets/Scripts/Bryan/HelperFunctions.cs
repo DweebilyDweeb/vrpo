@@ -52,4 +52,28 @@ public class HelperFunctions
         else
             return false;
     }
+
+    public static void CheckForSlowMo(Animator anim)
+    {
+        if (TimeControl.instance.slowMo)
+        {
+            anim.speed = 7.5f;
+        }
+        if (!TimeControl.instance.slowMo)
+        {
+            anim.speed = 1.0f;
+        }
+    }
+
+    public static void CheckForSlowMo(Animator anim, float offsetSpeed)
+    {
+        if (TimeControl.instance.slowMo)
+        {
+            anim.speed = offsetSpeed;
+        }
+        if (!TimeControl.instance.slowMo)
+        {
+            anim.speed = 1.0f;
+        }
+    }
 }

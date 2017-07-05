@@ -17,23 +17,11 @@ public class Gun : MonoBehaviour
 	// Update is called once per frame
 	void Update () 
     {
-        CheckForSlowMo();
+        HelperFunctions.CheckForSlowMo(anim);
     }
 
     public void Fire()
     {
         controller.FireGun();
-    }
-
-    private void CheckForSlowMo()
-    {
-        if (TimeControl.instance.slowMo)
-        {
-            anim.speed = 7.5f;
-        }
-        if (!TimeControl.instance.slowMo)
-        {
-            anim.speed = 1.0f;
-        }
     }
 }

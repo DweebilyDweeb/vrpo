@@ -5,15 +5,16 @@ using UnityEngine.UI;
 
 public class Score_Mod : MonoBehaviour 
 {
-    public int scoreToAdd;
+    private int scoreToAdd;
+    private Animator anim;
 	// Use this for initialization
 	void Start () {
-		
+        anim = GetComponent<Animator>();
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		
+        HelperFunctions.CheckForSlowMo(anim);
 	}
 
     public void Init(int value)
