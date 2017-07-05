@@ -87,8 +87,9 @@ public class Goblin_LandHostile : Goblin
 
         // Add velocity to throwing dagger
         direction = player.transform.position - projectile.transform.position;
-        Vector3 throwVector = new Vector3(direction.normalized.x * 100, direction.y, direction.normalized.z * 100);
+        Vector3 throwVector = new Vector3(direction.normalized.x * 100, direction.normalized.y * 300, direction.normalized.z * 100);
         projectile.GetComponent<Rigidbody>().velocity = throwVector;
+        Debug.Log("projectile velocity: " + projectile.GetComponent<Rigidbody>().velocity);
     }
 
     private void OnDrawGizmosSelected()
