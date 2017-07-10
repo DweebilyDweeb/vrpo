@@ -24,6 +24,10 @@ public class Sword : MonoBehaviour
             case "Cannonball":
                 collision.gameObject.GetComponent<Projectile>().DestroyProjectile();
                 break;
+            case "Piranha":
+                GameObject.FindGameObjectWithTag("GameController").GetComponent<ScoreSystem>().AddScore(10);
+                Destroy(collision.gameObject);
+                break;
             case "Goblin":
                 GameObject.FindGameObjectWithTag("GameController").GetComponent<ScoreSystem>().AddScore(50);
                 collision.gameObject.GetComponent<Goblin>().TriggerDeath();
