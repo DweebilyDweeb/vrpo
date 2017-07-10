@@ -95,7 +95,7 @@ public class ViveControllerManager : MonoBehaviour
                                 if(!laserActive)
                                     laserActive = true;
                             }
-                            else if (controller.device.GetPressUp(controller.touchPad))
+                            else
                             {
                                 if (laserActive)
                                     laserActive = false;
@@ -166,6 +166,10 @@ public class ViveControllerManager : MonoBehaviour
                     GameObject.FindGameObjectWithTag("GameController").GetComponent<ScoreSystem>().AddScore(10);
                     Destroy(collide.gameObject);
                     Instantiate(Resources.Load<GameObject>("Prefabs/Animals/Seagull"));
+                    break;
+                case "Piranha":
+                    GameObject.FindGameObjectWithTag("GameController").GetComponent<ScoreSystem>().AddScore(10);
+                    Destroy(collide.gameObject);
                     break;
                 case "Goblin":
                     GameObject.FindGameObjectWithTag("GameController").GetComponent<ScoreSystem>().AddScore(50);

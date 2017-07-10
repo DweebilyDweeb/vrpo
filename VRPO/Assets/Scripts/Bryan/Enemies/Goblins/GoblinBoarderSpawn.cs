@@ -36,7 +36,7 @@ public class GoblinBoarderSpawn : MonoBehaviour
             else //left
                 spawnPos = new Vector3(spreadDistance + Random.RandomRange(-spreadDistance, spreadDistance), spawnHeight, spawnDistance + Random.Range(-5, 5));
 
-            GameObject goblin = Instantiate(Resources.Load<GameObject>("Prefabs/Enemies/Goblin_Swimmer"), transform);
+            GameObject goblin = Instantiate(Resources.Load<GameObject>("Prefabs/Enemies/Pirate_Swimmer"), transform);
             goblin.transform.localPosition = spawnPos;
             goblin.transform.localEulerAngles = eulerRot;
             goblin.GetComponent<Goblin_Swimmer>().Init(side, goblinSwimSpeed);
