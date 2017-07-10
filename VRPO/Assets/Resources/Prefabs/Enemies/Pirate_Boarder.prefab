@@ -1618,7 +1618,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1080573667327838}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: -441.30115, y: 1.5473366, z: -330.60098}
+  m_LocalPosition: {x: -440.255, y: 1.5439568, z: -336.80884}
   m_LocalScale: {x: 200, y: 200, z: 200}
   m_Children:
   - {fileID: 4825449156387556}
@@ -1911,9 +1911,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3bea37d66e493494ca9c9cac0a0854af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentScript_S: {fileID: 114690864912179964, guid: 32924d7045d8f0048be44a9b95f39a83,
-    type: 2}
-  parentScript_B: {fileID: 0}
+  parentScript_S: {fileID: 0}
+  parentScript_B: {fileID: 114191236590221030}
 --- !u!137 &137050114754936966
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
@@ -1927,9 +1926,9 @@ SkinnedMeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 8432d98950de1114ba8046d62f7d9622, type: 2}
-  - {fileID: 2100000, guid: 8432d98950de1114ba8046d62f7d9622, type: 2}
-  - {fileID: 2100000, guid: 8432d98950de1114ba8046d62f7d9622, type: 2}
+  - {fileID: 2100000, guid: cc3f2f4530422b542802fc9a7b70e90d, type: 2}
+  - {fileID: 2100000, guid: cc3f2f4530422b542802fc9a7b70e90d, type: 2}
+  - {fileID: 2100000, guid: cc3f2f4530422b542802fc9a7b70e90d, type: 2}
   - {fileID: 2100000, guid: 8432d98950de1114ba8046d62f7d9622, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0

@@ -28,6 +28,7 @@ public class Goblin_ChildCollider : Goblin
 
     public override void TriggerDeath()
     {
+        Debug.Log("child collider trigger death");
         if (parentScript_S != null)
             parentScript_S.TriggerDeath();
         else if (parentScript_B != null)
