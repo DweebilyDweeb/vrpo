@@ -9,45 +9,44 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1498026670435772}
+  m_RootGameObject: {fileID: 1661053418227554}
   m_IsPrefabParent: 1
---- !u!1 &1498026670435772
+--- !u!1 &1661053418227554
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4633444831894820}
-  - component: {fileID: 33221164917510314}
-  - component: {fileID: 23579814776538222}
-  - component: {fileID: 95118922780436546}
+  - component: {fileID: 4210622198393266}
+  - component: {fileID: 33099442063147060}
+  - component: {fileID: 23816743147864170}
   m_Layer: 0
-  m_Name: Shrub
+  m_Name: Shrub LOD-L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4633444831894820
+--- !u!4 &4210622198393266
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1498026670435772}
+  m_GameObject: {fileID: 1661053418227554}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -360.18036, y: 1.2371998, z: -221.11655}
-  m_LocalScale: {x: 0.03, y: 0.03, z: 0.03}
+  m_LocalPosition: {x: -371.47125, y: 0.9022293, z: -211.64864}
+  m_LocalScale: {x: 3, y: 3, z: 3}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &23579814776538222
+--- !u!23 &23816743147864170
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1498026670435772}
+  m_GameObject: {fileID: 1661053418227554}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -74,27 +73,10 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!33 &33221164917510314
+--- !u!33 &33099442063147060
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1498026670435772}
-  m_Mesh: {fileID: 4300000, guid: 9167ec7ef2b5cba489e75de95595d473, type: 3}
---- !u!95 &95118922780436546
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1498026670435772}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 9167ec7ef2b5cba489e75de95595d473, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
+  m_GameObject: {fileID: 1661053418227554}
+  m_Mesh: {fileID: 4300004, guid: ea5b1409c17cb97489f1c7e65c70fbb0, type: 3}
