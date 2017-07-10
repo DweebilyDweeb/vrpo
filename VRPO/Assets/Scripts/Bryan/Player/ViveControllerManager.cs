@@ -7,6 +7,7 @@ public class ViveControllerManager : MonoBehaviour
 {
     private ViveController controller;
     public GameObject flintlock, cutlass;
+    private GameObject raycast;
 
     private bool laserActive = true;
 
@@ -24,6 +25,7 @@ public class ViveControllerManager : MonoBehaviour
         controller = new ViveController();
         controller.trackedObject = gameObject.GetComponent<SteamVR_TrackedObject>();
 
+        raycast = flintlock.transform.Find("Raycast").gameObject;
         laserActive = false;
         Mode = PlayerPrefs.GetString(gameObject.name + "_Mode", "Gun");
         audio = GetComponent<AudioSource>();
@@ -38,9 +40,9 @@ public class ViveControllerManager : MonoBehaviour
 
         #region Laser Pointer
         if (!laserActive)
-            gameObject.GetComponent<SteamVR_LaserPointer>().holder.SetActive(false);
-        else
-            gameObject.GetComponent<SteamVR_LaserPointer>().holder.SetActive(true);
+            raycast.SetActive(false);
+        else if (laserActive)
+            raycast.SetActive(true);
         #endregion
 
         if (controller.device.GetPressDown(controller.menuButton))
@@ -95,7 +97,7 @@ public class ViveControllerManager : MonoBehaviour
                                 if(!laserActive)
                                     laserActive = true;
                             }
-                            else
+                            else if (controller.device.GetPressUp(controller.touchPad))
                             {
                                 if (laserActive)
                                     laserActive = false;
@@ -112,8 +114,8 @@ public class ViveControllerManager : MonoBehaviour
                         #endregion
                     case 2:
                         #region Fire at will
-                        if (!laserActive)
-                            laserActive = true;
+                        laserActive = true;
+
                         try
                         {
                             if (controller.device.GetPressDown(controller.triggerButton))
@@ -152,9 +154,9 @@ public class ViveControllerManager : MonoBehaviour
 
     private void RaycastInteraction()
     {
-        Ray raycast = new Ray(transform.position, transform.forward);
+        Ray ray = new Ray(raycast.transform.position, raycast.transform.forward);
         RaycastHit _hit;
-        if (Physics.Raycast(raycast, out _hit))
+        if (Physics.Raycast(ray, out _hit))
         {
             GameObject collide = _hit.collider.gameObject;
             switch (collide.tag)
