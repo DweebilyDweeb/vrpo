@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Score_Mod : MonoBehaviour 
 {
-    private int scoreToAdd;
+    public int scoreToAdd;
     private Animator anim;
 	// Use this for initialization
 	void Start () {

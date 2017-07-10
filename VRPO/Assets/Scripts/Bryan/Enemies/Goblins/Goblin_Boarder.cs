@@ -63,7 +63,7 @@ public class Goblin_Boarder : Goblin
                     isDead = true;
 
                     anim.SetTrigger("Death");
-
+                    
                     bool anim1 = HelperFunctions.RandomBool();
                     if (anim1)
                         anim.SetInteger("Death_Type", 1);
