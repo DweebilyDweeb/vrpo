@@ -110,6 +110,11 @@ public class Goblin_Boarder : Goblin
         Destroy(gameObject);
     }
 
+    public void AttackPlayer()
+    {
+        GameObject.FindGameObjectWithTag("GameController").GetComponent<ScoreSystem>().AddScore(-10);
+    }
+
     public void OnCollisionEnterChild(Collision collision)
     {
         switch (collision.gameObject.tag)
