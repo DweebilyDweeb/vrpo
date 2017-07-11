@@ -1078,7 +1078,7 @@ namespace UnityEngine.PostProcessing.Utilities
 
             if (Input.GetKey(Blackout))
             {
-                
+                testchange1 = false;
             }
 
             #region Obsolete
