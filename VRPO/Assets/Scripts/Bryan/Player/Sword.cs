@@ -29,6 +29,7 @@ public class Sword : MonoBehaviour
                 Destroy(collision.gameObject);
                 break;
             case "Goblin":
+                Debug.Log("Hit Goblin");
                 GameObject.FindGameObjectWithTag("GameController").GetComponent<ScoreSystem>().AddScore(50);
                 collision.gameObject.GetComponent<Goblin>().TriggerDeath();
                 break;
