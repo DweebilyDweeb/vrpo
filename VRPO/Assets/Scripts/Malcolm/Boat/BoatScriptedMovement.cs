@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class BoatScriptedMovement : MonoBehaviour {
     float boatMovementSpeed;
+    float boatMaxMovementSpeed;
     float boatRotateSpeed;
 
     bool IsLeftTurn;
@@ -14,8 +15,9 @@ public class BoatScriptedMovement : MonoBehaviour {
 	// Use this for initialization
 	void Start ()
     {
-        boatMovementSpeed = 5;
+        boatMovementSpeed = 0;
         boatRotateSpeed = 0;
+        boatMaxMovementSpeed = 5;
         IsLeftTurn = false;
         IsRightTurn = false;
         IsRotationAccelerate = false;
@@ -31,7 +33,15 @@ public class BoatScriptedMovement : MonoBehaviour {
     
     void MovementOfBoat()
     {
-        transform.Translate(Vector3.forward * Time.deltaTime * boatMovementSpeed, Space.Self);
+        if (boatMovementSpeed < boatMaxMovementSpeed)
+        {
+            boatMovementSpeed += Time.deltaTime;
+        }
+        else if (boatMovementSpeed > boatMaxMovementSpeed)
+        {
+            boatMovementSpeed = boatMaxMovementSpeed;
+        }
+        transform.Translate(Vector3.forward * Time.deltaTime * boatMovementSpeed * 1.2f, Space.Self);
     }
 
     void RotationOfBoat()
