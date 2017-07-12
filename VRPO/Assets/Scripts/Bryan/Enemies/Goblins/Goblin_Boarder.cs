@@ -69,8 +69,6 @@ public class Goblin_Boarder : Goblin
                         anim.SetInteger("Death_Type", 1);
                     else
                         anim.SetInteger("Death_Type", 2);
-
-                    anim.SetBool("isBoarding", isBoarding);
                 }
                 break;
         }
@@ -85,6 +83,7 @@ public class Goblin_Boarder : Goblin
     public void TriggerAttack()
     {
         isBoarding = false;
+        anim.SetBool("isBoarding", isBoarding);
     }
 
     private void UnoccupySide()
