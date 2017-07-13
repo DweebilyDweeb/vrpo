@@ -24,7 +24,7 @@ namespace UnityEngine.PostProcessing
             [Tooltip("Sets the vignette center point (screen center is [0.5,0.5]).")]
             public Vector2 center;
 
-            [Range(0f, 20f), Tooltip("Amount of vignetting on screen.")]
+            [Range(0f, 50f), Tooltip("Amount of vignetting on screen.")]
             public float intensity;
 
             [Range(0.01f, 1f), Tooltip("Smoothness of the vignette borders.")]

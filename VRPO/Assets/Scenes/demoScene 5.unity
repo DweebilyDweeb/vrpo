@@ -1286,8 +1286,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 577911839}
-  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -8, y: -14.427547, z: -29.49}
+  m_LocalRotation: {x: -0.0060007954, y: 0.02460361, z: 0.00029326562, w: 0.99967927}
+  m_LocalPosition: {x: 27.183542, y: -49.430965, z: -143.57841}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 785171501}
@@ -7089,6 +7089,16 @@ Prefab:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114420990704958658, guid: 95838f3950b4d2f47a93bcf9d066589a,
+        type: 2}
+      propertyPath: isWakeUp
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114420990704958658, guid: 95838f3950b4d2f47a93bcf9d066589a,
+        type: 2}
+      propertyPath: isWoke
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 95838f3950b4d2f47a93bcf9d066589a, type: 2}
   m_IsPrefabParent: 0
@@ -7642,6 +7652,11 @@ Prefab:
       propertyPath: m_TagString
       value: Untagged
       objectReference: {fileID: 0}
+    - target: {fileID: 114553636103034202, guid: 0248383f0ad118f4fb5d932cb514c197,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0248383f0ad118f4fb5d932cb514c197, type: 2}
   m_IsPrefabParent: 0
@@ -7936,8 +7951,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1870665829}
-  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -8, y: -14.427547, z: -29.49}
+  m_LocalRotation: {x: -0.6199404, y: 0.27776894, z: 0.24976854, w: 0.6900247}
+  m_LocalPosition: {x: -457.4816, y: -51.24442, z: -355.2777}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 785171501}

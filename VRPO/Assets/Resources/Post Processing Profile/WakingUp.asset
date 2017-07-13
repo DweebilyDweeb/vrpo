@@ -9,7 +9,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8a3bdb2cd68f901469e7cc149151eb49, type: 3}
-  m_Name: Flashback 1
+  m_Name: WakingUp
   m_EditorClassIdentifier: 
   debugViews:
     m_Enabled: 1
@@ -42,13 +42,13 @@ MonoBehaviour:
   ambientOcclusion:
     m_Enabled: 1
     m_Settings:
-      intensity: 2.21
+      intensity: 1
       radius: 0.3
-      sampleCount: 10
+      sampleCount: 16
       downsampling: 1
       forceForwardCompatibility: 0
       ambientOnly: 0
-      highPrecision: 0
+      highPrecision: 1
   screenSpaceReflection:
     m_Enabled: 0
     m_Settings:
@@ -69,7 +69,7 @@ MonoBehaviour:
       screenEdgeMask:
         intensity: 0.03
   depthOfField:
-    m_Enabled: 1
+    m_Enabled: 0
     m_Settings:
       focusDistance: 10
       aperture: 5.6
@@ -94,17 +94,17 @@ MonoBehaviour:
       adaptationType: 0
       speedUp: 2
       speedDown: 1
-      logMin: -8
-      logMax: 4
+      logMin: -10
+      logMax: 15
   bloom:
     m_Enabled: 1
     m_Settings:
       bloom:
-        intensity: 0.5
+        intensity: 0.1
         threshold: 1.1
         softKnee: 0.5
         radius: 4
-        antiFlicker: 0
+        antiFlicker: 1
       lensDirt:
         texture: {fileID: 0}
         intensity: 3
@@ -134,9 +134,9 @@ MonoBehaviour:
       colorWheels:
         mode: 1
         log:
-          slope: {r: 0, g: 0, b: 0, a: 0}
-          power: {r: 0, g: 0, b: 0, a: 0}
-          offset: {r: 0, g: 0, b: 0, a: 0}
+          slope: {r: 1, g: 1, b: 1, a: 0}
+          power: {r: 1, g: 1, b: 1, a: 0}
+          offset: {r: 1, g: 1, b: 1, a: 0}
         linear:
           lift: {r: 0, g: 0, b: 0, a: 0}
           gamma: {r: 0, g: 0, b: 0, a: 0}
@@ -160,7 +160,7 @@ MonoBehaviour:
               tangentMode: 0
             m_PreInfinity: 2
             m_PostInfinity: 2
-            m_RotationOrder: 4
+            m_RotationOrder: 0
           m_Loop: 0
           m_ZeroValue: 0
           m_Range: 1
@@ -278,7 +278,7 @@ MonoBehaviour:
   userLut:
     m_Enabled: 0
     m_Settings:
-      lut: {fileID: 0}
+      lut: {fileID: 2800000, guid: 3aac3087967ea4fae858ec0494fd24d9, type: 3}
       contribution: 1
   chromaticAberration:
     m_Enabled: 0
@@ -289,16 +289,16 @@ MonoBehaviour:
     m_Enabled: 0
     m_Settings:
       colored: 1
-      intensity: 100
-      size: 1
-      luminanceContribution: 0.8
+      intensity: 1
+      size: 3
+      luminanceContribution: 1
   vignette:
     m_Enabled: 1
     m_Settings:
       mode: 0
       color: {r: 0, g: 0, b: 0, a: 1}
       center: {x: 0.5, y: 0.5}
-      intensity: 50
+      intensity: 10
       smoothness: 0.2
       roundness: 1
       mask: {fileID: 0}

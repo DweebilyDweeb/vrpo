@@ -10,7 +10,11 @@ namespace UnityEngine.PostProcessing.Utilities
     public class PostProcessingController : MonoBehaviour
     #region Public structs
     {
+        private KeyCode Blackout;
+        private KeyCode Wakeup;
         public bool testchange1 = true;
+        public bool isWakeUp;
+        public bool isWoke;
         public float speed;
         public float antiAliasingSpeed;
         public float ambientOcclusionSpeed;
@@ -78,7 +82,6 @@ namespace UnityEngine.PostProcessing.Utilities
         #endregion
 
         #region MonoBehaviour functions
-        private KeyCode Blackout;
         void Start()
         {
             #region Post Processing Stuff
@@ -146,6 +149,7 @@ namespace UnityEngine.PostProcessing.Utilities
             #endregion
 
             Blackout = KeyCode.F1;
+            Wakeup = KeyCode.F2;
         }
         void OnTriggerEnter(Collider col)
         {
@@ -1080,6 +1084,28 @@ namespace UnityEngine.PostProcessing.Utilities
             {
                 testchange1 = false;
             }
+
+            if (Input.GetKey(Wakeup))
+            {
+                isWakeUp = true;
+            }
+
+            if (isWoke == false && isWakeUp == true && vignette.intensity > 0.3f)
+             {
+                Debug.Log("test");
+                vignette.intensity -= (Mathf.Abs(Mathf.Sin(Time.realtimeSinceStartup) * 0.99f) + 0.1f) * speed * Time.deltaTime * vignetteSpeed;
+                _profile.vignette.settings = vignette;
+                if (vignette.intensity < 0.3f)
+                    {
+                        isWoke = true;
+                        isWakeUp = false;
+                    }
+             }
+            else if (isWoke == true)
+            {
+                    vignette.intensity = 0.2f;
+            }
+            
 
             #region Obsolete
             //if (controlAntialiasing)
