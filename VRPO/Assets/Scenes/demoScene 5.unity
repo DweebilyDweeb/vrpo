@@ -15,9 +15,9 @@ RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 8
   m_Fog: 1
-  m_FogColor: {r: 0, g: 0, b: 0, a: 1}
+  m_FogColor: {r: 0.39705884, g: 0.39705884, b: 0.39705884, a: 1}
   m_FogMode: 3
-  m_FogDensity: 0.0005
+  m_FogDensity: 0.001
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
@@ -3949,7 +3949,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 716419837
+  randomSeed: -1775033151
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -8155,7 +8155,7 @@ MonoBehaviour:
   HeightScale: 0.1
   GroundLevel: 0
   Noise: 1
-  NoiseScale: 0.015
+  NoiseScale: 0.05
   NoiseIntensity: 0.8
   NoiseIntensityOffset: 0.3
   NoiseVelocity: {x: 3, y: 3}
