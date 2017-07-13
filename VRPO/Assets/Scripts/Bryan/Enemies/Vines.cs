@@ -49,6 +49,13 @@ public class Vines : MonoBehaviour
     void ReleaseBoat()
     {
         boatReleased = true;
-        transform.parent.GetComponent<BoatScriptedMovement>().isOnTheMove = true;
+        GameObject.FindGameObjectWithTag("Boat").GetComponent<BoatScriptedMovement>().isOnTheMove = true;
+        StartCoroutine(DespawnVineList());
+    }
+
+    private IEnumerator DespawnVineList()
+    {
+        yield return new WaitForSeconds(3.0f);
+        Destroy(gameObject);
     }
 }
