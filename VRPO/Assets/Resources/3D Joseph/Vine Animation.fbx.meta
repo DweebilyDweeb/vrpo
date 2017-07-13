@@ -71,7 +71,7 @@ ModelImporter:
     400062: Vine9 1
     4300000: polySurface1
     4300002: polySurface2
-    7400000: Take 001
+    7400000: Vine Cut
     9500000: //RootNode
     13700000: polySurface1
     13700002: polySurface2
@@ -97,7 +97,105 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Vine Cut
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 14
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: pCylinder1
+        weight: 1
+      - path: pCylinder1/polySurface1
+        weight: 1
+      - path: pCylinder1/polySurface2
+        weight: 1
+      - path: Vine1
+        weight: 1
+      - path: Vine1/Vine2
+        weight: 1
+      - path: Vine1/Vine2/Vine3
+        weight: 1
+      - path: Vine1/Vine2/Vine3/Vine4
+        weight: 1
+      - path: Vine1/Vine2/Vine3/Vine4/Vine5
+        weight: 1
+      - path: Vine1/Vine2/Vine3/Vine4/Vine5/Vine6
+        weight: 1
+      - path: Vine1/Vine2/Vine3/Vine4/Vine5/Vine6/Vine7
+        weight: 1
+      - path: Vine1/Vine2/Vine3/Vine4/Vine5/Vine6/Vine7/Vine8
+        weight: 1
+      - path: Vine1/Vine2/Vine3/Vine4/Vine5/Vine6/Vine7/Vine8/Vine9
+        weight: 1
+      - path: Vine1/Vine2/Vine3/Vine4/Vine5/Vine6/Vine7/Vine8/Vine9/Vine10
+        weight: 1
+      - path: Vine1/Vine2/Vine3/Vine4/Vine5/Vine6/Vine7/Vine8/Vine9/Vine10/Vine11
+        weight: 1
+      - path: Vine1/Vine2/Vine3/Vine4/Vine5/Vine6/Vine7/Vine8/Vine9/Vine10/Vine11/Vine12
+        weight: 1
+      - path: Vine1/Vine2/Vine3/Vine4/Vine5/Vine6/Vine7/Vine8/Vine9/Vine10/Vine11/Vine12/Vine13
+        weight: 1
+      - path: Vine1/Vine2/Vine3/Vine4/Vine5/Vine6/Vine7/Vine8/Vine9/Vine10/Vine11/Vine12/Vine13/Vine14
+        weight: 1
+      - path: Vine15
+        weight: 1
+      - path: Vine15/Vine2 1
+        weight: 1
+      - path: Vine15/Vine2 1/Vine3 1
+        weight: 1
+      - path: Vine15/Vine2 1/Vine3 1/Vine4 1
+        weight: 1
+      - path: Vine15/Vine2 1/Vine3 1/Vine4 1/Vine5 1
+        weight: 1
+      - path: Vine15/Vine2 1/Vine3 1/Vine4 1/Vine5 1/Vine6 1
+        weight: 1
+      - path: Vine15/Vine2 1/Vine3 1/Vine4 1/Vine5 1/Vine6 1/Vine7 1
+        weight: 1
+      - path: Vine15/Vine2 1/Vine3 1/Vine4 1/Vine5 1/Vine6 1/Vine7 1/Vine8 1
+        weight: 1
+      - path: Vine15/Vine2 1/Vine3 1/Vine4 1/Vine5 1/Vine6 1/Vine7 1/Vine8 1/Vine9
+          1
+        weight: 1
+      - path: Vine15/Vine2 1/Vine3 1/Vine4 1/Vine5 1/Vine6 1/Vine7 1/Vine8 1/Vine9
+          1/Vine10 1
+        weight: 1
+      - path: Vine15/Vine2 1/Vine3 1/Vine4 1/Vine5 1/Vine6 1/Vine7 1/Vine8 1/Vine9
+          1/Vine10 1/Vine11 1
+        weight: 1
+      - path: Vine15/Vine2 1/Vine3 1/Vine4 1/Vine5 1/Vine6 1/Vine7 1/Vine8 1/Vine9
+          1/Vine10 1/Vine11 1/Vine12 1
+        weight: 1
+      - path: Vine15/Vine2 1/Vine3 1/Vine4 1/Vine5 1/Vine6 1/Vine7 1/Vine8 1/Vine9
+          1/Vine10 1/Vine11 1/Vine12 1/Vine13 1
+        weight: 1
+      - path: Vine15/Vine2 1/Vine3 1/Vine4 1/Vine5 1/Vine6 1/Vine7 1/Vine8 1/Vine9
+          1/Vine10 1/Vine11 1/Vine12 1/Vine13 1/Vine14 1
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
