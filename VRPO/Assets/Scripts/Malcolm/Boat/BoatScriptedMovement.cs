@@ -6,7 +6,7 @@ public class BoatScriptedMovement : MonoBehaviour {
     float boatMovementSpeed;
     float boatMaxMovementSpeed;
     float boatRotateSpeed;
-
+    public bool isOnTheMove;
     bool IsLeftTurn;
     bool IsRightTurn;
     bool IsRotationAccelerate;
@@ -18,6 +18,7 @@ public class BoatScriptedMovement : MonoBehaviour {
         boatMovementSpeed = 0;
         boatRotateSpeed = 0;
         boatMaxMovementSpeed = 5;
+        isOnTheMove = false;
         IsLeftTurn = false;
         IsRightTurn = false;
         IsRotationAccelerate = false;
@@ -30,18 +31,21 @@ public class BoatScriptedMovement : MonoBehaviour {
         MovementOfBoat();
         RotationOfBoat();
     }
-    
+
     void MovementOfBoat()
     {
-        if (boatMovementSpeed < boatMaxMovementSpeed)
+        if (isOnTheMove == true)
         {
-            boatMovementSpeed += Time.deltaTime;
+            if (boatMovementSpeed < boatMaxMovementSpeed)
+            {
+                boatMovementSpeed += Time.deltaTime;
+            }
+            else if (boatMovementSpeed > boatMaxMovementSpeed)
+            {
+                boatMovementSpeed = boatMaxMovementSpeed;
+            }
+            transform.Translate(Vector3.forward * Time.deltaTime * boatMovementSpeed * 1.2f, Space.Self);
         }
-        else if (boatMovementSpeed > boatMaxMovementSpeed)
-        {
-            boatMovementSpeed = boatMaxMovementSpeed;
-        }
-        transform.Translate(Vector3.forward * Time.deltaTime * boatMovementSpeed * 1.2f, Space.Self);
     }
 
     void RotationOfBoat()
