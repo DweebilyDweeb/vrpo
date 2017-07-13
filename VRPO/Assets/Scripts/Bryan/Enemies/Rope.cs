@@ -4,12 +4,11 @@ using UnityEngine;
 
 public class Rope : MonoBehaviour 
 {
-    public bool isCut;
+    public bool isCut = false;
     private Animator anim;
 	// Use this for initialization
 	void Start () 
     {
-        isCut = true;
         anim = GetComponent<Animator>();
 	}
 	

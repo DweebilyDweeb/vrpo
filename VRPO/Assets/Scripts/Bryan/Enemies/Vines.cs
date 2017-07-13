@@ -49,6 +49,6 @@ public class Vines : MonoBehaviour
     void ReleaseBoat()
     {
         boatReleased = true;
-
+        transform.parent.GetComponent<BoatScriptedMovement>().isOnTheMove = true;
     }
 }
