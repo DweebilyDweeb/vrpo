@@ -99,6 +99,10 @@ public class BoatScriptedMovement : MonoBehaviour {
             IsRotationAccelerate = true;
             IsRotationDecelerate = false;
         }
+        if (col.gameObject.name == "Stop")
+        {
+            isOnTheMove = false;
+        }
     }
 
     void OnTriggerExit(Collider col)
