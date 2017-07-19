@@ -27,7 +27,5 @@ public class Rope : MonoBehaviour
         anim.SetTrigger("Cut");
         yield return new WaitForSeconds(0.5f);
         isCut = true;
-        yield return new WaitForSeconds(1.0f);
-        Destroy(gameObject);
     }
 }

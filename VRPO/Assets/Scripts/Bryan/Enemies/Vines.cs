@@ -34,13 +34,13 @@ public class Vines : MonoBehaviour
             }
             else
             {
-                for (int i = 0; i < listOfVines.Count - 1; i++)
+                for (int i = 0; i <= listOfVines.Count - 1; i++)
                 {
                     if (listOfVines[i].isCut)
                         cutCount++;
 
-                    if (i == listOfVines.Count - 1)
-                        if (cutCount == (listOfVines.Count - 1)) { ReleaseBoat(); }
+                    if (cutCount == (listOfVines.Count))
+                        ReleaseBoat();
                 }
             }
         }

@@ -22,7 +22,7 @@ public class FollowCamera : MonoBehaviour {
         transform.position = eyeCamera.transform.position;
         transform.position += new Vector3(0, y_Offset, 0);
 
-        Quaternion newRotation = Quaternion.Euler(new Vector3(0, eyeCamera.transform.rotation.eulerAngles.y, eyeCamera.transform.rotation.eulerAngles.z));
+        Quaternion newRotation = Quaternion.Euler(new Vector3(0, eyeCamera.transform.rotation.eulerAngles.y, 0));
         transform.rotation = newRotation;
     }
 }
