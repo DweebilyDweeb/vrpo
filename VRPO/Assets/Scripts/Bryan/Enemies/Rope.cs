@@ -10,7 +10,6 @@ public class Rope : MonoBehaviour
 	void Start () 
     {
         anim = GetComponent<Animator>();
-        TriggerCut();
 	}
 	
 	// Update is called once per frame
