@@ -39,8 +39,8 @@ public class Vines : MonoBehaviour
                     if (listOfVines[i].isCut)
                         cutCount++;
 
-                    if (i == listOfVines.Count - 1)
-                        if (cutCount == (listOfVines.Count - 1)) { ReleaseBoat(); }
+                    if (cutCount == (listOfVines.Count - 1))
+                        ReleaseBoat();
                 }
             }
         }
