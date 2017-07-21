@@ -21,6 +21,11 @@ public class Sword : MonoBehaviour
     {
         switch(collision.gameObject.tag)
         {
+            case "Bird":
+                GameObject.FindGameObjectWithTag("GameController").GetComponent<ScoreSystem>().AddScore(10);
+                Destroy(collision.gameObject);
+                Instantiate(Resources.Load<GameObject>("Prefabs/Animals/Seagull"));
+                break;
             case "Cannonball":
                 collision.gameObject.GetComponent<Projectile>().DestroyProjectile();
                 break;

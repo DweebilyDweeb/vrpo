@@ -1092,7 +1092,6 @@ namespace UnityEngine.PostProcessing.Utilities
 
             if (isWoke == false && isWakeUp == true && vignette.intensity > 0.3f)
              {
-                Debug.Log("test");
                 vignette.intensity -= (Mathf.Abs(Mathf.Sin(Time.realtimeSinceStartup) * 0.99f) + 0.1f) * speed * Time.deltaTime * vignetteSpeed;
                 _profile.vignette.settings = vignette;
                 if (vignette.intensity < 0.3f)
