@@ -12,14 +12,16 @@ public class Cannon : MonoBehaviour
     private float velocity, rotation_speed, distFromPlayer;
     private float atk_timer = 2.0f;
     private bool inDetectionRange, inRotationRange;
+    public bool isDead;
 	private AudioSource audio;
 	// Use this for initialization
-	void Start () 
+	void Start ()
     {
         target = GameObject.FindGameObjectWithTag("Target");
         rotation_speed = 2.0f;
         velocity = 50;
         inRotationRange = true;
+        isDead = false;
 		audio = GetComponent<AudioSource>();
 	}
 	
@@ -35,7 +37,7 @@ public class Cannon : MonoBehaviour
             inDetectionRange = false;
         #endregion
 
-        if (inDetectionRange)
+        if (inDetectionRange && !isDead)
         {
             #region Rotate cannon to aim at target
             direction = target.transform.position - transform.position;
