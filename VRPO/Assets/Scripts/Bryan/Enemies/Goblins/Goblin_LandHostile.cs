@@ -8,7 +8,7 @@ public class Goblin_LandHostile : Goblin
     public float detectionRange;
     private float distFromPlayer;
     private bool inRange, hasDetectedPlayer;
-    private GameObject player;
+    private GameObject target;
     private Vector3 direction;
 
 	// Use this for initialization
@@ -16,7 +16,7 @@ public class Goblin_LandHostile : Goblin
     {
         hasDetectedPlayer = false;
         anim = GetComponent<Animator>();
-        player = GameObject.FindGameObjectWithTag("Player");
+        target = GameObject.FindGameObjectWithTag("Target");
 	}
 	
 	// Update is called once per frame
@@ -26,7 +26,7 @@ public class Goblin_LandHostile : Goblin
         {
             case Goblin_FSM.Idle:
                 #region check if player is in range
-                distFromPlayer = new Vector3(player.transform.position.x - transform.position.x, 0, player.transform.position.z - transform.position.z).magnitude;
+                distFromPlayer = new Vector3(target.transform.position.x - transform.position.x, 0, target.transform.position.z - transform.position.z).magnitude;
 
                 if (distFromPlayer < detectionRange)
                 {
@@ -40,8 +40,8 @@ public class Goblin_LandHostile : Goblin
 
                 if (inRange)
                 {
-                    transform.LookAt(new Vector3(player.transform.position.x, transform.position.y, player.transform.position.z));
-                    direction = player.transform.position - transform.position;
+                    transform.LookAt(new Vector3(target.transform.position.x, transform.position.y, target.transform.position.z));
+                    direction = target.transform.position - transform.position;
                     currentState = Goblin_FSM.Unsheathe;
                 }
                 break;
@@ -86,7 +86,7 @@ public class Goblin_LandHostile : Goblin
         #endregion
 
         // Add velocity to throwing dagger
-        direction = player.transform.position - projectile.transform.position;
+        direction = target.transform.position - projectile.transform.position;
         Vector3 throwVector = new Vector3(direction.normalized.x * 100, direction.normalized.y * 300, direction.normalized.z * 100);
         projectile.GetComponent<Rigidbody>().velocity = throwVector;
     }
