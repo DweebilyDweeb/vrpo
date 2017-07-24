@@ -4,84 +4,93 @@ using UnityEngine;
 
 public class Cannon : MonoBehaviour 
 {
+    public float detectionRange;
     public GameObject partToRotate, cannonBarrel, cannonBall, smokeParticles, smokeLocation;
 
     private GameObject target;
     private Vector3 direction;
-    private float velocity, rotation_speed;
+    private float velocity, rotation_speed, distFromPlayer;
     private float atk_timer = 2.0f;
-    private bool inRange;
+    private bool inDetectionRange, inRotationRange;
 	private AudioSource audio;
 	// Use this for initialization
 	void Start () 
     {
-        target = GameObject.FindGameObjectWithTag("Player");
+        target = GameObject.FindGameObjectWithTag("Target");
         rotation_speed = 2.0f;
         velocity = 50;
-        inRange = true;
+        inRotationRange = true;
 		audio = GetComponent<AudioSource>();
 	}
 	
 	// Update is called once per frame
 	void Update ()
     {
-        #region Rotate cannon to aim at target
-        direction = target.transform.position - transform.position;
-        Quaternion lookRotation = Quaternion.LookRotation(direction);
-        Vector3 rotation = Quaternion.Lerp(partToRotate.transform.rotation, lookRotation, Time.deltaTime * rotation_speed).eulerAngles;
-        partToRotate.transform.rotation = Quaternion.Euler(rotation.x, rotation.y, 0f);
-        #region Limit rotation
-        // x-rotation
-        if (partToRotate.transform.localEulerAngles.x < 180 && partToRotate.transform.localEulerAngles.x > 10)
-        {
-            partToRotate.transform.localEulerAngles = new Vector3(10, partToRotate.transform.localEulerAngles.y, 0);
-            inRange = false;
-        }
-        else if (partToRotate.transform.localEulerAngles.x > 180 && partToRotate.transform.localEulerAngles.x < 350)
-        {
-            partToRotate.transform.localEulerAngles = new Vector3(350, partToRotate.transform.localEulerAngles.y, 0);
-            inRange = false;
-        }
+        #region check if player is in range
+        distFromPlayer = new Vector3(target.transform.position.x - transform.position.x, 0, target.transform.position.z - transform.position.z).magnitude;
 
-        // y-rotation
-        if(partToRotate.transform.localEulerAngles.y < 180 && partToRotate.transform.localEulerAngles.y > 10)
-        {
-            partToRotate.transform.localEulerAngles = new Vector3(partToRotate.transform.localEulerAngles.x, 10, 0);
-            inRange = false;
-        }
-        else if (partToRotate.transform.localEulerAngles.y > 180 && partToRotate.transform.localEulerAngles.y < 350)
-        {
-            partToRotate.transform.localEulerAngles = new Vector3(partToRotate.transform.localEulerAngles.x, 350, 0);
-            inRange = false;
-        }
-        else if (partToRotate.transform.localEulerAngles.y == 180)
-        {
-            partToRotate.transform.localEulerAngles = new Vector3(0, 0, 0);
-            inRange = false;
-        }
+        if (distFromPlayer < detectionRange)
+            inDetectionRange = true;
         else
-        {
-            inRange = true;
-        }
-        #endregion
+            inDetectionRange = false;
         #endregion
 
-        if (atk_timer > 0)
-            atk_timer -= Time.deltaTime;
-        else
+        if (inDetectionRange)
         {
-            atk_timer = 2.0f;
-            if (inRange)
+            #region Rotate cannon to aim at target
+            direction = target.transform.position - transform.position;
+            Quaternion lookRotation = Quaternion.LookRotation(direction);
+            Vector3 rotation = Quaternion.Lerp(partToRotate.transform.rotation, lookRotation, Time.deltaTime * rotation_speed).eulerAngles;
+            partToRotate.transform.rotation = Quaternion.Euler(rotation.x, rotation.y, 0f);
+            #region Limit rotation
+            // x-rotation
+            if (partToRotate.transform.localEulerAngles.x < 180 && partToRotate.transform.localEulerAngles.x > 10)
             {
-                StartCoroutine(FireCannonball());
+                partToRotate.transform.localEulerAngles = new Vector3(10, partToRotate.transform.localEulerAngles.y, 0);
+                inRotationRange = false;
+            }
+            else if (partToRotate.transform.localEulerAngles.x > 180 && partToRotate.transform.localEulerAngles.x < 350)
+            {
+                partToRotate.transform.localEulerAngles = new Vector3(350, partToRotate.transform.localEulerAngles.y, 0);
+                inRotationRange = false;
+            }
+
+            // y-rotation
+            if (partToRotate.transform.localEulerAngles.y < 180 && partToRotate.transform.localEulerAngles.y > 30)
+            {
+                partToRotate.transform.localEulerAngles = new Vector3(partToRotate.transform.localEulerAngles.x, 30, 0);
+                inRotationRange = false;
+            }
+            else if (partToRotate.transform.localEulerAngles.y > 180 && partToRotate.transform.localEulerAngles.y < 330)
+            {
+                partToRotate.transform.localEulerAngles = new Vector3(partToRotate.transform.localEulerAngles.x, 330, 0);
+                inRotationRange = false;
+            }
+            else if (partToRotate.transform.localEulerAngles.y == 180)
+            {
+                partToRotate.transform.localEulerAngles = new Vector3(0, 0, 0);
+                inRotationRange = false;
+            }
+            else
+            {
+                inRotationRange = true;
+            }
+            #endregion
+            #endregion
+
+            if (atk_timer > 0)
+                atk_timer -= Time.deltaTime;
+            else
+            {
+                atk_timer = 2.0f;
+                if (inRotationRange)
+                    StartCoroutine(FireCannonball());
             }
         }
 	}
 
     IEnumerator FireCannonball()
     {
-        float distance = new Vector3(target.transform.position.x - transform.position.x, 0, target.transform.position.z - transform.position.z).magnitude;
-        //Debug.Log("Distance: " + distance);
         float height = target.transform.position.y - transform.position.y;
 
         #region Spawn projectile
@@ -103,25 +112,34 @@ public class Cannon : MonoBehaviour
         //projectile.GetComponent<Rigidbody>().AddForce(0, 45, 0); // Aim it upwards a little to compensate for gravity
         #endregion
 
-        if (distance > 400)
-        {
-            direction = HelperFunctions.MultiplyVector3(direction, new Vector3(0.125f, 0.125f, 0.125f));
-            //Debug.Log("distance > 200, adjusted to : " + direction);
-        }
-        else if (distance > 200)
-        {
-            direction = HelperFunctions.MultiplyVector3(direction, new Vector3(0.25f, 0.25f, 0.25f));
-            //Debug.Log("distance > 200, adjusted to : " + direction);
-        }
-        else if (distance > 100)
-        {
-            direction = direction / 2;
-            //Debug.Log("distance > 100, adjusted to : " + direction);
-        }
+        //if (distFromPlayer > 400)
+        //{
+        //    direction = HelperFunctions.MultiplyVector3(direction, new Vector3(0.125f, 0.125f, 0.125f));
+        //    //Debug.Log("distance > 200, adjusted to : " + direction);
+        //}
+        //else if (distFromPlayer > 200)
+        //{
+        //    direction = HelperFunctions.MultiplyVector3(direction, new Vector3(0.25f, 0.25f, 0.25f));
+        //    //Debug.Log("distance > 200, adjusted to : " + direction);
+        //}
+        //else if (distFromPlayer > 100)
+        //{
+        //    direction = direction / 2;
+        //    //Debug.Log("distance > 100, adjusted to : " + direction);
+        //}
 
-        projectile.GetComponent<Rigidbody>().velocity = direction;
+        projectile.GetComponent<Rigidbody>().velocity = direction * 3;
+        //projectile.GetComponent<Rigidbody>().velocity += new Vector3(0, 1, 0);
 
         // Add bullet spread to cannonball for some randomness
-        projectile.GetComponent<Rigidbody>().velocity += new Vector3(Random.Range(-0.5f, 0.5f), Random.Range(-0.5f, -0.25f), Random.Range(-0.5f, 0.5f));
+        //projectile.GetComponent<Rigidbody>().velocity += new Vector3(Random.Range(-0.5f, 0.5f), Random.Range(-0.5f, -0.25f), Random.Range(-0.5f, 0.5f));
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        Matrix4x4 rotationMatrix = Matrix4x4.TRS(transform.position, transform.rotation, transform.lossyScale);
+        Gizmos.matrix = rotationMatrix;
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(Vector3.zero, (detectionRange / transform.localScale.x));
     }
 }

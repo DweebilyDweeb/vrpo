@@ -31,6 +31,7 @@ public class Cannonball : Projectile
         switch(collision.gameObject.tag)
         {
             case "Player":
+                Debug.Log("Cannonball hit player");
                 GameObject.FindGameObjectWithTag("GameController").GetComponent<ScoreSystem>().AddScore(-10);
                 Destroy(gameObject);
                 break;
