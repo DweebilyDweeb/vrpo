@@ -9783,8 +9783,13 @@ Prefab:
         type: 2}
       propertyPath: m_TerrainData
       value: 
-      objectReference: {fileID: 15600000, guid: 5f87b1b2a5f90ed46b3134681a9fc7fe,
+      objectReference: {fileID: 15600000, guid: e440b7563f192714492aa6ac75c1ff98,
         type: 2}
+    - target: {fileID: 154753423560101396, guid: e60f1d6c4032b2542a17a993ecaf4f68,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e60f1d6c4032b2542a17a993ecaf4f68, type: 2}
   m_IsPrefabParent: 0
@@ -19607,10 +19612,10 @@ Light:
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 1
+    m_Type: 2
     m_Resolution: 3
     m_CustomResolution: -1
-    m_Strength: 1
+    m_Strength: 0.9
     m_Bias: 0.05
     m_NormalBias: 0.4
     m_NearPlane: 0.2
