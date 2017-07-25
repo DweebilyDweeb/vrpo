@@ -5,6 +5,7 @@ using UnityEngine;
 public class BoatScriptedMovement : MonoBehaviour {
     float boatMovementSpeed;
     float boatMaxMovementSpeed;
+    float boatAccelerationSpeed;
     float boatRotateSpeed;
     public bool isOnTheMove;
     bool IsLeftTurn;
@@ -12,12 +13,14 @@ public class BoatScriptedMovement : MonoBehaviour {
     bool IsRotationAccelerate;
     bool IsRotationDecelerate;
     public bool isLeftOccupied, isRightOccupied, isBackOccupied; // For goblin boarders
-	// Use this for initialization
-	void Start ()
+
+    // Use this for initialization
+    void Start ()
     {
         boatMovementSpeed = 0;
         boatRotateSpeed = 0;
-        boatMaxMovementSpeed = 5;
+        boatAccelerationSpeed = 0.5f;
+        boatMaxMovementSpeed = 0.07f;
         isOnTheMove = false;
         IsLeftTurn = false;
         IsRightTurn = false;
@@ -26,25 +29,26 @@ public class BoatScriptedMovement : MonoBehaviour {
     }
 	
 	// Update is called once per frame
-	void Update ()
+
+    private void Update()
     {
         MovementOfBoat();
         RotationOfBoat();
     }
-
     void MovementOfBoat()
     {
         if (isOnTheMove == true)
         {
             if (boatMovementSpeed < boatMaxMovementSpeed)
             {
-                boatMovementSpeed += Time.deltaTime;
+                boatMovementSpeed = boatMovementSpeed + (boatAccelerationSpeed * Time.deltaTime);
             }
             else if (boatMovementSpeed > boatMaxMovementSpeed)
             {
                 boatMovementSpeed = boatMaxMovementSpeed;
             }
-            transform.Translate(Vector3.forward * Time.deltaTime * boatMovementSpeed * 1.2f, Space.Self);
+
+            transform.Translate(Vector3.forward * boatMovementSpeed, Space.Self);
         }
     }
 

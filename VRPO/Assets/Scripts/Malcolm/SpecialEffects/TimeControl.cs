@@ -6,9 +6,17 @@ public class TimeControl : MonoBehaviour
 {
     public bool slowMo;
 
+    public bool FastTime;
+
+    public bool ReverseTime;
+
     public static TimeControl instance;
 
     public TimeControl() { }
+
+    private KeyCode SpeedTime;
+
+    private KeyCode NormalTime;
 
     void Awake()
 
@@ -28,6 +36,8 @@ public class TimeControl : MonoBehaviour
     void Start ()
     {
         slowMo = false;
+        SpeedTime = KeyCode.F1;
+        NormalTime = KeyCode.F3;
     }
 	
 	// Update is called once per frame
@@ -35,6 +45,7 @@ public class TimeControl : MonoBehaviour
     {
         TimeSlow();
         AudioSlow();
+        TimeSpeed();
 	}
     public void TimeSlow()
     {
@@ -73,5 +84,24 @@ public class TimeControl : MonoBehaviour
         var aSources = FindObjectsOfType<AudioSource>();
         foreach (AudioSource aSource in aSources)
             aSource.pitch = Time.timeScale;
+    }
+
+    public void TimeSpeed()
+    {
+        if (Input.GetKeyDown(SpeedTime) && FastTime == false)
+        {
+            FastTime = true;
+        }
+
+        if (Input.GetKeyDown(NormalTime))
+        {
+            FastTime = false;
+        }
+
+        if (FastTime == true)
+        {
+            Time.timeScale = 10.0f;
+        }
+
     }
 }
