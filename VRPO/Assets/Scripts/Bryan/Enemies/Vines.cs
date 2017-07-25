@@ -51,6 +51,9 @@ public class Vines : MonoBehaviour
         boatReleased = true;
         GameObject.FindGameObjectWithTag("Boat").GetComponent<BoatScriptedMovement>().isOnTheMove = true;
         StartCoroutine(DespawnVineList());
+
+        if (ParrotScriptedDialogue.instance.gameState == ParrotScriptedDialogue.State.cutVines)
+            ParrotScriptedDialogue.instance.SwitchState(ParrotScriptedDialogue.State.end);
     }
 
     private IEnumerator DespawnVineList()
