@@ -48,7 +48,11 @@ public class ViveControllerManager : MonoBehaviour
         if (controller.device.GetPressDown(controller.menuButton))
         {
             if (Mode == "Gun")
+            {
                 LoadMode("Sword");
+                if (ParrotScriptedDialogue.instance.gameState == ParrotScriptedDialogue.State.unsheatheSword)
+                    ParrotScriptedDialogue.instance.SwitchState(ParrotScriptedDialogue.State.cutVines);
+            }
             else if (Mode == "Sword")
                 LoadMode("Gun");
         }
@@ -107,6 +111,8 @@ public class ViveControllerManager : MonoBehaviour
                             {
                                 anim.SetTrigger("Fire");
                                 gunCharged = false;
+                                if (ParrotScriptedDialogue.instance.gameState == ParrotScriptedDialogue.State.howToShoot)
+                                    ParrotScriptedDialogue.instance.SwitchState(ParrotScriptedDialogue.State.unsheatheSword);
                             }
                         }
                         catch (Exception e) { Debug.LogError(e); }
