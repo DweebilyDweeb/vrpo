@@ -18,6 +18,7 @@ public class ScriptedKraken : MonoBehaviour
     private Animator anim;
 
     private int atkCounter = 0;
+    private bool knockedBack = false;
 	// Use this for initialization
 	void Start ()
     {
@@ -121,6 +122,7 @@ public class ScriptedKraken : MonoBehaviour
                     }
 
                     targetsSpawned = true;
+                    knockedBack = false;
                     break;
                 }
             case Kraken_FSM.Attack_R_Tentacle_Vertical:
@@ -134,12 +136,14 @@ public class ScriptedKraken : MonoBehaviour
                     }
 
                     targetsSpawned = true;
+                    knockedBack = false;
                     break;
                 }
             default:
                 Debug.LogError("currentState is not an attack state");
                 break;
         }
+        //StartCoroutine(Test());
     }
 
     void DespawnTargetColliders()
@@ -166,19 +170,25 @@ public class ScriptedKraken : MonoBehaviour
 
     void TentacleAttack()
     {
-        if (targetsSpawned)
+        if (!knockedBack)
         {
             int hitCount = 0;
-            for (int i = 0; i <= targetList.Count - 1; i++)
-            {
-                if (targetList[i].GetComponent<Billboard>().isHit)
-                    hitCount++;
 
-                if (hitCount == (targetList.Count))
+            #region check if targets are hit
+            if (targetsSpawned)
+            {
+                for (int i = 0; i <= targetList.Count - 1; i++)
                 {
-                    DespawnTargetColliders();
-                    anim.SetTrigger("Knockback");
+                    if (targetList[i].GetComponent<Billboard>().isHit)
+                        hitCount++;
                 }
+            }
+            #endregion
+
+            if (hitCount == (targetList.Count))
+            {
+                knockedBack = true;
+                anim.SetTrigger("Knockback");
             }
         }
     }
@@ -187,5 +197,15 @@ public class ScriptedKraken : MonoBehaviour
     {
         if (collision.tag == "Boat")
             SetFSM(Kraken_FSM.Rise);
+    }
+
+    IEnumerator Test()
+    {
+        yield return new WaitForSeconds(1.0f);
+        foreach(GameObject target in targetList)
+        {
+            target.GetComponent<Billboard>().TriggerHit();
+            yield return new WaitForSeconds(0.25f);
+        }
     }
 }
