@@ -18,7 +18,6 @@ public class ScriptedKraken : MonoBehaviour
     private Animator anim;
 
     private int atkCounter = 0;
-    private int destroyCounter = 0;
 	// Use this for initialization
 	void Start ()
     {
@@ -52,7 +51,7 @@ public class ScriptedKraken : MonoBehaviour
                             atkTimer = atkTimeDefault;
                             break;
                         case 1:
-                            SetFSM(Kraken_FSM.Attack_R_Tentacle_Horizontal);
+                            SetFSM(Kraken_FSM.Attack_R_Tentacle_Vertical);
                             atkTimer = atkTimeDefault;
                             break;
                         default: 
@@ -93,10 +92,14 @@ public class ScriptedKraken : MonoBehaviour
                     anim.SetTrigger("Rise");
                     break;
                 case Kraken_FSM.Attack_R_Tentacle_Horizontal:
+                    atkCounter++;
                     anim.SetTrigger("Atk_Horizontal");
+                    Debug.Log("atkCounter: " + atkCounter);
                     break;
                 case Kraken_FSM.Attack_R_Tentacle_Vertical:
+                    atkCounter++;
                     anim.SetTrigger("Atk_Vertical");
+                    Debug.Log("atkCounter: " + atkCounter);
                     break;
             }
         }
@@ -105,7 +108,6 @@ public class ScriptedKraken : MonoBehaviour
 
     void SpawnTargetColliders()
     {
-        destroyCounter = 0;
         switch (currentState)
         {
             case Kraken_FSM.Attack_R_Tentacle_Horizontal:
