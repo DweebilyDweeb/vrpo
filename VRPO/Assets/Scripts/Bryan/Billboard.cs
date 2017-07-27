@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Billboard : MonoBehaviour 
 {
@@ -19,9 +20,10 @@ public class Billboard : MonoBehaviour
         transform.LookAt(player.transform);
 	}
 
-    public void SetHit()
+    public void TriggerHit()
     {
         isHit = true;
-        gameObject.SetActive(false);
+        GetComponent<Collider>().enabled = false;
+        GetComponentInChildren<SpriteRenderer>().enabled = false;
     }
 }
