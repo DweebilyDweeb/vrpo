@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class Vines : MonoBehaviour 
 {
@@ -49,7 +50,7 @@ public class Vines : MonoBehaviour
     void ReleaseBoat()
     {
         boatReleased = true;
-        GameObject.FindGameObjectWithTag("Boat").GetComponent<BoatScriptedMovement>().isOnTheMove = true;
+        GameObject.FindGameObjectWithTag("Boat").GetComponent<NavMeshAgent>().isStopped = false;
         StartCoroutine(DespawnVineList());
 
         if (ParrotScriptedDialogue.instance.gameState == ParrotScriptedDialogue.State.cutVines)
