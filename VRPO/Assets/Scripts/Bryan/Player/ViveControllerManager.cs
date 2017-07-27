@@ -187,6 +187,11 @@ public class ViveControllerManager : MonoBehaviour
                     GameObject.FindGameObjectWithTag("GameController").GetComponent<ScoreSystem>().AddScore(50);
                     collide.GetComponent<Billboard>().TriggerHit();
                     break;
+#if UNITY_EDITOR
+                case "Rope":
+                    collide.gameObject.GetComponent<Rope>().TriggerCut();
+                    break;
+#endif
             }
         }
     }
