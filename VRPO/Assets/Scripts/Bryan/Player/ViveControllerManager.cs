@@ -185,7 +185,7 @@ public class ViveControllerManager : MonoBehaviour
                     break;
                 case "Kraken":
                     GameObject.FindGameObjectWithTag("GameController").GetComponent<ScoreSystem>().AddScore(50);
-                    collide.GetComponent<Billboard>().SetHit();
+                    collide.GetComponent<Billboard>().TriggerHit();
                     break;
             }
         }
