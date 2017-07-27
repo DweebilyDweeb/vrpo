@@ -12,11 +12,11 @@ public class NavAgent : MonoBehaviour {
 	void Start ()
     {
         agent = GetComponent<NavMeshAgent>();
+    
+        GetComponent<NavMeshAgent>().SetDestination(target.position);
 	}
 	
 	// Update is called once per frame
-	void Update ()
-    {
-        GetComponent<NavMeshAgent>().SetDestination(target.position);
+	void Update() { 
 	}
 }
