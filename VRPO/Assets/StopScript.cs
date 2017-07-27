@@ -5,18 +5,20 @@ using UnityEngine.AI;
 
 public class StopScript : MonoBehaviour
 {
-    Vector3 Stop;
-
+    float normalAcceleration, stopAcceleration;
+    NavMeshAgent boat;
     // Use this for initialization
     void Start()
     {
-        Stop = new Vector3(0, 0, 0);
+        boat = GetComponent<NavMeshAgent>();
+        normalAcceleration = 1;
+        stopAcceleration = 10;
+        StopBoat();
     }
 
     // Update is called once per frame
     void Update()
     {
-
 
     }
     void OnTriggerEnter(Collider col)
@@ -24,9 +26,20 @@ public class StopScript : MonoBehaviour
         if (col.gameObject.name == "Stop")
         {
             Debug.Log("Stop");
-            transform.GetComponent<NavMeshAgent>().isStopped = true;
-            transform.GetComponent<NavMeshAgent>().velocity = Stop;
+            StopBoat();
+            col.gameObject.SetActive(false);
         }
     }
 
+    public void StopBoat()
+    {
+        boat.isStopped = true;
+        boat.acceleration = stopAcceleration;
+    }
+
+    public void StartBoat()
+    {
+        boat.isStopped = false;
+        boat.acceleration = normalAcceleration;
+    }
 }

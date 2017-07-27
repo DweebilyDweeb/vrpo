@@ -61,6 +61,7 @@ public class Goblin_Cannoneer : Goblin
     public override void TriggerDeath()
     {
         GetComponentInParent<Cannon>().isDead = true;
-        base.TriggerDeath();
+        if (currentState != Goblin_FSM.Death)
+            currentState = Goblin_FSM.Death;
     }
 }

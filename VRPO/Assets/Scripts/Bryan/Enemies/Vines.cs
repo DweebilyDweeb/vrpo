@@ -50,7 +50,8 @@ public class Vines : MonoBehaviour
     void ReleaseBoat()
     {
         boatReleased = true;
-        GameObject.FindGameObjectWithTag("Boat").GetComponent<NavMeshAgent>().isStopped = false;
+        //GameObject.FindGameObjectWithTag("Boat").GetComponent<NavMeshAgent>().isStopped = false;
+        GameObject.FindGameObjectWithTag("Boat").GetComponent<StopScript>().StartBoat();
         StartCoroutine(DespawnVineList());
 
         if (ParrotScriptedDialogue.instance.gameState == ParrotScriptedDialogue.State.cutVines)

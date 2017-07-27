@@ -172,23 +172,22 @@ public class ScriptedKraken : MonoBehaviour
     {
         if (!knockedBack)
         {
-            int hitCount = 0;
-
-            #region check if targets are hit
             if (targetsSpawned)
             {
+                int hitCount = 0;
+                #region check if targets are hit
                 for (int i = 0; i <= targetList.Count - 1; i++)
                 {
                     if (targetList[i].GetComponent<Billboard>().isHit)
                         hitCount++;
                 }
-            }
-            #endregion
+                #endregion
 
-            if (hitCount == (targetList.Count))
-            {
-                knockedBack = true;
-                anim.SetTrigger("Knockback");
+                if (hitCount == (targetList.Count))
+                {
+                    knockedBack = true;
+                    anim.SetTrigger("Knockback");
+                }
             }
         }
     }
