@@ -78,6 +78,8 @@ public class Goblin_Boarder : Goblin
     {
         transform.localPosition += new Vector3(0, 900 * 0.01f, 0);
         anim.SetTrigger("Board");
+        if(!ParrotScriptedDialogue.instance.pirateBoarder)
+            ParrotScriptedDialogue.instance.SwitchState(ParrotScriptedDialogue.State.pirateOnShip);
     }
 
     public void TriggerAttack()

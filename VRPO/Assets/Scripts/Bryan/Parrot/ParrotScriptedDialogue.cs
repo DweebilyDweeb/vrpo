@@ -7,8 +7,10 @@ public class ParrotScriptedDialogue : MonoBehaviour
     public static ParrotScriptedDialogue instance;
     public static float gameTimer = 0.0f;
     public bool speak;
-    public enum State { wakingUp = 1, howToShoot, unsheatheSword, cutVines, end };
+    public enum State { wakingUp = 1, howToShoot, unsheatheSword, cutVines, pirateOnShip, end };
     public State gameState;
+
+    public bool pirateBoarder = false;
     AudioSource parrotDialogue;
 
     void Awake()
@@ -55,6 +57,11 @@ public class ParrotScriptedDialogue : MonoBehaviour
             case State.cutVines:
                 AutoRepeatDialogue();
                 ParrotTalk(4);
+                break;
+            case State.pirateOnShip:
+                pirateBoarder = true;
+                ParrotTalk(9);
+                gameState = State.end;
                 break;
             case State.end:
                 break;
