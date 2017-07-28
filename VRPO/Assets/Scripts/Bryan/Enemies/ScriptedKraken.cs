@@ -19,6 +19,7 @@ public class ScriptedKraken : MonoBehaviour
 
     private int atkCounter = 0;
     private bool knockedBack = false;
+    public int hp = 4;
 	// Use this for initialization
 	void Start ()
     {
@@ -37,6 +38,9 @@ public class ScriptedKraken : MonoBehaviour
             else
                 spawnPointInit = true;
         }
+
+        if (hp <= 0)
+            SetFSM(Kraken_FSM.Dive);
 
         switch (currentState)
         {
@@ -185,6 +189,7 @@ public class ScriptedKraken : MonoBehaviour
 
                 if (hitCount == (targetList.Count))
                 {
+                    hp -= 1;
                     knockedBack = true;
                     anim.SetTrigger("Knockback");
                 }
