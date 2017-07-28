@@ -21,13 +21,17 @@ public class Goblin : MonoBehaviour
 
     public virtual void TriggerDeath()
     {
-        if (currentState != Goblin_FSM.Death)
-            currentState = Goblin_FSM.Death;
+        currentState = Goblin_FSM.Death;
     }
 
     public virtual IEnumerator DespawnGoblin()
     {
         yield return new WaitForSeconds(1.0f);
         Destroy(gameObject);
+    }
+
+    public Goblin_FSM getCurrentState()
+    {
+        return currentState;
     }
 }
