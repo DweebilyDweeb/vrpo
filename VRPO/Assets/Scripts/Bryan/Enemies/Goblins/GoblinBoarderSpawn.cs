@@ -6,6 +6,7 @@ public class GoblinBoarderSpawn : MonoBehaviour
 {
     public int goblinsToSpawn;
     public float goblinSwimSpeed, spawnDistance, spreadDistance, spawnHeight;
+    private bool spawned = false;
 	// Use this for initialization
 	void Start () {
 		
@@ -18,9 +19,13 @@ public class GoblinBoarderSpawn : MonoBehaviour
 
     private void OnTriggerEnter(Collider collision)
     {
-        if (collision.tag == "Boat")
+        if (!spawned)
         {
-            StartCoroutine(SpawnSwimmers());
+            if (collision.tag == "Boat")
+            {
+                spawned = true;
+                StartCoroutine(SpawnSwimmers());
+            }
         }
     }
 

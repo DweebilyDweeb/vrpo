@@ -41,6 +41,6 @@ public class KrakenFlashBackTentacles : MonoBehaviour {
     {
         yield return new WaitForSeconds(delay);
 
-        SceneManager.LoadScene("demoScene 6");
+        SceneManager.LoadScene("demoScene10");
     }
 }
