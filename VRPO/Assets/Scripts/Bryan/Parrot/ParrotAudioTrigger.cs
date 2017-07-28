@@ -5,6 +5,7 @@ using UnityEngine;
 public class ParrotAudioTrigger : MonoBehaviour 
 {
     public int dialogue;
+    private bool triggered = false;
 	// Use this for initialization
 	void Start () 
     {
@@ -19,12 +20,16 @@ public class ParrotAudioTrigger : MonoBehaviour
 
     void OnTriggerEnter(Collider collision)
     {
-        switch(collision.tag)
+        if (!triggered)
         {
-            case "Boat":
-                AudioSource parrotDialogue = collision.transform.Find("Parrot").GetComponent<AudioSource>();
-                parrotDialogue.PlayOneShot(GetParrotDialogue());
-                break;
+            switch (collision.tag)
+            {
+                case "Boat":
+                    triggered = true;
+                    AudioSource parrotDialogue = collision.transform.Find("Parrot").GetComponent<AudioSource>();
+                    parrotDialogue.PlayOneShot(GetParrotDialogue());
+                    break;
+            }
         }
     }
 

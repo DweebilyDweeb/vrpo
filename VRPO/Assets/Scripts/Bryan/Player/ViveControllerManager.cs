@@ -180,8 +180,11 @@ public class ViveControllerManager : MonoBehaviour
                     Destroy(collide.gameObject);
                     break;
                 case "Goblin":
-                    GameObject.FindGameObjectWithTag("GameController").GetComponent<ScoreSystem>().AddScore(50);
-                    collide.gameObject.GetComponent<Goblin>().TriggerDeath();
+                    if (collide.GetComponent<Goblin>().getCurrentState() != Goblin.Goblin_FSM.Death)
+                    {
+                        GameObject.FindGameObjectWithTag("GameController").GetComponent<ScoreSystem>().AddScore(50);
+                        collide.gameObject.GetComponent<Goblin>().TriggerDeath();
+                    }
                     break;
                 case "Kraken":
                     GameObject.FindGameObjectWithTag("GameController").GetComponent<ScoreSystem>().AddScore(50);

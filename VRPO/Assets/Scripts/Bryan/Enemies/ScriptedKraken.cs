@@ -18,6 +18,7 @@ public class ScriptedKraken : MonoBehaviour
     private Animator anim;
 
     private int atkCounter = 0;
+    private bool hasRisen = false;
     private bool knockedBack = false;
     public int hp = 4;
 	// Use this for initialization
@@ -199,8 +200,11 @@ public class ScriptedKraken : MonoBehaviour
 
     private void OnTriggerEnter(Collider collision)
     {
-        if (collision.tag == "Boat")
-            SetFSM(Kraken_FSM.Rise);
+        if (!hasRisen)
+        {
+            if (collision.tag == "Boat")
+                SetFSM(Kraken_FSM.Rise); hasRisen = true;
+        }
     }
 
     IEnumerator Test()
