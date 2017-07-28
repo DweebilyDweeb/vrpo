@@ -37,21 +37,26 @@ public class Goblin_Cannoneer : Goblin
                 #endregion
                 break;
             case Goblin_FSM.Death:
-                anim.SetTrigger("Death");
-                bool anim1 = HelperFunctions.RandomBool();
-                if (!hasDetectedPlayer) // Play unalarmed death animations
+                if (!isDead)
                 {
-                    if (anim1)
-                        anim.SetInteger("Death_Type", 1);
-                    else
-                        anim.SetInteger("Death_Type", 2);
-                }
-                else // Play alarmed death animations
-                {
-                    if (anim1)
-                        anim.SetInteger("Death_Type", 3);
-                    else
-                        anim.SetInteger("Death_Type", 4);
+                    isDead = true;
+
+                    anim.SetTrigger("Death");
+                    bool anim1 = HelperFunctions.RandomBool();
+                    if (!hasDetectedPlayer) // Play unalarmed death animations
+                    {
+                        if (anim1)
+                            anim.SetInteger("Death_Type", 1);
+                        else
+                            anim.SetInteger("Death_Type", 2);
+                    }
+                    else // Play alarmed death animations
+                    {
+                        if (anim1)
+                            anim.SetInteger("Death_Type", 3);
+                        else
+                            anim.SetInteger("Death_Type", 4);
+                    }
                 }
                 break;
         }
@@ -61,7 +66,6 @@ public class Goblin_Cannoneer : Goblin
     public override void TriggerDeath()
     {
         GetComponentInParent<Cannon>().isDead = true;
-        if (currentState != Goblin_FSM.Death)
-            currentState = Goblin_FSM.Death;
+        base.TriggerDeath();
     }
 }
