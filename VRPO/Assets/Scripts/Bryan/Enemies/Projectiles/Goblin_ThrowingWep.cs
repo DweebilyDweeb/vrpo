@@ -9,12 +9,27 @@ public class Goblin_ThrowingWep : Projectile
 	void Start () {
         anim = GetComponent<Animator>();
 	}
+
+    public void Init(Vector3 vel)
+    {
+        GetComponent<Rigidbody>().AddForce(vel);
+        Debug.Log("Axe init called");
+    }
+
+    void Update()
+    {
+        //Debug.Log("axe velocity: " + GetComponent<Rigidbody>().velocity);
+    }
 	
 	private void OnCollisionEnter(Collision collision)
     {
         switch (collision.gameObject.tag)
         {
             case "Player":
+                GameObject.FindGameObjectWithTag("GameController").GetComponent<ScoreSystem>().AddScore(-10);
+                Destroy(gameObject);
+                break;
+            case "Boat":
                 GameObject.FindGameObjectWithTag("GameController").GetComponent<ScoreSystem>().AddScore(-10);
                 Destroy(gameObject);
                 break;
