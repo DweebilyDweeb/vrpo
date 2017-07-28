@@ -11,6 +11,7 @@ public class ParrotScriptedDialogue : MonoBehaviour
     public State gameState;
 
     public bool pirateBoarder = false;
+    private bool firstSword = true;
     AudioSource parrotDialogue;
 
     void Awake()
@@ -48,7 +49,13 @@ public class ParrotScriptedDialogue : MonoBehaviour
                 break;
             case State.howToShoot:
                 AutoRepeatDialogue();
-                ParrotTalk(2);
+                if(firstSword)
+                {
+                    firstSword = false;
+                    StartCoroutine(DelayedParrotTalk(2, 1.5f));
+                }
+                else
+                    ParrotTalk(2);
                 break;
             case State.unsheatheSword:
                 AutoRepeatDialogue();
@@ -92,5 +99,11 @@ public class ParrotScriptedDialogue : MonoBehaviour
         gameTimer = 0;
         speak = true;
         gameState = state;
+    }
+
+    IEnumerator DelayedParrotTalk(int dialogue, float timer)
+    {
+        yield return new WaitForSeconds(timer);
+        ParrotTalk(dialogue);
     }
 }
