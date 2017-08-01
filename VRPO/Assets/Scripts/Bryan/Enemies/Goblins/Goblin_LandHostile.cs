@@ -90,7 +90,7 @@ public class Goblin_LandHostile : Goblin
         //Debug.Log("Direction: " + direction);
         Vector3 throwVector = new Vector3(direction.normalized.x * 100, direction.normalized.y * 300, direction.normalized.z * 100);
         //Debug.Log("throwVector: " + throwVector);
-        projectile.GetComponent<Rigidbody>().velocity = direction;
+        projectile.GetComponent<Rigidbody>().velocity = throwVector;
         //Debug.Log("projectile Velocity: " + projectile.GetComponent<Rigidbody>().velocity);
         StartCoroutine(delayVel(0.1f, projectile, direction));
     }

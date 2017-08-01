@@ -9,14 +9,16 @@ public class Goblin_ThrowingWep : Projectile
 	// Use this for initialization
 	void Start () {
         anim = GetComponent<Animator>();
+        player = GameObject.FindGameObjectWithTag("Player");
+        transform.LookAt(player.transform);
 	}
 
     public void Init(Vector3 vel)
     {
-        GetComponent<Rigidbody>().AddForce(vel);
-        Debug.Log("Axe init called");
-        player = GameObject.FindGameObjectWithTag("Player");
-        transform.LookAt(player.transform);
+        //GetComponent<Rigidbody>().AddForce(vel);
+        Rigidbody projectile = GetComponent<Rigidbody>();
+        if (projectile.velocity.magnitude < 5.0f)
+            projectile.velocity = vel;
     }
 
     void Update()
