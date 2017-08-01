@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class TimeControl : MonoBehaviour
 {
@@ -17,6 +18,8 @@ public class TimeControl : MonoBehaviour
     private KeyCode SpeedTime;
 
     private KeyCode NormalTime;
+
+    private KeyCode SkipFlashback;
 
     void Awake()
 
@@ -38,6 +41,7 @@ public class TimeControl : MonoBehaviour
         slowMo = false;
         SpeedTime = KeyCode.F1;
         NormalTime = KeyCode.F3;
+        SkipFlashback = KeyCode.F12;
     }
 	
 	// Update is called once per frame
@@ -46,6 +50,12 @@ public class TimeControl : MonoBehaviour
         TimeSlow();
         AudioSlow();
         TimeSpeed();
+
+        if(Input.GetKeyDown(SkipFlashback))
+        {
+            SceneManager.LoadScene("demoScene10");
+            ParrotScriptedDialogue.instance.SwitchState(ParrotScriptedDialogue.State.wakingUp);
+        }
 	}
     public void TimeSlow()
     {

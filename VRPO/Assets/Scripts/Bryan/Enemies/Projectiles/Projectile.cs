@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Projectile : MonoBehaviour 
 {
-    protected float lifetime = 10.0f;
+    protected float lifetime = 5.0f;
 	// Use this for initialization
 	void Start () {
 		
