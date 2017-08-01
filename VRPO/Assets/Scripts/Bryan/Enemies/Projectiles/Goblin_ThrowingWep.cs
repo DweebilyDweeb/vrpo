@@ -20,11 +20,6 @@ public class Goblin_ThrowingWep : Projectile
         if (projectile.velocity.magnitude < 5.0f)
             projectile.velocity = vel;
     }
-
-    void Update()
-    {
-        //Debug.Log("axe velocity: " + GetComponent<Rigidbody>().velocity);
-    }
 	
 	private void OnCollisionEnter(Collision collision)
     {
@@ -40,11 +35,12 @@ public class Goblin_ThrowingWep : Projectile
                 break;
             case "Terrain":
                 SetDaggerIdle();
-                Destroy(gameObject, 5.0f);
+                Destroy(gameObject, 1.0f);
                 break;
             case "Water":
                 // Spawn particle effects
-                Destroy(gameObject, 5.0f);
+                transform.position += new Vector3(0, -3, 0);
+                Destroy(gameObject, 1.0f);
                 break;
         }
     }
