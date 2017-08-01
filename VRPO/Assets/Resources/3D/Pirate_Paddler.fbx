@@ -9,11 +9,11 @@ FBXHeaderExtension:  {
 	CreationTimeStamp:  {
 		Version: 1000
 		Year: 2017
-		Month: 07
-		Day: 28
-		Hour: 17
-		Minute: 35
-		Second: 50
+		Month: 08
+		Day: 01
+		Hour: 12
+		Minute: 38
+		Second: 48
 		Millisecond: 0
 	}
 	Creator: "FBX SDK/FBX Plugins build 20070228"
@@ -21,7 +21,7 @@ FBXHeaderExtension:  {
 		FlagPLE: 0
 	}
 }
-CreationTime: "2017-07-28 17:35:50:000"
+CreationTime: "2017-08-01 12:38:48:000"
 Creator: "Blender version 2.78 (sub 0)"
 
 ; Object definitions
@@ -17651,15 +17651,13 @@ Relations:  {
 	}
 	Deformer: "Deformer::Skin Paddle", "Skin" {
 	}
-	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_Abdomen", "Cluster" {
-	}
 	Deformer: "SubDeformer::Cluster Pirate Pirate_Abdomen", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Boarding_Axe_R Pirate_Abdomen", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Paddle Pirate_Abdomen", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_Chest", "Cluster" {
+	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_Abdomen", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Pirate Pirate_Chest", "Cluster" {
 	}
@@ -17667,7 +17665,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Paddle Pirate_Chest", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_Neck", "Cluster" {
+	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_Chest", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Pirate Pirate_Neck", "Cluster" {
 	}
@@ -17675,7 +17673,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Paddle Pirate_Neck", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_Head", "Cluster" {
+	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_Neck", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Pirate Pirate_Head", "Cluster" {
 	}
@@ -17683,7 +17681,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Paddle Pirate_Head", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_Jaw", "Cluster" {
+	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_Head", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Pirate Pirate_Jaw", "Cluster" {
 	}
@@ -17691,7 +17689,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Paddle Pirate_Jaw", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Boarding_Axe_L Holster_R", "Cluster" {
+	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_Jaw", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Pirate Holster_R", "Cluster" {
 	}
@@ -17699,7 +17697,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Paddle Holster_R", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Boarding_Axe_L Holster_L", "Cluster" {
+	Deformer: "SubDeformer::Cluster Boarding_Axe_L Holster_R", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Pirate Holster_L", "Cluster" {
 	}
@@ -17707,7 +17705,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Paddle Holster_L", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_Shoulder_L", "Cluster" {
+	Deformer: "SubDeformer::Cluster Boarding_Axe_L Holster_L", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Pirate Pirate_Shoulder_L", "Cluster" {
 	}
@@ -17715,7 +17713,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Paddle Pirate_Shoulder_L", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_Forearm_L", "Cluster" {
+	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_Shoulder_L", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Pirate Pirate_Forearm_L", "Cluster" {
 	}
@@ -17723,7 +17721,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Paddle Pirate_Forearm_L", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_LowerArm_L", "Cluster" {
+	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_Forearm_L", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Pirate Pirate_LowerArm_L", "Cluster" {
 	}
@@ -17731,7 +17729,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Paddle Pirate_LowerArm_L", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_Palm_L", "Cluster" {
+	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_LowerArm_L", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Pirate Pirate_Palm_L", "Cluster" {
 	}
@@ -17739,7 +17737,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Paddle Pirate_Palm_L", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Boarding_Axe_L WeaponHolder_L", "Cluster" {
+	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_Palm_L", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Pirate WeaponHolder_L", "Cluster" {
 	}
@@ -17747,7 +17745,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Paddle WeaponHolder_L", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_Pinky_L_01", "Cluster" {
+	Deformer: "SubDeformer::Cluster Boarding_Axe_L WeaponHolder_L", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Pirate Pirate_Pinky_L_01", "Cluster" {
 	}
@@ -17755,7 +17753,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Paddle Pirate_Pinky_L_01", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_Pinky_L_02", "Cluster" {
+	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_Pinky_L_01", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Pirate Pirate_Pinky_L_02", "Cluster" {
 	}
@@ -17763,7 +17761,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Paddle Pirate_Pinky_L_02", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_Pinky_L_03", "Cluster" {
+	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_Pinky_L_02", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Pirate Pirate_Pinky_L_03", "Cluster" {
 	}
@@ -17771,7 +17769,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Paddle Pirate_Pinky_L_03", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_RingFinger_L_01", "Cluster" {
+	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_Pinky_L_03", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Pirate Pirate_RingFinger_L_01", "Cluster" {
 	}
@@ -17779,7 +17777,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Paddle Pirate_RingFinger_L_01", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_RingFinger_L_02", "Cluster" {
+	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_RingFinger_L_01", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Pirate Pirate_RingFinger_L_02", "Cluster" {
 	}
@@ -17787,7 +17785,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Paddle Pirate_RingFinger_L_02", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_RingFinger_L_03", "Cluster" {
+	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_RingFinger_L_02", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Pirate Pirate_RingFinger_L_03", "Cluster" {
 	}
@@ -17795,7 +17793,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Paddle Pirate_RingFinger_L_03", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_MiddleFinger_L_01", "Cluster" {
+	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_RingFinger_L_03", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Pirate Pirate_MiddleFinger_L_01", "Cluster" {
 	}
@@ -17803,7 +17801,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Paddle Pirate_MiddleFinger_L_01", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_MiddleFinger_L_02", "Cluster" {
+	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_MiddleFinger_L_01", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Pirate Pirate_MiddleFinger_L_02", "Cluster" {
 	}
@@ -17811,7 +17809,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Paddle Pirate_MiddleFinger_L_02", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_MiddleFinger_L_03", "Cluster" {
+	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_MiddleFinger_L_02", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Pirate Pirate_MiddleFinger_L_03", "Cluster" {
 	}
@@ -17819,7 +17817,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Paddle Pirate_MiddleFinger_L_03", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_IndexFinger_L_01", "Cluster" {
+	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_MiddleFinger_L_03", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Pirate Pirate_IndexFinger_L_01", "Cluster" {
 	}
@@ -17827,7 +17825,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Paddle Pirate_IndexFinger_L_01", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_IndexFinger_L_02", "Cluster" {
+	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_IndexFinger_L_01", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Pirate Pirate_IndexFinger_L_02", "Cluster" {
 	}
@@ -17835,7 +17833,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Paddle Pirate_IndexFinger_L_02", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_IndexFinger_L_03", "Cluster" {
+	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_IndexFinger_L_02", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Pirate Pirate_IndexFinger_L_03", "Cluster" {
 	}
@@ -17843,7 +17841,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Paddle Pirate_IndexFinger_L_03", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_Thumb_L_01", "Cluster" {
+	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_IndexFinger_L_03", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Pirate Pirate_Thumb_L_01", "Cluster" {
 	}
@@ -17851,7 +17849,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Paddle Pirate_Thumb_L_01", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_Thumb_L_02", "Cluster" {
+	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_Thumb_L_01", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Pirate Pirate_Thumb_L_02", "Cluster" {
 	}
@@ -17859,7 +17857,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Paddle Pirate_Thumb_L_02", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_Thumb_L_03", "Cluster" {
+	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_Thumb_L_02", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Pirate Pirate_Thumb_L_03", "Cluster" {
 	}
@@ -17867,7 +17865,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Paddle Pirate_Thumb_L_03", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_Shoulder_R", "Cluster" {
+	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_Thumb_L_03", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Pirate Pirate_Shoulder_R", "Cluster" {
 	}
@@ -17875,7 +17873,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Paddle Pirate_Shoulder_R", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_Forearm_R", "Cluster" {
+	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_Shoulder_R", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Pirate Pirate_Forearm_R", "Cluster" {
 	}
@@ -17883,7 +17881,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Paddle Pirate_Forearm_R", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_LowerArm_R", "Cluster" {
+	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_Forearm_R", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Pirate Pirate_LowerArm_R", "Cluster" {
 	}
@@ -17891,7 +17889,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Paddle Pirate_LowerArm_R", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_Palm_R", "Cluster" {
+	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_LowerArm_R", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Pirate Pirate_Palm_R", "Cluster" {
 	}
@@ -17899,7 +17897,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Paddle Pirate_Palm_R", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Boarding_Axe_L WeaponHolder_R", "Cluster" {
+	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_Palm_R", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Pirate WeaponHolder_R", "Cluster" {
 	}
@@ -17907,7 +17905,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Paddle WeaponHolder_R", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_Pinky_R_01", "Cluster" {
+	Deformer: "SubDeformer::Cluster Boarding_Axe_L WeaponHolder_R", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Pirate Pirate_Pinky_R_01", "Cluster" {
 	}
@@ -17915,7 +17913,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Paddle Pirate_Pinky_R_01", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_Pinky_R_02", "Cluster" {
+	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_Pinky_R_01", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Pirate Pirate_Pinky_R_02", "Cluster" {
 	}
@@ -17923,7 +17921,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Paddle Pirate_Pinky_R_02", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_Pinky_R_03", "Cluster" {
+	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_Pinky_R_02", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Pirate Pirate_Pinky_R_03", "Cluster" {
 	}
@@ -17931,7 +17929,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Paddle Pirate_Pinky_R_03", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_RingFinger_R_01", "Cluster" {
+	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_Pinky_R_03", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Pirate Pirate_RingFinger_R_01", "Cluster" {
 	}
@@ -17939,7 +17937,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Paddle Pirate_RingFinger_R_01", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_RingFinger_R_02", "Cluster" {
+	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_RingFinger_R_01", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Pirate Pirate_RingFinger_R_02", "Cluster" {
 	}
@@ -17947,7 +17945,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Paddle Pirate_RingFinger_R_02", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_RingFinger_R_03", "Cluster" {
+	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_RingFinger_R_02", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Pirate Pirate_RingFinger_R_03", "Cluster" {
 	}
@@ -17955,7 +17953,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Paddle Pirate_RingFinger_R_03", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_MiddleFinger_R_01", "Cluster" {
+	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_RingFinger_R_03", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Pirate Pirate_MiddleFinger_R_01", "Cluster" {
 	}
@@ -17963,7 +17961,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Paddle Pirate_MiddleFinger_R_01", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_MiddleFinger_R_02", "Cluster" {
+	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_MiddleFinger_R_01", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Pirate Pirate_MiddleFinger_R_02", "Cluster" {
 	}
@@ -17971,7 +17969,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Paddle Pirate_MiddleFinger_R_02", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_MiddleFinger_R_03", "Cluster" {
+	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_MiddleFinger_R_02", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Pirate Pirate_MiddleFinger_R_03", "Cluster" {
 	}
@@ -17979,7 +17977,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Paddle Pirate_MiddleFinger_R_03", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_IndexFinger_R_01", "Cluster" {
+	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_MiddleFinger_R_03", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Pirate Pirate_IndexFinger_R_01", "Cluster" {
 	}
@@ -17987,7 +17985,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Paddle Pirate_IndexFinger_R_01", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_IndexFinger_R_02", "Cluster" {
+	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_IndexFinger_R_01", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Pirate Pirate_IndexFinger_R_02", "Cluster" {
 	}
@@ -17995,7 +17993,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Paddle Pirate_IndexFinger_R_02", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_IndexFinger_R_03", "Cluster" {
+	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_IndexFinger_R_02", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Pirate Pirate_IndexFinger_R_03", "Cluster" {
 	}
@@ -18003,7 +18001,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Paddle Pirate_IndexFinger_R_03", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_Thumb_R_01", "Cluster" {
+	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_IndexFinger_R_03", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Pirate Pirate_Thumb_R_01", "Cluster" {
 	}
@@ -18011,7 +18009,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Paddle Pirate_Thumb_R_01", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_Thumb_R_02", "Cluster" {
+	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_Thumb_R_01", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Pirate Pirate_Thumb_R_02", "Cluster" {
 	}
@@ -18019,7 +18017,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Paddle Pirate_Thumb_R_02", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_Thumb_R_03", "Cluster" {
+	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_Thumb_R_02", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Pirate Pirate_Thumb_R_03", "Cluster" {
 	}
@@ -18027,7 +18025,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Paddle Pirate_Thumb_R_03", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_Bottom", "Cluster" {
+	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_Thumb_R_03", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Pirate Pirate_Bottom", "Cluster" {
 	}
@@ -18035,7 +18033,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Paddle Pirate_Bottom", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_Thigh_R", "Cluster" {
+	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_Bottom", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Pirate Pirate_Thigh_R", "Cluster" {
 	}
@@ -18043,7 +18041,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Paddle Pirate_Thigh_R", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_Shin_R", "Cluster" {
+	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_Thigh_R", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Pirate Pirate_Shin_R", "Cluster" {
 	}
@@ -18051,7 +18049,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Paddle Pirate_Shin_R", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_Foot_R", "Cluster" {
+	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_Shin_R", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Pirate Pirate_Foot_R", "Cluster" {
 	}
@@ -18059,7 +18057,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Paddle Pirate_Foot_R", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_Toes_R", "Cluster" {
+	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_Foot_R", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Pirate Pirate_Toes_R", "Cluster" {
 	}
@@ -18067,7 +18065,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Paddle Pirate_Toes_R", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_Thigh_L", "Cluster" {
+	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_Toes_R", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Pirate Pirate_Thigh_L", "Cluster" {
 	}
@@ -18075,7 +18073,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Paddle Pirate_Thigh_L", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_Shin_L", "Cluster" {
+	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_Thigh_L", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Pirate Pirate_Shin_L", "Cluster" {
 	}
@@ -18083,7 +18081,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Paddle Pirate_Shin_L", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_Foot_L", "Cluster" {
+	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_Shin_L", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Pirate Pirate_Foot_L", "Cluster" {
 	}
@@ -18091,7 +18089,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Paddle Pirate_Foot_L", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_Toes_L", "Cluster" {
+	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_Foot_L", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Pirate Pirate_Toes_L", "Cluster" {
 	}
@@ -18099,7 +18097,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Paddle Pirate_Toes_L", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Boarding_Axe_L Weapon_R", "Cluster" {
+	Deformer: "SubDeformer::Cluster Boarding_Axe_L Pirate_Toes_L", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Pirate Weapon_R", "Cluster" {
 	}
@@ -18107,7 +18105,7 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Paddle Weapon_R", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Boarding_Axe_L Weapon_L", "Cluster" {
+	Deformer: "SubDeformer::Cluster Boarding_Axe_L Weapon_R", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Pirate Weapon_L", "Cluster" {
 	}
@@ -18115,13 +18113,15 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster Paddle Weapon_L", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster Boarding_Axe_L Laddle_Lower", "Cluster" {
+	Deformer: "SubDeformer::Cluster Boarding_Axe_L Weapon_L", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Pirate Laddle_Lower", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Boarding_Axe_R Laddle_Lower", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Paddle Laddle_Lower", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster Boarding_Axe_L Laddle_Lower", "Cluster" {
 	}
 }
 
@@ -18159,478 +18159,478 @@ Connections:  {
 	Connect: "OO", "Deformer::Skin Boarding_Axe_L", "Model::Boarding_Axe_L"
 	Connect: "OO", "Deformer::Skin Pirate", "Model::Pirate"
 	Connect: "OO", "Deformer::Skin Paddle", "Model::Paddle"
-	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_Abdomen", "Deformer::Skin Boarding_Axe_L"
 	Connect: "OO", "SubDeformer::Cluster Pirate Pirate_Abdomen", "Deformer::Skin Pirate"
 	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_R Pirate_Abdomen", "Deformer::Skin Boarding_Axe_R"
 	Connect: "OO", "SubDeformer::Cluster Paddle Pirate_Abdomen", "Deformer::Skin Paddle"
-	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_Chest", "Deformer::Skin Boarding_Axe_L"
+	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_Abdomen", "Deformer::Skin Boarding_Axe_L"
 	Connect: "OO", "SubDeformer::Cluster Pirate Pirate_Chest", "Deformer::Skin Pirate"
 	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_R Pirate_Chest", "Deformer::Skin Boarding_Axe_R"
 	Connect: "OO", "SubDeformer::Cluster Paddle Pirate_Chest", "Deformer::Skin Paddle"
-	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_Neck", "Deformer::Skin Boarding_Axe_L"
+	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_Chest", "Deformer::Skin Boarding_Axe_L"
 	Connect: "OO", "SubDeformer::Cluster Pirate Pirate_Neck", "Deformer::Skin Pirate"
 	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_R Pirate_Neck", "Deformer::Skin Boarding_Axe_R"
 	Connect: "OO", "SubDeformer::Cluster Paddle Pirate_Neck", "Deformer::Skin Paddle"
-	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_Head", "Deformer::Skin Boarding_Axe_L"
+	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_Neck", "Deformer::Skin Boarding_Axe_L"
 	Connect: "OO", "SubDeformer::Cluster Pirate Pirate_Head", "Deformer::Skin Pirate"
 	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_R Pirate_Head", "Deformer::Skin Boarding_Axe_R"
 	Connect: "OO", "SubDeformer::Cluster Paddle Pirate_Head", "Deformer::Skin Paddle"
-	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_Jaw", "Deformer::Skin Boarding_Axe_L"
+	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_Head", "Deformer::Skin Boarding_Axe_L"
 	Connect: "OO", "SubDeformer::Cluster Pirate Pirate_Jaw", "Deformer::Skin Pirate"
 	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_R Pirate_Jaw", "Deformer::Skin Boarding_Axe_R"
 	Connect: "OO", "SubDeformer::Cluster Paddle Pirate_Jaw", "Deformer::Skin Paddle"
-	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Holster_R", "Deformer::Skin Boarding_Axe_L"
+	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_Jaw", "Deformer::Skin Boarding_Axe_L"
 	Connect: "OO", "SubDeformer::Cluster Pirate Holster_R", "Deformer::Skin Pirate"
 	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_R Holster_R", "Deformer::Skin Boarding_Axe_R"
 	Connect: "OO", "SubDeformer::Cluster Paddle Holster_R", "Deformer::Skin Paddle"
-	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Holster_L", "Deformer::Skin Boarding_Axe_L"
+	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Holster_R", "Deformer::Skin Boarding_Axe_L"
 	Connect: "OO", "SubDeformer::Cluster Pirate Holster_L", "Deformer::Skin Pirate"
 	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_R Holster_L", "Deformer::Skin Boarding_Axe_R"
 	Connect: "OO", "SubDeformer::Cluster Paddle Holster_L", "Deformer::Skin Paddle"
-	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_Shoulder_L", "Deformer::Skin Boarding_Axe_L"
+	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Holster_L", "Deformer::Skin Boarding_Axe_L"
 	Connect: "OO", "SubDeformer::Cluster Pirate Pirate_Shoulder_L", "Deformer::Skin Pirate"
 	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_R Pirate_Shoulder_L", "Deformer::Skin Boarding_Axe_R"
 	Connect: "OO", "SubDeformer::Cluster Paddle Pirate_Shoulder_L", "Deformer::Skin Paddle"
-	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_Forearm_L", "Deformer::Skin Boarding_Axe_L"
+	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_Shoulder_L", "Deformer::Skin Boarding_Axe_L"
 	Connect: "OO", "SubDeformer::Cluster Pirate Pirate_Forearm_L", "Deformer::Skin Pirate"
 	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_R Pirate_Forearm_L", "Deformer::Skin Boarding_Axe_R"
 	Connect: "OO", "SubDeformer::Cluster Paddle Pirate_Forearm_L", "Deformer::Skin Paddle"
-	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_LowerArm_L", "Deformer::Skin Boarding_Axe_L"
+	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_Forearm_L", "Deformer::Skin Boarding_Axe_L"
 	Connect: "OO", "SubDeformer::Cluster Pirate Pirate_LowerArm_L", "Deformer::Skin Pirate"
 	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_R Pirate_LowerArm_L", "Deformer::Skin Boarding_Axe_R"
 	Connect: "OO", "SubDeformer::Cluster Paddle Pirate_LowerArm_L", "Deformer::Skin Paddle"
-	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_Palm_L", "Deformer::Skin Boarding_Axe_L"
+	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_LowerArm_L", "Deformer::Skin Boarding_Axe_L"
 	Connect: "OO", "SubDeformer::Cluster Pirate Pirate_Palm_L", "Deformer::Skin Pirate"
 	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_R Pirate_Palm_L", "Deformer::Skin Boarding_Axe_R"
 	Connect: "OO", "SubDeformer::Cluster Paddle Pirate_Palm_L", "Deformer::Skin Paddle"
-	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L WeaponHolder_L", "Deformer::Skin Boarding_Axe_L"
+	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_Palm_L", "Deformer::Skin Boarding_Axe_L"
 	Connect: "OO", "SubDeformer::Cluster Pirate WeaponHolder_L", "Deformer::Skin Pirate"
 	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_R WeaponHolder_L", "Deformer::Skin Boarding_Axe_R"
 	Connect: "OO", "SubDeformer::Cluster Paddle WeaponHolder_L", "Deformer::Skin Paddle"
-	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_Pinky_L_01", "Deformer::Skin Boarding_Axe_L"
+	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L WeaponHolder_L", "Deformer::Skin Boarding_Axe_L"
 	Connect: "OO", "SubDeformer::Cluster Pirate Pirate_Pinky_L_01", "Deformer::Skin Pirate"
 	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_R Pirate_Pinky_L_01", "Deformer::Skin Boarding_Axe_R"
 	Connect: "OO", "SubDeformer::Cluster Paddle Pirate_Pinky_L_01", "Deformer::Skin Paddle"
-	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_Pinky_L_02", "Deformer::Skin Boarding_Axe_L"
+	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_Pinky_L_01", "Deformer::Skin Boarding_Axe_L"
 	Connect: "OO", "SubDeformer::Cluster Pirate Pirate_Pinky_L_02", "Deformer::Skin Pirate"
 	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_R Pirate_Pinky_L_02", "Deformer::Skin Boarding_Axe_R"
 	Connect: "OO", "SubDeformer::Cluster Paddle Pirate_Pinky_L_02", "Deformer::Skin Paddle"
-	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_Pinky_L_03", "Deformer::Skin Boarding_Axe_L"
+	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_Pinky_L_02", "Deformer::Skin Boarding_Axe_L"
 	Connect: "OO", "SubDeformer::Cluster Pirate Pirate_Pinky_L_03", "Deformer::Skin Pirate"
 	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_R Pirate_Pinky_L_03", "Deformer::Skin Boarding_Axe_R"
 	Connect: "OO", "SubDeformer::Cluster Paddle Pirate_Pinky_L_03", "Deformer::Skin Paddle"
-	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_RingFinger_L_01", "Deformer::Skin Boarding_Axe_L"
+	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_Pinky_L_03", "Deformer::Skin Boarding_Axe_L"
 	Connect: "OO", "SubDeformer::Cluster Pirate Pirate_RingFinger_L_01", "Deformer::Skin Pirate"
 	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_R Pirate_RingFinger_L_01", "Deformer::Skin Boarding_Axe_R"
 	Connect: "OO", "SubDeformer::Cluster Paddle Pirate_RingFinger_L_01", "Deformer::Skin Paddle"
-	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_RingFinger_L_02", "Deformer::Skin Boarding_Axe_L"
+	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_RingFinger_L_01", "Deformer::Skin Boarding_Axe_L"
 	Connect: "OO", "SubDeformer::Cluster Pirate Pirate_RingFinger_L_02", "Deformer::Skin Pirate"
 	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_R Pirate_RingFinger_L_02", "Deformer::Skin Boarding_Axe_R"
 	Connect: "OO", "SubDeformer::Cluster Paddle Pirate_RingFinger_L_02", "Deformer::Skin Paddle"
-	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_RingFinger_L_03", "Deformer::Skin Boarding_Axe_L"
+	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_RingFinger_L_02", "Deformer::Skin Boarding_Axe_L"
 	Connect: "OO", "SubDeformer::Cluster Pirate Pirate_RingFinger_L_03", "Deformer::Skin Pirate"
 	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_R Pirate_RingFinger_L_03", "Deformer::Skin Boarding_Axe_R"
 	Connect: "OO", "SubDeformer::Cluster Paddle Pirate_RingFinger_L_03", "Deformer::Skin Paddle"
-	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_MiddleFinger_L_01", "Deformer::Skin Boarding_Axe_L"
+	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_RingFinger_L_03", "Deformer::Skin Boarding_Axe_L"
 	Connect: "OO", "SubDeformer::Cluster Pirate Pirate_MiddleFinger_L_01", "Deformer::Skin Pirate"
 	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_R Pirate_MiddleFinger_L_01", "Deformer::Skin Boarding_Axe_R"
 	Connect: "OO", "SubDeformer::Cluster Paddle Pirate_MiddleFinger_L_01", "Deformer::Skin Paddle"
-	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_MiddleFinger_L_02", "Deformer::Skin Boarding_Axe_L"
+	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_MiddleFinger_L_01", "Deformer::Skin Boarding_Axe_L"
 	Connect: "OO", "SubDeformer::Cluster Pirate Pirate_MiddleFinger_L_02", "Deformer::Skin Pirate"
 	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_R Pirate_MiddleFinger_L_02", "Deformer::Skin Boarding_Axe_R"
 	Connect: "OO", "SubDeformer::Cluster Paddle Pirate_MiddleFinger_L_02", "Deformer::Skin Paddle"
-	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_MiddleFinger_L_03", "Deformer::Skin Boarding_Axe_L"
+	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_MiddleFinger_L_02", "Deformer::Skin Boarding_Axe_L"
 	Connect: "OO", "SubDeformer::Cluster Pirate Pirate_MiddleFinger_L_03", "Deformer::Skin Pirate"
 	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_R Pirate_MiddleFinger_L_03", "Deformer::Skin Boarding_Axe_R"
 	Connect: "OO", "SubDeformer::Cluster Paddle Pirate_MiddleFinger_L_03", "Deformer::Skin Paddle"
-	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_IndexFinger_L_01", "Deformer::Skin Boarding_Axe_L"
+	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_MiddleFinger_L_03", "Deformer::Skin Boarding_Axe_L"
 	Connect: "OO", "SubDeformer::Cluster Pirate Pirate_IndexFinger_L_01", "Deformer::Skin Pirate"
 	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_R Pirate_IndexFinger_L_01", "Deformer::Skin Boarding_Axe_R"
 	Connect: "OO", "SubDeformer::Cluster Paddle Pirate_IndexFinger_L_01", "Deformer::Skin Paddle"
-	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_IndexFinger_L_02", "Deformer::Skin Boarding_Axe_L"
+	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_IndexFinger_L_01", "Deformer::Skin Boarding_Axe_L"
 	Connect: "OO", "SubDeformer::Cluster Pirate Pirate_IndexFinger_L_02", "Deformer::Skin Pirate"
 	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_R Pirate_IndexFinger_L_02", "Deformer::Skin Boarding_Axe_R"
 	Connect: "OO", "SubDeformer::Cluster Paddle Pirate_IndexFinger_L_02", "Deformer::Skin Paddle"
-	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_IndexFinger_L_03", "Deformer::Skin Boarding_Axe_L"
+	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_IndexFinger_L_02", "Deformer::Skin Boarding_Axe_L"
 	Connect: "OO", "SubDeformer::Cluster Pirate Pirate_IndexFinger_L_03", "Deformer::Skin Pirate"
 	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_R Pirate_IndexFinger_L_03", "Deformer::Skin Boarding_Axe_R"
 	Connect: "OO", "SubDeformer::Cluster Paddle Pirate_IndexFinger_L_03", "Deformer::Skin Paddle"
-	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_Thumb_L_01", "Deformer::Skin Boarding_Axe_L"
+	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_IndexFinger_L_03", "Deformer::Skin Boarding_Axe_L"
 	Connect: "OO", "SubDeformer::Cluster Pirate Pirate_Thumb_L_01", "Deformer::Skin Pirate"
 	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_R Pirate_Thumb_L_01", "Deformer::Skin Boarding_Axe_R"
 	Connect: "OO", "SubDeformer::Cluster Paddle Pirate_Thumb_L_01", "Deformer::Skin Paddle"
-	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_Thumb_L_02", "Deformer::Skin Boarding_Axe_L"
+	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_Thumb_L_01", "Deformer::Skin Boarding_Axe_L"
 	Connect: "OO", "SubDeformer::Cluster Pirate Pirate_Thumb_L_02", "Deformer::Skin Pirate"
 	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_R Pirate_Thumb_L_02", "Deformer::Skin Boarding_Axe_R"
 	Connect: "OO", "SubDeformer::Cluster Paddle Pirate_Thumb_L_02", "Deformer::Skin Paddle"
-	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_Thumb_L_03", "Deformer::Skin Boarding_Axe_L"
+	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_Thumb_L_02", "Deformer::Skin Boarding_Axe_L"
 	Connect: "OO", "SubDeformer::Cluster Pirate Pirate_Thumb_L_03", "Deformer::Skin Pirate"
 	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_R Pirate_Thumb_L_03", "Deformer::Skin Boarding_Axe_R"
 	Connect: "OO", "SubDeformer::Cluster Paddle Pirate_Thumb_L_03", "Deformer::Skin Paddle"
-	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_Shoulder_R", "Deformer::Skin Boarding_Axe_L"
+	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_Thumb_L_03", "Deformer::Skin Boarding_Axe_L"
 	Connect: "OO", "SubDeformer::Cluster Pirate Pirate_Shoulder_R", "Deformer::Skin Pirate"
 	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_R Pirate_Shoulder_R", "Deformer::Skin Boarding_Axe_R"
 	Connect: "OO", "SubDeformer::Cluster Paddle Pirate_Shoulder_R", "Deformer::Skin Paddle"
-	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_Forearm_R", "Deformer::Skin Boarding_Axe_L"
+	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_Shoulder_R", "Deformer::Skin Boarding_Axe_L"
 	Connect: "OO", "SubDeformer::Cluster Pirate Pirate_Forearm_R", "Deformer::Skin Pirate"
 	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_R Pirate_Forearm_R", "Deformer::Skin Boarding_Axe_R"
 	Connect: "OO", "SubDeformer::Cluster Paddle Pirate_Forearm_R", "Deformer::Skin Paddle"
-	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_LowerArm_R", "Deformer::Skin Boarding_Axe_L"
+	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_Forearm_R", "Deformer::Skin Boarding_Axe_L"
 	Connect: "OO", "SubDeformer::Cluster Pirate Pirate_LowerArm_R", "Deformer::Skin Pirate"
 	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_R Pirate_LowerArm_R", "Deformer::Skin Boarding_Axe_R"
 	Connect: "OO", "SubDeformer::Cluster Paddle Pirate_LowerArm_R", "Deformer::Skin Paddle"
-	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_Palm_R", "Deformer::Skin Boarding_Axe_L"
+	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_LowerArm_R", "Deformer::Skin Boarding_Axe_L"
 	Connect: "OO", "SubDeformer::Cluster Pirate Pirate_Palm_R", "Deformer::Skin Pirate"
 	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_R Pirate_Palm_R", "Deformer::Skin Boarding_Axe_R"
 	Connect: "OO", "SubDeformer::Cluster Paddle Pirate_Palm_R", "Deformer::Skin Paddle"
-	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L WeaponHolder_R", "Deformer::Skin Boarding_Axe_L"
+	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_Palm_R", "Deformer::Skin Boarding_Axe_L"
 	Connect: "OO", "SubDeformer::Cluster Pirate WeaponHolder_R", "Deformer::Skin Pirate"
 	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_R WeaponHolder_R", "Deformer::Skin Boarding_Axe_R"
 	Connect: "OO", "SubDeformer::Cluster Paddle WeaponHolder_R", "Deformer::Skin Paddle"
-	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_Pinky_R_01", "Deformer::Skin Boarding_Axe_L"
+	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L WeaponHolder_R", "Deformer::Skin Boarding_Axe_L"
 	Connect: "OO", "SubDeformer::Cluster Pirate Pirate_Pinky_R_01", "Deformer::Skin Pirate"
 	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_R Pirate_Pinky_R_01", "Deformer::Skin Boarding_Axe_R"
 	Connect: "OO", "SubDeformer::Cluster Paddle Pirate_Pinky_R_01", "Deformer::Skin Paddle"
-	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_Pinky_R_02", "Deformer::Skin Boarding_Axe_L"
+	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_Pinky_R_01", "Deformer::Skin Boarding_Axe_L"
 	Connect: "OO", "SubDeformer::Cluster Pirate Pirate_Pinky_R_02", "Deformer::Skin Pirate"
 	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_R Pirate_Pinky_R_02", "Deformer::Skin Boarding_Axe_R"
 	Connect: "OO", "SubDeformer::Cluster Paddle Pirate_Pinky_R_02", "Deformer::Skin Paddle"
-	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_Pinky_R_03", "Deformer::Skin Boarding_Axe_L"
+	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_Pinky_R_02", "Deformer::Skin Boarding_Axe_L"
 	Connect: "OO", "SubDeformer::Cluster Pirate Pirate_Pinky_R_03", "Deformer::Skin Pirate"
 	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_R Pirate_Pinky_R_03", "Deformer::Skin Boarding_Axe_R"
 	Connect: "OO", "SubDeformer::Cluster Paddle Pirate_Pinky_R_03", "Deformer::Skin Paddle"
-	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_RingFinger_R_01", "Deformer::Skin Boarding_Axe_L"
+	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_Pinky_R_03", "Deformer::Skin Boarding_Axe_L"
 	Connect: "OO", "SubDeformer::Cluster Pirate Pirate_RingFinger_R_01", "Deformer::Skin Pirate"
 	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_R Pirate_RingFinger_R_01", "Deformer::Skin Boarding_Axe_R"
 	Connect: "OO", "SubDeformer::Cluster Paddle Pirate_RingFinger_R_01", "Deformer::Skin Paddle"
-	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_RingFinger_R_02", "Deformer::Skin Boarding_Axe_L"
+	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_RingFinger_R_01", "Deformer::Skin Boarding_Axe_L"
 	Connect: "OO", "SubDeformer::Cluster Pirate Pirate_RingFinger_R_02", "Deformer::Skin Pirate"
 	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_R Pirate_RingFinger_R_02", "Deformer::Skin Boarding_Axe_R"
 	Connect: "OO", "SubDeformer::Cluster Paddle Pirate_RingFinger_R_02", "Deformer::Skin Paddle"
-	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_RingFinger_R_03", "Deformer::Skin Boarding_Axe_L"
+	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_RingFinger_R_02", "Deformer::Skin Boarding_Axe_L"
 	Connect: "OO", "SubDeformer::Cluster Pirate Pirate_RingFinger_R_03", "Deformer::Skin Pirate"
 	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_R Pirate_RingFinger_R_03", "Deformer::Skin Boarding_Axe_R"
 	Connect: "OO", "SubDeformer::Cluster Paddle Pirate_RingFinger_R_03", "Deformer::Skin Paddle"
-	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_MiddleFinger_R_01", "Deformer::Skin Boarding_Axe_L"
+	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_RingFinger_R_03", "Deformer::Skin Boarding_Axe_L"
 	Connect: "OO", "SubDeformer::Cluster Pirate Pirate_MiddleFinger_R_01", "Deformer::Skin Pirate"
 	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_R Pirate_MiddleFinger_R_01", "Deformer::Skin Boarding_Axe_R"
 	Connect: "OO", "SubDeformer::Cluster Paddle Pirate_MiddleFinger_R_01", "Deformer::Skin Paddle"
-	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_MiddleFinger_R_02", "Deformer::Skin Boarding_Axe_L"
+	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_MiddleFinger_R_01", "Deformer::Skin Boarding_Axe_L"
 	Connect: "OO", "SubDeformer::Cluster Pirate Pirate_MiddleFinger_R_02", "Deformer::Skin Pirate"
 	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_R Pirate_MiddleFinger_R_02", "Deformer::Skin Boarding_Axe_R"
 	Connect: "OO", "SubDeformer::Cluster Paddle Pirate_MiddleFinger_R_02", "Deformer::Skin Paddle"
-	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_MiddleFinger_R_03", "Deformer::Skin Boarding_Axe_L"
+	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_MiddleFinger_R_02", "Deformer::Skin Boarding_Axe_L"
 	Connect: "OO", "SubDeformer::Cluster Pirate Pirate_MiddleFinger_R_03", "Deformer::Skin Pirate"
 	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_R Pirate_MiddleFinger_R_03", "Deformer::Skin Boarding_Axe_R"
 	Connect: "OO", "SubDeformer::Cluster Paddle Pirate_MiddleFinger_R_03", "Deformer::Skin Paddle"
-	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_IndexFinger_R_01", "Deformer::Skin Boarding_Axe_L"
+	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_MiddleFinger_R_03", "Deformer::Skin Boarding_Axe_L"
 	Connect: "OO", "SubDeformer::Cluster Pirate Pirate_IndexFinger_R_01", "Deformer::Skin Pirate"
 	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_R Pirate_IndexFinger_R_01", "Deformer::Skin Boarding_Axe_R"
 	Connect: "OO", "SubDeformer::Cluster Paddle Pirate_IndexFinger_R_01", "Deformer::Skin Paddle"
-	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_IndexFinger_R_02", "Deformer::Skin Boarding_Axe_L"
+	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_IndexFinger_R_01", "Deformer::Skin Boarding_Axe_L"
 	Connect: "OO", "SubDeformer::Cluster Pirate Pirate_IndexFinger_R_02", "Deformer::Skin Pirate"
 	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_R Pirate_IndexFinger_R_02", "Deformer::Skin Boarding_Axe_R"
 	Connect: "OO", "SubDeformer::Cluster Paddle Pirate_IndexFinger_R_02", "Deformer::Skin Paddle"
-	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_IndexFinger_R_03", "Deformer::Skin Boarding_Axe_L"
+	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_IndexFinger_R_02", "Deformer::Skin Boarding_Axe_L"
 	Connect: "OO", "SubDeformer::Cluster Pirate Pirate_IndexFinger_R_03", "Deformer::Skin Pirate"
 	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_R Pirate_IndexFinger_R_03", "Deformer::Skin Boarding_Axe_R"
 	Connect: "OO", "SubDeformer::Cluster Paddle Pirate_IndexFinger_R_03", "Deformer::Skin Paddle"
-	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_Thumb_R_01", "Deformer::Skin Boarding_Axe_L"
+	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_IndexFinger_R_03", "Deformer::Skin Boarding_Axe_L"
 	Connect: "OO", "SubDeformer::Cluster Pirate Pirate_Thumb_R_01", "Deformer::Skin Pirate"
 	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_R Pirate_Thumb_R_01", "Deformer::Skin Boarding_Axe_R"
 	Connect: "OO", "SubDeformer::Cluster Paddle Pirate_Thumb_R_01", "Deformer::Skin Paddle"
-	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_Thumb_R_02", "Deformer::Skin Boarding_Axe_L"
+	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_Thumb_R_01", "Deformer::Skin Boarding_Axe_L"
 	Connect: "OO", "SubDeformer::Cluster Pirate Pirate_Thumb_R_02", "Deformer::Skin Pirate"
 	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_R Pirate_Thumb_R_02", "Deformer::Skin Boarding_Axe_R"
 	Connect: "OO", "SubDeformer::Cluster Paddle Pirate_Thumb_R_02", "Deformer::Skin Paddle"
-	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_Thumb_R_03", "Deformer::Skin Boarding_Axe_L"
+	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_Thumb_R_02", "Deformer::Skin Boarding_Axe_L"
 	Connect: "OO", "SubDeformer::Cluster Pirate Pirate_Thumb_R_03", "Deformer::Skin Pirate"
 	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_R Pirate_Thumb_R_03", "Deformer::Skin Boarding_Axe_R"
 	Connect: "OO", "SubDeformer::Cluster Paddle Pirate_Thumb_R_03", "Deformer::Skin Paddle"
-	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_Bottom", "Deformer::Skin Boarding_Axe_L"
+	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_Thumb_R_03", "Deformer::Skin Boarding_Axe_L"
 	Connect: "OO", "SubDeformer::Cluster Pirate Pirate_Bottom", "Deformer::Skin Pirate"
 	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_R Pirate_Bottom", "Deformer::Skin Boarding_Axe_R"
 	Connect: "OO", "SubDeformer::Cluster Paddle Pirate_Bottom", "Deformer::Skin Paddle"
-	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_Thigh_R", "Deformer::Skin Boarding_Axe_L"
+	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_Bottom", "Deformer::Skin Boarding_Axe_L"
 	Connect: "OO", "SubDeformer::Cluster Pirate Pirate_Thigh_R", "Deformer::Skin Pirate"
 	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_R Pirate_Thigh_R", "Deformer::Skin Boarding_Axe_R"
 	Connect: "OO", "SubDeformer::Cluster Paddle Pirate_Thigh_R", "Deformer::Skin Paddle"
-	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_Shin_R", "Deformer::Skin Boarding_Axe_L"
+	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_Thigh_R", "Deformer::Skin Boarding_Axe_L"
 	Connect: "OO", "SubDeformer::Cluster Pirate Pirate_Shin_R", "Deformer::Skin Pirate"
 	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_R Pirate_Shin_R", "Deformer::Skin Boarding_Axe_R"
 	Connect: "OO", "SubDeformer::Cluster Paddle Pirate_Shin_R", "Deformer::Skin Paddle"
-	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_Foot_R", "Deformer::Skin Boarding_Axe_L"
+	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_Shin_R", "Deformer::Skin Boarding_Axe_L"
 	Connect: "OO", "SubDeformer::Cluster Pirate Pirate_Foot_R", "Deformer::Skin Pirate"
 	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_R Pirate_Foot_R", "Deformer::Skin Boarding_Axe_R"
 	Connect: "OO", "SubDeformer::Cluster Paddle Pirate_Foot_R", "Deformer::Skin Paddle"
-	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_Toes_R", "Deformer::Skin Boarding_Axe_L"
+	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_Foot_R", "Deformer::Skin Boarding_Axe_L"
 	Connect: "OO", "SubDeformer::Cluster Pirate Pirate_Toes_R", "Deformer::Skin Pirate"
 	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_R Pirate_Toes_R", "Deformer::Skin Boarding_Axe_R"
 	Connect: "OO", "SubDeformer::Cluster Paddle Pirate_Toes_R", "Deformer::Skin Paddle"
-	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_Thigh_L", "Deformer::Skin Boarding_Axe_L"
+	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_Toes_R", "Deformer::Skin Boarding_Axe_L"
 	Connect: "OO", "SubDeformer::Cluster Pirate Pirate_Thigh_L", "Deformer::Skin Pirate"
 	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_R Pirate_Thigh_L", "Deformer::Skin Boarding_Axe_R"
 	Connect: "OO", "SubDeformer::Cluster Paddle Pirate_Thigh_L", "Deformer::Skin Paddle"
-	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_Shin_L", "Deformer::Skin Boarding_Axe_L"
+	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_Thigh_L", "Deformer::Skin Boarding_Axe_L"
 	Connect: "OO", "SubDeformer::Cluster Pirate Pirate_Shin_L", "Deformer::Skin Pirate"
 	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_R Pirate_Shin_L", "Deformer::Skin Boarding_Axe_R"
 	Connect: "OO", "SubDeformer::Cluster Paddle Pirate_Shin_L", "Deformer::Skin Paddle"
-	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_Foot_L", "Deformer::Skin Boarding_Axe_L"
+	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_Shin_L", "Deformer::Skin Boarding_Axe_L"
 	Connect: "OO", "SubDeformer::Cluster Pirate Pirate_Foot_L", "Deformer::Skin Pirate"
 	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_R Pirate_Foot_L", "Deformer::Skin Boarding_Axe_R"
 	Connect: "OO", "SubDeformer::Cluster Paddle Pirate_Foot_L", "Deformer::Skin Paddle"
-	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_Toes_L", "Deformer::Skin Boarding_Axe_L"
+	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_Foot_L", "Deformer::Skin Boarding_Axe_L"
 	Connect: "OO", "SubDeformer::Cluster Pirate Pirate_Toes_L", "Deformer::Skin Pirate"
 	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_R Pirate_Toes_L", "Deformer::Skin Boarding_Axe_R"
 	Connect: "OO", "SubDeformer::Cluster Paddle Pirate_Toes_L", "Deformer::Skin Paddle"
-	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Weapon_R", "Deformer::Skin Boarding_Axe_L"
+	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Pirate_Toes_L", "Deformer::Skin Boarding_Axe_L"
 	Connect: "OO", "SubDeformer::Cluster Pirate Weapon_R", "Deformer::Skin Pirate"
 	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_R Weapon_R", "Deformer::Skin Boarding_Axe_R"
 	Connect: "OO", "SubDeformer::Cluster Paddle Weapon_R", "Deformer::Skin Paddle"
-	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Weapon_L", "Deformer::Skin Boarding_Axe_L"
+	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Weapon_R", "Deformer::Skin Boarding_Axe_L"
 	Connect: "OO", "SubDeformer::Cluster Pirate Weapon_L", "Deformer::Skin Pirate"
 	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_R Weapon_L", "Deformer::Skin Boarding_Axe_R"
 	Connect: "OO", "SubDeformer::Cluster Paddle Weapon_L", "Deformer::Skin Paddle"
-	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Laddle_Lower", "Deformer::Skin Boarding_Axe_L"
+	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Weapon_L", "Deformer::Skin Boarding_Axe_L"
 	Connect: "OO", "SubDeformer::Cluster Pirate Laddle_Lower", "Deformer::Skin Pirate"
 	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_R Laddle_Lower", "Deformer::Skin Boarding_Axe_R"
 	Connect: "OO", "SubDeformer::Cluster Paddle Laddle_Lower", "Deformer::Skin Paddle"
-	Connect: "OO", "Model::Pirate_Abdomen", "SubDeformer::Cluster Boarding_Axe_L Pirate_Abdomen"
+	Connect: "OO", "SubDeformer::Cluster Boarding_Axe_L Laddle_Lower", "Deformer::Skin Boarding_Axe_L"
 	Connect: "OO", "Model::Pirate_Abdomen", "SubDeformer::Cluster Pirate Pirate_Abdomen"
 	Connect: "OO", "Model::Pirate_Abdomen", "SubDeformer::Cluster Boarding_Axe_R Pirate_Abdomen"
 	Connect: "OO", "Model::Pirate_Abdomen", "SubDeformer::Cluster Paddle Pirate_Abdomen"
-	Connect: "OO", "Model::Pirate_Chest", "SubDeformer::Cluster Boarding_Axe_L Pirate_Chest"
+	Connect: "OO", "Model::Pirate_Abdomen", "SubDeformer::Cluster Boarding_Axe_L Pirate_Abdomen"
 	Connect: "OO", "Model::Pirate_Chest", "SubDeformer::Cluster Pirate Pirate_Chest"
 	Connect: "OO", "Model::Pirate_Chest", "SubDeformer::Cluster Boarding_Axe_R Pirate_Chest"
 	Connect: "OO", "Model::Pirate_Chest", "SubDeformer::Cluster Paddle Pirate_Chest"
-	Connect: "OO", "Model::Pirate_Neck", "SubDeformer::Cluster Boarding_Axe_L Pirate_Neck"
+	Connect: "OO", "Model::Pirate_Chest", "SubDeformer::Cluster Boarding_Axe_L Pirate_Chest"
 	Connect: "OO", "Model::Pirate_Neck", "SubDeformer::Cluster Pirate Pirate_Neck"
 	Connect: "OO", "Model::Pirate_Neck", "SubDeformer::Cluster Boarding_Axe_R Pirate_Neck"
 	Connect: "OO", "Model::Pirate_Neck", "SubDeformer::Cluster Paddle Pirate_Neck"
-	Connect: "OO", "Model::Pirate_Head", "SubDeformer::Cluster Boarding_Axe_L Pirate_Head"
+	Connect: "OO", "Model::Pirate_Neck", "SubDeformer::Cluster Boarding_Axe_L Pirate_Neck"
 	Connect: "OO", "Model::Pirate_Head", "SubDeformer::Cluster Pirate Pirate_Head"
 	Connect: "OO", "Model::Pirate_Head", "SubDeformer::Cluster Boarding_Axe_R Pirate_Head"
 	Connect: "OO", "Model::Pirate_Head", "SubDeformer::Cluster Paddle Pirate_Head"
-	Connect: "OO", "Model::Pirate_Jaw", "SubDeformer::Cluster Boarding_Axe_L Pirate_Jaw"
+	Connect: "OO", "Model::Pirate_Head", "SubDeformer::Cluster Boarding_Axe_L Pirate_Head"
 	Connect: "OO", "Model::Pirate_Jaw", "SubDeformer::Cluster Pirate Pirate_Jaw"
 	Connect: "OO", "Model::Pirate_Jaw", "SubDeformer::Cluster Boarding_Axe_R Pirate_Jaw"
 	Connect: "OO", "Model::Pirate_Jaw", "SubDeformer::Cluster Paddle Pirate_Jaw"
-	Connect: "OO", "Model::Holster_R", "SubDeformer::Cluster Boarding_Axe_L Holster_R"
+	Connect: "OO", "Model::Pirate_Jaw", "SubDeformer::Cluster Boarding_Axe_L Pirate_Jaw"
 	Connect: "OO", "Model::Holster_R", "SubDeformer::Cluster Pirate Holster_R"
 	Connect: "OO", "Model::Holster_R", "SubDeformer::Cluster Boarding_Axe_R Holster_R"
 	Connect: "OO", "Model::Holster_R", "SubDeformer::Cluster Paddle Holster_R"
-	Connect: "OO", "Model::Holster_L", "SubDeformer::Cluster Boarding_Axe_L Holster_L"
+	Connect: "OO", "Model::Holster_R", "SubDeformer::Cluster Boarding_Axe_L Holster_R"
 	Connect: "OO", "Model::Holster_L", "SubDeformer::Cluster Pirate Holster_L"
 	Connect: "OO", "Model::Holster_L", "SubDeformer::Cluster Boarding_Axe_R Holster_L"
 	Connect: "OO", "Model::Holster_L", "SubDeformer::Cluster Paddle Holster_L"
-	Connect: "OO", "Model::Pirate_Shoulder_L", "SubDeformer::Cluster Boarding_Axe_L Pirate_Shoulder_L"
+	Connect: "OO", "Model::Holster_L", "SubDeformer::Cluster Boarding_Axe_L Holster_L"
 	Connect: "OO", "Model::Pirate_Shoulder_L", "SubDeformer::Cluster Pirate Pirate_Shoulder_L"
 	Connect: "OO", "Model::Pirate_Shoulder_L", "SubDeformer::Cluster Boarding_Axe_R Pirate_Shoulder_L"
 	Connect: "OO", "Model::Pirate_Shoulder_L", "SubDeformer::Cluster Paddle Pirate_Shoulder_L"
-	Connect: "OO", "Model::Pirate_Forearm_L", "SubDeformer::Cluster Boarding_Axe_L Pirate_Forearm_L"
+	Connect: "OO", "Model::Pirate_Shoulder_L", "SubDeformer::Cluster Boarding_Axe_L Pirate_Shoulder_L"
 	Connect: "OO", "Model::Pirate_Forearm_L", "SubDeformer::Cluster Pirate Pirate_Forearm_L"
 	Connect: "OO", "Model::Pirate_Forearm_L", "SubDeformer::Cluster Boarding_Axe_R Pirate_Forearm_L"
 	Connect: "OO", "Model::Pirate_Forearm_L", "SubDeformer::Cluster Paddle Pirate_Forearm_L"
-	Connect: "OO", "Model::Pirate_LowerArm_L", "SubDeformer::Cluster Boarding_Axe_L Pirate_LowerArm_L"
+	Connect: "OO", "Model::Pirate_Forearm_L", "SubDeformer::Cluster Boarding_Axe_L Pirate_Forearm_L"
 	Connect: "OO", "Model::Pirate_LowerArm_L", "SubDeformer::Cluster Pirate Pirate_LowerArm_L"
 	Connect: "OO", "Model::Pirate_LowerArm_L", "SubDeformer::Cluster Boarding_Axe_R Pirate_LowerArm_L"
 	Connect: "OO", "Model::Pirate_LowerArm_L", "SubDeformer::Cluster Paddle Pirate_LowerArm_L"
-	Connect: "OO", "Model::Pirate_Palm_L", "SubDeformer::Cluster Boarding_Axe_L Pirate_Palm_L"
+	Connect: "OO", "Model::Pirate_LowerArm_L", "SubDeformer::Cluster Boarding_Axe_L Pirate_LowerArm_L"
 	Connect: "OO", "Model::Pirate_Palm_L", "SubDeformer::Cluster Pirate Pirate_Palm_L"
 	Connect: "OO", "Model::Pirate_Palm_L", "SubDeformer::Cluster Boarding_Axe_R Pirate_Palm_L"
 	Connect: "OO", "Model::Pirate_Palm_L", "SubDeformer::Cluster Paddle Pirate_Palm_L"
-	Connect: "OO", "Model::WeaponHolder_L", "SubDeformer::Cluster Boarding_Axe_L WeaponHolder_L"
+	Connect: "OO", "Model::Pirate_Palm_L", "SubDeformer::Cluster Boarding_Axe_L Pirate_Palm_L"
 	Connect: "OO", "Model::WeaponHolder_L", "SubDeformer::Cluster Pirate WeaponHolder_L"
 	Connect: "OO", "Model::WeaponHolder_L", "SubDeformer::Cluster Boarding_Axe_R WeaponHolder_L"
 	Connect: "OO", "Model::WeaponHolder_L", "SubDeformer::Cluster Paddle WeaponHolder_L"
-	Connect: "OO", "Model::Pirate_Pinky_L_01", "SubDeformer::Cluster Boarding_Axe_L Pirate_Pinky_L_01"
+	Connect: "OO", "Model::WeaponHolder_L", "SubDeformer::Cluster Boarding_Axe_L WeaponHolder_L"
 	Connect: "OO", "Model::Pirate_Pinky_L_01", "SubDeformer::Cluster Pirate Pirate_Pinky_L_01"
 	Connect: "OO", "Model::Pirate_Pinky_L_01", "SubDeformer::Cluster Boarding_Axe_R Pirate_Pinky_L_01"
 	Connect: "OO", "Model::Pirate_Pinky_L_01", "SubDeformer::Cluster Paddle Pirate_Pinky_L_01"
-	Connect: "OO", "Model::Pirate_Pinky_L_02", "SubDeformer::Cluster Boarding_Axe_L Pirate_Pinky_L_02"
+	Connect: "OO", "Model::Pirate_Pinky_L_01", "SubDeformer::Cluster Boarding_Axe_L Pirate_Pinky_L_01"
 	Connect: "OO", "Model::Pirate_Pinky_L_02", "SubDeformer::Cluster Pirate Pirate_Pinky_L_02"
 	Connect: "OO", "Model::Pirate_Pinky_L_02", "SubDeformer::Cluster Boarding_Axe_R Pirate_Pinky_L_02"
 	Connect: "OO", "Model::Pirate_Pinky_L_02", "SubDeformer::Cluster Paddle Pirate_Pinky_L_02"
-	Connect: "OO", "Model::Pirate_Pinky_L_03", "SubDeformer::Cluster Boarding_Axe_L Pirate_Pinky_L_03"
+	Connect: "OO", "Model::Pirate_Pinky_L_02", "SubDeformer::Cluster Boarding_Axe_L Pirate_Pinky_L_02"
 	Connect: "OO", "Model::Pirate_Pinky_L_03", "SubDeformer::Cluster Pirate Pirate_Pinky_L_03"
 	Connect: "OO", "Model::Pirate_Pinky_L_03", "SubDeformer::Cluster Boarding_Axe_R Pirate_Pinky_L_03"
 	Connect: "OO", "Model::Pirate_Pinky_L_03", "SubDeformer::Cluster Paddle Pirate_Pinky_L_03"
-	Connect: "OO", "Model::Pirate_RingFinger_L_01", "SubDeformer::Cluster Boarding_Axe_L Pirate_RingFinger_L_01"
+	Connect: "OO", "Model::Pirate_Pinky_L_03", "SubDeformer::Cluster Boarding_Axe_L Pirate_Pinky_L_03"
 	Connect: "OO", "Model::Pirate_RingFinger_L_01", "SubDeformer::Cluster Pirate Pirate_RingFinger_L_01"
 	Connect: "OO", "Model::Pirate_RingFinger_L_01", "SubDeformer::Cluster Boarding_Axe_R Pirate_RingFinger_L_01"
 	Connect: "OO", "Model::Pirate_RingFinger_L_01", "SubDeformer::Cluster Paddle Pirate_RingFinger_L_01"
-	Connect: "OO", "Model::Pirate_RingFinger_L_02", "SubDeformer::Cluster Boarding_Axe_L Pirate_RingFinger_L_02"
+	Connect: "OO", "Model::Pirate_RingFinger_L_01", "SubDeformer::Cluster Boarding_Axe_L Pirate_RingFinger_L_01"
 	Connect: "OO", "Model::Pirate_RingFinger_L_02", "SubDeformer::Cluster Pirate Pirate_RingFinger_L_02"
 	Connect: "OO", "Model::Pirate_RingFinger_L_02", "SubDeformer::Cluster Boarding_Axe_R Pirate_RingFinger_L_02"
 	Connect: "OO", "Model::Pirate_RingFinger_L_02", "SubDeformer::Cluster Paddle Pirate_RingFinger_L_02"
-	Connect: "OO", "Model::Pirate_RingFinger_L_03", "SubDeformer::Cluster Boarding_Axe_L Pirate_RingFinger_L_03"
+	Connect: "OO", "Model::Pirate_RingFinger_L_02", "SubDeformer::Cluster Boarding_Axe_L Pirate_RingFinger_L_02"
 	Connect: "OO", "Model::Pirate_RingFinger_L_03", "SubDeformer::Cluster Pirate Pirate_RingFinger_L_03"
 	Connect: "OO", "Model::Pirate_RingFinger_L_03", "SubDeformer::Cluster Boarding_Axe_R Pirate_RingFinger_L_03"
 	Connect: "OO", "Model::Pirate_RingFinger_L_03", "SubDeformer::Cluster Paddle Pirate_RingFinger_L_03"
-	Connect: "OO", "Model::Pirate_MiddleFinger_L_01", "SubDeformer::Cluster Boarding_Axe_L Pirate_MiddleFinger_L_01"
+	Connect: "OO", "Model::Pirate_RingFinger_L_03", "SubDeformer::Cluster Boarding_Axe_L Pirate_RingFinger_L_03"
 	Connect: "OO", "Model::Pirate_MiddleFinger_L_01", "SubDeformer::Cluster Pirate Pirate_MiddleFinger_L_01"
 	Connect: "OO", "Model::Pirate_MiddleFinger_L_01", "SubDeformer::Cluster Boarding_Axe_R Pirate_MiddleFinger_L_01"
 	Connect: "OO", "Model::Pirate_MiddleFinger_L_01", "SubDeformer::Cluster Paddle Pirate_MiddleFinger_L_01"
-	Connect: "OO", "Model::Pirate_MiddleFinger_L_02", "SubDeformer::Cluster Boarding_Axe_L Pirate_MiddleFinger_L_02"
+	Connect: "OO", "Model::Pirate_MiddleFinger_L_01", "SubDeformer::Cluster Boarding_Axe_L Pirate_MiddleFinger_L_01"
 	Connect: "OO", "Model::Pirate_MiddleFinger_L_02", "SubDeformer::Cluster Pirate Pirate_MiddleFinger_L_02"
 	Connect: "OO", "Model::Pirate_MiddleFinger_L_02", "SubDeformer::Cluster Boarding_Axe_R Pirate_MiddleFinger_L_02"
 	Connect: "OO", "Model::Pirate_MiddleFinger_L_02", "SubDeformer::Cluster Paddle Pirate_MiddleFinger_L_02"
-	Connect: "OO", "Model::Pirate_MiddleFinger_L_03", "SubDeformer::Cluster Boarding_Axe_L Pirate_MiddleFinger_L_03"
+	Connect: "OO", "Model::Pirate_MiddleFinger_L_02", "SubDeformer::Cluster Boarding_Axe_L Pirate_MiddleFinger_L_02"
 	Connect: "OO", "Model::Pirate_MiddleFinger_L_03", "SubDeformer::Cluster Pirate Pirate_MiddleFinger_L_03"
 	Connect: "OO", "Model::Pirate_MiddleFinger_L_03", "SubDeformer::Cluster Boarding_Axe_R Pirate_MiddleFinger_L_03"
 	Connect: "OO", "Model::Pirate_MiddleFinger_L_03", "SubDeformer::Cluster Paddle Pirate_MiddleFinger_L_03"
-	Connect: "OO", "Model::Pirate_IndexFinger_L_01", "SubDeformer::Cluster Boarding_Axe_L Pirate_IndexFinger_L_01"
+	Connect: "OO", "Model::Pirate_MiddleFinger_L_03", "SubDeformer::Cluster Boarding_Axe_L Pirate_MiddleFinger_L_03"
 	Connect: "OO", "Model::Pirate_IndexFinger_L_01", "SubDeformer::Cluster Pirate Pirate_IndexFinger_L_01"
 	Connect: "OO", "Model::Pirate_IndexFinger_L_01", "SubDeformer::Cluster Boarding_Axe_R Pirate_IndexFinger_L_01"
 	Connect: "OO", "Model::Pirate_IndexFinger_L_01", "SubDeformer::Cluster Paddle Pirate_IndexFinger_L_01"
-	Connect: "OO", "Model::Pirate_IndexFinger_L_02", "SubDeformer::Cluster Boarding_Axe_L Pirate_IndexFinger_L_02"
+	Connect: "OO", "Model::Pirate_IndexFinger_L_01", "SubDeformer::Cluster Boarding_Axe_L Pirate_IndexFinger_L_01"
 	Connect: "OO", "Model::Pirate_IndexFinger_L_02", "SubDeformer::Cluster Pirate Pirate_IndexFinger_L_02"
 	Connect: "OO", "Model::Pirate_IndexFinger_L_02", "SubDeformer::Cluster Boarding_Axe_R Pirate_IndexFinger_L_02"
 	Connect: "OO", "Model::Pirate_IndexFinger_L_02", "SubDeformer::Cluster Paddle Pirate_IndexFinger_L_02"
-	Connect: "OO", "Model::Pirate_IndexFinger_L_03", "SubDeformer::Cluster Boarding_Axe_L Pirate_IndexFinger_L_03"
+	Connect: "OO", "Model::Pirate_IndexFinger_L_02", "SubDeformer::Cluster Boarding_Axe_L Pirate_IndexFinger_L_02"
 	Connect: "OO", "Model::Pirate_IndexFinger_L_03", "SubDeformer::Cluster Pirate Pirate_IndexFinger_L_03"
 	Connect: "OO", "Model::Pirate_IndexFinger_L_03", "SubDeformer::Cluster Boarding_Axe_R Pirate_IndexFinger_L_03"
 	Connect: "OO", "Model::Pirate_IndexFinger_L_03", "SubDeformer::Cluster Paddle Pirate_IndexFinger_L_03"
-	Connect: "OO", "Model::Pirate_Thumb_L_01", "SubDeformer::Cluster Boarding_Axe_L Pirate_Thumb_L_01"
+	Connect: "OO", "Model::Pirate_IndexFinger_L_03", "SubDeformer::Cluster Boarding_Axe_L Pirate_IndexFinger_L_03"
 	Connect: "OO", "Model::Pirate_Thumb_L_01", "SubDeformer::Cluster Pirate Pirate_Thumb_L_01"
 	Connect: "OO", "Model::Pirate_Thumb_L_01", "SubDeformer::Cluster Boarding_Axe_R Pirate_Thumb_L_01"
 	Connect: "OO", "Model::Pirate_Thumb_L_01", "SubDeformer::Cluster Paddle Pirate_Thumb_L_01"
-	Connect: "OO", "Model::Pirate_Thumb_L_02", "SubDeformer::Cluster Boarding_Axe_L Pirate_Thumb_L_02"
+	Connect: "OO", "Model::Pirate_Thumb_L_01", "SubDeformer::Cluster Boarding_Axe_L Pirate_Thumb_L_01"
 	Connect: "OO", "Model::Pirate_Thumb_L_02", "SubDeformer::Cluster Pirate Pirate_Thumb_L_02"
 	Connect: "OO", "Model::Pirate_Thumb_L_02", "SubDeformer::Cluster Boarding_Axe_R Pirate_Thumb_L_02"
 	Connect: "OO", "Model::Pirate_Thumb_L_02", "SubDeformer::Cluster Paddle Pirate_Thumb_L_02"
-	Connect: "OO", "Model::Pirate_Thumb_L_03", "SubDeformer::Cluster Boarding_Axe_L Pirate_Thumb_L_03"
+	Connect: "OO", "Model::Pirate_Thumb_L_02", "SubDeformer::Cluster Boarding_Axe_L Pirate_Thumb_L_02"
 	Connect: "OO", "Model::Pirate_Thumb_L_03", "SubDeformer::Cluster Pirate Pirate_Thumb_L_03"
 	Connect: "OO", "Model::Pirate_Thumb_L_03", "SubDeformer::Cluster Boarding_Axe_R Pirate_Thumb_L_03"
 	Connect: "OO", "Model::Pirate_Thumb_L_03", "SubDeformer::Cluster Paddle Pirate_Thumb_L_03"
-	Connect: "OO", "Model::Pirate_Shoulder_R", "SubDeformer::Cluster Boarding_Axe_L Pirate_Shoulder_R"
+	Connect: "OO", "Model::Pirate_Thumb_L_03", "SubDeformer::Cluster Boarding_Axe_L Pirate_Thumb_L_03"
 	Connect: "OO", "Model::Pirate_Shoulder_R", "SubDeformer::Cluster Pirate Pirate_Shoulder_R"
 	Connect: "OO", "Model::Pirate_Shoulder_R", "SubDeformer::Cluster Boarding_Axe_R Pirate_Shoulder_R"
 	Connect: "OO", "Model::Pirate_Shoulder_R", "SubDeformer::Cluster Paddle Pirate_Shoulder_R"
-	Connect: "OO", "Model::Pirate_Forearm_R", "SubDeformer::Cluster Boarding_Axe_L Pirate_Forearm_R"
+	Connect: "OO", "Model::Pirate_Shoulder_R", "SubDeformer::Cluster Boarding_Axe_L Pirate_Shoulder_R"
 	Connect: "OO", "Model::Pirate_Forearm_R", "SubDeformer::Cluster Pirate Pirate_Forearm_R"
 	Connect: "OO", "Model::Pirate_Forearm_R", "SubDeformer::Cluster Boarding_Axe_R Pirate_Forearm_R"
 	Connect: "OO", "Model::Pirate_Forearm_R", "SubDeformer::Cluster Paddle Pirate_Forearm_R"
-	Connect: "OO", "Model::Pirate_LowerArm_R", "SubDeformer::Cluster Boarding_Axe_L Pirate_LowerArm_R"
+	Connect: "OO", "Model::Pirate_Forearm_R", "SubDeformer::Cluster Boarding_Axe_L Pirate_Forearm_R"
 	Connect: "OO", "Model::Pirate_LowerArm_R", "SubDeformer::Cluster Pirate Pirate_LowerArm_R"
 	Connect: "OO", "Model::Pirate_LowerArm_R", "SubDeformer::Cluster Boarding_Axe_R Pirate_LowerArm_R"
 	Connect: "OO", "Model::Pirate_LowerArm_R", "SubDeformer::Cluster Paddle Pirate_LowerArm_R"
-	Connect: "OO", "Model::Pirate_Palm_R", "SubDeformer::Cluster Boarding_Axe_L Pirate_Palm_R"
+	Connect: "OO", "Model::Pirate_LowerArm_R", "SubDeformer::Cluster Boarding_Axe_L Pirate_LowerArm_R"
 	Connect: "OO", "Model::Pirate_Palm_R", "SubDeformer::Cluster Pirate Pirate_Palm_R"
 	Connect: "OO", "Model::Pirate_Palm_R", "SubDeformer::Cluster Boarding_Axe_R Pirate_Palm_R"
 	Connect: "OO", "Model::Pirate_Palm_R", "SubDeformer::Cluster Paddle Pirate_Palm_R"
-	Connect: "OO", "Model::WeaponHolder_R", "SubDeformer::Cluster Boarding_Axe_L WeaponHolder_R"
+	Connect: "OO", "Model::Pirate_Palm_R", "SubDeformer::Cluster Boarding_Axe_L Pirate_Palm_R"
 	Connect: "OO", "Model::WeaponHolder_R", "SubDeformer::Cluster Pirate WeaponHolder_R"
 	Connect: "OO", "Model::WeaponHolder_R", "SubDeformer::Cluster Boarding_Axe_R WeaponHolder_R"
 	Connect: "OO", "Model::WeaponHolder_R", "SubDeformer::Cluster Paddle WeaponHolder_R"
-	Connect: "OO", "Model::Pirate_Pinky_R_01", "SubDeformer::Cluster Boarding_Axe_L Pirate_Pinky_R_01"
+	Connect: "OO", "Model::WeaponHolder_R", "SubDeformer::Cluster Boarding_Axe_L WeaponHolder_R"
 	Connect: "OO", "Model::Pirate_Pinky_R_01", "SubDeformer::Cluster Pirate Pirate_Pinky_R_01"
 	Connect: "OO", "Model::Pirate_Pinky_R_01", "SubDeformer::Cluster Boarding_Axe_R Pirate_Pinky_R_01"
 	Connect: "OO", "Model::Pirate_Pinky_R_01", "SubDeformer::Cluster Paddle Pirate_Pinky_R_01"
-	Connect: "OO", "Model::Pirate_Pinky_R_02", "SubDeformer::Cluster Boarding_Axe_L Pirate_Pinky_R_02"
+	Connect: "OO", "Model::Pirate_Pinky_R_01", "SubDeformer::Cluster Boarding_Axe_L Pirate_Pinky_R_01"
 	Connect: "OO", "Model::Pirate_Pinky_R_02", "SubDeformer::Cluster Pirate Pirate_Pinky_R_02"
 	Connect: "OO", "Model::Pirate_Pinky_R_02", "SubDeformer::Cluster Boarding_Axe_R Pirate_Pinky_R_02"
 	Connect: "OO", "Model::Pirate_Pinky_R_02", "SubDeformer::Cluster Paddle Pirate_Pinky_R_02"
-	Connect: "OO", "Model::Pirate_Pinky_R_03", "SubDeformer::Cluster Boarding_Axe_L Pirate_Pinky_R_03"
+	Connect: "OO", "Model::Pirate_Pinky_R_02", "SubDeformer::Cluster Boarding_Axe_L Pirate_Pinky_R_02"
 	Connect: "OO", "Model::Pirate_Pinky_R_03", "SubDeformer::Cluster Pirate Pirate_Pinky_R_03"
 	Connect: "OO", "Model::Pirate_Pinky_R_03", "SubDeformer::Cluster Boarding_Axe_R Pirate_Pinky_R_03"
 	Connect: "OO", "Model::Pirate_Pinky_R_03", "SubDeformer::Cluster Paddle Pirate_Pinky_R_03"
-	Connect: "OO", "Model::Pirate_RingFinger_R_01", "SubDeformer::Cluster Boarding_Axe_L Pirate_RingFinger_R_01"
+	Connect: "OO", "Model::Pirate_Pinky_R_03", "SubDeformer::Cluster Boarding_Axe_L Pirate_Pinky_R_03"
 	Connect: "OO", "Model::Pirate_RingFinger_R_01", "SubDeformer::Cluster Pirate Pirate_RingFinger_R_01"
 	Connect: "OO", "Model::Pirate_RingFinger_R_01", "SubDeformer::Cluster Boarding_Axe_R Pirate_RingFinger_R_01"
 	Connect: "OO", "Model::Pirate_RingFinger_R_01", "SubDeformer::Cluster Paddle Pirate_RingFinger_R_01"
-	Connect: "OO", "Model::Pirate_RingFinger_R_02", "SubDeformer::Cluster Boarding_Axe_L Pirate_RingFinger_R_02"
+	Connect: "OO", "Model::Pirate_RingFinger_R_01", "SubDeformer::Cluster Boarding_Axe_L Pirate_RingFinger_R_01"
 	Connect: "OO", "Model::Pirate_RingFinger_R_02", "SubDeformer::Cluster Pirate Pirate_RingFinger_R_02"
 	Connect: "OO", "Model::Pirate_RingFinger_R_02", "SubDeformer::Cluster Boarding_Axe_R Pirate_RingFinger_R_02"
 	Connect: "OO", "Model::Pirate_RingFinger_R_02", "SubDeformer::Cluster Paddle Pirate_RingFinger_R_02"
-	Connect: "OO", "Model::Pirate_RingFinger_R_03", "SubDeformer::Cluster Boarding_Axe_L Pirate_RingFinger_R_03"
+	Connect: "OO", "Model::Pirate_RingFinger_R_02", "SubDeformer::Cluster Boarding_Axe_L Pirate_RingFinger_R_02"
 	Connect: "OO", "Model::Pirate_RingFinger_R_03", "SubDeformer::Cluster Pirate Pirate_RingFinger_R_03"
 	Connect: "OO", "Model::Pirate_RingFinger_R_03", "SubDeformer::Cluster Boarding_Axe_R Pirate_RingFinger_R_03"
 	Connect: "OO", "Model::Pirate_RingFinger_R_03", "SubDeformer::Cluster Paddle Pirate_RingFinger_R_03"
-	Connect: "OO", "Model::Pirate_MiddleFinger_R_01", "SubDeformer::Cluster Boarding_Axe_L Pirate_MiddleFinger_R_01"
+	Connect: "OO", "Model::Pirate_RingFinger_R_03", "SubDeformer::Cluster Boarding_Axe_L Pirate_RingFinger_R_03"
 	Connect: "OO", "Model::Pirate_MiddleFinger_R_01", "SubDeformer::Cluster Pirate Pirate_MiddleFinger_R_01"
 	Connect: "OO", "Model::Pirate_MiddleFinger_R_01", "SubDeformer::Cluster Boarding_Axe_R Pirate_MiddleFinger_R_01"
 	Connect: "OO", "Model::Pirate_MiddleFinger_R_01", "SubDeformer::Cluster Paddle Pirate_MiddleFinger_R_01"
-	Connect: "OO", "Model::Pirate_MiddleFinger_R_02", "SubDeformer::Cluster Boarding_Axe_L Pirate_MiddleFinger_R_02"
+	Connect: "OO", "Model::Pirate_MiddleFinger_R_01", "SubDeformer::Cluster Boarding_Axe_L Pirate_MiddleFinger_R_01"
 	Connect: "OO", "Model::Pirate_MiddleFinger_R_02", "SubDeformer::Cluster Pirate Pirate_MiddleFinger_R_02"
 	Connect: "OO", "Model::Pirate_MiddleFinger_R_02", "SubDeformer::Cluster Boarding_Axe_R Pirate_MiddleFinger_R_02"
 	Connect: "OO", "Model::Pirate_MiddleFinger_R_02", "SubDeformer::Cluster Paddle Pirate_MiddleFinger_R_02"
-	Connect: "OO", "Model::Pirate_MiddleFinger_R_03", "SubDeformer::Cluster Boarding_Axe_L Pirate_MiddleFinger_R_03"
+	Connect: "OO", "Model::Pirate_MiddleFinger_R_02", "SubDeformer::Cluster Boarding_Axe_L Pirate_MiddleFinger_R_02"
 	Connect: "OO", "Model::Pirate_MiddleFinger_R_03", "SubDeformer::Cluster Pirate Pirate_MiddleFinger_R_03"
 	Connect: "OO", "Model::Pirate_MiddleFinger_R_03", "SubDeformer::Cluster Boarding_Axe_R Pirate_MiddleFinger_R_03"
 	Connect: "OO", "Model::Pirate_MiddleFinger_R_03", "SubDeformer::Cluster Paddle Pirate_MiddleFinger_R_03"
-	Connect: "OO", "Model::Pirate_IndexFinger_R_01", "SubDeformer::Cluster Boarding_Axe_L Pirate_IndexFinger_R_01"
+	Connect: "OO", "Model::Pirate_MiddleFinger_R_03", "SubDeformer::Cluster Boarding_Axe_L Pirate_MiddleFinger_R_03"
 	Connect: "OO", "Model::Pirate_IndexFinger_R_01", "SubDeformer::Cluster Pirate Pirate_IndexFinger_R_01"
 	Connect: "OO", "Model::Pirate_IndexFinger_R_01", "SubDeformer::Cluster Boarding_Axe_R Pirate_IndexFinger_R_01"
 	Connect: "OO", "Model::Pirate_IndexFinger_R_01", "SubDeformer::Cluster Paddle Pirate_IndexFinger_R_01"
-	Connect: "OO", "Model::Pirate_IndexFinger_R_02", "SubDeformer::Cluster Boarding_Axe_L Pirate_IndexFinger_R_02"
+	Connect: "OO", "Model::Pirate_IndexFinger_R_01", "SubDeformer::Cluster Boarding_Axe_L Pirate_IndexFinger_R_01"
 	Connect: "OO", "Model::Pirate_IndexFinger_R_02", "SubDeformer::Cluster Pirate Pirate_IndexFinger_R_02"
 	Connect: "OO", "Model::Pirate_IndexFinger_R_02", "SubDeformer::Cluster Boarding_Axe_R Pirate_IndexFinger_R_02"
 	Connect: "OO", "Model::Pirate_IndexFinger_R_02", "SubDeformer::Cluster Paddle Pirate_IndexFinger_R_02"
-	Connect: "OO", "Model::Pirate_IndexFinger_R_03", "SubDeformer::Cluster Boarding_Axe_L Pirate_IndexFinger_R_03"
+	Connect: "OO", "Model::Pirate_IndexFinger_R_02", "SubDeformer::Cluster Boarding_Axe_L Pirate_IndexFinger_R_02"
 	Connect: "OO", "Model::Pirate_IndexFinger_R_03", "SubDeformer::Cluster Pirate Pirate_IndexFinger_R_03"
 	Connect: "OO", "Model::Pirate_IndexFinger_R_03", "SubDeformer::Cluster Boarding_Axe_R Pirate_IndexFinger_R_03"
 	Connect: "OO", "Model::Pirate_IndexFinger_R_03", "SubDeformer::Cluster Paddle Pirate_IndexFinger_R_03"
-	Connect: "OO", "Model::Pirate_Thumb_R_01", "SubDeformer::Cluster Boarding_Axe_L Pirate_Thumb_R_01"
+	Connect: "OO", "Model::Pirate_IndexFinger_R_03", "SubDeformer::Cluster Boarding_Axe_L Pirate_IndexFinger_R_03"
 	Connect: "OO", "Model::Pirate_Thumb_R_01", "SubDeformer::Cluster Pirate Pirate_Thumb_R_01"
 	Connect: "OO", "Model::Pirate_Thumb_R_01", "SubDeformer::Cluster Boarding_Axe_R Pirate_Thumb_R_01"
 	Connect: "OO", "Model::Pirate_Thumb_R_01", "SubDeformer::Cluster Paddle Pirate_Thumb_R_01"
-	Connect: "OO", "Model::Pirate_Thumb_R_02", "SubDeformer::Cluster Boarding_Axe_L Pirate_Thumb_R_02"
+	Connect: "OO", "Model::Pirate_Thumb_R_01", "SubDeformer::Cluster Boarding_Axe_L Pirate_Thumb_R_01"
 	Connect: "OO", "Model::Pirate_Thumb_R_02", "SubDeformer::Cluster Pirate Pirate_Thumb_R_02"
 	Connect: "OO", "Model::Pirate_Thumb_R_02", "SubDeformer::Cluster Boarding_Axe_R Pirate_Thumb_R_02"
 	Connect: "OO", "Model::Pirate_Thumb_R_02", "SubDeformer::Cluster Paddle Pirate_Thumb_R_02"
-	Connect: "OO", "Model::Pirate_Thumb_R_03", "SubDeformer::Cluster Boarding_Axe_L Pirate_Thumb_R_03"
+	Connect: "OO", "Model::Pirate_Thumb_R_02", "SubDeformer::Cluster Boarding_Axe_L Pirate_Thumb_R_02"
 	Connect: "OO", "Model::Pirate_Thumb_R_03", "SubDeformer::Cluster Pirate Pirate_Thumb_R_03"
 	Connect: "OO", "Model::Pirate_Thumb_R_03", "SubDeformer::Cluster Boarding_Axe_R Pirate_Thumb_R_03"
 	Connect: "OO", "Model::Pirate_Thumb_R_03", "SubDeformer::Cluster Paddle Pirate_Thumb_R_03"
-	Connect: "OO", "Model::Pirate_Bottom", "SubDeformer::Cluster Boarding_Axe_L Pirate_Bottom"
+	Connect: "OO", "Model::Pirate_Thumb_R_03", "SubDeformer::Cluster Boarding_Axe_L Pirate_Thumb_R_03"
 	Connect: "OO", "Model::Pirate_Bottom", "SubDeformer::Cluster Pirate Pirate_Bottom"
 	Connect: "OO", "Model::Pirate_Bottom", "SubDeformer::Cluster Boarding_Axe_R Pirate_Bottom"
 	Connect: "OO", "Model::Pirate_Bottom", "SubDeformer::Cluster Paddle Pirate_Bottom"
-	Connect: "OO", "Model::Pirate_Thigh_R", "SubDeformer::Cluster Boarding_Axe_L Pirate_Thigh_R"
+	Connect: "OO", "Model::Pirate_Bottom", "SubDeformer::Cluster Boarding_Axe_L Pirate_Bottom"
 	Connect: "OO", "Model::Pirate_Thigh_R", "SubDeformer::Cluster Pirate Pirate_Thigh_R"
 	Connect: "OO", "Model::Pirate_Thigh_R", "SubDeformer::Cluster Boarding_Axe_R Pirate_Thigh_R"
 	Connect: "OO", "Model::Pirate_Thigh_R", "SubDeformer::Cluster Paddle Pirate_Thigh_R"
-	Connect: "OO", "Model::Pirate_Shin_R", "SubDeformer::Cluster Boarding_Axe_L Pirate_Shin_R"
+	Connect: "OO", "Model::Pirate_Thigh_R", "SubDeformer::Cluster Boarding_Axe_L Pirate_Thigh_R"
 	Connect: "OO", "Model::Pirate_Shin_R", "SubDeformer::Cluster Pirate Pirate_Shin_R"
 	Connect: "OO", "Model::Pirate_Shin_R", "SubDeformer::Cluster Boarding_Axe_R Pirate_Shin_R"
 	Connect: "OO", "Model::Pirate_Shin_R", "SubDeformer::Cluster Paddle Pirate_Shin_R"
-	Connect: "OO", "Model::Pirate_Foot_R", "SubDeformer::Cluster Boarding_Axe_L Pirate_Foot_R"
+	Connect: "OO", "Model::Pirate_Shin_R", "SubDeformer::Cluster Boarding_Axe_L Pirate_Shin_R"
 	Connect: "OO", "Model::Pirate_Foot_R", "SubDeformer::Cluster Pirate Pirate_Foot_R"
 	Connect: "OO", "Model::Pirate_Foot_R", "SubDeformer::Cluster Boarding_Axe_R Pirate_Foot_R"
 	Connect: "OO", "Model::Pirate_Foot_R", "SubDeformer::Cluster Paddle Pirate_Foot_R"
-	Connect: "OO", "Model::Pirate_Toes_R", "SubDeformer::Cluster Boarding_Axe_L Pirate_Toes_R"
+	Connect: "OO", "Model::Pirate_Foot_R", "SubDeformer::Cluster Boarding_Axe_L Pirate_Foot_R"
 	Connect: "OO", "Model::Pirate_Toes_R", "SubDeformer::Cluster Pirate Pirate_Toes_R"
 	Connect: "OO", "Model::Pirate_Toes_R", "SubDeformer::Cluster Boarding_Axe_R Pirate_Toes_R"
 	Connect: "OO", "Model::Pirate_Toes_R", "SubDeformer::Cluster Paddle Pirate_Toes_R"
-	Connect: "OO", "Model::Pirate_Thigh_L", "SubDeformer::Cluster Boarding_Axe_L Pirate_Thigh_L"
+	Connect: "OO", "Model::Pirate_Toes_R", "SubDeformer::Cluster Boarding_Axe_L Pirate_Toes_R"
 	Connect: "OO", "Model::Pirate_Thigh_L", "SubDeformer::Cluster Pirate Pirate_Thigh_L"
 	Connect: "OO", "Model::Pirate_Thigh_L", "SubDeformer::Cluster Boarding_Axe_R Pirate_Thigh_L"
 	Connect: "OO", "Model::Pirate_Thigh_L", "SubDeformer::Cluster Paddle Pirate_Thigh_L"
-	Connect: "OO", "Model::Pirate_Shin_L", "SubDeformer::Cluster Boarding_Axe_L Pirate_Shin_L"
+	Connect: "OO", "Model::Pirate_Thigh_L", "SubDeformer::Cluster Boarding_Axe_L Pirate_Thigh_L"
 	Connect: "OO", "Model::Pirate_Shin_L", "SubDeformer::Cluster Pirate Pirate_Shin_L"
 	Connect: "OO", "Model::Pirate_Shin_L", "SubDeformer::Cluster Boarding_Axe_R Pirate_Shin_L"
 	Connect: "OO", "Model::Pirate_Shin_L", "SubDeformer::Cluster Paddle Pirate_Shin_L"
-	Connect: "OO", "Model::Pirate_Foot_L", "SubDeformer::Cluster Boarding_Axe_L Pirate_Foot_L"
+	Connect: "OO", "Model::Pirate_Shin_L", "SubDeformer::Cluster Boarding_Axe_L Pirate_Shin_L"
 	Connect: "OO", "Model::Pirate_Foot_L", "SubDeformer::Cluster Pirate Pirate_Foot_L"
 	Connect: "OO", "Model::Pirate_Foot_L", "SubDeformer::Cluster Boarding_Axe_R Pirate_Foot_L"
 	Connect: "OO", "Model::Pirate_Foot_L", "SubDeformer::Cluster Paddle Pirate_Foot_L"
-	Connect: "OO", "Model::Pirate_Toes_L", "SubDeformer::Cluster Boarding_Axe_L Pirate_Toes_L"
+	Connect: "OO", "Model::Pirate_Foot_L", "SubDeformer::Cluster Boarding_Axe_L Pirate_Foot_L"
 	Connect: "OO", "Model::Pirate_Toes_L", "SubDeformer::Cluster Pirate Pirate_Toes_L"
 	Connect: "OO", "Model::Pirate_Toes_L", "SubDeformer::Cluster Boarding_Axe_R Pirate_Toes_L"
 	Connect: "OO", "Model::Pirate_Toes_L", "SubDeformer::Cluster Paddle Pirate_Toes_L"
-	Connect: "OO", "Model::Weapon_R", "SubDeformer::Cluster Boarding_Axe_L Weapon_R"
+	Connect: "OO", "Model::Pirate_Toes_L", "SubDeformer::Cluster Boarding_Axe_L Pirate_Toes_L"
 	Connect: "OO", "Model::Weapon_R", "SubDeformer::Cluster Pirate Weapon_R"
 	Connect: "OO", "Model::Weapon_R", "SubDeformer::Cluster Boarding_Axe_R Weapon_R"
 	Connect: "OO", "Model::Weapon_R", "SubDeformer::Cluster Paddle Weapon_R"
-	Connect: "OO", "Model::Weapon_L", "SubDeformer::Cluster Boarding_Axe_L Weapon_L"
+	Connect: "OO", "Model::Weapon_R", "SubDeformer::Cluster Boarding_Axe_L Weapon_R"
 	Connect: "OO", "Model::Weapon_L", "SubDeformer::Cluster Pirate Weapon_L"
 	Connect: "OO", "Model::Weapon_L", "SubDeformer::Cluster Boarding_Axe_R Weapon_L"
 	Connect: "OO", "Model::Weapon_L", "SubDeformer::Cluster Paddle Weapon_L"
-	Connect: "OO", "Model::Laddle_Lower", "SubDeformer::Cluster Boarding_Axe_L Laddle_Lower"
+	Connect: "OO", "Model::Weapon_L", "SubDeformer::Cluster Boarding_Axe_L Weapon_L"
 	Connect: "OO", "Model::Laddle_Lower", "SubDeformer::Cluster Pirate Laddle_Lower"
 	Connect: "OO", "Model::Laddle_Lower", "SubDeformer::Cluster Boarding_Axe_R Laddle_Lower"
 	Connect: "OO", "Model::Laddle_Lower", "SubDeformer::Cluster Paddle Laddle_Lower"
+	Connect: "OO", "Model::Laddle_Lower", "SubDeformer::Cluster Boarding_Axe_L Laddle_Lower"
 	Connect: "OO", "Model::Pirate_Abdomen", "Model::Pirate_Armature"
 	Connect: "OO", "Model::Pirate_Chest", "Model::Pirate_Abdomen"
 	Connect: "OO", "Model::Pirate_Neck", "Model::Pirate_Chest"
