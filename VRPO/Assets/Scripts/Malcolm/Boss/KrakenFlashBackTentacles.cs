@@ -42,5 +42,6 @@ public class KrakenFlashBackTentacles : MonoBehaviour {
         yield return new WaitForSeconds(delay);
 
         SceneManager.LoadScene("demoScene10");
+        ParrotScriptedDialogue.instance.SwitchState(ParrotScriptedDialogue.State.wakingUp);
     }
 }

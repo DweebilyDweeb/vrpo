@@ -30,8 +30,8 @@ public class ParrotScriptedDialogue : MonoBehaviour
     void Start()
     {
         speak = true;
-        gameState = State.wakingUp;
-        parrotDialogue = GameObject.FindGameObjectWithTag("Boat").transform.Find("Parrot").GetComponent<AudioSource>();
+        gameState = State.end;
+        //parrotDialogue = GameObject.FindGameObjectWithTag("Boat").transform.Find("Parrot").GetComponent<AudioSource>();
     }
 	
 	// Update is called once per frame
@@ -43,6 +43,7 @@ public class ParrotScriptedDialogue : MonoBehaviour
         switch (gameState)
         {
             case State.wakingUp:
+                parrotDialogue = GameObject.FindGameObjectWithTag("Boat").transform.Find("Parrot").GetComponent<AudioSource>();
                 ParrotTalk(1);
                 if (gameTimer > 5.0f)
                     SwitchState(State.howToShoot);
