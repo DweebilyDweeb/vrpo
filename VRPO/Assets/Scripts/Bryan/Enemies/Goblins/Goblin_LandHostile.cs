@@ -87,8 +87,12 @@ public class Goblin_LandHostile : Goblin
 
         // Add velocity to throwing dagger
         direction = target.transform.position - projectile.transform.position;
+        //Debug.Log("Direction: " + direction);
         Vector3 throwVector = new Vector3(direction.normalized.x * 100, direction.normalized.y * 300, direction.normalized.z * 100);
+        //Debug.Log("throwVector: " + throwVector);
         projectile.GetComponent<Rigidbody>().velocity = throwVector;
+        //Debug.Log("projectile Velocity: " + projectile.GetComponent<Rigidbody>().velocity);
+        StartCoroutine(delayVel(0.1f, projectile, direction));
     }
 
     private void OnDrawGizmosSelected()
@@ -97,5 +101,11 @@ public class Goblin_LandHostile : Goblin
         Gizmos.matrix = rotationMatrix;
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(Vector3.zero, (detectionRange/transform.localScale.x));
+    }
+
+    IEnumerator delayVel(float timer, GameObject wep, Vector3 vel)
+    {
+        yield return new WaitForSeconds(timer);
+        wep.GetComponent<Goblin_ThrowingWep>().Init(vel);
     }
 }
