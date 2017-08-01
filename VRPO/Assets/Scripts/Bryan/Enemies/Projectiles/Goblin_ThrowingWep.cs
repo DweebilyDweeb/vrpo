@@ -5,6 +5,7 @@ using UnityEngine;
 public class Goblin_ThrowingWep : Projectile
 {
     private Animator anim;
+    GameObject player;
 	// Use this for initialization
 	void Start () {
         anim = GetComponent<Animator>();
@@ -14,6 +15,8 @@ public class Goblin_ThrowingWep : Projectile
     {
         GetComponent<Rigidbody>().AddForce(vel);
         Debug.Log("Axe init called");
+        player = GameObject.FindGameObjectWithTag("Player");
+        transform.LookAt(player.transform);
     }
 
     void Update()
