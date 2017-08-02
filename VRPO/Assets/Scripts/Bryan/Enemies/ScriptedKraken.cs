@@ -16,6 +16,7 @@ public class ScriptedKraken : MonoBehaviour
     private enum Kraken_FSM { Spawn = 1, Idle, Dive, Rise, Attack_R_Tentacle_Horizontal, Attack_R_Tentacle_Vertical }
     private Kraken_FSM currentState = Kraken_FSM.Spawn;
     private Animator anim;
+    private AudioSource audio;
 
     private int atkCounter = 0;
     public bool hasRisen;
@@ -26,6 +27,7 @@ public class ScriptedKraken : MonoBehaviour
     {
         atkTimer = atkTimeDefault;
 		anim = GetComponent<Animator>();
+        audio = GetComponent<AudioSource>();
         spawnPoints.Add(transform.Find("Kraken_Armature").Find("Tentacle_01").gameObject);
 	}
 	
@@ -210,13 +212,8 @@ public class ScriptedKraken : MonoBehaviour
         }
     }
 
-    IEnumerator Test()
+    void PlaySound(string file)
     {
-        yield return new WaitForSeconds(1.0f);
-        foreach(GameObject target in targetList)
-        {
-            target.GetComponent<Billboard>().TriggerHit();
-            yield return new WaitForSeconds(0.25f);
-        }
+        audio.PlayOneShot(Resources.Load<AudioClip>("Sounds/Kraken/" + file));
     }
 }

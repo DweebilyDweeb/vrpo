@@ -5,10 +5,13 @@ using UnityEngine;
 public class Goblin_ThrowingWep : Projectile
 {
     private Animator anim;
-    GameObject player;
+    private GameObject player;
+    private AudioSource audio;
+    bool playedSound = false;
 	// Use this for initialization
 	void Start () {
         anim = GetComponent<Animator>();
+        audio = GetComponent<AudioSource>();
         player = GameObject.FindGameObjectWithTag("Player");
         transform.LookAt(player.transform);
 	}
@@ -19,6 +22,17 @@ public class Goblin_ThrowingWep : Projectile
         Rigidbody projectile = GetComponent<Rigidbody>();
         if (projectile.velocity.magnitude < 5.0f)
             projectile.velocity = vel;
+    }
+
+    public override void Update()
+    {
+        base.Update();
+        float distFromPlayer = new Vector3(player.transform.position.x - transform.position.x, 0, player.transform.position.z - transform.position.z).magnitude;
+        if(distFromPlayer < 10.0f && !playedSound)
+        {
+            playedSound = true;
+            audio.PlayOneShot(Resources.Load<AudioClip>("Sounds/Sword/sword-air-cut"));
+        }
     }
 	
 	private void OnCollisionEnter(Collision collision)

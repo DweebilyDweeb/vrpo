@@ -84436,9 +84436,23 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_GenerateMotionCurves: 0
   m_Events:
+  - time: 0.28333333
+    functionName: PlaySound
+    data: water-splash (4)
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 2
     functionName: TriggerAttack
     data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 2.1666667
+    functionName: PlaySound
+    data: sword-slice
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
