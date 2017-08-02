@@ -18,7 +18,7 @@ ModelImporter:
     400008: Piranha
     400010: //RootNode
     4300000: Piranha
-    7400000: Take 001
+    7400000: Piranha_Jump_New
     9500000: //RootNode
     13700000: Piranha
   materials:
@@ -43,7 +43,47 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Piranha_Jump_New
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint_head
+        weight: 1
+      - path: joint_head/joint_body
+        weight: 1
+      - path: joint_head/joint_body/joint_body2
+        weight: 1
+      - path: joint_head/joint_body/joint_body2/joint_tail
+        weight: 1
+      - path: Piranha
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
