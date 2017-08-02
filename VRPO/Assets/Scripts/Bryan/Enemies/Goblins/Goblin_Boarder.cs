@@ -8,12 +8,14 @@ public class Goblin_Boarder : Goblin
     private string side;
     private GameObject boat, player;
     private Vector3 spawnPos;
+    private AudioSource audio;
 	// Use this for initialization
 	public void Init(string sideBoarded) 
     {
         isBoarding = true;
         side = sideBoarded;
         anim = GetComponent<Animator>();
+        audio = GetComponent<AudioSource>();
         boat = GameObject.FindGameObjectWithTag("Boat");
         player = GameObject.FindGameObjectWithTag("Player");
 	}
@@ -76,8 +78,8 @@ public class Goblin_Boarder : Goblin
     
     public void TriggerBoarding()
     {
-        transform.localPosition += new Vector3(0, 900 * 0.01f, 0);
         anim.SetTrigger("Board");
+        transform.localPosition += new Vector3(0, 900 * 0.01f, 0);
         if(!ParrotScriptedDialogue.instance.pirateBoarder)
             ParrotScriptedDialogue.instance.SwitchState(ParrotScriptedDialogue.State.pirateOnShip);
     }
@@ -123,5 +125,10 @@ public class Goblin_Boarder : Goblin
             case "Player":
                 break;
         }
+    }
+
+    void PlaySound(string file)
+    {
+        audio.PlayOneShot(Resources.Load<AudioClip>("Sounds/Kraken/" + file));
     }
 }
