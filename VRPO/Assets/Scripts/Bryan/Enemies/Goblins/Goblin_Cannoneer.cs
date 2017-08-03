@@ -11,6 +11,7 @@ public class Goblin_Cannoneer : Goblin
     // Use this for initialization
     void Start()
     {
+        audio = GetComponent<AudioSource>();
         detectionRange = GetComponentInParent<Cannon>().detectionRange;
         hasDetectedPlayer = false;
         anim = GetComponent<Animator>();

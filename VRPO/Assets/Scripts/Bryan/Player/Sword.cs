@@ -23,6 +23,7 @@ public class Sword : MonoBehaviour
         {
             case "Bird":
                 GameObject.FindGameObjectWithTag("GameController").GetComponent<ScoreSystem>().AddScore(10);
+                GameObject particles = Instantiate(Resources.Load<GameObject>("Prefabs/Particle Effects/Seagull_Death_Particles_Feathers"), collision.transform.position, collision.transform.rotation);
                 Destroy(collision.gameObject);
                 Instantiate(Resources.Load<GameObject>("Prefabs/Animals/Seagull"));
                 break;

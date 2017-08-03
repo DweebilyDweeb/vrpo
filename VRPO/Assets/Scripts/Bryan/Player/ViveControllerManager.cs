@@ -164,35 +164,36 @@ public class ViveControllerManager : MonoBehaviour
         RaycastHit _hit;
         if (Physics.Raycast(ray, out _hit))
         {
-            GameObject collide = _hit.collider.gameObject;
-            switch (collide.tag)
+            GameObject collision = _hit.collider.gameObject;
+            switch (collision.tag)
             {
                 case "Cannonball":
-                    collide.gameObject.GetComponent<Projectile>().DestroyProjectile();
+                    collision.gameObject.GetComponent<Projectile>().DestroyProjectile();
                     break;
                 case "Bird":
                     GameObject.FindGameObjectWithTag("GameController").GetComponent<ScoreSystem>().AddScore(10);
-                    Destroy(collide.gameObject);
+                    GameObject particles = Instantiate(Resources.Load<GameObject>("Prefabs/Particle Effects/Seagull_Death_Particles_Feathers"), collision.transform.position, collision.transform.rotation);
+                    Destroy(collision.gameObject);
                     Instantiate(Resources.Load<GameObject>("Prefabs/Animals/Seagull"));
                     break;
                 case "Piranha":
                     GameObject.FindGameObjectWithTag("GameController").GetComponent<ScoreSystem>().AddScore(10);
-                    Destroy(collide.gameObject);
+                    Destroy(collision.gameObject);
                     break;
                 case "Goblin":
-                    if (collide.GetComponent<Goblin>().getCurrentState() != Goblin.Goblin_FSM.Death)
+                    if (collision.GetComponent<Goblin>().getCurrentState() != Goblin.Goblin_FSM.Death)
                     {
                         GameObject.FindGameObjectWithTag("GameController").GetComponent<ScoreSystem>().AddScore(50);
-                        collide.gameObject.GetComponent<Goblin>().TriggerDeath();
+                        collision.gameObject.GetComponent<Goblin>().TriggerDeath();
                     }
                     break;
                 case "Kraken":
                     GameObject.FindGameObjectWithTag("GameController").GetComponent<ScoreSystem>().AddScore(50);
-                    collide.GetComponent<Billboard>().TriggerHit();
+                    collision.GetComponent<Billboard>().TriggerHit();
                     break;
 #if UNITY_EDITOR
                 case "Rope":
-                    collide.gameObject.GetComponent<Rope>().TriggerCut();
+                    collision.gameObject.GetComponent<Rope>().TriggerCut();
                     break;
 #endif
             }

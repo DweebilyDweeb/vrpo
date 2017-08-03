@@ -8,8 +8,9 @@ public class Goblin_Swimmer : Goblin
     private float speed, distFromBoat;
     private GameObject boat, boarderToSpawn;
 	// Use this for initialization
-	void Start () 
+	void Start ()
     {
+        audio = GetComponent<AudioSource>();
         currentState = Goblin_FSM.Swim;
         anim = GetComponent<Animator>();
         boat = GameObject.FindGameObjectWithTag("Boat");

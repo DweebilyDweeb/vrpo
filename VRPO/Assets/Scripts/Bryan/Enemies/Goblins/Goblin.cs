@@ -8,6 +8,7 @@ public class Goblin : MonoBehaviour
     protected Goblin_FSM currentState = Goblin_FSM.Idle;
     protected Animator anim;
     protected bool isDead = false;
+    protected AudioSource audio;
 	// Use this for initialization
 	void Start () 
     {
@@ -22,6 +23,7 @@ public class Goblin : MonoBehaviour
     public virtual void TriggerDeath()
     {
         currentState = Goblin_FSM.Death;
+        audio.PlayOneShot(Resources.Load<AudioClip>("Sounds/Parrot/pDialogue_13_PirateDeath"));
     }
 
     public virtual IEnumerator DespawnGoblin()

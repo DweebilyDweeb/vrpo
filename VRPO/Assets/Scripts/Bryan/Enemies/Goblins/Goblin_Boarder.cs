@@ -10,8 +10,9 @@ public class Goblin_Boarder : Goblin
     private Vector3 spawnPos;
     private AudioSource audio;
 	// Use this for initialization
-	public void Init(string sideBoarded) 
+	public void Init(string sideBoarded)
     {
+        audio = GetComponent<AudioSource>();
         isBoarding = true;
         side = sideBoarded;
         anim = GetComponent<Animator>();

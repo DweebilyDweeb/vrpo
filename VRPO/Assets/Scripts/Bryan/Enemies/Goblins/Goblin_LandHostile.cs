@@ -12,8 +12,9 @@ public class Goblin_LandHostile : Goblin
     private Vector3 direction;
 
 	// Use this for initialization
-	void Start () 
+	void Start ()
     {
+        audio = GetComponent<AudioSource>();
         attack = true;
         hasDetectedPlayer = false;
         anim = GetComponent<Animator>();
