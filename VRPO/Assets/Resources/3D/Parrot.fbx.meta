@@ -180,7 +180,7 @@ ModelImporter:
     7400006: Seagull_Landing
     7400008: Seagull_Takeoff
     7400010: Parrot|Seagull_Dialogue
-    7400012: Seagull_Armature|Seagull_Dialogue
+    7400012: Seagull_Dialogue
     7400014: Seagull_Armature|Seagull_Flight
     7400016: Seagull_Armature|Seagull_Glide
     7400018: Seagull_Armature|Seagull_Landing
@@ -210,7 +210,707 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Seagull_Dialogue
+      takeName: Seagull_Armature|Seagull_Dialogue
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Seagull_Armature
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Neck_01
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Neck_01/Seagull_Neck_02
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Neck_01/Seagull_Neck_02/Seagull_Neck_03
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Neck_01/Seagull_Neck_02/Seagull_Neck_03/Seagull_Neck_04
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Neck_01/Seagull_Neck_02/Seagull_Neck_03/Seagull_Neck_04/Seagull_Neck_05
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Neck_01/Seagull_Neck_02/Seagull_Neck_03/Seagull_Neck_04/Seagull_Neck_05/Seagull_Neck_06
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Neck_01/Seagull_Neck_02/Seagull_Neck_03/Seagull_Neck_04/Seagull_Neck_05/Seagull_Neck_06/Seagull_Head
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Neck_01/Seagull_Neck_02/Seagull_Neck_03/Seagull_Neck_04/Seagull_Neck_05/Seagull_Neck_06/Seagull_Head/Seagull_Beak
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Neck_01/Seagull_Neck_02/Seagull_Neck_03/Seagull_Neck_04/Seagull_Neck_05/Seagull_Neck_06/Seagull_Head/Seagull_Beak/Seagull_Beak_end
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_L/Seagull_Wing_Base_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_L/Seagull_Wing_Base_L/Seagull_Wing_Middle_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_L/Seagull_Wing_Base_L/Seagull_Wing_Middle_L/Seagull_Wing_Tip_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_L/Seagull_Wing_Base_L/Seagull_Wing_Middle_L/Seagull_Wing_Tip_L/Seagull_Wing_Tip_L_end
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_R/Seagull_Wing_Base_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_R/Seagull_Wing_Base_R/Seagull_Wing_Middle_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_R/Seagull_Wing_Base_R/Seagull_Wing_Middle_R/Seagull_Wing_Tip_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_R/Seagull_Wing_Base_R/Seagull_Wing_Middle_R/Seagull_Wing_Tip_R/Seagull_Wing_Tip_R_end
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Tail
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Tail/Seagull_Tail_end
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L/Seagull_Toe_Main_01_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L/Seagull_Toe_Main_01_L/Seagull_Toe_Main_02_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L/Seagull_Toe_Main_01_L/Seagull_Toe_Main_02_L/Seagull_Toe_Main_03_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L/Seagull_Toe_Main_01_L/Seagull_Toe_Main_02_L/Seagull_Toe_Main_03_L/Seagull_Toe_Main_03_L_end
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L/Seagull_Toe_Rear_Left_01_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L/Seagull_Toe_Rear_Left_01_L/Seagull_Toe_Rear_Left_02_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L/Seagull_Toe_Rear_Left_01_L/Seagull_Toe_Rear_Left_02_L/Seagull_Toe_Rear_Left_02_L_end
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L/Seagull_Toe_Rear_Right_01_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L/Seagull_Toe_Rear_Right_01_L/Seagull_Toe_Rear_Right_02_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L/Seagull_Toe_Rear_Right_01_L/Seagull_Toe_Rear_Right_02_L/Seagull_Toe_Rear_Right_02_L_end
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L/Seagull_Toe_Support_01_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L/Seagull_Toe_Support_01_L/Seagull_Toe_Support_02_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L/Seagull_Toe_Support_01_L/Seagull_Toe_Support_02_L/Seagull_Toe_Support_02_L_end
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R/Seagull_Toe_Main_01_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R/Seagull_Toe_Main_01_R/Seagull_Toe_Main_02_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R/Seagull_Toe_Main_01_R/Seagull_Toe_Main_02_R/Seagull_Toe_Main_03_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R/Seagull_Toe_Main_01_R/Seagull_Toe_Main_02_R/Seagull_Toe_Main_03_R/Seagull_Toe_Main_03_R_end
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R/Seagull_Toe_Rear_Left_01_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R/Seagull_Toe_Rear_Left_01_R/Seagull_Toe_Rear_Left_02_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R/Seagull_Toe_Rear_Left_01_R/Seagull_Toe_Rear_Left_02_R/Seagull_Toe_Rear_Left_02_R_end
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R/Seagull_Toe_Rear_Right_01_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R/Seagull_Toe_Rear_Right_01_R/Seagull_Toe_Rear_Right_02_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R/Seagull_Toe_Rear_Right_01_R/Seagull_Toe_Rear_Right_02_R/Seagull_Toe_Rear_Right_02_R_end
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R/Seagull_Toe_Support_01_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R/Seagull_Toe_Support_01_R/Seagull_Toe_Support_02_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R/Seagull_Toe_Support_01_R/Seagull_Toe_Support_02_R/Seagull_Toe_Support_02_R_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Seagull_Armature|Seagull_Flight
+      takeName: Seagull_Armature|Seagull_Flight
+      firstFrame: 0
+      lastFrame: 27
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Seagull_Armature
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Neck_01
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Neck_01/Seagull_Neck_02
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Neck_01/Seagull_Neck_02/Seagull_Neck_03
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Neck_01/Seagull_Neck_02/Seagull_Neck_03/Seagull_Neck_04
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Neck_01/Seagull_Neck_02/Seagull_Neck_03/Seagull_Neck_04/Seagull_Neck_05
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Neck_01/Seagull_Neck_02/Seagull_Neck_03/Seagull_Neck_04/Seagull_Neck_05/Seagull_Neck_06
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Neck_01/Seagull_Neck_02/Seagull_Neck_03/Seagull_Neck_04/Seagull_Neck_05/Seagull_Neck_06/Seagull_Head
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Neck_01/Seagull_Neck_02/Seagull_Neck_03/Seagull_Neck_04/Seagull_Neck_05/Seagull_Neck_06/Seagull_Head/Seagull_Beak
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Neck_01/Seagull_Neck_02/Seagull_Neck_03/Seagull_Neck_04/Seagull_Neck_05/Seagull_Neck_06/Seagull_Head/Seagull_Beak/Seagull_Beak_end
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_L/Seagull_Wing_Base_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_L/Seagull_Wing_Base_L/Seagull_Wing_Middle_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_L/Seagull_Wing_Base_L/Seagull_Wing_Middle_L/Seagull_Wing_Tip_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_L/Seagull_Wing_Base_L/Seagull_Wing_Middle_L/Seagull_Wing_Tip_L/Seagull_Wing_Tip_L_end
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_R/Seagull_Wing_Base_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_R/Seagull_Wing_Base_R/Seagull_Wing_Middle_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_R/Seagull_Wing_Base_R/Seagull_Wing_Middle_R/Seagull_Wing_Tip_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_R/Seagull_Wing_Base_R/Seagull_Wing_Middle_R/Seagull_Wing_Tip_R/Seagull_Wing_Tip_R_end
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Tail
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Tail/Seagull_Tail_end
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L/Seagull_Toe_Main_01_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L/Seagull_Toe_Main_01_L/Seagull_Toe_Main_02_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L/Seagull_Toe_Main_01_L/Seagull_Toe_Main_02_L/Seagull_Toe_Main_03_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L/Seagull_Toe_Main_01_L/Seagull_Toe_Main_02_L/Seagull_Toe_Main_03_L/Seagull_Toe_Main_03_L_end
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L/Seagull_Toe_Rear_Left_01_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L/Seagull_Toe_Rear_Left_01_L/Seagull_Toe_Rear_Left_02_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L/Seagull_Toe_Rear_Left_01_L/Seagull_Toe_Rear_Left_02_L/Seagull_Toe_Rear_Left_02_L_end
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L/Seagull_Toe_Rear_Right_01_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L/Seagull_Toe_Rear_Right_01_L/Seagull_Toe_Rear_Right_02_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L/Seagull_Toe_Rear_Right_01_L/Seagull_Toe_Rear_Right_02_L/Seagull_Toe_Rear_Right_02_L_end
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L/Seagull_Toe_Support_01_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L/Seagull_Toe_Support_01_L/Seagull_Toe_Support_02_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L/Seagull_Toe_Support_01_L/Seagull_Toe_Support_02_L/Seagull_Toe_Support_02_L_end
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R/Seagull_Toe_Main_01_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R/Seagull_Toe_Main_01_R/Seagull_Toe_Main_02_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R/Seagull_Toe_Main_01_R/Seagull_Toe_Main_02_R/Seagull_Toe_Main_03_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R/Seagull_Toe_Main_01_R/Seagull_Toe_Main_02_R/Seagull_Toe_Main_03_R/Seagull_Toe_Main_03_R_end
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R/Seagull_Toe_Rear_Left_01_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R/Seagull_Toe_Rear_Left_01_R/Seagull_Toe_Rear_Left_02_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R/Seagull_Toe_Rear_Left_01_R/Seagull_Toe_Rear_Left_02_R/Seagull_Toe_Rear_Left_02_R_end
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R/Seagull_Toe_Rear_Right_01_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R/Seagull_Toe_Rear_Right_01_R/Seagull_Toe_Rear_Right_02_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R/Seagull_Toe_Rear_Right_01_R/Seagull_Toe_Rear_Right_02_R/Seagull_Toe_Rear_Right_02_R_end
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R/Seagull_Toe_Support_01_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R/Seagull_Toe_Support_01_R/Seagull_Toe_Support_02_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R/Seagull_Toe_Support_01_R/Seagull_Toe_Support_02_R/Seagull_Toe_Support_02_R_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Seagull_Armature|Seagull_Glide
+      takeName: Seagull_Armature|Seagull_Glide
+      firstFrame: 0
+      lastFrame: 27
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Seagull_Armature
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Neck_01
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Neck_01/Seagull_Neck_02
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Neck_01/Seagull_Neck_02/Seagull_Neck_03
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Neck_01/Seagull_Neck_02/Seagull_Neck_03/Seagull_Neck_04
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Neck_01/Seagull_Neck_02/Seagull_Neck_03/Seagull_Neck_04/Seagull_Neck_05
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Neck_01/Seagull_Neck_02/Seagull_Neck_03/Seagull_Neck_04/Seagull_Neck_05/Seagull_Neck_06
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Neck_01/Seagull_Neck_02/Seagull_Neck_03/Seagull_Neck_04/Seagull_Neck_05/Seagull_Neck_06/Seagull_Head
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Neck_01/Seagull_Neck_02/Seagull_Neck_03/Seagull_Neck_04/Seagull_Neck_05/Seagull_Neck_06/Seagull_Head/Seagull_Beak
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Neck_01/Seagull_Neck_02/Seagull_Neck_03/Seagull_Neck_04/Seagull_Neck_05/Seagull_Neck_06/Seagull_Head/Seagull_Beak/Seagull_Beak_end
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_L/Seagull_Wing_Base_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_L/Seagull_Wing_Base_L/Seagull_Wing_Middle_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_L/Seagull_Wing_Base_L/Seagull_Wing_Middle_L/Seagull_Wing_Tip_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_L/Seagull_Wing_Base_L/Seagull_Wing_Middle_L/Seagull_Wing_Tip_L/Seagull_Wing_Tip_L_end
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_R/Seagull_Wing_Base_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_R/Seagull_Wing_Base_R/Seagull_Wing_Middle_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_R/Seagull_Wing_Base_R/Seagull_Wing_Middle_R/Seagull_Wing_Tip_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_R/Seagull_Wing_Base_R/Seagull_Wing_Middle_R/Seagull_Wing_Tip_R/Seagull_Wing_Tip_R_end
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Tail
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Tail/Seagull_Tail_end
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L/Seagull_Toe_Main_01_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L/Seagull_Toe_Main_01_L/Seagull_Toe_Main_02_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L/Seagull_Toe_Main_01_L/Seagull_Toe_Main_02_L/Seagull_Toe_Main_03_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L/Seagull_Toe_Main_01_L/Seagull_Toe_Main_02_L/Seagull_Toe_Main_03_L/Seagull_Toe_Main_03_L_end
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L/Seagull_Toe_Rear_Left_01_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L/Seagull_Toe_Rear_Left_01_L/Seagull_Toe_Rear_Left_02_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L/Seagull_Toe_Rear_Left_01_L/Seagull_Toe_Rear_Left_02_L/Seagull_Toe_Rear_Left_02_L_end
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L/Seagull_Toe_Rear_Right_01_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L/Seagull_Toe_Rear_Right_01_L/Seagull_Toe_Rear_Right_02_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L/Seagull_Toe_Rear_Right_01_L/Seagull_Toe_Rear_Right_02_L/Seagull_Toe_Rear_Right_02_L_end
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L/Seagull_Toe_Support_01_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L/Seagull_Toe_Support_01_L/Seagull_Toe_Support_02_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L/Seagull_Toe_Support_01_L/Seagull_Toe_Support_02_L/Seagull_Toe_Support_02_L_end
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R/Seagull_Toe_Main_01_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R/Seagull_Toe_Main_01_R/Seagull_Toe_Main_02_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R/Seagull_Toe_Main_01_R/Seagull_Toe_Main_02_R/Seagull_Toe_Main_03_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R/Seagull_Toe_Main_01_R/Seagull_Toe_Main_02_R/Seagull_Toe_Main_03_R/Seagull_Toe_Main_03_R_end
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R/Seagull_Toe_Rear_Left_01_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R/Seagull_Toe_Rear_Left_01_R/Seagull_Toe_Rear_Left_02_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R/Seagull_Toe_Rear_Left_01_R/Seagull_Toe_Rear_Left_02_R/Seagull_Toe_Rear_Left_02_R_end
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R/Seagull_Toe_Rear_Right_01_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R/Seagull_Toe_Rear_Right_01_R/Seagull_Toe_Rear_Right_02_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R/Seagull_Toe_Rear_Right_01_R/Seagull_Toe_Rear_Right_02_R/Seagull_Toe_Rear_Right_02_R_end
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R/Seagull_Toe_Support_01_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R/Seagull_Toe_Support_01_R/Seagull_Toe_Support_02_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R/Seagull_Toe_Support_01_R/Seagull_Toe_Support_02_R/Seagull_Toe_Support_02_R_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Seagull_Armature|Seagull_Landing
+      takeName: Seagull_Armature|Seagull_Landing
+      firstFrame: 0
+      lastFrame: 150
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Seagull_Armature
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Neck_01
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Neck_01/Seagull_Neck_02
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Neck_01/Seagull_Neck_02/Seagull_Neck_03
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Neck_01/Seagull_Neck_02/Seagull_Neck_03/Seagull_Neck_04
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Neck_01/Seagull_Neck_02/Seagull_Neck_03/Seagull_Neck_04/Seagull_Neck_05
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Neck_01/Seagull_Neck_02/Seagull_Neck_03/Seagull_Neck_04/Seagull_Neck_05/Seagull_Neck_06
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Neck_01/Seagull_Neck_02/Seagull_Neck_03/Seagull_Neck_04/Seagull_Neck_05/Seagull_Neck_06/Seagull_Head
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Neck_01/Seagull_Neck_02/Seagull_Neck_03/Seagull_Neck_04/Seagull_Neck_05/Seagull_Neck_06/Seagull_Head/Seagull_Beak
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Neck_01/Seagull_Neck_02/Seagull_Neck_03/Seagull_Neck_04/Seagull_Neck_05/Seagull_Neck_06/Seagull_Head/Seagull_Beak/Seagull_Beak_end
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_L/Seagull_Wing_Base_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_L/Seagull_Wing_Base_L/Seagull_Wing_Middle_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_L/Seagull_Wing_Base_L/Seagull_Wing_Middle_L/Seagull_Wing_Tip_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_L/Seagull_Wing_Base_L/Seagull_Wing_Middle_L/Seagull_Wing_Tip_L/Seagull_Wing_Tip_L_end
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_R/Seagull_Wing_Base_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_R/Seagull_Wing_Base_R/Seagull_Wing_Middle_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_R/Seagull_Wing_Base_R/Seagull_Wing_Middle_R/Seagull_Wing_Tip_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_R/Seagull_Wing_Base_R/Seagull_Wing_Middle_R/Seagull_Wing_Tip_R/Seagull_Wing_Tip_R_end
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Tail
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Tail/Seagull_Tail_end
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L/Seagull_Toe_Main_01_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L/Seagull_Toe_Main_01_L/Seagull_Toe_Main_02_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L/Seagull_Toe_Main_01_L/Seagull_Toe_Main_02_L/Seagull_Toe_Main_03_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L/Seagull_Toe_Main_01_L/Seagull_Toe_Main_02_L/Seagull_Toe_Main_03_L/Seagull_Toe_Main_03_L_end
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L/Seagull_Toe_Rear_Left_01_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L/Seagull_Toe_Rear_Left_01_L/Seagull_Toe_Rear_Left_02_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L/Seagull_Toe_Rear_Left_01_L/Seagull_Toe_Rear_Left_02_L/Seagull_Toe_Rear_Left_02_L_end
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L/Seagull_Toe_Rear_Right_01_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L/Seagull_Toe_Rear_Right_01_L/Seagull_Toe_Rear_Right_02_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L/Seagull_Toe_Rear_Right_01_L/Seagull_Toe_Rear_Right_02_L/Seagull_Toe_Rear_Right_02_L_end
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L/Seagull_Toe_Support_01_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L/Seagull_Toe_Support_01_L/Seagull_Toe_Support_02_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L/Seagull_Toe_Support_01_L/Seagull_Toe_Support_02_L/Seagull_Toe_Support_02_L_end
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R/Seagull_Toe_Main_01_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R/Seagull_Toe_Main_01_R/Seagull_Toe_Main_02_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R/Seagull_Toe_Main_01_R/Seagull_Toe_Main_02_R/Seagull_Toe_Main_03_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R/Seagull_Toe_Main_01_R/Seagull_Toe_Main_02_R/Seagull_Toe_Main_03_R/Seagull_Toe_Main_03_R_end
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R/Seagull_Toe_Rear_Left_01_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R/Seagull_Toe_Rear_Left_01_R/Seagull_Toe_Rear_Left_02_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R/Seagull_Toe_Rear_Left_01_R/Seagull_Toe_Rear_Left_02_R/Seagull_Toe_Rear_Left_02_R_end
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R/Seagull_Toe_Rear_Right_01_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R/Seagull_Toe_Rear_Right_01_R/Seagull_Toe_Rear_Right_02_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R/Seagull_Toe_Rear_Right_01_R/Seagull_Toe_Rear_Right_02_R/Seagull_Toe_Rear_Right_02_R_end
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R/Seagull_Toe_Support_01_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R/Seagull_Toe_Support_01_R/Seagull_Toe_Support_02_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R/Seagull_Toe_Support_01_R/Seagull_Toe_Support_02_R/Seagull_Toe_Support_02_R_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Seagull_Armature|Seagull_Takeoff
+      takeName: Seagull_Armature|Seagull_Takeoff
+      firstFrame: 0
+      lastFrame: 105
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Seagull_Armature
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Neck_01
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Neck_01/Seagull_Neck_02
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Neck_01/Seagull_Neck_02/Seagull_Neck_03
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Neck_01/Seagull_Neck_02/Seagull_Neck_03/Seagull_Neck_04
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Neck_01/Seagull_Neck_02/Seagull_Neck_03/Seagull_Neck_04/Seagull_Neck_05
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Neck_01/Seagull_Neck_02/Seagull_Neck_03/Seagull_Neck_04/Seagull_Neck_05/Seagull_Neck_06
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Neck_01/Seagull_Neck_02/Seagull_Neck_03/Seagull_Neck_04/Seagull_Neck_05/Seagull_Neck_06/Seagull_Head
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Neck_01/Seagull_Neck_02/Seagull_Neck_03/Seagull_Neck_04/Seagull_Neck_05/Seagull_Neck_06/Seagull_Head/Seagull_Beak
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Neck_01/Seagull_Neck_02/Seagull_Neck_03/Seagull_Neck_04/Seagull_Neck_05/Seagull_Neck_06/Seagull_Head/Seagull_Beak/Seagull_Beak_end
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_L/Seagull_Wing_Base_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_L/Seagull_Wing_Base_L/Seagull_Wing_Middle_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_L/Seagull_Wing_Base_L/Seagull_Wing_Middle_L/Seagull_Wing_Tip_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_L/Seagull_Wing_Base_L/Seagull_Wing_Middle_L/Seagull_Wing_Tip_L/Seagull_Wing_Tip_L_end
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_R/Seagull_Wing_Base_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_R/Seagull_Wing_Base_R/Seagull_Wing_Middle_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_R/Seagull_Wing_Base_R/Seagull_Wing_Middle_R/Seagull_Wing_Tip_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_R/Seagull_Wing_Base_R/Seagull_Wing_Middle_R/Seagull_Wing_Tip_R/Seagull_Wing_Tip_R_end
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Tail
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Tail/Seagull_Tail_end
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L/Seagull_Toe_Main_01_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L/Seagull_Toe_Main_01_L/Seagull_Toe_Main_02_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L/Seagull_Toe_Main_01_L/Seagull_Toe_Main_02_L/Seagull_Toe_Main_03_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L/Seagull_Toe_Main_01_L/Seagull_Toe_Main_02_L/Seagull_Toe_Main_03_L/Seagull_Toe_Main_03_L_end
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L/Seagull_Toe_Rear_Left_01_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L/Seagull_Toe_Rear_Left_01_L/Seagull_Toe_Rear_Left_02_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L/Seagull_Toe_Rear_Left_01_L/Seagull_Toe_Rear_Left_02_L/Seagull_Toe_Rear_Left_02_L_end
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L/Seagull_Toe_Rear_Right_01_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L/Seagull_Toe_Rear_Right_01_L/Seagull_Toe_Rear_Right_02_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L/Seagull_Toe_Rear_Right_01_L/Seagull_Toe_Rear_Right_02_L/Seagull_Toe_Rear_Right_02_L_end
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L/Seagull_Toe_Support_01_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L/Seagull_Toe_Support_01_L/Seagull_Toe_Support_02_L
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_L/Seagull_Leg_Top_L/Seagull_Leg_Bottom_L/Seagull_Toe_Support_01_L/Seagull_Toe_Support_02_L/Seagull_Toe_Support_02_L_end
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R/Seagull_Toe_Main_01_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R/Seagull_Toe_Main_01_R/Seagull_Toe_Main_02_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R/Seagull_Toe_Main_01_R/Seagull_Toe_Main_02_R/Seagull_Toe_Main_03_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R/Seagull_Toe_Main_01_R/Seagull_Toe_Main_02_R/Seagull_Toe_Main_03_R/Seagull_Toe_Main_03_R_end
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R/Seagull_Toe_Rear_Left_01_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R/Seagull_Toe_Rear_Left_01_R/Seagull_Toe_Rear_Left_02_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R/Seagull_Toe_Rear_Left_01_R/Seagull_Toe_Rear_Left_02_R/Seagull_Toe_Rear_Left_02_R_end
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R/Seagull_Toe_Rear_Right_01_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R/Seagull_Toe_Rear_Right_01_R/Seagull_Toe_Rear_Right_02_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R/Seagull_Toe_Rear_Right_01_R/Seagull_Toe_Rear_Right_02_R/Seagull_Toe_Rear_Right_02_R_end
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R/Seagull_Toe_Support_01_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R/Seagull_Toe_Support_01_R/Seagull_Toe_Support_02_R
+        weight: 1
+      - path: Seagull_Armature/Seagull_Spine/Seagull_Thigh_R/Seagull_Leg_Top_R/Seagull_Leg_Bottom_R/Seagull_Toe_Support_01_R/Seagull_Toe_Support_02_R/Seagull_Toe_Support_02_R_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []

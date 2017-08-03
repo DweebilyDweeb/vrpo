@@ -1103,6 +1103,7 @@ namespace UnityEngine.PostProcessing.Utilities
             else if (isWoke == true)
             {
                     vignette.intensity = 0.2f;
+                vignette.smoothness = 1.0f;
             }
             
 
