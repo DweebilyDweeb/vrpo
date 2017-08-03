@@ -7,17 +7,17 @@ public class Goblin_LandHostile : Goblin
     public GameObject leftHand, rightHand;
     public float detectionRange;
     private float distFromPlayer;
-    private bool inRange, hasDetectedPlayer;
+    private bool inRange, hasDetectedPlayer, attack;
     private GameObject target;
     private Vector3 direction;
 
 	// Use this for initialization
 	void Start () 
     {
+        attack = true;
         hasDetectedPlayer = false;
         anim = GetComponent<Animator>();
         target = GameObject.FindGameObjectWithTag("Target");
-        //TriggerDeath();
 	}
 	
 	// Update is called once per frame
@@ -58,7 +58,8 @@ public class Goblin_LandHostile : Goblin
                 }
                 break;
             case Goblin_FSM.Unsheathe:
-                anim.SetTrigger("Unsheathe");
+                if(attack)
+                    StartCoroutine(randAtk());
                 currentState = Goblin_FSM.Idle;
                 break;
             case Goblin_FSM.Death:
@@ -119,5 +120,18 @@ public class Goblin_LandHostile : Goblin
     {
         yield return new WaitForSeconds(timer);
         wep.GetComponent<Goblin_ThrowingWep>().Init(vel);
+    }
+
+    IEnumerator randAtk()
+    {
+        attack = false;
+        float rand = Random.Range(0.0f, 2.0f);
+        yield return new WaitForSeconds(rand);
+        anim.SetTrigger("Unsheathe");
+    }
+
+    void SetAttackTrue()
+    {
+        attack = true;
     }
 }

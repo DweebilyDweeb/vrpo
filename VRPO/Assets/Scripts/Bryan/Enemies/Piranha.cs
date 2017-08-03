@@ -50,4 +50,16 @@ public class Piranha : MonoBehaviour
         else
             Destroy(gameObject);
 	}
+
+    void SlowMotionOn()
+    {
+        if (!TimeControl.instance.slowMo)
+            TimeControl.instance.slowMo = true;
+    }
+
+    void SlowMotionOff()
+    {
+        if (TimeControl.instance.slowMo)
+            TimeControl.instance.slowMo = false;
+    }
 }
