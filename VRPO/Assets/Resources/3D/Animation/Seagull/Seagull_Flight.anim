@@ -1,0 +1,2539 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Seagull_Flight
+  serializedVersion: 6
+  m_Legacy: 0
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0, y: 0, z: -0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0, y: 0, z: -0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.70707244, y: 0.7070723, z: -0.0069751516, w: 0.0069752946}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.70707244, y: 0.7070723, z: -0.0069751516, w: 0.0069752946}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Spine
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.00000014069995, y: 0.075272515, z: 0.00000011546147, w: 0.997163}
+        inSlope: {x: -0.0000000073089264, y: 0.052736696, z: -0.000000008456169, w: -0.004001856}
+        outSlope: {x: -0.0000000073089264, y: 0.052736696, z: -0.000000008456169,
+          w: -0.004001856}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 0.00000013618241, y: 0.10731564, z: 0.000000110258966, w: 0.994225}
+        inSlope: {x: 1.2960301e-10, y: -0.0009030104, z: 1.485745e-10, w: 0.00009655953}
+        outSlope: {x: 1.2960301e-10, y: -0.0009030104, z: 1.485745e-10, w: 0.00009655953}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.38333336
+        value: {x: 0.00000013922428, y: 0.08586244, z: 0.00000011375672, w: 0.996307}
+        inSlope: {x: 0.000000038988723, y: -0.27811402, z: 0.00000004496794, w: 0.02403436}
+        outSlope: {x: 0.000000038988723, y: -0.27811402, z: 0.00000004496794, w: 0.02403436}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.43333334
+        value: {x: 0.00000014053724, y: 0.07644754, z: 0.00000011527318, w: 0.99707484}
+        inSlope: {x: 0.000000013797391, y: -0.09958361, z: 0.000000015963979, w: 0.007524491}
+        outSlope: {x: 0.000000013797391, y: -0.09958361, z: 0.000000015963979, w: 0.007524491}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Spine/Seagull_Neck
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.0000001782065, y: -0.6459549, z: 0.00000007047987, w: 0.7633756}
+        inSlope: {x: 0.00000010349566, y: -0.053068396, z: -0.00000010411596, w: -0.044957396}
+        outSlope: {x: 0.00000010349566, y: -0.053068396, z: -0.00000010411596, w: -0.044957396}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: -0.00000011509334, y: -0.67767453, z: 0.00000000708342, w: 0.735362}
+        inSlope: {x: -0.0000000017845992, y: 0.0008797646, z: 0.000000001789915, w: 0.0008100272}
+        outSlope: {x: -0.0000000017845992, y: 0.0008797646, z: 0.000000001789915,
+          w: 0.0008100272}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.38333336
+        value: {x: -0.00000015739894, y: -0.65655816, z: 0.000000049557407, w: 0.75427544}
+        inSlope: {x: -0.0000005471753, y: 0.27685916, z: 0.0000005499054, w: 0.2411429}
+        outSlope: {x: -0.0000005471753, y: 0.27685916, z: 0.0000005499054, w: 0.2411429}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.43333334
+        value: {x: -0.00000017590095, y: -0.6471384, z: 0.000000068160304, w: 0.7623753}
+        inSlope: {x: -0.0000001954213, y: 0.10025025, z: 0.0000001965989, w: 0.08484722}
+        outSlope: {x: -0.0000001954213, y: 0.10025025, z: 0.0000001965989, w: 0.08484722}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Spine/Seagull_Neck/Seagull_Head
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.00000009084424, y: 0.5939422, z: 0.000000005890461, w: 0.8045077}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.00000009084424, y: 0.5939422, z: 0.000000005890461, w: 0.8045077}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Spine/Seagull_Neck/Seagull_Head/Seagull_Beak
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.6876743, y: 0.67627007, z: -0.16122757, w: -0.20920964}
+        inSlope: {x: -0.005149841, y: -0.14090538, z: -0.2583298, w: -0.26702017}
+        outSlope: {x: -0.005149841, y: -0.14090538, z: -0.2583298, w: -0.26702017}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.050000004
+        value: {x: 0.68586403, y: 0.65444213, z: -0.19910403, w: -0.24830173}
+        inSlope: {x: -0.118634105, y: -0.86535037, z: -1.4024394, w: -1.4445608}
+        outSlope: {x: -0.118634105, y: -0.86535037, z: -1.4024394, w: -1.4445608}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.116666675
+        value: {x: 0.66921127, y: 0.58446074, z: -0.29757535, w: -0.34930056}
+        inSlope: {x: -0.24147573, y: -0.759185, z: -0.9390137, w: -0.96017635}
+        outSlope: {x: -0.24147573, y: -0.759185, z: -0.9390137, w: -0.96017635}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.20000002
+        value: {x: 0.6482199, y: 0.58824503, z: -0.31083602, w: -0.37035075}
+        inSlope: {x: -0.62257624, y: 0.6300739, z: 0.100883216, w: -0.16912931}
+        outSlope: {x: -0.62257624, y: 0.6300739, z: 0.100883216, w: -0.16912931}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.3
+        value: {x: 0.59444267, y: 0.64017165, z: -0.30072382, w: -0.38260084}
+        inSlope: {x: 0.037665233, y: 0.107942834, z: 0.13308309, w: 0.13615954}
+        outSlope: {x: 0.037665233, y: 0.107942834, z: 0.13308309, w: 0.13615954}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.36666667
+        value: {x: 0.6373783, y: 0.6599332, z: -0.24496002, w: -0.3134193}
+        inSlope: {x: 1.0138161, y: 0.4124326, z: 1.4537694, w: 1.8071349}
+        outSlope: {x: 1.0138161, y: 0.4124326, z: 1.4537694, w: 1.8071349}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.43333337
+        value: {x: 0.6856705, y: 0.6758272, z: -0.16515204, w: -0.2140989}
+        inSlope: {x: 0.24642697, y: 0.058645584, z: 0.47085848, w: 0.58652645}
+        outSlope: {x: 0.24642697, y: 0.058645584, z: 0.47085848, w: 0.58652645}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.04511192, y: 0.02608917, z: -0.05026946, w: 0.9973752}
+        inSlope: {x: -0.13446584, y: -0.16369185, z: 0.092379294, w: 0.014573335}
+        outSlope: {x: -0.13446584, y: -0.16369185, z: 0.092379294, w: 0.014573335}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.06666667
+        value: {x: 0.009386751, y: -0.014740642, z: -0.027048567, w: 0.9994814}
+        inSlope: {x: -0.9793587, y: -1.0433536, z: 0.59878767, w: 0.007996559}
+        outSlope: {x: -0.9793587, y: -1.0433536, z: 0.59878767, w: 0.007996559}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: -0.07366612, y: -0.06838046, z: 0.004472456, w: 0.99492586}
+        inSlope: {x: -0.47838342, y: 0.46492618, z: -0.37291446, w: -0.004622341}
+        outSlope: {x: -0.47838342, y: 0.46492618, z: -0.37291446, w: -0.004622341}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.25
+        value: {x: -0.10261874, y: 0.031968787, z: -0.08132412, w: 0.99087524}
+        inSlope: {x: -0.16138588, y: 1.2270312, z: -1.0576233, w: -0.13762772}
+        outSlope: {x: -0.16138588, y: 1.2270312, z: -1.0576233, w: -0.13762772}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.35000002
+        value: {x: -0.069598906, y: 0.055541724, z: -0.09546022, w: 0.9914426}
+        inSlope: {x: 1.3573878, y: -0.34511954, z: 0.5287312, w: 0.16093433}
+        outSlope: {x: 1.3573878, y: -0.34511954, z: 0.5287312, w: 0.16093433}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.43333337
+        value: {x: 0.040987667, y: 0.027158562, z: -0.05191295, w: 0.99744046}
+        inSlope: {x: 0.49555582, y: -0.12835398, z: 0.19722432, w: -0.0040876865}
+        outSlope: {x: 0.49555582, y: -0.12835398, z: 0.19722432, w: -0.0040876865}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_L/Seagull_Wing_Base_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.11283023, y: -0.088797554, z: 0.08500473, w: 0.98598105}
+        inSlope: {x: -0.6218035, y: -0.025092958, z: 0.24632512, w: 0.0438559}
+        outSlope: {x: -0.6218035, y: -0.025092958, z: 0.24632512, w: 0.0438559}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.033333335
+        value: {x: 0.070967, y: -0.09051341, z: 0.10150519, w: 0.9881638}
+        inSlope: {x: -2.4938495, y: -0.10288103, z: 0.97286034, w: 0.040572878}
+        outSlope: {x: -2.4938495, y: -0.10288103, z: 0.97286034, w: 0.040572878}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.083333336
+        value: {x: -0.12010146, y: -0.09860481, z: 0.17392597, w: 0.97242093}
+        inSlope: {x: -4.1682625, y: -0.20034355, z: 1.5324092, w: -0.79571295}
+        outSlope: {x: -4.1682625, y: -0.20034355, z: 1.5324092, w: -0.79571295}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.13333334
+        value: {x: -0.26801586, y: -0.11050634, z: 0.22747636, w: 0.92962915}
+        inSlope: {x: -1.2160153, y: -0.29176605, z: 0.45925456, w: -0.4805929}
+        outSlope: {x: -1.2160153, y: -0.29176605, z: 0.45925456, w: -0.4805929}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.18333334
+        value: {x: -0.2783607, y: -0.13359922, z: 0.21522865, w: 0.9264682}
+        inSlope: {x: -0.01463145, y: -0.71912694, z: -1.0110896, w: 0.12108201}
+        outSlope: {x: -0.01463145, y: -0.71912694, z: -1.0110896, w: 0.12108201}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.26666668
+        value: {x: -0.25449756, y: -0.20040224, z: 0.08606124, w: 0.9421589}
+        inSlope: {x: 0.7599211, y: -0.4849868, z: -1.1088431, w: 0.20783168}
+        outSlope: {x: 0.7599211, y: -0.4849868, z: -1.1088431, w: 0.20783168}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.33333334
+        value: {x: -0.16211869, y: -0.18975261, z: 0.061712187, w: 0.9663866}
+        inSlope: {x: 2.5163832, y: 1.1353557, z: -0.23594674, w: 0.63978374}
+        outSlope: {x: 2.5163832, y: 1.1353557, z: -0.23594674, w: 0.63978374}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.38333336
+        value: {x: -0.004382882, y: -0.1014773, z: 0.04447404, w: 0.9938336}
+        inSlope: {x: 3.1475616, y: 1.965791, z: -0.37814054, w: 0.24440448}
+        outSlope: {x: 3.1475616, y: 1.965791, z: -0.37814054, w: 0.24440448}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.43333337
+        value: {x: 0.1046167, y: -0.02961896, z: 0.030646702, w: 0.99359894}
+        inSlope: {x: 0.89416003, y: 0.6145891, z: -0.11836802, w: -0.062043052}
+        outSlope: {x: 0.89416003, y: 0.6145891, z: -0.11836802, w: -0.062043052}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_L/Seagull_Wing_Base_L/Seagull_Wing_Middle_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.087315165, y: -0.14867336, z: -0.050019134, w: 0.98375326}
+        inSlope: {x: 0.31348628, y: -0.01033008, z: -0.18171942, w: -0.03975391}
+        outSlope: {x: 0.31348628, y: -0.01033008, z: -0.18171942, w: -0.03975391}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.050000004
+        value: {x: 0.13350706, y: -0.15072869, z: -0.07707619, w: 0.97648144}
+        inSlope: {x: 1.7216502, y: -0.09913042, z: -1.0208423, w: -0.34004867}
+        outSlope: {x: 1.7216502, y: -0.09913042, z: -1.0208423, w: -0.34004867}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.116666675
+        value: {x: 0.255961, y: -0.16530286, z: -0.15321489, w: 0.94004476}
+        inSlope: {x: 1.1716913, y: -0.35882416, z: -0.82034254, w: -0.5072201}
+        outSlope: {x: 1.1716913, y: -0.35882416, z: -0.82034254, w: -0.5072201}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.20000002
+        value: {x: 0.27313837, y: -0.2286086, z: -0.14642404, w: 0.9228724}
+        inSlope: {x: -0.053123817, y: -1.361398, z: 1.0472047, w: -0.1604765}
+        outSlope: {x: -0.053123817, y: -1.361398, z: 1.0472047, w: -0.1604765}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.28333336
+        value: {x: 0.26765096, y: -0.32379845, z: -0.05516778, w: 0.9058002}
+        inSlope: {x: -0.031687602, y: -0.38557187, z: 0.425386, w: -0.099415146}
+        outSlope: {x: -0.031687602, y: -0.38557187, z: 0.425386, w: -0.099415146}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.33333334
+        value: {x: 0.24937741, y: -0.31242687, z: -0.046184637, w: 0.9154602}
+        inSlope: {x: -1.0656589, y: 0.86442035, z: 0.32052594, w: 0.59149677}
+        outSlope: {x: -1.0656589, y: 0.86442035, z: 0.32052594, w: 0.59149677}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.40000004
+        value: {x: 0.13882734, y: -0.22150995, z: -0.013245831, w: 0.9651347}
+        inSlope: {x: -1.5579138, y: 1.2982647, z: 0.4597939, w: 0.53808326}
+        outSlope: {x: -1.5579138, y: 1.2982647, z: 0.4597939, w: 0.53808326}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.43333334
+        value: {x: 0.10414064, y: -0.1924729, z: -0.003042774, w: 0.9758614}
+        inSlope: {x: -0.597611, y: 0.50338644, z: 0.17497815, w: 0.15513188}
+        outSlope: {x: -0.597611, y: 0.50338644, z: 0.17497815, w: 0.15513188}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_L/Seagull_Wing_Base_L/Seagull_Wing_Middle_L/Seagull_Wing_Tip_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.68767416, y: -0.6762701, z: -0.16122773, w: 0.20920944}
+        inSlope: {x: -0.005149841, y: 0.14090538, z: -0.2583316, w: 0.26702195}
+        outSlope: {x: -0.005149841, y: 0.14090538, z: -0.2583316, w: 0.26702195}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.050000004
+        value: {x: 0.6858639, y: -0.6544422, z: -0.1991042, w: 0.24830155}
+        inSlope: {x: -0.118634105, y: 0.86535215, z: -1.402438, w: 1.4445603}
+        outSlope: {x: -0.118634105, y: 0.86535215, z: -1.402438, w: 1.4445603}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.116666675
+        value: {x: 0.6692112, y: -0.5844608, z: -0.29757553, w: 0.34930038}
+        inSlope: {x: -0.24147752, y: 0.7591832, z: -0.9390147, w: 0.96017456}
+        outSlope: {x: -0.24147752, y: 0.7591832, z: -0.9390147, w: 0.96017456}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.20000002
+        value: {x: 0.6482198, y: -0.58824515, z: -0.3108362, w: 0.3703506}
+        inSlope: {x: -0.6225709, y: -0.6300739, z: 0.100885004, w: 0.16912752}
+        outSlope: {x: -0.6225709, y: -0.6300739, z: 0.100885004, w: 0.16912752}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.3
+        value: {x: 0.5944426, y: -0.64017165, z: -0.30072397, w: 0.3826007}
+        inSlope: {x: 0.03766702, y: -0.107942834, z: 0.1330813, w: -0.13615865}
+        outSlope: {x: 0.03766702, y: -0.107942834, z: 0.1330813, w: -0.13615865}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.36666667
+        value: {x: 0.6373782, y: -0.6599333, z: -0.24496013, w: 0.31341904}
+        inSlope: {x: 1.0138197, y: -0.4124344, z: 1.4537716, w: -1.8071365}
+        outSlope: {x: 1.0138197, y: -0.4124344, z: 1.4537716, w: -1.8071365}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.43333337
+        value: {x: 0.6856705, y: -0.67582726, z: -0.1651522, w: 0.21409874}
+        inSlope: {x: 0.2464234, y: -0.058645584, z: 0.47085938, w: -0.5865278}
+        outSlope: {x: 0.2464234, y: -0.058645584, z: 0.47085938, w: -0.5865278}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.045111995, y: 0.026089175, z: 0.050269507, w: 0.9973752}
+        inSlope: {x: 0.13446808, y: -0.16369241, z: -0.09237974, w: 0.014573335}
+        outSlope: {x: 0.13446808, y: -0.16369241, z: -0.09237974, w: 0.014573335}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.06666667
+        value: {x: -0.00938683, y: -0.014740652, z: 0.027048599, w: 0.9994814}
+        inSlope: {x: 0.97935903, y: -1.0433533, z: -0.5987877, w: 0.007996559}
+        outSlope: {x: 0.97935903, y: -1.0433533, z: -0.5987877, w: 0.007996559}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 0.07366606, y: -0.06838049, z: -0.0044724178, w: 0.99492586}
+        inSlope: {x: 0.47838452, y: 0.46492597, z: 0.37291455, w: -0.004622341}
+        outSlope: {x: 0.47838452, y: 0.46492597, z: 0.37291455, w: -0.004622341}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.25
+        value: {x: 0.10261867, y: 0.03196878, z: 0.081324205, w: 0.99087524}
+        inSlope: {x: 0.16138588, y: 1.2270312, z: 1.0576241, w: -0.13762772}
+        outSlope: {x: 0.16138588, y: 1.2270312, z: 1.0576241, w: -0.13762772}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.35000002
+        value: {x: 0.0695989, y: 0.055541728, z: 0.095460296, w: 0.9914426}
+        inSlope: {x: -1.3573883, y: -0.34511924, z: -0.5287297, w: 0.16093433}
+        outSlope: {x: -1.3573883, y: -0.34511924, z: -0.5287297, w: 0.16093433}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.43333337
+        value: {x: -0.04098772, y: 0.027158583, z: 0.05191301, w: 0.99744046}
+        inSlope: {x: -0.495557, y: -0.12835439, z: -0.19722487, w: -0.0040876865}
+        outSlope: {x: -0.495557, y: -0.12835439, z: -0.19722487, w: -0.0040876865}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_R/Seagull_Wing_Base_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.11283025, y: -0.08879757, z: -0.08500478, w: 0.985981}
+        inSlope: {x: 0.6218111, y: -0.02509251, z: -0.24632378, w: 0.043859478}
+        outSlope: {x: 0.6218111, y: -0.02509251, z: -0.24632378, w: 0.043859478}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.033333335
+        value: {x: -0.070967, y: -0.09051344, z: -0.10150525, w: 0.9881638}
+        inSlope: {x: 2.4938483, y: -0.10288148, z: -0.9728608, w: 0.040572878}
+        outSlope: {x: 2.4938483, y: -0.10288148, z: -0.9728608, w: 0.040572878}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.083333336
+        value: {x: 0.12010144, y: -0.09860489, z: -0.17392604, w: 0.97242093}
+        inSlope: {x: 4.168261, y: -0.20034333, z: -1.532408, w: -0.79571295}
+        outSlope: {x: 4.168261, y: -0.20034333, z: -1.532408, w: -0.79571295}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.13333334
+        value: {x: 0.26801583, y: -0.110506445, z: -0.2274764, w: 0.92962915}
+        inSlope: {x: 1.2160139, y: -0.29176605, z: -0.45925456, w: -0.4805947}
+        outSlope: {x: 1.2160139, y: -0.29176605, z: -0.45925456, w: -0.4805947}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.18333334
+        value: {x: 0.27836064, y: -0.13359931, z: -0.21522868, w: 0.9264682}
+        inSlope: {x: 0.014630556, y: -0.7191279, z: 1.0110886, w: 0.12108201}
+        outSlope: {x: 0.014630556, y: -0.7191279, z: 1.0110886, w: 0.12108201}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.26666668
+        value: {x: 0.25449753, y: -0.20040245, z: -0.08606131, w: 0.9421589}
+        inSlope: {x: -0.7599197, y: -0.4849895, z: 1.1088428, w: 0.20783347}
+        outSlope: {x: -0.7599197, y: -0.4849895, z: 1.1088428, w: 0.20783347}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.33333334
+        value: {x: 0.1621187, y: -0.18975271, z: -0.0617122, w: 0.9663866}
+        inSlope: {x: -2.5163834, y: 1.135357, z: 0.23594674, w: 0.63978195}
+        outSlope: {x: -2.5163834, y: 1.135357, z: 0.23594674, w: 0.63978195}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.38333336
+        value: {x: 0.0043829293, y: -0.10147734, z: -0.044474058, w: 0.9938336}
+        inSlope: {x: -3.147563, y: 1.9657924, z: 0.378141, w: 0.24440448}
+        outSlope: {x: -3.147563, y: 1.9657924, z: 0.378141, w: 0.24440448}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.43333337
+        value: {x: -0.10461673, y: -0.029618958, z: -0.030646717, w: 0.99359894}
+        inSlope: {x: -0.89416546, y: 0.61459, z: 0.11836791, w: -0.062043052}
+        outSlope: {x: -0.89416546, y: 0.61459, z: 0.11836791, w: -0.062043052}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_R/Seagull_Wing_Base_R/Seagull_Wing_Middle_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.08731516, y: -0.14867336, z: 0.050019138, w: 0.98375326}
+        inSlope: {x: -0.3134827, y: -0.010332762, z: 0.18172121, w: -0.03975391}
+        outSlope: {x: -0.3134827, y: -0.010332762, z: 0.18172121, w: -0.03975391}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.050000004
+        value: {x: -0.13350707, y: -0.15072869, z: 0.07707618, w: 0.97648144}
+        inSlope: {x: -1.7216502, y: -0.09912908, z: 1.020844, w: -0.34004867}
+        outSlope: {x: -1.7216502, y: -0.09912908, z: 1.020844, w: -0.34004867}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.116666675
+        value: {x: -0.25596097, y: -0.16530286, z: 0.15321493, w: 0.94004476}
+        inSlope: {x: -1.1716931, y: -0.35882774, z: 0.8203434, w: -0.5072201}
+        outSlope: {x: -1.1716931, y: -0.35882774, z: 0.8203434, w: -0.5072201}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.20000002
+        value: {x: -0.27313837, y: -0.22860858, z: 0.14642411, w: 0.9228725}
+        inSlope: {x: 0.053121135, y: -1.3613985, z: -1.0472047, w: -0.1604765}
+        outSlope: {x: 0.053121135, y: -1.3613985, z: -1.0472047, w: -0.1604765}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.28333336
+        value: {x: -0.26765093, y: -0.32379845, z: 0.055167817, w: 0.9058002}
+        inSlope: {x: 0.031688496, y: -0.38557187, z: -0.42538524, w: -0.099415146}
+        outSlope: {x: 0.031688496, y: -0.38557187, z: -0.42538524, w: -0.099415146}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.33333334
+        value: {x: -0.24937741, y: -0.31242675, z: 0.046184614, w: 0.9154602}
+        inSlope: {x: 1.0656581, y: 0.86442125, z: -0.32052827, w: 0.59149855}
+        outSlope: {x: 1.0656581, y: 0.86442125, z: -0.32052827, w: 0.59149855}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.40000004
+        value: {x: -0.13882738, y: -0.22150989, z: 0.013245808, w: 0.9651347}
+        inSlope: {x: 1.5579176, y: 1.2982638, z: -0.4597932, w: 0.53808326}
+        outSlope: {x: 1.5579176, y: 1.2982638, z: -0.4597932, w: 0.53808326}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.43333334
+        value: {x: -0.10414065, y: -0.19247283, z: 0.0030427626, w: 0.9758614}
+        inSlope: {x: 0.5976116, y: 0.50338584, z: -0.17497776, w: 0.15513188}
+        outSlope: {x: 0.5976116, y: 0.50338584, z: -0.17497776, w: 0.15513188}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_R/Seagull_Wing_Base_R/Seagull_Wing_Middle_R/Seagull_Wing_Tip_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.01841098, y: 0.01841098, z: -0.70686704, w: 0.7068671}
+        inSlope: {x: -0.039188076, y: -0.039188076, z: -0.001001358, w: 0.001001358}
+        outSlope: {x: -0.039188076, y: -0.039188076, z: -0.001001358, w: 0.001001358}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: -0.0052362764, y: -0.0052362797, z: -0.70708734, w: 0.70708746}
+        inSlope: {x: 0.025113652, y: 0.025113637, z: -0.00017881395, w: 0.00017881395}
+        outSlope: {x: 0.025113652, y: 0.025113637, z: -0.00017881395, w: 0.00017881395}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.43333334
+        value: {x: 0.018017951, y: 0.018017951, z: -0.706874, w: 0.70687413}
+        inSlope: {x: 0.034498867, y: 0.034498867, z: 0.00052140036, w: -0.00052429293}
+        outSlope: {x: 0.034498867, y: 0.034498867, z: 0.00052140036, w: -0.00052429293}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Tail
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.00082611013, y: 0.03285209, z: -0.72674143, w: 0.6861247}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.00082611013, y: 0.03285209, z: -0.72674143, w: 0.6861247}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.048798684, y: 0.00071735855, z: -0.00024910967, w: 0.9988084}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.048798684, y: 0.00071735855, z: -0.00024910967, w: 0.9988084}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_L/Seagull_Leg_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.004403873, y: -0.0025226977, z: 0.0010039811, w: 0.99998665}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.004403873, y: -0.0025226977, z: 0.0010039811, w: 0.99998665}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_L/Seagull_Leg_L/Seagull_Ankle_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.9791602, y: -0.15351756, z: 0.023998197, w: -0.13077414}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.9791602, y: -0.15351756, z: 0.023998197, w: -0.13077414}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_L/Seagull_Leg_L/Seagull_Ankle_L/Seagull_Toe_Front_L_C01
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.9643206, y: -0.23768277, z: -0.051723566, w: 0.104486056}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.9643206, y: -0.23768277, z: -0.051723566, w: 0.104486056}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_L/Seagull_Leg_L/Seagull_Ankle_L/Seagull_Toe_Front_L_C01/Seagull_Toe_Front_L_C02
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.9596423, y: -0.16872914, z: -0.21938644, w: 0.049867354}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.9596423, y: -0.16872914, z: -0.21938644, w: 0.049867354}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_L/Seagull_Leg_L/Seagull_Ankle_L/Seagull_Toe_Front_L_C01/Seagull_Toe_Front_L_C02/Seagull_Toe_Front_L_C03
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.761471, y: 0.25047857, z: 0.44122282, w: 0.4034165}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.761471, y: 0.25047857, z: 0.44122282, w: 0.4034165}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_L/Seagull_Leg_L/Seagull_Ankle_L/Seagull_Toe_Front_L_A01
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.288522, y: -0.38125864, z: 0.19106016, w: 0.857259}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.288522, y: -0.38125864, z: 0.19106016, w: 0.857259}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_L/Seagull_Leg_L/Seagull_Ankle_L/Seagull_Toe_Front_L_A01/Seagull_Toe_Front_L_A02
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.17228074, y: -0.23322247, z: 0.14537196, w: 0.9459353}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.17228074, y: -0.23322247, z: 0.14537196, w: 0.9459353}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_L/Seagull_Leg_L/Seagull_Ankle_L/Seagull_Toe_Front_L_A01/Seagull_Toe_Front_L_A02/Seagull_Toe_Front_L_A03
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.0331964, y: -0.081063665, z: 0.14509426, w: 0.9855325}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.0331964, y: -0.081063665, z: 0.14509426, w: 0.9855325}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_L/Seagull_Leg_L/Seagull_Ankle_L/Seagull_Toe_Front_L_B01
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.98623645, y: -0.15920633, z: -0.034738798, w: -0.028005263}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.98623645, y: -0.15920633, z: -0.034738798, w: -0.028005263}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_L/Seagull_Leg_L/Seagull_Ankle_L/Seagull_Toe_Front_L_B01/Seagull_Toe_Front_L_B02
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.11764082, y: -0.16840735, z: 0.06307905, w: 0.9766374}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.11764082, y: -0.16840735, z: 0.06307905, w: 0.9766374}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_L/Seagull_Leg_L/Seagull_Ankle_L/Seagull_Toe_Front_L_B01/Seagull_Toe_Front_L_B02/Seagull_Toe_Front_L_B03
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.03285206, y: -0.00082609325, z: -0.68612456, w: 0.7267415}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.03285206, y: -0.00082609325, z: -0.68612456, w: 0.7267415}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.04879875, y: 0.0007173943, z: 0.00024910024, w: 0.9988083}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.04879875, y: 0.0007173943, z: 0.00024910024, w: 0.9988083}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_R/Seagull_Leg_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.0044039115, y: -0.0025227198, z: -0.0010039926, w: 0.99998665}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.0044039115, y: -0.0025227198, z: -0.0010039926, w: 0.99998665}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_R/Seagull_Leg_R/Seagull_Ankle_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.96721935, y: 0.24155858, z: 0.050736368, w: 0.059682526}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.96721935, y: 0.24155858, z: 0.050736368, w: 0.059682526}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_R/Seagull_Leg_R/Seagull_Ankle_R/Seagull_Toe_Front_R_C01
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.95301175, y: 0.29257876, z: 0.056728393, w: 0.05429694}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.95301175, y: 0.29257876, z: 0.056728393, w: 0.05429694}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_R/Seagull_Leg_R/Seagull_Ankle_R/Seagull_Toe_Front_R_C01/Seagull_Toe_Front_R_C02
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.96886367, y: 0.079899125, z: -0.21306728, w: -0.09757938}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.96886367, y: 0.079899125, z: -0.21306728, w: -0.09757938}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_R/Seagull_Leg_R/Seagull_Ankle_R/Seagull_Toe_Front_R_C01/Seagull_Toe_Front_R_C02/Seagull_Toe_Front_R_C03
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.7799502, y: -0.2719421, z: 0.4091609, w: -0.38770163}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.7799502, y: -0.2719421, z: 0.4091609, w: -0.38770163}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_R/Seagull_Leg_R/Seagull_Ankle_R/Seagull_Toe_Front_R_A01
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.4536391, y: -0.36204302, z: -0.3143966, w: 0.7511933}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.4536391, y: -0.36204302, z: -0.3143966, w: 0.7511933}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_R/Seagull_Leg_R/Seagull_Ankle_R/Seagull_Toe_Front_R_A01/Seagull_Toe_Front_R_A02
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.20232715, y: -0.105922155, z: -0.073501006, w: 0.97079444}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.20232715, y: -0.105922155, z: -0.073501006, w: 0.97079444}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_R/Seagull_Leg_R/Seagull_Ankle_R/Seagull_Toe_Front_R_A01/Seagull_Toe_Front_R_A02/Seagull_Toe_Front_R_A03
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.048081666, y: -0.07036731, z: -0.053703185, w: 0.99491334}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.048081666, y: -0.07036731, z: -0.053703185, w: 0.99491334}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_R/Seagull_Leg_R/Seagull_Ankle_R/Seagull_Toe_Front_R_B01
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.9925957, y: 0.05067677, z: -0.0007293487, w: 0.1103863}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.9925957, y: 0.05067677, z: -0.0007293487, w: 0.1103863}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_R/Seagull_Leg_R/Seagull_Ankle_R/Seagull_Toe_Front_R_B01/Seagull_Toe_Front_R_B02
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.098156855, y: -0.16008782, z: -0.061188053, w: 0.98030263}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.098156855, y: -0.16008782, z: -0.061188053, w: 0.98030263}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_R/Seagull_Leg_R/Seagull_Ankle_R/Seagull_Toe_Front_R_B01/Seagull_Toe_Front_R_B02/Seagull_Toe_Front_R_B03
+  m_CompressedRotationCurves: []
+  m_EulerCurves: []
+  m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0, y: 0, z: 0}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0, y: 0, z: 0}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 3.3066008e-11, y: 0.00071217335, z: -0.000014481935}
+        inSlope: {x: -0, y: -0, z: 0.00002516212}
+        outSlope: {x: -0, y: -0, z: 0.00002516212}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 3.3066008e-11, y: 0.00071217335, z: -0.000010288246}
+        inSlope: {x: -0, y: -0, z: 0.000025162126}
+        outSlope: {x: -0, y: -0, z: -0.00008839157}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.28333333
+        value: {x: 3.3066008e-11, y: 0.00071217335, z: -0.000020600593}
+        inSlope: {x: -0, y: -0, z: -0.00008839158}
+        outSlope: {x: -0, y: -0, z: 0.000036712005}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.43333334
+        value: {x: 3.3066008e-11, y: 0.00071217335, z: -0.0000150938}
+        inSlope: {x: 0, y: 0, z: 0.000036711976}
+        outSlope: {x: 0, y: 0, z: 0.000036711976}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Spine
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.0014887077, y: 2.1580922e-10, z: -1.3460499e-12}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.0014887077, y: 2.1580922e-10, z: -1.3460499e-12}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Spine/Seagull_Neck
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.00052894064, y: 8.086247e-11, z: 0.000102441}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.00052894064, y: 8.086247e-11, z: 0.000102441}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Spine/Seagull_Neck/Seagull_Head
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.0002287111, y: 4.44922e-11, z: 0.00028312014}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.0002287111, y: 4.44922e-11, z: 0.00028312014}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Spine/Seagull_Neck/Seagull_Head/Seagull_Beak
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.0014887077, y: 2.1580922e-10, z: -1.3460499e-12}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.0014887077, y: 2.1580922e-10, z: -1.3460499e-12}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.00046778057, y: 1.4559191e-10, z: 2.32831e-12}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.00046778057, y: 1.4559191e-10, z: 2.32831e-12}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_L/Seagull_Wing_Base_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.0012178645, y: 8.381903e-11, z: 5.587935e-11}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.0012178645, y: 8.381903e-11, z: 5.587935e-11}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_L/Seagull_Wing_Base_L/Seagull_Wing_Middle_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.000997729, y: 1.3038516e-10, z: 7.4505804e-11}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.43333334
+        value: {x: -0.000997729, y: 1.3038516e-10, z: 7.4505804e-11}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_L/Seagull_Wing_Base_L/Seagull_Wing_Middle_L/Seagull_Wing_Tip_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.0014887077, y: 1.123943e-10, z: -1.3460701e-12}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.0014887077, y: 1.123943e-10, z: -1.3460701e-12}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.0004677805, y: 4.081812e-11, z: -1.862645e-11}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.0004677805, y: 4.081812e-11, z: -1.862645e-11}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_R/Seagull_Wing_Base_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.0012178646, y: 7.4505804e-11, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.43333334
+        value: {x: -0.0012178646, y: 7.4505804e-11, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_R/Seagull_Wing_Base_R/Seagull_Wing_Middle_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.0009977293, y: 9.31323e-12, z: 2.7939678e-11}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.43333334
+        value: {x: -0.0009977293, y: 9.31323e-12, z: 2.7939678e-11}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_R/Seagull_Wing_Base_R/Seagull_Wing_Middle_R/Seagull_Wing_Tip_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 3.3066008e-11, y: 0.00071217335, z: -0.000014481917}
+        inSlope: {x: -0, y: -0, z: 0.000025162331}
+        outSlope: {x: -0, y: -0, z: 0.000025162331}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 3.3066008e-11, y: 0.00071217335, z: -0.0000102881895}
+        inSlope: {x: -0, y: -0, z: 0.000025162335}
+        outSlope: {x: -0, y: -0, z: -0.00008839193}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.28333333
+        value: {x: 3.3066008e-11, y: 0.00071217335, z: -0.000020600575}
+        inSlope: {x: -0, y: -0, z: -0.00008839186}
+        outSlope: {x: -0, y: -0, z: 0.000036712005}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.43333334
+        value: {x: 3.3066008e-11, y: 0.00071217335, z: -0.000015093783}
+        inSlope: {x: 0, y: 0, z: 0.00003671197}
+        outSlope: {x: 0, y: 0, z: 0.00003671197}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Tail
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.00023995254, y: 0.00046298484, z: -0.00016670041}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.00023995254, y: 0.00046298484, z: -0.00016670041}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.0005373574, y: 3.1432138e-11, z: 1.2223609e-11}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.0005373574, y: 3.1432138e-11, z: 1.2223609e-11}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_L/Seagull_Leg_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.00044549437, y: 2.2700989e-11, z: 1.2223609e-11}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.00044549437, y: 2.2700989e-11, z: 1.2223609e-11}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_L/Seagull_Leg_L/Seagull_Ankle_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.00010450368, y: 2.9394872e-11, z: -1.6298149e-11}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.00010450368, y: 2.9394872e-11, z: -1.6298149e-11}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_L/Seagull_Leg_L/Seagull_Ankle_L/Seagull_Toe_Front_L_C01
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.00008194515, y: -4.8894437e-11, z: -2.7939678e-11}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.00008194515, y: -4.8894437e-11, z: -2.7939678e-11}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_L/Seagull_Leg_L/Seagull_Ankle_L/Seagull_Toe_Front_L_C01/Seagull_Toe_Front_L_C02
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.00017510097, y: 1.651642e-11, z: -1.280569e-11}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.00017510097, y: 1.651642e-11, z: -1.280569e-11}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_L/Seagull_Leg_L/Seagull_Ankle_L/Seagull_Toe_Front_L_C01/Seagull_Toe_Front_L_C02/Seagull_Toe_Front_L_C03
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.00010450368, y: 2.9394872e-11, z: -1.6298149e-11}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.00010450368, y: 2.9394872e-11, z: -1.6298149e-11}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_L/Seagull_Leg_L/Seagull_Ankle_L/Seagull_Toe_Front_L_A01
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.00008104831, y: 2.32831e-12, z: 1.6763806e-10}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.00008104831, y: 2.32831e-12, z: 1.6763806e-10}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_L/Seagull_Leg_L/Seagull_Ankle_L/Seagull_Toe_Front_L_A01/Seagull_Toe_Front_L_A02
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.00017472426, y: -6.9849196e-12, z: -2.32831e-12}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.00017472426, y: -6.9849196e-12, z: -2.32831e-12}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_L/Seagull_Leg_L/Seagull_Ankle_L/Seagull_Toe_Front_L_A01/Seagull_Toe_Front_L_A02/Seagull_Toe_Front_L_A03
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.00010450368, y: 2.9394872e-11, z: -1.6298149e-11}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.00010450368, y: 2.9394872e-11, z: -1.6298149e-11}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_L/Seagull_Leg_L/Seagull_Ankle_L/Seagull_Toe_Front_L_B01
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.00009109808, y: 3.1432138e-11, z: -1.164153e-11}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.00009109808, y: 3.1432138e-11, z: -1.164153e-11}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_L/Seagull_Leg_L/Seagull_Ankle_L/Seagull_Toe_Front_L_B01/Seagull_Toe_Front_L_B02
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.00020767238, y: 0, z: 0}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.00020767238, y: 0, z: 0}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_L/Seagull_Leg_L/Seagull_Ankle_L/Seagull_Toe_Front_L_B01/Seagull_Toe_Front_L_B02/Seagull_Toe_Front_L_B03
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.00023995254, y: 0.00046298484, z: -0.00016670041}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.00023995254, y: 0.00046298484, z: -0.00016670041}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.00053735747, y: 4.190952e-11, z: -1.7462299e-12}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.00053735747, y: 4.190952e-11, z: -1.7462299e-12}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_R/Seagull_Leg_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.00044549434, y: 1.5716069e-11, z: 5.8207696e-12}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.00044549434, y: 1.5716069e-11, z: 5.8207696e-12}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_R/Seagull_Leg_R/Seagull_Ankle_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.000104503946, y: 1.484295e-11, z: -5.23869e-12}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.000104503946, y: 1.484295e-11, z: -5.23869e-12}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_R/Seagull_Leg_R/Seagull_Ankle_R/Seagull_Toe_Front_R_C01
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.00008194543, y: -5.7043512e-11, z: 2.328306e-11}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.00008194543, y: -5.7043512e-11, z: 2.328306e-11}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_R/Seagull_Leg_R/Seagull_Ankle_R/Seagull_Toe_Front_R_C01/Seagull_Toe_Front_R_C02
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.00017510097, y: 6.9849196e-12, z: -4.65661e-12}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.00017510097, y: 6.9849196e-12, z: -4.65661e-12}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_R/Seagull_Leg_R/Seagull_Ankle_R/Seagull_Toe_Front_R_C01/Seagull_Toe_Front_R_C02/Seagull_Toe_Front_R_C03
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.000104503946, y: 1.484295e-11, z: -5.23869e-12}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.000104503946, y: 1.484295e-11, z: -5.23869e-12}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_R/Seagull_Leg_R/Seagull_Ankle_R/Seagull_Toe_Front_R_A01
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.00008104825, y: 3.72529e-11, z: -1.44355e-10}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.00008104825, y: 3.72529e-11, z: -1.44355e-10}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_R/Seagull_Leg_R/Seagull_Ankle_R/Seagull_Toe_Front_R_A01/Seagull_Toe_Front_R_A02
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.00017472387, y: 2.32831e-12, z: -1.164153e-11}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.00017472387, y: 2.32831e-12, z: -1.164153e-11}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_R/Seagull_Leg_R/Seagull_Ankle_R/Seagull_Toe_Front_R_A01/Seagull_Toe_Front_R_A02/Seagull_Toe_Front_R_A03
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.000104503946, y: 1.484295e-11, z: -5.23869e-12}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.000104503946, y: 1.484295e-11, z: -5.23869e-12}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_R/Seagull_Leg_R/Seagull_Ankle_R/Seagull_Toe_Front_R_B01
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.00009109818, y: 2.677552e-11, z: -2.677552e-11}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.00009109818, y: 2.677552e-11, z: -2.677552e-11}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_R/Seagull_Leg_R/Seagull_Ankle_R/Seagull_Toe_Front_R_B01/Seagull_Toe_Front_R_B02
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.00020767238, y: -2.32831e-12, z: 2.32831e-12}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: -0.00020767238, y: -2.32831e-12, z: 2.32831e-12}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_R/Seagull_Leg_R/Seagull_Ankle_R/Seagull_Toe_Front_R_B01/Seagull_Toe_Front_R_B02/Seagull_Toe_Front_R_B03
+  m_ScaleCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.99999994, y: 1, z: 0.9999996}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.99999994, y: 1, z: 0.9999996}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Spine
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.99999994, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.99999994, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Spine/Seagull_Neck
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Spine/Seagull_Neck/Seagull_Head
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Spine/Seagull_Neck/Seagull_Head/Seagull_Beak
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.9999999, y: 0.99999994, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.9999999, y: 0.99999994, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1.0000001, z: 0.99999994}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 1, y: 1.0000001, z: 0.99999994}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_L/Seagull_Wing_Base_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1.0000002, y: 1.0000001, z: 1.0000001}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.43333334
+        value: {x: 1.0000002, y: 1.0000001, z: 1.0000001}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_L/Seagull_Wing_Base_L/Seagull_Wing_Middle_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1.0000001, y: 1, z: 1.0000001}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.43333334
+        value: {x: 1.0000001, y: 1, z: 1.0000001}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_L/Seagull_Wing_Base_L/Seagull_Wing_Middle_L/Seagull_Wing_Tip_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.9999999, y: 0.9999999, z: 0.99999994}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.9999999, y: 0.9999999, z: 0.99999994}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.99999994, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.99999994, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_R/Seagull_Wing_Base_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.99999994, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.43333334
+        value: {x: 0.99999994, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_R/Seagull_Wing_Base_R/Seagull_Wing_Middle_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.99999994, y: 0.99999994, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.43333334
+        value: {x: 0.99999994, y: 0.99999994, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Spine/Seagull_Shoulder_R/Seagull_Wing_Base_R/Seagull_Wing_Middle_R/Seagull_Wing_Tip_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.99999994, y: 1, z: 0.99999994}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.99999994, y: 1, z: 0.99999994}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Tail
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1.0000001}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 1, y: 1, z: 1.0000001}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.99999994, y: 1.0000001, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.99999994, y: 1.0000001, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_L/Seagull_Leg_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.99999994, y: 0.9999999, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.99999994, y: 0.9999999, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_L/Seagull_Leg_L/Seagull_Ankle_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_L/Seagull_Leg_L/Seagull_Ankle_L/Seagull_Toe_Front_L_C01
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1.0000001, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 1.0000001, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_L/Seagull_Leg_L/Seagull_Ankle_L/Seagull_Toe_Front_L_C01/Seagull_Toe_Front_L_C02
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.99999994, y: 1, z: 0.99999994}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.99999994, y: 1, z: 0.99999994}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_L/Seagull_Leg_L/Seagull_Ankle_L/Seagull_Toe_Front_L_C01/Seagull_Toe_Front_L_C02/Seagull_Toe_Front_L_C03
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1.0000002, y: 1.0000001, z: 1.0000002}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 1.0000002, y: 1.0000001, z: 1.0000002}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_L/Seagull_Leg_L/Seagull_Ankle_L/Seagull_Toe_Front_L_A01
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.9999999, y: 0.99999994, z: 0.99999994}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.9999999, y: 0.99999994, z: 0.99999994}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_L/Seagull_Leg_L/Seagull_Ankle_L/Seagull_Toe_Front_L_A01/Seagull_Toe_Front_L_A02
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1.0000001, z: 1.0000001}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 1, y: 1.0000001, z: 1.0000001}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_L/Seagull_Leg_L/Seagull_Ankle_L/Seagull_Toe_Front_L_A01/Seagull_Toe_Front_L_A02/Seagull_Toe_Front_L_A03
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1.0000001, y: 1, z: 1.0000001}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 1.0000001, y: 1, z: 1.0000001}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_L/Seagull_Leg_L/Seagull_Ankle_L/Seagull_Toe_Front_L_B01
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.9999999, y: 0.9999998, z: 0.9999998}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.9999999, y: 0.9999998, z: 0.9999998}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_L/Seagull_Leg_L/Seagull_Ankle_L/Seagull_Toe_Front_L_B01/Seagull_Toe_Front_L_B02
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.99999994, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.99999994, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_L/Seagull_Leg_L/Seagull_Ankle_L/Seagull_Toe_Front_L_B01/Seagull_Toe_Front_L_B02/Seagull_Toe_Front_L_B03
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1.0000001, y: 1, z: 1.0000001}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 1.0000001, y: 1, z: 1.0000001}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 0.99999994}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 1, y: 1, z: 0.99999994}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_R/Seagull_Leg_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 0.9999998, z: 0.99999994}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 1, y: 0.9999998, z: 0.99999994}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_R/Seagull_Leg_R/Seagull_Ankle_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.99999994, y: 0.99999994, z: 0.9999999}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.99999994, y: 0.99999994, z: 0.9999999}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_R/Seagull_Leg_R/Seagull_Ankle_R/Seagull_Toe_Front_R_C01
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.9999997, y: 0.99999994, z: 0.99999994}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.9999997, y: 0.99999994, z: 0.99999994}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_R/Seagull_Leg_R/Seagull_Ankle_R/Seagull_Toe_Front_R_C01/Seagull_Toe_Front_R_C02
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1.0000002, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 1.0000002, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_R/Seagull_Leg_R/Seagull_Ankle_R/Seagull_Toe_Front_R_C01/Seagull_Toe_Front_R_C02/Seagull_Toe_Front_R_C03
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.9999999, y: 1, z: 0.9999999}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.9999999, y: 1, z: 0.9999999}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_R/Seagull_Leg_R/Seagull_Ankle_R/Seagull_Toe_Front_R_A01
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 0.99999994, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 1, y: 0.99999994, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_R/Seagull_Leg_R/Seagull_Ankle_R/Seagull_Toe_Front_R_A01/Seagull_Toe_Front_R_A02
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.9999999, y: 0.99999994, z: 0.99999994}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.9999999, y: 0.99999994, z: 0.99999994}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_R/Seagull_Leg_R/Seagull_Ankle_R/Seagull_Toe_Front_R_A01/Seagull_Toe_Front_R_A02/Seagull_Toe_Front_R_A03
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1.0000002, y: 0.9999999, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 1.0000002, y: 0.9999999, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_R/Seagull_Leg_R/Seagull_Ankle_R/Seagull_Toe_Front_R_B01
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.9999999, y: 0.99999994, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 0.9999999, y: 0.99999994, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_R/Seagull_Leg_R/Seagull_Ankle_R/Seagull_Toe_Front_R_B01/Seagull_Toe_Front_R_B02
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1.0000001, z: 0.99999994}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.016666668
+        value: {x: 1, y: 1.0000001, z: 0.99999994}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Seagull_Armature/Seagull_Thigh_R/Seagull_Leg_R/Seagull_Ankle_R/Seagull_Toe_Front_R_B01/Seagull_Toe_Front_R_B02/Seagull_Toe_Front_R_B03
+  m_FloatCurves: []
+  m_PPtrCurves: []
+  m_SampleRate: 60
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings: []
+    pptrCurveMapping: []
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_AdditiveReferencePoseClip: {fileID: 0}
+    m_AdditiveReferencePoseTime: 0
+    m_StartTime: 0
+    m_StopTime: 0.43333337
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_HasAdditiveReferencePose: 0
+    m_LoopTime: 1
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves: []
+  m_EulerEditorCurves: []
+  m_HasGenericRootTransform: 0
+  m_HasMotionFloatCurves: 0
+  m_GenerateMotionCurves: 0
+  m_Events: []
