@@ -17,6 +17,7 @@ public class Goblin_LandHostile : Goblin
         hasDetectedPlayer = false;
         anim = GetComponent<Animator>();
         target = GameObject.FindGameObjectWithTag("Target");
+        //TriggerDeath();
 	}
 	
 	// Update is called once per frame
