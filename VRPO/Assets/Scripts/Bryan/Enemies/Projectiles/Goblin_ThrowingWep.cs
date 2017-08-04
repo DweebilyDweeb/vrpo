@@ -20,7 +20,7 @@ public class Goblin_ThrowingWep : Projectile
     {
         //GetComponent<Rigidbody>().AddForce(vel);
         Rigidbody projectile = GetComponent<Rigidbody>();
-        if (projectile.velocity.magnitude < 5.0f)
+        if (projectile.velocity.magnitude < 10.0f)
             projectile.velocity = vel;
     }
 
