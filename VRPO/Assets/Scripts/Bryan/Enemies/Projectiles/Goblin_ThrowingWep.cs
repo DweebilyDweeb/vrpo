@@ -18,10 +18,16 @@ public class Goblin_ThrowingWep : Projectile
 
     public void Init(Vector3 vel)
     {
-        //GetComponent<Rigidbody>().AddForce(vel);
         Rigidbody projectile = GetComponent<Rigidbody>();
+        
+        //If speed is under a certain value, reset it to original speed
+#if UNITY_EDITOR
         if (projectile.velocity.magnitude < 10.0f)
             projectile.velocity = vel;
+#else
+        if (projectile.velocity.magnitude < 100.0f)
+            projectile.velocity = vel;
+#endif
     }
 
     public override void Update()
