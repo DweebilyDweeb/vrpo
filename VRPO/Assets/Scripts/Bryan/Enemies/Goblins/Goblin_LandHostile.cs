@@ -30,16 +30,16 @@ public class Goblin_LandHostile : Goblin
                 #region check if player is in range
                 distFromPlayer = new Vector3(target.transform.position.x - transform.position.x, 0, target.transform.position.z - transform.position.z).magnitude;
 
-#if UNITY_EDITOR
-                if (distFromPlayer < detectionRange/10)
-                {
-                    inRange = true;
-                    if (!hasDetectedPlayer)
-                        hasDetectedPlayer = true;
-                }
-                else
-                    inRange = false;
-#else
+//#if UNITY_EDITOR
+                //if (distFromPlayer < detectionRange/10)
+                //{
+                //    inRange = true;
+                //    if (!hasDetectedPlayer)
+                //        hasDetectedPlayer = true;
+                //}
+                //else
+                //    inRange = false;
+//#else
                 if (distFromPlayer < detectionRange)
                 {
                     inRange = true;
@@ -48,7 +48,7 @@ public class Goblin_LandHostile : Goblin
                 }
                 else
                     inRange = false;
-#endif
+//#endif
                 #endregion
 
                 if (inRange)
@@ -114,7 +114,7 @@ public class Goblin_LandHostile : Goblin
         Matrix4x4 rotationMatrix = Matrix4x4.TRS(transform.position, transform.rotation, transform.lossyScale);
         Gizmos.matrix = rotationMatrix;
         Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(Vector3.zero, ((detectionRange/10)/transform.localScale.x));
+        Gizmos.DrawWireSphere(Vector3.zero, ((detectionRange)/transform.localScale.x));
     }
 
     IEnumerator delayVel(float timer, GameObject wep, Vector3 vel)
