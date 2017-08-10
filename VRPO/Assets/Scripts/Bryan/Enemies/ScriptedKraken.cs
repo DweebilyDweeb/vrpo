@@ -43,7 +43,10 @@ public class ScriptedKraken : MonoBehaviour
         }
 
         if (hp <= 0)
+        {
+            BGM_Controller.instance.FadeToNewBGM("Kraken Defeated");
             SetFSM(Kraken_FSM.Dive);
+        }
 
         switch (currentState)
         {
@@ -202,7 +205,7 @@ public class ScriptedKraken : MonoBehaviour
 
     private void OnTriggerEnter(Collider collision)
     {
-        
+        StartCoroutine(KrakenFirstRise(collision));
     }
 
     void PlaySound(string file)
@@ -216,8 +219,12 @@ public class ScriptedKraken : MonoBehaviour
         {
             if (collision.tag == "Boat")
             {
+                BGM_Controller.instance.FadeToNewBGM("Kraken Start");
 
                 yield return new WaitForSeconds(30.0f);
+
+                BGM_Controller.instance.PlayBGM("Kraken Battle");
+
                 SetFSM(Kraken_FSM.Rise);
                 hasRisen = true;
             }
