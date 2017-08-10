@@ -48,11 +48,7 @@ public class ViveControllerManager : MonoBehaviour
         if (controller.device.GetPressDown(controller.menuButton))
         {
             if (Mode == "Gun")
-            {
                 LoadMode("Sword");
-                if (ParrotScriptedDialogue.instance.gameState == ParrotScriptedDialogue.State.unsheatheSword)
-                    ParrotScriptedDialogue.instance.SwitchState(ParrotScriptedDialogue.State.cutVines);
-            }
             else if (Mode == "Sword")
                 LoadMode("Gun");
         }
@@ -147,6 +143,7 @@ public class ViveControllerManager : MonoBehaviour
                 anim = flintlock.GetComponent<Animator>();
                 cutlass.SetActive(false);
                 flintlock.SetActive(true);
+                audio.PlayOneShot(Resources.Load<AudioClip>("Sounds/Guns/GunDraw"));
                 break;
             case "Sword":
                 Mode = "Sword";
@@ -154,6 +151,9 @@ public class ViveControllerManager : MonoBehaviour
                 flintlock.SetActive(false);
                 cutlass.SetActive(true);
                 laserActive = false;
+                audio.PlayOneShot(Resources.Load<AudioClip>("Sounds/Sword/SwordDraw"));
+                if (ParrotScriptedDialogue.instance.gameState == ParrotScriptedDialogue.State.unsheatheSword)
+                    ParrotScriptedDialogue.instance.SwitchState(ParrotScriptedDialogue.State.cutVines);
                 break;
         }
     }
@@ -167,14 +167,26 @@ public class ViveControllerManager : MonoBehaviour
             GameObject collision = _hit.collider.gameObject;
             switch (collision.tag)
             {
+                case "Terrain":
+                    {
+                        GameObject particles = Instantiate(Resources.Load<GameObject>("Prefabs/Particle Effects/Gunshot_Ground_Particles"), collision.transform.position, collision.transform.rotation);
+                    }
+                    break;
+                case "Water":
+                    {
+                        GameObject particles = Instantiate(Resources.Load<GameObject>("Prefabs/Particle Effects/Gunshot_Water_Particles"), collision.transform.position, collision.transform.rotation);
+                    }
+                    break;
                 case "Cannonball":
                     collision.gameObject.GetComponent<Projectile>().DestroyProjectile();
                     break;
                 case "Bird":
-                    GameObject.FindGameObjectWithTag("GameController").GetComponent<ScoreSystem>().AddScore(10);
-                    GameObject particles = Instantiate(Resources.Load<GameObject>("Prefabs/Particle Effects/Seagull_Death_Particles_Feathers"), collision.transform.position, collision.transform.rotation);
-                    Destroy(collision.gameObject);
-                    Instantiate(Resources.Load<GameObject>("Prefabs/Animals/Seagull"));
+                    {
+                        GameObject.FindGameObjectWithTag("GameController").GetComponent<ScoreSystem>().AddScore(10);
+                        GameObject particles = Instantiate(Resources.Load<GameObject>("Prefabs/Particle Effects/Seagull_Death_Particles_Feathers"), collision.transform.position, collision.transform.rotation);
+                        Destroy(collision.gameObject);
+                        Instantiate(Resources.Load<GameObject>("Prefabs/Animals/Seagull"));
+                    }
                     break;
                 case "Piranha":
                     GameObject.FindGameObjectWithTag("GameController").GetComponent<ScoreSystem>().AddScore(10);
@@ -202,15 +214,15 @@ public class ViveControllerManager : MonoBehaviour
 
     public void FireGun()
     {
-        audio.Play();
-        //anim.SetTrigger("Fire");
+        audio.PlayOneShot(Resources.Load<AudioClip>("Sounds/Guns/GunFire"));
+
         RaycastInteraction();
         if (!TimeControl.instance.slowMo)
         {
-            GameObject flintlockSmoke = Instantiate(Resources.Load<GameObject>("Prefabs/Particle Effects/FlintlockSmoke"));//, flintlock.transform.Find("SmokeLocation").transform.position, flintlock.transform.Find("SmokeLocation").transform.rotation, flintlock.transform.Find("SmokeLocation"));
+            GameObject flintlockSmoke = Instantiate(Resources.Load<GameObject>("Prefabs/Particle Effects/FlintlockSmoke"));
             flintlockSmoke.GetComponent<ParticleEffects>().Init(flintlock.transform.Find("SmokeLocation").transform, flintlock.transform.Find("SmokeLocation").transform);
 
-            GameObject muzzleFlash = Instantiate(Resources.Load<GameObject>("Prefabs/Particle Effects/MuzzleFlash"));//, flintlock.transform.Find("MuzzleFlashLocation").transform.position, new Quaternion(0,0,0,0), flintlock.transform.Find("MuzzleFlashLocation"));
+            GameObject muzzleFlash = Instantiate(Resources.Load<GameObject>("Prefabs/Particle Effects/MuzzleFlash"));
             muzzleFlash.GetComponent<ParticleEffects>().Init(flintlock.transform.Find("MuzzleFlashLocation").transform, flintlock.transform.Find("MuzzleFlashLocation").transform);
         }
     }
