@@ -230,4 +230,9 @@ public class ScriptedKraken : MonoBehaviour
             }
         }
     }
+
+    void DecreaseScore(int scoreToDecrease)
+    {
+        GameObject.FindGameObjectWithTag("GameController").GetComponent<ScoreSystem>().AddScore(-scoreToDecrease);
+    }
 }
