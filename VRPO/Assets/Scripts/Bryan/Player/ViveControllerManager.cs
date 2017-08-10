@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ViveControllerManager : MonoBehaviour 
 {
@@ -202,6 +203,10 @@ public class ViveControllerManager : MonoBehaviour
                 case "Kraken":
                     GameObject.FindGameObjectWithTag("GameController").GetComponent<ScoreSystem>().AddScore(50);
                     collision.GetComponent<Billboard>().TriggerHit();
+                    break;
+                case "ReplaySign":
+                    Destroy(TimeControl.instance.gameObject);
+                    SceneManager.LoadScene("demoScene 5");
                     break;
 #if UNITY_EDITOR
                 case "Rope":
