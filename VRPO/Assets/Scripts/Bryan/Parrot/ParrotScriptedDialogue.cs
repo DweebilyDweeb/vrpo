@@ -10,6 +10,7 @@ public class ParrotScriptedDialogue : MonoBehaviour
     public enum State { wakingUp = 1, howToShoot, unsheatheSword, cutVines, pirateOnShip, end };
     public State gameState;
 
+    public bool vinesCut = false;
     public bool pirateBoarder = false;
     private bool firstSword = true;
     AudioSource parrotDialogue;
@@ -31,7 +32,6 @@ public class ParrotScriptedDialogue : MonoBehaviour
     {
         speak = true;
         gameState = State.end;
-        //parrotDialogue = GameObject.FindGameObjectWithTag("Boat").transform.Find("Parrot").GetComponent<AudioSource>();
     }
 	
 	// Update is called once per frame
@@ -63,8 +63,13 @@ public class ParrotScriptedDialogue : MonoBehaviour
                 ParrotTalk(3);
                 break;
             case State.cutVines:
-                AutoRepeatDialogue();
-                ParrotTalk(4);
+                if (!vinesCut)
+                {
+                    AutoRepeatDialogue();
+                    ParrotTalk(4);
+                }
+                else
+                    gameState = State.end;
                 break;
             case State.pirateOnShip:
                 pirateBoarder = true;
