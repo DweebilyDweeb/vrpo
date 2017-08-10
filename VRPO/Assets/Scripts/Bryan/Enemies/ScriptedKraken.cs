@@ -210,13 +210,14 @@ public class ScriptedKraken : MonoBehaviour
         audio.PlayOneShot(Resources.Load<AudioClip>("Sounds/Kraken/" + file));
     }
 
-    IEnumerator KrakenFirstRise()
+    IEnumerator KrakenFirstRise(Collider collision)
     {
-        yield return new WaitForSeconds(30.0f);
         if (!hasRisen)
         {
             if (collision.tag == "Boat")
             {
+
+                yield return new WaitForSeconds(30.0f);
                 SetFSM(Kraken_FSM.Rise);
                 hasRisen = true;
             }
