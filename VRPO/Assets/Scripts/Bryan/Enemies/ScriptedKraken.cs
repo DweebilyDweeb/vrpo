@@ -202,6 +202,17 @@ public class ScriptedKraken : MonoBehaviour
 
     private void OnTriggerEnter(Collider collision)
     {
+        
+    }
+
+    void PlaySound(string file)
+    {
+        audio.PlayOneShot(Resources.Load<AudioClip>("Sounds/Kraken/" + file));
+    }
+
+    IEnumerator KrakenFirstRise()
+    {
+        yield return new WaitForSeconds(30.0f);
         if (!hasRisen)
         {
             if (collision.tag == "Boat")
@@ -210,10 +221,5 @@ public class ScriptedKraken : MonoBehaviour
                 hasRisen = true;
             }
         }
-    }
-
-    void PlaySound(string file)
-    {
-        audio.PlayOneShot(Resources.Load<AudioClip>("Sounds/Kraken/" + file));
     }
 }
