@@ -54,7 +54,12 @@ public class Vines : MonoBehaviour
         GameObject.FindGameObjectWithTag("Boat").GetComponent<StopScript>().StartBoat();
         StartCoroutine(DespawnVineList());
 
-        ParrotScriptedDialogue.instance.SwitchState(ParrotScriptedDialogue.State.end);
+        if (!ParrotScriptedDialogue.instance.vinesCut)
+        {
+            ParrotScriptedDialogue.instance.vinesCut = true;
+            ParrotScriptedDialogue.instance.SwitchState(ParrotScriptedDialogue.State.end);
+            BGM_Controller.instance.PlayBGM("Main Level BGM");
+        }
     }
 
     private IEnumerator DespawnVineList()

@@ -167,14 +167,26 @@ public class ViveControllerManager : MonoBehaviour
             GameObject collision = _hit.collider.gameObject;
             switch (collision.tag)
             {
+                case "Terrain":
+                    {
+                        GameObject particles = Instantiate(Resources.Load<GameObject>("Prefabs/Particle Effects/Gunshot_Ground_Particles"), collision.transform.position, collision.transform.rotation);
+                    }
+                    break;
+                case "Water":
+                    {
+                        GameObject particles = Instantiate(Resources.Load<GameObject>("Prefabs/Particle Effects/Gunshot_Water_Particles"), collision.transform.position, collision.transform.rotation);
+                    }
+                    break;
                 case "Cannonball":
                     collision.gameObject.GetComponent<Projectile>().DestroyProjectile();
                     break;
                 case "Bird":
-                    GameObject.FindGameObjectWithTag("GameController").GetComponent<ScoreSystem>().AddScore(10);
-                    GameObject particles = Instantiate(Resources.Load<GameObject>("Prefabs/Particle Effects/Seagull_Death_Particles_Feathers"), collision.transform.position, collision.transform.rotation);
-                    Destroy(collision.gameObject);
-                    Instantiate(Resources.Load<GameObject>("Prefabs/Animals/Seagull"));
+                    {
+                        GameObject.FindGameObjectWithTag("GameController").GetComponent<ScoreSystem>().AddScore(10);
+                        GameObject particles = Instantiate(Resources.Load<GameObject>("Prefabs/Particle Effects/Seagull_Death_Particles_Feathers"), collision.transform.position, collision.transform.rotation);
+                        Destroy(collision.gameObject);
+                        Instantiate(Resources.Load<GameObject>("Prefabs/Animals/Seagull"));
+                    }
                     break;
                 case "Piranha":
                     GameObject.FindGameObjectWithTag("GameController").GetComponent<ScoreSystem>().AddScore(10);

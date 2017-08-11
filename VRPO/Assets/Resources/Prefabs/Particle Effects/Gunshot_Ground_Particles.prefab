@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4764222048031340}
   - component: {fileID: 198287755237958864}
   - component: {fileID: 199069957656585926}
+  - component: {fileID: 114913048110323856}
   m_Layer: 0
   m_Name: Gunshot_Ground_Particles
   m_TagString: Untagged
@@ -41,6 +42,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114913048110323856
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1550380126983914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16a72f992bc99a447b7750cf75e1a0c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lifetime: 3
 --- !u!198 &198287755237958864
 ParticleSystem:
   m_ObjectHideFlags: 1

@@ -43,7 +43,10 @@ public class ScriptedKraken : MonoBehaviour
         }
 
         if (hp <= 0)
+        {
+            BGM_Controller.instance.FadeToNewBGM("Kraken Defeated");
             SetFSM(Kraken_FSM.Dive);
+        }
 
         switch (currentState)
         {
@@ -202,18 +205,34 @@ public class ScriptedKraken : MonoBehaviour
 
     private void OnTriggerEnter(Collider collision)
     {
+        StartCoroutine(KrakenFirstRise(collision));
+    }
+
+    void PlaySound(string file)
+    {
+        audio.PlayOneShot(Resources.Load<AudioClip>("Sounds/Kraken/" + file));
+    }
+
+    IEnumerator KrakenFirstRise(Collider collision)
+    {
         if (!hasRisen)
         {
             if (collision.tag == "Boat")
             {
+                BGM_Controller.instance.FadeToNewBGM("Kraken Start");
+
+                yield return new WaitForSeconds(30.0f);
+
+                BGM_Controller.instance.PlayBGM("Kraken Battle");
+
                 SetFSM(Kraken_FSM.Rise);
                 hasRisen = true;
             }
         }
     }
 
-    void PlaySound(string file)
+    void DecreaseScore(int scoreToDecrease)
     {
-        audio.PlayOneShot(Resources.Load<AudioClip>("Sounds/Kraken/" + file));
+        GameObject.FindGameObjectWithTag("GameController").GetComponent<ScoreSystem>().AddScore(-scoreToDecrease);
     }
 }
