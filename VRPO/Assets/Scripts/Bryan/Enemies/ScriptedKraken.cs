@@ -44,7 +44,7 @@ public class ScriptedKraken : MonoBehaviour
 
         if (hp <= 0)
         {
-            BGM_Controller.instance.FadeToNewBGM("Kraken Defeated");
+            BGM_Controller.instance.PlayBGM(4);
             SetFSM(Kraken_FSM.Dive);
         }
 
@@ -219,11 +219,11 @@ public class ScriptedKraken : MonoBehaviour
         {
             if (collision.tag == "Boat")
             {
-                BGM_Controller.instance.FadeToNewBGM("Kraken Start");
+                BGM_Controller.instance.FadeToNewBGM(2);
 
                 yield return new WaitForSeconds(30.0f);
 
-                BGM_Controller.instance.PlayBGM("Kraken Battle");
+                BGM_Controller.instance.FadeToNewBGM(3);
 
                 SetFSM(Kraken_FSM.Rise);
                 hasRisen = true;
@@ -234,5 +234,10 @@ public class ScriptedKraken : MonoBehaviour
     void DecreaseScore(int scoreToDecrease)
     {
         GameObject.FindGameObjectWithTag("GameController").GetComponent<ScoreSystem>().AddScore(-scoreToDecrease);
+    }
+
+    void BeginEndSequence()
+    {
+        EndingSequence.instance.BeginSequence();
     }
 }
