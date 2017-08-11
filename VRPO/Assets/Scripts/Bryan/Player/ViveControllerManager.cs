@@ -206,6 +206,8 @@ public class ViveControllerManager : MonoBehaviour
                     break;
                 case "ReplaySign":
                     Destroy(TimeControl.instance.gameObject);
+                    Destroy(EndingSequence.instance.gameObject);
+                    //SceneManager.UnloadSceneAsync("demoScene 10");
                     SceneManager.LoadScene("demoScene 5");
                     break;
 #if UNITY_EDITOR

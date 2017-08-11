@@ -44,7 +44,7 @@ public class ScriptedKraken : MonoBehaviour
 
         if (hp <= 0)
         {
-            BGM_Controller.instance.FadeToNewBGM(4);
+            BGM_Controller.instance.PlayBGM(4);
             SetFSM(Kraken_FSM.Dive);
         }
 
@@ -223,7 +223,7 @@ public class ScriptedKraken : MonoBehaviour
 
                 yield return new WaitForSeconds(30.0f);
 
-                BGM_Controller.instance.PlayBGM(3);
+                BGM_Controller.instance.FadeToNewBGM(3);
 
                 SetFSM(Kraken_FSM.Rise);
                 hasRisen = true;
