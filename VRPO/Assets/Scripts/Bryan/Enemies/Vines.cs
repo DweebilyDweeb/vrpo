@@ -58,7 +58,7 @@ public class Vines : MonoBehaviour
         {
             ParrotScriptedDialogue.instance.vinesCut = true;
             ParrotScriptedDialogue.instance.SwitchState(ParrotScriptedDialogue.State.end);
-            BGM_Controller.instance.PlayBGM("Main Level BGM");
+            BGM_Controller.instance.PlayBGM(1);
         }
     }
 

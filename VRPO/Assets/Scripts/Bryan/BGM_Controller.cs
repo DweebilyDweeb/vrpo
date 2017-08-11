@@ -8,6 +8,7 @@ public class BGM_Controller : MonoBehaviour {
     public AudioSource audio;
 
     private float originalVolume;
+    public List<AudioClip> bgmList = new List<AudioClip>();
     private AudioClip newClip;
     private bool fading;
 
@@ -27,7 +28,12 @@ public class BGM_Controller : MonoBehaviour {
 	void Start () {
         audio = GetComponent<AudioSource>();
         originalVolume = audio.volume;
-	}
+
+        foreach (AudioClip bgm in Resources.LoadAll("Sounds/BGM"))
+        {
+            bgmList.Add(bgm);
+        }
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -51,15 +57,15 @@ public class BGM_Controller : MonoBehaviour {
         }
 	}
 
-    public void PlayBGM(string name)
+    public void PlayBGM(int bgm)
     {
-        audio.clip = Resources.Load<AudioClip>("Sounds/BGM/" + name);
+        audio.clip = bgmList[bgm - 1];
         audio.Play();
     }
 
-    public void FadeToNewBGM(string name)
+    public void FadeToNewBGM(int bgm)
     {
-        newClip = Resources.Load<AudioClip>("Sounds/BGM/" + name);
+        newClip = bgmList[bgm - 1];
         fading = true;
     }
 }
