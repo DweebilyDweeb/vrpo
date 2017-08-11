@@ -235,4 +235,9 @@ public class ScriptedKraken : MonoBehaviour
     {
         GameObject.FindGameObjectWithTag("GameController").GetComponent<ScoreSystem>().AddScore(-scoreToDecrease);
     }
+
+    void BeginEndSequence()
+    {
+        EndingSequence.instance.BeginSequence();
+    }
 }

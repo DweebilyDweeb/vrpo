@@ -19,7 +19,7 @@ public class TimeControl : MonoBehaviour
 
     private KeyCode NormalTime;
 
-    private KeyCode SkipFlashback;
+    private KeyCode SkipFlashback, test1;
 
     void Awake()
 
@@ -42,6 +42,7 @@ public class TimeControl : MonoBehaviour
         SpeedTime = KeyCode.F1;
         NormalTime = KeyCode.F3;
         SkipFlashback = KeyCode.F12;
+        test1 = KeyCode.Keypad1;
     }
 	
 	// Update is called once per frame
@@ -55,6 +56,11 @@ public class TimeControl : MonoBehaviour
         {
             SceneManager.LoadScene("demoScene10");
             ParrotScriptedDialogue.instance.SwitchState(ParrotScriptedDialogue.State.wakingUp);
+        }
+
+        if (Input.GetKeyDown(test1))
+        {
+            EndingSequence.instance.BeginSequence();
         }
 	}
     public void TimeSlow()
