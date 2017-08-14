@@ -24,6 +24,7 @@ public class Goblin : MonoBehaviour
     {
         currentState = Goblin_FSM.Death;
         audio.PlayOneShot(Resources.Load<AudioClip>("Sounds/Parrot/pDialogue_13_PirateDeath"));
+        GameObject particles = Instantiate<GameObject>(Resources.Load<GameObject>("Prefabs/Particle Effects/Pirate_Death_Particles"), transform.position, transform.rotation);
     }
 
     public virtual IEnumerator DespawnGoblin()
