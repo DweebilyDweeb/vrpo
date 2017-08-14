@@ -27,6 +27,10 @@ public class EndingSequence : MonoBehaviour
 
     public void BeginSequence()
     {
+        for(int i = 0; i < transform.childCount; i++)
+        {
+            transform.GetChild(i).gameObject.SetActive(true);
+        }
         StartCoroutine(TriggerCredits());
     }
 
